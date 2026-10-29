@@ -57,11 +57,18 @@
       .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 22px; max-width: 800px; }
       .chip { padding: 7px 15px; font-size: 14px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text-dim); transition: all .14s; }
       .chip:hover { color: var(--accent); border-color: var(--accent); }
+      .chip.on { color: #fff; background: var(--accent); border-color: var(--accent); }
+      .chips.antojo { margin-top: 10px; }
+      .chips.antojo .chip { font-weight: 600; color: var(--text); }
+      .results { min-width: 0; } /* si no, la fila de botones rápidos ensancha la columna */
+      .quick { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 16px; scrollbar-width: thin; }
+      .quick .chip { flex-shrink: 0; }
       .home-section { width: 100%; max-width: calc(var(--maxw) + 84px); margin: 0 auto; padding: 10px clamp(16px,3vw,42px) 40px; }
       .home-section .head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
       .home-section h2 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
       .home-section .more { white-space: nowrap; color: var(--accent); font-size: 16px; background: none; border: none; padding: 0; }
       .home-section .more:hover { text-decoration: underline; }
+      .home-section.arroces .mini { border-color: #f1d9b0; background: linear-gradient(180deg, #fff8ec, #ffffff 60%); }
       .mini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(250px,100%),1fr)); gap: 14px; }
       .mini { display: flex; flex-direction: column; gap: 6px; padding: 16px 18px; background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: var(--radius); transition: border-color .12s, box-shadow .12s; }
       .mini:hover { border-color: var(--accent); box-shadow: var(--shadow); }
@@ -209,14 +216,20 @@
           <button class="btn-buscar" type="submit">Buscar</button>
         </form>
         <div class="chips" id="city-chips"></div>
+        <div class="chips antojo" id="food-chips"></div>
       </div>
+      <!-- Sección especial: arroces y paellas (Foodle consulta desde @arrocesdebandera). -->
+      <section class="home-section arroces" id="arroces" hidden>
+        <div class="head"><h2>🥘 Arroces y paellas</h2><button class="more" id="ver-arroces">Ver todos →</button></div>
+        <div class="mini-grid" id="arroces-grid"></div>
+      </section>
       <section class="home-section" id="ultimas" hidden>
         <div class="head"><h2>Lo último de los foodies</h2><button class="more" id="ver-todo">Ver todo →</button></div>
         <div class="mini-grid" id="mini-grid"></div>
       </section>
       <footer>
         <p>Foodle reúne recomendaciones públicas de foodies de Instagram. El contenido y las opiniones son de sus creadores y cada ficha enlaza a la publicación original.</p>
-        <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:hola@foodle.es">Escríbenos</a>.</p>
+        <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:hola@foodle.es">Escríbenos</a>. · <a href="privacidad.html">Privacidad y borrado de datos</a></p>
       </footer>
     </section>
 
@@ -235,7 +248,8 @@
         <aside class="filters" id="filters">
           <h2>Filtros</h2>
           <div class="fgroup"><label for="f-ciudad">Ciudad</label><select id="f-ciudad"><option value="">Todas</option></select></div>
-          <div class="fgroup"><label for="f-cocina">Tipo de cocina</label><select id="f-cocina"><option value="">Todas</option></select></div>
+          <div class="fgroup"><label for="f-cocina">Qué comer</label><select id="f-cocina"><option value="">Todo</option></select></div>
+          <div class="fgroup"><label for="f-local">Tipo de local</label><select id="f-local"><option value="">Todos</option></select></div>
           <div class="fgroup">
             <label>Veredicto</label>
             <div class="pill-row" id="f-nivel">
@@ -260,6 +274,7 @@
               </select>
             </div>
           </div>
+          <div class="quick" id="quick-res"></div>
           <div class="grid" id="grid"></div>
           <div id="state-slot"></div>
           <div class="loadmore-wrap" id="loadmore-wrap" style="display:none"><button class="btn-loadmore" id="loadmore">Cargar más</button></div>
@@ -267,7 +282,7 @@
       </main>
       <footer>
         <p>Foodle reúne recomendaciones públicas de foodies de Instagram. Las publicaciones se muestran con el sistema oficial de inserción de Instagram: el contenido y las opiniones son de sus creadores y cada ficha enlaza a la publicación original.</p>
-        <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:hola@foodle.es">Escríbenos</a>.</p>
+        <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:hola@foodle.es">Escríbenos</a>. · <a href="privacidad.html">Privacidad y borrado de datos</a></p>
       </footer>
     </div>
 
@@ -280,12 +295,17 @@
       const NIVEL_LABEL = { top: "🔥 Top", rec: "👍 Recomendado", mix: "😐 Mixto", ver: "⏳ Por descubrir" };
       const NIVEL_ORDER = { top: 0, rec: 1, ver: 2, mix: 3 };
       const COCINA_EMOJI = {
-        Arroces: "🥘", Marisco: "🦐", Carnes: "🥩", Asador: "🔥", Tapas: "🍤",
+        Arroces: "🥘", Marisco: "🦐", Carnes: "🥩", Brasa: "🔥", Tapas: "🍤",
         Tradicional: "🍲", Asturiana: "🧀", Gallega: "🐙", Extremeña: "🐖",
         "Alta cocina": "⭐", Italiana: "🍝", Hamburguesas: "🍔", Dulce: "🧁",
         Bocadillos: "🥪", "Sin gluten": "🌾", Internacional: "🍱", Fusión: "🍽️", Catalana: "🍲",
         Aragonesa: "🐑", Pescado: "🐟", Japonesa: "🍣", Asiática: "🥢", Mexicana: "🌮", Brunch: "🥞", Vegetariana: "🥗",
+        Pizza: "🍕", "Sushi y japonesa": "🍣", Kebab: "🥙", "Chuletón": "🥩", Torreznos: "🥓",
       };
+      const LOCAL_EMOJI = { "Bar de tapas": "🍺", "Restaurante a la carta": "🍽️", "Menú del día": "📋", "Menú degustación": "⭐", "Cafetería": "☕", "Street food": "🚚", "Para llevar": "🥡", "Buffet libre": "🍱" };
+      // Botones rápidos de "¿qué te apetece?", en este orden (solo salen los que tienen recomendaciones).
+      const RAPIDAS = ["Arroces", "Pizza", "Sushi y japonesa", "Hamburguesas", "Tapas", "Chuletón", "Brasa", "Torreznos", "Kebab", "Bocadillos", "Brunch", "Mexicana", "Asiática", "Italiana", "Dulce"];
+      const corto = (c) => (c === "Sushi y japonesa" ? "Sushi" : c);
       const GRAD = [["#fde3d3","#fdf1ea"],["#fbe9c4","#fdf5e3"],["#dcefd9","#eff7ee"],["#e9e4f5","#f5f2fa"],["#d8ecf2","#eef6f9"]];
 
       let TODOS = [], FILTRADOS = [], visibles = PAGE_SIZE;
@@ -335,6 +355,14 @@
 
       const fechaCorta = (f) => f ? new Date(f + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "short" }) : "";
 
+      // Tarjeta pequeña de la portada (enlaza a la publicación original).
+      const miniHTML = (r) => `<a class="mini" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
+            <span class="top"><span>📍 ${esc(r.ciudad || "")}${r.zona ? ` · ${esc(r.zona)}` : ""}</span><span>${esc(fechaCorta(r.fecha))}</span></span>
+            <span class="name">${esc(r.nombre)}</span>
+            <span class="meta">${[r.cocina && `${emojiDe(r.cocina)} ${esc(r.cocina)}`, r.local && esc(r.local), esc(r.precio_aprox || r.precio || "")].filter(Boolean).join(" · ")}</span>
+            <span class="by">@${esc(r.creador || "")}</span>
+          </a>`;
+
       function showState(emoji, titulo, html) {
         grid.innerHTML = "";
         stateSlot.innerHTML = `<div class="state"><div class="big">${emoji}</div><h3>${titulo}</h3><p>${html}</p></div>`;
@@ -346,6 +374,7 @@
       $("top-form").addEventListener("submit", (e) => { e.preventDefault(); aplicar(); });
       $("logo-home").addEventListener("click", irAInicio);
       $("ver-todo").addEventListener("click", () => irAResultados(""));
+      $("ver-arroces").addEventListener("click", () => { $("f-cocina").value = "Arroces"; irAResultados(""); });
       $("nav-ciudades").addEventListener("click", () => { irAResultados(""); $("f-ciudad").focus(); });
       $("nav-foodies").addEventListener("click", () => { irAResultados(""); $("f-creador").focus(); });
       $("nav-ruta").addEventListener("click", () => { irAResultados(""); renderRuta(); });
@@ -353,7 +382,7 @@
       function cardHTML(r, i, conEmbed = true) {
         const nivel = r.nivel || "rec";
         const g = GRAD[i % GRAD.length];
-        const sub = [r.cocina && `${emojiDe(r.cocina)} ${r.cocina}`, r.direccion || r.zona, r.precio_aprox || r.precio].filter(Boolean).map((x) => `<span>${esc(x)}</span>`).join("");
+        const sub = [r.cocina && `${emojiDe(r.cocina)} ${r.cocina}`, r.local && `${LOCAL_EMOJI[r.local] || ""} ${r.local}`, r.direccion || r.zona, r.precio_aprox || r.precio].filter(Boolean).map((x) => `<span>${esc(x)}</span>`).join("");
         const mapsUrl = (r.lat && r.lng)
           ? `https://www.google.com/maps/search/?api=1&query=${r.lat},${r.lng}`
           : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(((r.nombre || "") + " " + (r.ciudad || "")).trim())}`;
@@ -389,6 +418,7 @@
       }
 
       function render() {
+        document.querySelectorAll("#quick-res .chip").forEach((b) => b.classList.toggle("on", b.dataset.cocina === $("f-cocina").value));
         const total = FILTRADOS.length;
         $("count").innerHTML = total === 0 ? "Sin resultados" : `<strong>${total}</strong> recomendaciones`;
         if (total === 0) { showState("🔍", "No hay sitios con esos filtros", "Prueba a quitar alguno."); $("loadmore-wrap").style.display = "none"; return; }
@@ -399,18 +429,20 @@
       }
 
       function leer() {
-        return { texto: norm($("q").value.trim()), ciudad: $("f-ciudad").value, cocina: $("f-cocina").value, creador: $("f-creador").value, niveles };
+        return { texto: norm($("q").value.trim()), ciudad: $("f-ciudad").value, cocina: $("f-cocina").value, local: $("f-local").value, creador: $("f-creador").value, niveles };
       }
       function pasa(r, f) {
         if (f.ciudad && r.ciudad !== f.ciudad) return false;
         if (f.cocina && r.cocina !== f.cocina) return false;
+        if (f.local && r.local !== f.local) return false;
         if (f.creador && r.creador !== f.creador) return false;
         if (f.niveles.size && !f.niveles.has(r.nivel || "rec")) return false;
-        if (f.texto) { const h = norm([r.nombre, r.ig_local, r.ciudad, r.zona, r.direccion, r.cocina, r.creador, (r.tags || []).join(" ")].filter(Boolean).join(" ")); if (!f.texto.split(/\s+/).every((w) => h.includes(w))) return false; }
+        if (f.texto) { const h = norm([r.nombre, r.ig_local, r.ciudad, r.zona, r.direccion, r.cocina, r.local, r.creador, (r.tags || []).join(" ")].filter(Boolean).join(" ")); if (!f.texto.split(/\s+/).every((w) => h.includes(w))) return false; }
         return true;
       }
-      function ordenar(arr) {
-        const m = $("sort").value, c = [...arr];
+      function ordenar(arr) { return ordenarPor(arr, $("sort").value); }
+      function ordenarPor(arr, m) {
+        const c = [...arr];
         if (m === "nombre") c.sort((a, b) => (a.nombre || "").localeCompare(b.nombre || "", "es"));
         else if (m === "recientes") c.sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || "")));
         else if (m === "likes") c.sort((a, b) => (b.likes || 0) - (a.likes || 0));
@@ -461,7 +493,15 @@
         const cocinas = [...new Set(TODOS.map((r) => r.cocina).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
         const creadores = [...new Set(TODOS.map((r) => r.creador).filter(Boolean))].sort((a, b) => a.localeCompare(b, "es"));
         const add = (sel, vals) => vals.forEach((v) => { const o = document.createElement("option"); o.value = v; o.textContent = v; $(sel).appendChild(o); });
-        add("f-ciudad", ciudades); add("f-cocina", cocinas); add("f-creador", creadores);
+        const locales = Object.keys(LOCAL_EMOJI).filter((l) => TODOS.some((r) => r.local === l));
+        add("f-ciudad", ciudades); add("f-cocina", cocinas); add("f-local", locales); add("f-creador", creadores);
+        // Botones rápidos de comida: portada y encima de los resultados.
+        const cuenta = {};
+        TODOS.forEach((r) => { if (r.cocina) cuenta[r.cocina] = (cuenta[r.cocina] || 0) + 1; });
+        const rapidas = RAPIDAS.filter((c) => cuenta[c]);
+        const chip = (c) => `<button class="chip" data-cocina="${esc(c)}">${emojiDe(c)} ${esc(corto(c))}</button>`;
+        $("food-chips").innerHTML = rapidas.map(chip).join("");
+        $("quick-res").innerHTML = rapidas.map(chip).join("");
         // Portada: contadores (como guitle) y las ciudades con más recomendaciones.
         const n = (x) => x.toLocaleString("es-ES");
         $("st-recs").textContent = n(TODOS.length);
@@ -477,19 +517,21 @@
         });
         // "Lo último de los foodies": las 8 más recientes con nombre de sitio.
         const ultimas = [...TODOS].filter((r) => r.nombre).sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || ""))).slice(0, 8);
-        $("mini-grid").innerHTML = ultimas.map((r) => `<a class="mini" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
-            <span class="top"><span>📍 ${esc(r.ciudad || "")}${r.zona ? ` · ${esc(r.zona)}` : ""}</span><span>${esc(fechaCorta(r.fecha))}</span></span>
-            <span class="name">${esc(r.nombre)}</span>
-            <span class="meta">${[r.cocina && `${emojiDe(r.cocina)} ${esc(r.cocina)}`, esc(r.precio_aprox || r.precio || "")].filter(Boolean).join(" · ")}</span>
-            <span class="by">@${esc(r.creador || "")}</span>
-          </a>`).join("");
+        $("mini-grid").innerHTML = ultimas.map(miniHTML).join("");
         $("ultimas").hidden = ultimas.length === 0;
+        // Arroces y paellas: los mejor valorados (nivel y luego me gusta), 8 como máximo.
+        const arroces = ordenarPor([...TODOS].filter((r) => r.cocina === "Arroces" && r.nombre), "relevancia").slice(0, 8);
+        $("arroces-grid").innerHTML = arroces.map(miniHTML).join("");
+        $("arroces").hidden = arroces.length === 0;
       }
 
-      ["f-ciudad","f-cocina","f-creador","sort"].forEach((id) => $(id).addEventListener("change", aplicar));
+      // Botón de comida: en la portada abre los resultados filtrados; en resultados, activa/desactiva.
+      $("food-chips").addEventListener("click", (e) => { const b = e.target.closest("[data-cocina]"); if (!b) return; $("f-cocina").value = b.dataset.cocina; irAResultados(""); });
+      $("quick-res").addEventListener("click", (e) => { const b = e.target.closest("[data-cocina]"); if (!b) return; $("f-cocina").value = $("f-cocina").value === b.dataset.cocina ? "" : b.dataset.cocina; aplicar(); });
+      ["f-ciudad","f-cocina","f-local","f-creador","sort"].forEach((id) => $(id).addEventListener("change", aplicar));
       $("q").addEventListener("input", aplicar);
       $("f-nivel").addEventListener("click", (e) => { const p = e.target.closest(".pill"); if (!p) return; const n = p.dataset.n; niveles.has(n) ? niveles.delete(n) : niveles.add(n); p.classList.toggle("on"); aplicar(); });
-      $("clearFilters").addEventListener("click", () => { $("q").value = ""; $("f-ciudad").value = ""; $("f-cocina").value = ""; $("f-creador").value = ""; niveles.clear(); document.querySelectorAll("#f-nivel .pill").forEach((p) => p.classList.remove("on")); $("sort").value = "relevancia"; aplicar(); });
+      $("clearFilters").addEventListener("click", () => { $("q").value = ""; $("f-ciudad").value = ""; $("f-cocina").value = ""; $("f-local").value = ""; $("f-creador").value = ""; niveles.clear(); document.querySelectorAll("#f-nivel .pill").forEach((p) => p.classList.remove("on")); $("sort").value = "relevancia"; aplicar(); });
       $("loadmore").addEventListener("click", () => { visibles += PAGE_SIZE; render(); });
       $("filterToggle").addEventListener("click", () => $("filters").classList.toggle("open"));
       $("rutaBtn").addEventListener("click", () => { modoRuta ? aplicar() : renderRuta(); });

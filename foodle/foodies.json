@@ -1,7 +1,23 @@
 [
   { "usuario": "cocituber", "nota": "nacional; probado con Business Discovery el 29/10/2026" },
-  { "usuario": "comerenzgz", "nota": "Zaragoza; 📍 con dirección y precio en casi todos los pies" },
-  { "usuario": "revoluciongastronomica", "nota": "Zaragoza" },
-  { "usuario": "highgrossery", "nota": "Zaragoza" },
-  { "usuario": "foodienunii", "nota": "Zaragoza; 27k, 21/30 pies de Zaragoza (29/10/2026)" }
+  { "usuario": "comerenzgz", "ciudad": "Zaragoza", "nota": "Zaragoza; 📍 con dirección y precio en casi todos los pies" },
+  { "usuario": "revoluciongastronomica", "ciudad": "Zaragoza", "nota": "Zaragoza" },
+  { "usuario": "highgrossery", "ciudad": "Zaragoza", "nota": "Zaragoza" },
+  { "usuario": "foodienunii", "ciudad": "Zaragoza", "nota": "Zaragoza; 27k, 21/30 pies de Zaragoza (29/10/2026)" },
+  { "usuario": "comecomezgz", "ciudad": "Zaragoza", "nota": "Zaragoza; guía clásica, 26.6k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "instafoodzgz2.0", "ciudad": "Zaragoza", "nota": "Zaragoza; reviews, 30k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "byanatika", "ciudad": "Zaragoza", "nota": "Zaragoza; 26k, copropietaria de un negocio (comprobado con la API el 29/10/2026)" },
+  { "usuario": "zaragozemos", "ciudad": "Zaragoza", "nota": "Zaragoza; planes y restaurantes, 17k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "massiveburger", "ciudad": "Zaragoza", "nota": "Zaragoza; hamburguesas, 11k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "zgzbestburgers", "ciudad": "Zaragoza", "nota": "Zaragoza; hamburguesas (comprobado con la API el 29/10/2026)" },
+  { "usuario": "rutafatness", "ciudad": "Zaragoza", "nota": "Zaragoza; 34k, tiene su propia smash burger (comprobado con la API el 29/10/2026)" },
+  { "usuario": "albamoress", "ciudad": "Zaragoza", "nota": "Zaragoza; 60k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "franlujanzgz", "ciudad": "Zaragoza", "nota": "Zaragoza; 22k, gestiona redes de restaurantes (comprobado con la API el 29/10/2026)" },
+  { "usuario": "bocamarts", "ciudad": "Zaragoza", "nota": "Zaragoza; gastro y moda (comprobado con la API el 29/10/2026)" },
+  { "usuario": "takoyakiblog", "nota": "Zaragoza y nacional; 205k, dueño de Perrazos (comprobado con la API el 29/10/2026)" },
+  { "usuario": "franvsoler", "ciudad": "Zaragoza", "nota": "Zaragoza; rutas de tapas, 62k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "conlaszarpas", "ciudad": "Zaragoza", "nota": "Zaragoza; foodblogger (comprobado con la API el 29/10/2026)" },
+  { "usuario": "megustazaragoza", "ciudad": "Zaragoza", "nota": "Zaragoza; guía de ocio, 60k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "zgzguia", "ciudad": "Zaragoza", "nota": "Zaragoza; guía de ocio, 21k (comprobado con la API el 29/10/2026)" },
+  { "usuario": "labuenavidaenzaragoza", "ciudad": "Zaragoza", "nota": "Zaragoza; gastronomía y eventos (comprobado con la API el 29/10/2026)" }
 ]

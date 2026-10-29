@@ -7,7 +7,8 @@
  *   - restaurante → línea "📍 …" o primera @mención que no sea el propio foodie
  *   - ciudad      → diccionario de ciudades (más peso si va en #hashtag o en la línea 📍)
  *   - zona        → barrios de las ciudades que los tienen (de momento Zaragoza)
- *   - cocina      → palabras clave
+ *   - cocina      → palabras clave (pizza, sushi, kebab, hamburguesas…)
+ *   - local       → tipo de sitio: bar de tapas, a la carta, menú del día, degustación, cafetería…
  *   - precio      → "€ por persona / menú / ticket" o palabras (barato, caro…)
  *   - nivel       → nota "x/10" o palabras (brutal, decepción…)
  *   - publi       → #publi, colaboración, invitación…
@@ -119,26 +120,54 @@ const BARRIOS = {
 /* ───────────────────────── cocina ───────────────────────── */
 
 const COCINAS = {
-  Arroces: ['arroz', 'arroces', 'paella', 'paellas', 'arroz meloso', 'arroz negro', 'fideua'],
+  Arroces: ['arroz', 'arroces', 'arroceria', 'arrocerias', 'paella', 'paellas', 'paellera', 'arroz meloso', 'arroz negro', 'arroz caldoso', 'arroz al horno', 'a banda', 'senyoret', 'socarrat', 'fideua', 'fideuas'],
   Marisco: ['marisco', 'mariscos', 'marisqueria', 'gambas', 'gamba roja', 'langostinos', 'ostras', 'bogavante', 'centollo', 'percebes'],
   Pescado: ['pescado', 'pescados', 'merluza', 'rodaballo', 'besugo', 'lubina', 'bacalao'],
-  Asador: ['asador', 'brasa', 'parrilla', 'chuleton', 'chuletones', 'chuleta', 'entrecot', 'lechazo', 'cochinillo'],
+  // Chuletón y torreznos van aparte: son de lo más buscado. Si empatan con Brasa, gana el chuletón.
+  'Chuletón': ['chuleton', 'chuletones', 'txuleta', 'txuleton', 'chuleta de vaca', 'vaca vieja', 'vaca madurada', 'carne madurada', 'dry aged', 'entrecot', 'lomo alto', 'lomo bajo', 'ojo de bife'],
+  Torreznos: ['torrezno', 'torreznos', 'torreznitos', 'torrezno de soria'],
+  Brasa: ['asador', 'brasa', 'brasas', 'braseria', 'parrilla', 'parrillada', 'lechazo', 'cochinillo', 'cordero asado', 'carne a la brasa'],
   Aragonesa: ['ternasco', 'migas', 'borrajas', 'aragonesa', 'aragones', 'cocina aragonesa', 'longaniza de graus'],
   Tapas: ['tapas', 'tapeo', 'tapa', 'pinchos', 'pintxos', 'raciones', 'vermut', 'vermu', 'croquetas'],
-  Tradicional: ['tradicional', 'casero', 'casera', 'de cuchara', 'cocido', 'menu del dia', 'comida casera', 'guiso'],
+  Tradicional: ['tradicional', 'casero', 'casera', 'de cuchara', 'cocido', 'comida casera', 'guiso'],
   // Ojo: "gastronómico" a secas no vale (menús gastronómicos, propuestas gastronómicas…).
   'Alta cocina': ['michelin', 'estrella michelin', 'menu degustacion', 'soles repsol', 'sol repsol', 'alta cocina'],
   Hamburguesas: ['hamburguesa', 'hamburguesas', 'burger', 'burgers', 'smash'],
-  Italiana: ['pizza', 'pizzas', 'pizzeria', 'pasta', 'trattoria', 'italiano', 'italiana', 'carbonara', 'burrata'],
-  Japonesa: ['sushi', 'ramen', 'japones', 'japonesa', 'izakaya', 'nigiri', 'gyozas', 'udon'],
+  // La pizza va aparte de la italiana: es lo que la gente busca ("¿dónde hay buena pizza?").
+  Pizza: ['pizza', 'pizzas', 'pizzeria', 'pizzerias', 'napolitana', 'focaccia'],
+  Italiana: ['pasta', 'trattoria', 'italiano', 'italiana', 'carbonara', 'burrata', 'risotto', 'lasana', 'tiramisu'],
+  'Sushi y japonesa': ['sushi', 'ramen', 'japones', 'japonesa', 'izakaya', 'nigiri', 'nigiris', 'gyozas', 'udon', 'omakase', 'nikkei', 'uramaki', 'makis', 'sashimi'],
+  Kebab: ['kebab', 'kebabs', 'kebap', 'doner', 'durum', 'shawarma', 'falafel'],
   Asiática: ['asiatico', 'asiatica', 'wok', 'dim sum', 'thai', 'tailandes', 'coreano', 'coreana', 'chino', 'vietnamita', 'bao'],
   Mexicana: ['tacos', 'taqueria', 'mexicano', 'mexicana', 'burrito', 'nachos'],
   Brunch: ['brunch', 'desayuno', 'desayunos', 'tostadas', 'pancakes', 'tortitas'],
-  Dulce: ['pasteleria', 'tarta', 'tartas', 'cheesecake', 'helado', 'heladeria', 'churros', 'croissant', 'cruasan', 'pastel', 'dulces', 'cafeteria'],
+  Dulce: ['pasteleria', 'tarta', 'tartas', 'cheesecake', 'helado', 'heladeria', 'churros', 'croissant', 'cruasan', 'pastel', 'dulces'],
   Bocadillos: ['bocadillo', 'bocadillos', 'bocata', 'bocatas', 'sandwich', 'sandwiches'],
   Vegetariana: ['vegano', 'vegana', 'vegetariano', 'vegetariana', 'plant based'],
   Internacional: ['peruano', 'peruana', 'ceviche', 'libanes', 'griego', 'griega', 'indio', 'india', 'argentino', 'venezolano', 'arepas'],
 };
+
+/* ───────────────────────── tipo de local ───────────────────────── */
+
+// Qué clase de sitio es (independiente de la cocina). En orden de prioridad: gana el
+// primero que aparezca, salvo "Restaurante a la carta", que es lo que queda por defecto.
+const LOCALES = [
+  ['Buffet libre', ['buffet', 'bufet', 'bufe', 'buffet libre', 'bufet libre', 'all you can eat', 'tenedor libre', 'barra libre de sushi']],
+  ['Menú degustación', ['menu degustacion', 'menu largo', 'menu corto', 'pases', 'omakase', 'estrella michelin', 'soles repsol', 'sol repsol']],
+  ['Menú del día', ['menu del dia', 'menu diario', 'menu de mediodia', 'menu de diario', 'menu entre semana', 'menu de la semana']],
+  ['Street food', ['food truck', 'foodtruck', 'food trucks', 'foodtrucks', 'gastroneta', 'gastronetas', 'street food', 'streetfood', 'puesto', 'mercado']],
+  ['Para llevar', ['para llevar', 'take away', 'takeaway', 'a domicilio', 'delivery', 'glovo', 'just eat', 'uber eats']],
+  ['Cafetería', ['cafeteria', 'cafeterias', 'cafe de especialidad', 'brunch', 'desayuno', 'desayunos', 'merienda', 'pasteleria', 'obrador', 'heladeria']],
+  ['Bar de tapas', ['bar', 'bares', 'barra', 'tapas', 'tapeo', 'pinchos', 'pintxos', 'vermut', 'vermu', 'taberna', 'tasca', 'raciones', 'cerveceria']],
+];
+
+function detectarLocal(texto) {
+  for (const [local, palabras] of LOCALES) {
+    if (palabras.some((w) => cuenta(texto, w) > 0)) return local;
+  }
+  if (/(restaurante|carta|reserva|cena|comida|comer)/.test(texto)) return 'Restaurante a la carta';
+  return null;
+}
 
 /* ───────────────────────── publicidad / nivel ───────────────────────── */
 
@@ -173,7 +202,7 @@ function sinMayusculas(s) {
 }
 
 // La línea 📍 muchas veces es solo la dirección: entonces no es el nombre del local.
-const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza)/;
+const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza|carrer|placa|passeig|avinguda|rua|rúa|kalea)/;
 
 /** Línea(s) de ubicación: "📍 Casa Pedro, Calle X, Zaragoza". */
 function lineasUbicacion(pie) {
@@ -240,7 +269,8 @@ function detectarBarrio(ciudad, texto) {
 function detectarCocina(texto) {
   let mejor = null, mejorPuntos = 0;
   for (const [cocina, palabras] of Object.entries(COCINAS)) {
-    const p = palabras.reduce((s, w) => s + cuenta(texto, w), 0);
+    // Los arroces pesan el doble: "paella de marisco con gambas y langostinos" es un arroz, no marisco.
+    const p = palabras.reduce((s, w) => s + cuenta(texto, w), 0) * (cocina === 'Arroces' ? 2 : 1);
     if (p > mejorPuntos) { mejor = cocina; mejorPuntos = p; }
   }
   return mejor;
@@ -297,9 +327,20 @@ function detectarNivel(texto) {
 /**
  * Clasifica una publicación.
  * @param {{pie:string, creador:string}} post
- * @returns ficha con nombre, ig_local, ciudad, zona, cocina, precio, precio_aprox, nivel, publi, tags
+ * @param {{ciudadPorDefecto?:string}} opciones  ciudad del foodie, si es local (foodies.json → "ciudad")
+ * @returns ficha con nombre, ig_local, ciudad, zona, dir_pie, cocina, local, precio, precio_aprox, nivel, publi, tags
  */
-function clasificar(post) {
+// Palabras que indican viaje o que el sitio está fuera: entonces no se supone la ciudad del foodie.
+const FUERA = new RegExp('\\b(?:' + [
+  'gastroviaje', 'viaje', 'excursion', 'escapada', 'ruta por', 'road trip', 'pueblo', 'pirineo',
+  'navarra', 'asturias', 'cantabria', 'galicia', 'andalucia', 'cataluna', 'euskadi', 'pais vasco', 'la rioja', 'castilla',
+  'valencia', 'madrid', 'barcelona', 'portugal', 'francia', 'italia', 'alemania', 'munich', 'londres', 'paris', 'roma',
+  'nueva york', 'japon', 'mexico', 'dominicana',
+  // …ni si es un producto de supermercado, que no es ningún sitio.
+  'supermercado', 'en el super', 'del super', 'mercadona', 'lidl', 'carrefour', 'alcampo', 'eroski', 'aldi', 'unide',
+].join('|') + ')(?:s|es)?\\b');
+
+function clasificar(post, { ciudadPorDefecto = null } = {}) {
   const pie = String(post.pie || '');
   const pieN = norm(pie);
   const ubic = lineasUbicacion(pie);
@@ -311,24 +352,45 @@ function clasificar(post) {
   const mencs = menciones(pie).filter((m) => norm(m.slice(1)) !== creador);
   const mencUbic = menciones(ubic.join(' '))[0] || null;
   let nombre = null, ig_local = null;
-  if (mencUbic) {
+  // "📍 santabelindabrasa / Av. de Juan Carlos I…": la primera palabra suelta, en minúscula y sin
+  // espacios, es la cuenta del local con la @ quitada.
+  const suelta = !mencUbic && ubic.length && (ubic[0].match(/^([a-z0-9][a-z0-9._]{3,29})(?:\s*(?:[\/,·|–-]|$)|\s+en\s|\s+(?=[A-ZÁÉÍÓÚÑ0-9]))/) || [])[1];
+  if (suelta && !NO_HANDLE.has(suelta) && !Object.values(CIUDADES).flat().includes(suelta)) {
+    ig_local = suelta;
+    nombre = nombreDeHandle(suelta);
+  } else if (mencUbic) {
     ig_local = mencUbic.slice(1);
     nombre = nombreDeHandle(mencUbic);
   } else if (ubic.length) {
     // "Nola Smoke. C. de Ildefonso…", "Las Foodtrucks: Parque San Pablo…" → lo de antes del corte.
-    const primera = ubic[0].split(/[,(|·:–]|\s-\s|\.\s/)[0].replace(/[^\p{L}\p{N}' &.]/gu, '').replace(/\.$/, '').trim();
+    const primera = ubic[0].split(/[,(|·:–/]|\s-\s|\.\s/)[0].replace(/[^\p{L}\p{N}' &.]/gu, '').replace(/\.$/, '').trim();
     // Si la línea 📍 solo dice la ciudad o es una dirección, no es un nombre.
     const pn = norm(primera);
-    if (primera.length > 2 && !Object.values(CIUDADES).flat().includes(pn) && !ES_DIRECCION.test(norm(ubic[0]))) nombre = sinMayusculas(primera);
+    // Un nombre de local no pasa de 5 palabras: si es más largo, es una frase ("Síguenos para no perderte…").
+    // Y si empieza en minúscula y tiene espacios, también ("guárdalo bien porque…").
+    const esFrase = primera.split(/\s+/).length > 5 || /^\p{Ll}\S*\s/u.test(primera);
+    if (primera.length > 2 && !esFrase && !Object.values(CIUDADES).flat().includes(pn) && !ES_DIRECCION.test(norm(ubic[0]))) nombre = sinMayusculas(primera);
   }
   if (!ig_local && mencs.length) {
     ig_local = mencs[0].slice(1);
     if (!nombre) nombre = nombreDeHandle(mencs[0]);
   }
 
-  const ciudad = detectarCiudad(pieN, ubicN, hashtags);
-  const zona = ciudad ? detectarBarrio(ciudad, `${ubicN}\n${pieN}`) : null;
+  // Dirección escrita en la línea 📍 (calle + nº o código postal): para OpenStreetMap y para la tarjeta.
+  let dir_pie = null;
+  for (const l of ubic) {
+    const trozos = l.split(/\s[\/|·–-]\s|\.\s(?=\p{Lu})|,\s*/u);
+    const i = trozos.findIndex((t) => ES_DIRECCION.test(norm(t.trim())) || /\b\d{5}\b/.test(t));
+    if (i >= 0) { dir_pie = trozos.slice(i).join(', ').replace(/[.\s]+$/, '').trim().slice(0, 120); break; }
+  }
+
+  let ciudad = detectarCiudad(pieN, ubicN, hashtags);
   const cocina = detectarCocina(pieN + ' ' + hashtags.join(' '));
+  // Foodie local que no escribe su ciudad ("FOODVERZO y su propuesta 360…"): se supone la suya,
+  // salvo que el pie no hable de ningún sitio o parezca un viaje.
+  if (!ciudad && ciudadPorDefecto && (nombre || ig_local || cocina) && !FUERA.test(pieN)) ciudad = ciudadPorDefecto;
+  const zona = ciudad ? detectarBarrio(ciudad, `${ubicN}\n${pieN}`) : null;
+  const local = detectarLocal(pieN);
   const { precio, precio_aprox } = detectarPrecio(pieN, pie);
   const nivel = detectarNivel(pieN);
   const publi = PUBLI.some((re) => re.test(pieN));
@@ -339,7 +401,7 @@ function clasificar(post) {
   if (/(sin gluten|celiac|gluten free)/.test(pieN)) tags.push('Sin gluten');
   if (/michelin/.test(pieN)) tags.push('Michelin');
 
-  return { nombre, ig_local, ciudad, zona, cocina, precio, precio_aprox, nivel, publi, tags };
+  return { nombre, ig_local, ciudad, zona, dir_pie, cocina, local, precio, precio_aprox, nivel, publi, tags };
 }
 
-module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS };
+module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS, LOCALES };

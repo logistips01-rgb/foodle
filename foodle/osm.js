@@ -26,8 +26,11 @@ const CACHE_FILE = path.join(__dirname, '..', 'data', 'osm.json');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const clave = (nombre, ciudad) => `${String(nombre).toLowerCase()}|${String(ciudad).toLowerCase()}`;
 
-async function geocodificar(nombre, ciudad) {
+async function geocodificar(nombre, ciudad, dirPie = null) {
+  // La dirección del pie (📍 Av. de Juan Carlos I, 44, 50009 Zaragoza) acierta mucho más que el
+  // nombre: los locales pequeños casi nunca están en OpenStreetMap por su nombre.
   const intentos = [
+    ...(dirPie ? [dirPie.toLowerCase().includes(String(ciudad).toLowerCase()) ? `${dirPie}, España` : `${dirPie}, ${ciudad}, España`] : []),
     `${nombre}, ${ciudad}, España`,
     `${nombre} ${ciudad}`,
   ];
@@ -58,21 +61,23 @@ async function geocodificar(nombre, ciudad) {
 
 /**
  * Añade lat/lng/direccion a las fichas que tengan nombre y ciudad.
- * Como mucho `max` consultas nuevas por ejecución (el resto, mañana).
+ * Como mucho `max` consultas nuevas por ejecución (el resto, mañana): ~1 s cada una.
  */
-async function enriquecer(fichas, max = 40) {
+async function enriquecer(fichas, max = 150) {
   let cache = {};
   try { cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')); } catch (_) { cache = {}; }
   let nuevas = 0;
   for (const f of fichas) {
     if (!f.nombre || !f.ciudad) continue;
-    const k = clave(f.nombre, f.ciudad);
+    // Con dirección en el pie, la clave es la dirección (un mismo nombre puede tener varios locales).
+    const k = f.dir_pie ? clave(f.dir_pie, f.ciudad) : clave(f.nombre, f.ciudad);
     if (!(k in cache)) {
       if (nuevas >= max) continue;
-      cache[k] = await geocodificar(f.nombre, f.ciudad);
+      cache[k] = await geocodificar(f.nombre, f.ciudad, f.dir_pie);
       nuevas++;
     }
     if (cache[k]) Object.assign(f, cache[k]);
+    else if (f.dir_pie) f.direccion = f.dir_pie; // sin mapa, pero al menos la dirección escrita
   }
   fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 1));
   return nuevas;

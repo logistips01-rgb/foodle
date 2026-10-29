@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacidad · Foodle</title>
+    <meta name="description" content="Política de privacidad de Foodle e instrucciones para borrar datos." />
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet" />
+    <style>
+      :root { --bg: #f4f3f1; --card: #ffffff; --border: #e2dfdb; --text: #141414; --dim: #5f5b57; --accent: #d42f34; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+      header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px clamp(16px,3vw,42px); }
+      .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 900; font-size: 28px; letter-spacing: -0.055em; color: var(--text); text-decoration: none; }
+      .brand img { width: 30px; height: 30px; }
+      header a.volver { color: var(--dim); text-decoration: none; }
+      header a.volver:hover { color: var(--text); }
+      main { max-width: 760px; margin: 0 auto; padding: 8px 16px 60px; }
+      .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: clamp(20px,4vw,40px); }
+      h1 { font-size: clamp(28px,5vw,38px); letter-spacing: -0.03em; line-height: 1.15; margin: 0 0 6px; }
+      .fecha { color: var(--dim); margin: 0 0 28px; font-size: 14px; }
+      h2 { font-size: 20px; letter-spacing: -0.01em; margin: 32px 0 8px; scroll-margin-top: 16px; }
+      p, li { color: #2b2825; }
+      ul { padding-left: 22px; }
+      a { color: var(--accent); }
+      .aviso { background: #fff6d6; border: 1px solid #f1dc8b; border-radius: 10px; padding: 12px 14px; font-size: 14px; }
+      code { background: #f1efec; padding: 1px 6px; border-radius: 6px; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="./"><img src="img/logo.svg" alt="" />foodle</a>
+      <a class="volver" href="./">← Volver al buscador</a>
+    </header>
+    <main>
+      <article class="card">
+        <h1>Política de privacidad</h1>
+        <p class="fecha">Última actualización: 29 de octubre de 2026</p>
+
+        <!-- Rellenar antes de enviar la app a revisión de Meta. -->
+        <p class="aviso"><b>Responsable:</b> [NOMBRE O RAZÓN SOCIAL] · [NIF] · [DIRECCIÓN] · contacto: <a href="mailto:hola@foodle.es">hola@foodle.es</a></p>
+
+        <h2>Qué es Foodle</h2>
+        <p>Foodle es un buscador que reúne, por ciudad, las recomendaciones de restaurantes que publican foodies en Instagram. Cada recomendación se muestra con el sistema oficial de inserción de Instagram y enlaza a la publicación original. El contenido y las opiniones son de sus autores.</p>
+
+        <h2>Qué datos usamos de Instagram</h2>
+        <p>Solo leemos <b>cuentas profesionales</b> (de creador o de empresa) a través de la <b>API oficial de Meta</b> (Instagram Graph API, función <i>Business Discovery</i>). No hacemos scraping ni usamos herramientas no oficiales. De cada publicación pública guardamos:</p>
+        <ul>
+          <li>el nombre de usuario y el nombre público de la cuenta,</li>
+          <li>el texto (pie) de la publicación, su fecha y su enlace,</li>
+          <li>el número de «me gusta» y de comentarios.</li>
+        </ul>
+        <p>Con el pie, un proceso automático deduce la ciudad, el restaurante, el tipo de cocina y el precio. La dirección y las coordenadas del restaurante se buscan en OpenStreetMap.</p>
+        <p><b>No descargamos ni volvemos a publicar fotos ni vídeos</b>: se ven mediante la inserción oficial de Instagram. No accedemos a mensajes, seguidores ni a ningún dato privado. No vendemos ni cedemos estos datos a terceros.</p>
+
+        <h2>Datos de quien visita la web</h2>
+        <ul>
+          <li>Foodle <b>no tiene registro ni cuentas</b> y no usa cookies propias ni herramientas de analítica.</li>
+          <li>La lista «Mi Ruta» se guarda <b>solo en tu navegador</b> (<code>localStorage</code>). No nos llega y puedes borrarla limpiando los datos del sitio.</li>
+          <li>Al ver las publicaciones insertadas, tu navegador se conecta con <b>Instagram (Meta)</b>, que puede usar sus propias cookies según su <a href="https://privacycenter.instagram.com/policy" target="_blank" rel="noopener">política de privacidad</a>. Las fuentes tipográficas se cargan desde <b>Google Fonts</b>, y el botón «Cómo llegar» abre <b>Google Maps</b> solo si lo pulsas.</li>
+          <li>La web se aloja en <b>GitHub Pages</b>, que puede registrar datos técnicos de las visitas (como la dirección IP) por seguridad.</li>
+        </ul>
+
+        <h2 id="borrado">Cómo pedir que borremos tus datos</h2>
+        <p>Si eres el autor de una cuenta que aparece en Foodle y quieres que retiremos una publicación o todo tu contenido:</p>
+        <ol>
+          <li>Escribe a <a href="mailto:hola@foodle.es?subject=Borrado%20de%20datos%20en%20Foodle">hola@foodle.es</a> con el asunto «Borrado de datos» e indica tu usuario de Instagram (y, si es solo una publicación, su enlace).</li>
+          <li>Para comprobar que la cuenta es tuya, te pediremos que nos escribas también por mensaje directo desde esa cuenta.</li>
+          <li>En un plazo máximo de <b>30 días</b> borramos todo lo guardado de esa cuenta (o de esa publicación), dejamos de leerla y te lo confirmamos.</li>
+        </ol>
+        <p>También se borra automáticamente lo que deja de estar disponible: si borras una publicación en Instagram o desactivas su inserción, deja de verse en Foodle.</p>
+
+        <h2>Tus derechos</h2>
+        <p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href="mailto:hola@foodle.es">hola@foodle.es</a>. Si consideras que no hemos atendido bien tu solicitud, puedes reclamar ante la <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+        <p>La base legal es el interés legítimo en ofrecer un buscador de recomendaciones públicas, que los propios autores han publicado en abierto desde cuentas profesionales, atendiendo siempre las peticiones de retirada.</p>
+
+        <h2>Cambios</h2>
+        <p>Si cambiamos esta política, actualizaremos la fecha de arriba.</p>
+      </article>
+    </main>
+  </body>
+</html>

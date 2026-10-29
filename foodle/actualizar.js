@@ -33,6 +33,7 @@ const F = {
   foodies: path.join(__dirname, 'foodies.json'),
   manual: path.join(__dirname, 'manual.json'),
   correcciones: path.join(__dirname, 'correcciones.json'),
+  excluidos: path.join(__dirname, 'excluidos.json'),
   posts: path.join(DATA, 'posts.json'),
   web: path.join(DATA, 'foodle.json'),
   pendientes: path.join(DATA, 'pendientes.json'),
@@ -69,6 +70,7 @@ const sinOsm = args.includes('--sin-osm');
     console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
     for (const f of foodies) {
       const u = f.usuario.replace(/^@/, '');
+      if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
       const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
       try {
         const res = await publicacionesDe(u, max);
@@ -94,6 +96,12 @@ const sinOsm = args.includes('--sin-osm');
     console.log('\n(Sin FB_TOKEN: no leo Instagram, solo manual.json y lo ya guardado)');
   }
 
+  // Creadores que han pedido salir de Foodle: se borra todo lo suyo, también lo antiguo.
+  const excluidos = new Set(leer(F.excluidos, []).map((u) => String(u).replace(/^@/, '').toLowerCase()));
+  for (const [k, p] of Object.entries(posts)) {
+    if (excluidos.has(String(p.creador || '').toLowerCase())) delete posts[k];
+  }
+
   // 2. Manuales
   for (const m of manual) {
     const k = shortcode(m.url);
@@ -104,8 +112,10 @@ const sinOsm = args.includes('--sin-osm');
 
   // 3. Clasificar
   const web = [], pendientes = [];
+  // Ciudad de cada foodie local (foodies.json → "ciudad"): se usa si el pie no dice ninguna.
+  const ciudadDe = Object.fromEntries(foodies.filter((f) => f.ciudad).map((f) => [f.usuario.replace(/^@/, '').toLowerCase(), f.ciudad]));
   for (const [k, p] of Object.entries(posts)) {
-    const auto = clasificar(p);
+    const auto = clasificar(p, { ciudadPorDefecto: ciudadDe[String(p.creador || '').toLowerCase()] });
     // Lo escrito a mano (en manual.json o correcciones.json) manda sobre las reglas.
     const aMano = Object.fromEntries(Object.entries(p).filter(([c]) => c in auto && p[c] != null));
     const ficha = {
