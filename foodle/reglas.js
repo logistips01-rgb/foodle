@@ -256,7 +256,7 @@ function sinMayusculas(s) {
 }
 
 // La línea 📍 muchas veces es solo la dirección: entonces no es el nombre del local.
-const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza|carrer|placa|passeig|avinguda|rua|rúa|kalea)/;
+const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza|carrer|placa|passeig|avinguda|rua|rúa|kalea|carr\b|carr\.)/;
 
 /** Línea(s) de ubicación: "📍 Casa Pedro, Calle X, Zaragoza". */
 function lineasUbicacion(pie) {
@@ -431,7 +431,8 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
     const pn = norm(primera);
     // Un nombre de local no pasa de 5 palabras: si es más largo, es una frase ("Síguenos para no perderte…").
     // Y si empieza en minúscula y tiene espacios, también ("guárdalo bien porque…").
-    const esFrase = primera.split(/\s+/).length > 5 || /^\p{Ll}\S*\s/u.test(primera);
+    // Y si acaba en número de portal ("José Hierro 17B"), es una dirección sin "Calle" delante.
+    const esFrase = primera.split(/\s+/).length > 5 || /^\p{Ll}\S*\s/u.test(primera) || /\s\d{1,4}[a-zA-Z]?$/.test(primera);
     if (primera.length > 2 && !esFrase && !Object.values(CIUDADES).flat().includes(pn) && !ES_DIRECCION.test(norm(ubic[0]))) nombre = sinMayusculas(primera);
   }
   if (!ig_local && mencs.length) {
