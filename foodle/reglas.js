@@ -51,6 +51,23 @@ const CIUDADES = {
   Utebo: ['utebo'],
   Cuarte: ['cuarte de huerva'],
   Madrid: ['madrid'],
+  // Área metropolitana de Madrid (ver PERTENECE): si el pie nombra el municipio, gana a "Madrid".
+  Alcobendas: ['alcobendas', 'la moraleja', 'moraleja', 'soto de la moraleja', 'arroyo de la vega', 'valdelasfuentes'],
+  'San Sebastián de los Reyes': ['sanse', 'san sebastian de los reyes'],
+  'Tres Cantos': ['tres cantos'],
+  'Pozuelo': ['pozuelo de alarcon', 'pozuelo'],
+  'Las Rozas': ['las rozas'],
+  Majadahonda: ['majadahonda'],
+  Boadilla: ['boadilla del monte', 'boadilla'],
+  Getafe: ['getafe'],
+  'Leganés': ['leganes'],
+  'Alcorcón': ['alcorcon'],
+  'Móstoles': ['mostoles'],
+  Fuenlabrada: ['fuenlabrada'],
+  'Alcalá de Henares': ['alcala de henares'],
+  'Torrejón': ['torrejon de ardoz', 'torrejon'],
+  Rivas: ['rivas vaciamadrid', 'rivas'],
+  'Colmenar Viejo': ['colmenar viejo'],
   Barcelona: ['barcelona', 'bcn'],
   Valencia: ['valencia'],
   Sevilla: ['sevilla'],
@@ -82,6 +99,11 @@ const CIUDADES = {
   Girona: ['girona'],
   'Vitoria': ['vitoria', 'gasteiz'],
 };
+
+// Municipio → ciudad grande a la que pertenece. "Restaurante en Alcobendas, Madrid" es Alcobendas.
+const PERTENECE = Object.fromEntries(['Alcobendas', 'San Sebastián de los Reyes', 'Tres Cantos', 'Pozuelo', 'Las Rozas',
+  'Majadahonda', 'Boadilla', 'Getafe', 'Leganés', 'Alcorcón', 'Móstoles', 'Fuenlabrada', 'Alcalá de Henares', 'Torrejón',
+  'Rivas', 'Colmenar Viejo'].map((c) => [c, 'Madrid']));
 
 // Barrios / zonas por ciudad. Solo se usan si la ciudad ya está decidida.
 const BARRIOS = {
@@ -137,6 +159,15 @@ const BARRIOS = {
     'Usera': ['usera'],
     'Carabanchel': ['carabanchel'],
     'Vallecas': ['vallecas'],
+  },
+  Alcobendas: {
+    'La Moraleja': ['la moraleja', 'moraleja', 'soto de la moraleja'],
+    'Arroyo de la Vega': ['arroyo de la vega'],
+    'Valdelasfuentes': ['valdelasfuentes'],
+    'Fuentelucha': ['fuentelucha'],
+    'Diversia': ['diversia'],
+    'Río Norte': ['rio norte'],
+    'Centro': ['centro de alcobendas', 'calle marques de la valdavia', 'plaza del pueblo'],
   },
 };
 
@@ -266,7 +297,11 @@ function menciones(pie) {
 }
 
 function detectarCiudad(pieN, ubicN, hashtags) {
-  let mejor = null, mejorPuntos = 0;
+  // "San Sebastián de los Reyes" contiene "San Sebastián" (Donostia): se cambia por "sanse" antes de contar.
+  const sanse = (t) => t.replace(/san sebastian de los reyes/g, 'sanse');
+  pieN = sanse(pieN); ubicN = sanse(ubicN);
+  hashtags = hashtags.map((h) => h.replace(/^sansebastiandelosreyes/, 'sanse'));
+  const puntos = {};
   for (const [ciudad, alias] of Object.entries(CIUDADES)) {
     let p = 0;
     for (const a of alias) {
@@ -275,8 +310,13 @@ function detectarCiudad(pieN, ubicN, hashtags) {
       const sinEsp = a.replace(/\s+/g, '');
       p += 2 * hashtags.filter((h) => h === sinEsp || (sinEsp.length >= 4 && h.startsWith(sinEsp))).length;
     }
-    if (p > mejorPuntos) { mejor = ciudad; mejorPuntos = p; }
+    if (p > 0) puntos[ciudad] = p;
   }
+  let mejor = null, mejorPuntos = 0;
+  for (const [c, p] of Object.entries(puntos)) if (p > mejorPuntos) { mejor = c; mejorPuntos = p; }
+  // Si gana la ciudad grande pero se nombra uno de sus municipios, el municipio es más preciso.
+  const hijos = Object.entries(puntos).filter(([c]) => PERTENECE[c] === mejor).sort((a, b) => b[1] - a[1]);
+  if (hijos.length) mejor = hijos[0][0];
   return mejor;
 }
 
