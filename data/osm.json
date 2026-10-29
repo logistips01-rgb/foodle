@@ -747,5 +747,459 @@
  "david traso|zaragoza": null,
  "roast byadri|zaragoza": null,
  "thegoodcoffee esp|zaragoza": null,
- "vapor dumplingbar|zaragoza": null
+ "vapor dumplingbar|zaragoza": null,
+ "anxoita byb|madrid": null,
+ "c/ claudio coello 30, madrid (barrio salamanca)|madrid": null,
+ "c/ fernando vi 14, madrid|madrid": null,
+ "c/ henri dunant 21-23, madrid|madrid": {
+  "lat": 40.4602447,
+  "lng": -3.6824267,
+  "direccion": "Calle de Henri Dunant, Madrid"
+ },
+ "c/ del general álvarez de castro, 20, chamberí|madrid": null,
+ "mercado de vallehermoso|madrid": {
+  "lat": 40.4341361,
+  "lng": -3.7082443,
+  "direccion": "Calle de Fernando el Católico, Madrid"
+ },
+ "bretón de los herreros 27|madrid": {
+  "lat": 40.4393796,
+  "lng": -3.6946126,
+  "direccion": "Calle Bretón de los Herreros, Madrid"
+ },
+ "c/ lópez de rueda 16, madrid|madrid": {
+  "lat": 40.4224648,
+  "lng": -3.6775513,
+  "direccion": "Calle del Duque de Sesto, Madrid"
+ },
+ "c/ raimundo fernández villaverde 26, madrid|madrid": null,
+ "plaza de las salesas 9, madrid|madrid": {
+  "lat": 40.4238475,
+  "lng": -3.6948376,
+  "direccion": "Plaza de las Salesas 9, Madrid"
+ },
+ "c/ cardenal cisneros 66, madrid|madrid": {
+  "lat": 40.4316793,
+  "lng": -3.7021011,
+  "direccion": "Calle del Cardenal Cisneros, Madrid"
+ },
+ "c/ del pintor juan gris 5, madrid (cuzco)|madrid": null,
+ "c/ san mateo 22, madrid|madrid": {
+  "lat": 40.4257581,
+  "lng": -3.6987067,
+  "direccion": "Calle de San Mateo 22, Madrid"
+ },
+ "pl. de los sagrados corazones (bernabéu market)|madrid": null,
+ "c/ recoletos 7, madrid|madrid": {
+  "lat": 40.422087,
+  "lng": -3.6903816,
+  "direccion": "Calle de Recoletos 7, Madrid"
+ },
+ "c/ general perón 36, madrid|madrid": null,
+ "c/ ríos rosas 28, madrid|madrid": {
+  "lat": 40.4416236,
+  "lng": -3.6992801,
+  "direccion": "Calle de Ríos Rosas 28, Madrid"
+ },
+ "paseo de santa maría de la cabeza 4, madrid|madrid": {
+  "lat": 40.4068756,
+  "lng": -3.6941186,
+  "direccion": "Paseo de Santa María de la Cabeza 4, Madrid"
+ },
+ "c/ hermosilla 4, madrid|madrid": {
+  "lat": 40.4264886,
+  "lng": -3.6888358,
+  "direccion": "Calle de Hermosilla 4, Madrid"
+ },
+ "c/ santa teresa 9, madrid|madrid": {
+  "lat": 40.4949611,
+  "lng": -3.8754044,
+  "direccion": "Calle Santa Teresa 9, Las Rozas de Madrid"
+ },
+ "plaza de puerta de moros 4, madrid|madrid": null,
+ "c/ cristóbal bordiu 54, madrid|madrid": {
+  "lat": 40.4430032,
+  "lng": -3.6985222,
+  "direccion": "Calle de Cristóbal Bordiú, Madrid"
+ },
+ "calle conde duque 32, madrid|madrid": {
+  "lat": 40.42795,
+  "lng": -3.7099738,
+  "direccion": "Calle del Conde Duque 32, Madrid"
+ },
+ "c/ acuerdo 3, madrid|madrid": {
+  "lat": 40.4260369,
+  "lng": -3.708467,
+  "direccion": "Calle del Acuerdo 3, Madrid"
+ },
+ "c/ ponzano 51, madrid|madrid": {
+  "lat": 40.4407523,
+  "lng": -3.6992459,
+  "direccion": "Calle de Ponzano 51, Madrid"
+ },
+ "alduccio|madrid": {
+  "lat": 40.4518098,
+  "lng": -3.688277,
+  "direccion": "Avenida de Concha Espina 8, Madrid"
+ },
+ "c/ colmenares 13, madrid|madrid": {
+  "lat": 40.4210346,
+  "lng": -3.6967935,
+  "direccion": "Calle de Colmenares 13, Madrid"
+ },
+ "plaza cataluña 2, madrid|madrid": null,
+ "c/ don ramón de la cruz 83, madrid|madrid": null,
+ "c/ bretón de los herreros 13, madrid|madrid": {
+  "lat": 40.4393796,
+  "lng": -3.6946126,
+  "direccion": "Calle Bretón de los Herreros, Madrid"
+ },
+ "c/ alberto alcocer 27, madrid|madrid": null,
+ "c/ divino pastor 12, madrid|madrid": {
+  "lat": 40.4277106,
+  "lng": -3.7041183,
+  "direccion": "Calle del Divino Pastor 12, Madrid"
+ },
+ "c/ francisco de rojas 2, madrid|madrid": {
+  "lat": 40.4286402,
+  "lng": -3.6992458,
+  "direccion": "Calle de Francisco de Rojas 2, Madrid"
+ },
+ "c/ columela 2, madrid|madrid": {
+  "lat": 40.4210631,
+  "lng": -3.6881291,
+  "direccion": "Calle de Columela 2, Madrid"
+ },
+ "hotelurso|madrid": null,
+ "c/ alonso cano 10 (puesto 6), madrid|madrid": null,
+ "gran vía 22|madrid": {
+  "lat": 40.4201403,
+  "lng": -3.700235,
+  "direccion": "Gran Vía 22, Madrid"
+ },
+ "c/ de las huertas 12, madrid|madrid": {
+  "lat": 40.4137997,
+  "lng": -3.7006888,
+  "direccion": "Calle de las Huertas 12, Madrid"
+ },
+ "mercado vallehermoso|madrid": {
+  "lat": 40.4340521,
+  "lng": -3.709259,
+  "direccion": "Calle de Fernando el Católico, Madrid"
+ },
+ "c/ juan ramón jiménez 3, las rozas|salamanca": null,
+ "c/ de manuel fernández y gonzález,|madrid": {
+  "lat": 40.4151498,
+  "lng": -3.6996264,
+  "direccion": "Calle de Manuel Fernández y González, Madrid"
+ },
+ "c/ de modesto lafuente, 88, chamberí, 28003 madrid|madrid": {
+  "lat": 40.4458894,
+  "lng": -3.6955555,
+  "direccion": "Calle de Modesto Lafuente 88, Madrid"
+ },
+ "c/ de gravina, 5, centro, 28004 madrid|madrid": {
+  "lat": 40.4231999,
+  "lng": -3.6980352,
+  "direccion": "Calle de Gravina 5, Madrid"
+ },
+ "c/ de lópez de hoyos, 9, salamanca, 28006 madrid|madrid": {
+  "lat": 40.4368026,
+  "lng": -3.6877038,
+  "direccion": "Calle de López de Hoyos, Madrid"
+ },
+ "oktoberfest madrid|madrid": {
+  "lat": 40.4454029,
+  "lng": -3.7141976,
+  "direccion": "Calle del Maestro Ángel Llorca, Madrid"
+ },
+ "taberna riscal|madrid": null,
+ "shangrila dimsum|madrid": {
+  "lat": 40.4223782,
+  "lng": -3.7105319,
+  "direccion": "Calle de Leganitos 26, Madrid"
+ },
+ "bar isama|madrid": {
+  "lat": 40.4750097,
+  "lng": -3.7314734,
+  "direccion": "Calle de Joaquín Lorenzo, Madrid"
+ },
+ "bar dimsum atocha|madrid": null,
+ "eldoble jesus|madrid": null,
+ "la bistroteca|madrid": {
+  "lat": 40.4243764,
+  "lng": -3.679127,
+  "direccion": "Calle Espartinas 7, Madrid"
+ },
+ "costco spain|madrid": null,
+ "rest lateral|madrid": null,
+ "madison smash|madrid": null,
+ "paipai|madrid": {
+  "lat": 40.4602191,
+  "lng": -3.6761201,
+  "direccion": "Avenida de Alfonso XIII, Madrid"
+ },
+ "beata pasta|madrid": {
+  "lat": 40.4255881,
+  "lng": -3.7128551,
+  "direccion": "Calle de la Princesa, Madrid"
+ },
+ "anden|madrid": {
+  "lat": 40.4752737,
+  "lng": -3.6801587,
+  "direccion": "Calle de la Hiedra, Madrid"
+ },
+ "tokyo2077 restaurant|madrid": null,
+ "paul iberia|madrid": null,
+ "suki lagarena|madrid": null,
+ "bigger golosinas|madrid": null,
+ "la fernandica|salamanca": null,
+ "big fish|madrid": null,
+ "senka|madrid": null,
+ "baoyilong|madrid": null,
+ "cafébar la revuelta|madrid": null,
+ "sukaldea|madrid": {
+  "lat": 40.4088968,
+  "lng": -3.6929697,
+  "direccion": "Calle del Doctor Drumen 3, Madrid"
+ },
+ "streetfood burger|madrid": null,
+ "kebab house|madrid": {
+  "lat": 40.4329916,
+  "lng": -3.7172231,
+  "direccion": "Calle de Meléndez Valdés 67, Madrid"
+ },
+ "yakimanzi|madrid": null,
+ "the99cheesecake|madrid": null,
+ "genko nikkei buffet genkorestaurante|madrid": null,
+ "soysohho|madrid": null,
+ "bar gaucho|pamplona": {
+  "lat": 42.8163788,
+  "lng": -1.641823,
+  "direccion": "Calle Espoz y Mina 7, Pamplona"
+ },
+ "calle del gral, ricardos, 19, carabanchel, 28019 madrid|madrid": {
+  "lat": 40.3964086,
+  "lng": -3.7174512,
+  "direccion": "Calle del General Ricardos 19, Madrid"
+ },
+ "el oráculo|madrid": null,
+ "la merced|madrid": {
+  "lat": 40.4218279,
+  "lng": -3.706532,
+  "direccion": "Calle de los Libreros 5, Madrid"
+ },
+ "la buena vida|granada": {
+  "lat": 37.1782706,
+  "lng": -3.5979844,
+  "direccion": "Calle Elvira 41, Granada"
+ },
+ "temu spain|madrid": null,
+ "gruppomimo|madrid": null,
+ "la mesa de jade lamesadejade|madrid": null,
+ "restaurante chill|madrid": null,
+ "ayawaskha gastro|madrid": null,
+ "humo|madrid": {
+  "lat": 40.4054749,
+  "lng": -3.6775223,
+  "direccion": "Calle de Valderribas 23, Madrid"
+ },
+ "bernabeumarket|madrid": null,
+ "wenazo restobar|madrid": null,
+ "chillón|madrid": null,
+ "restaurante chillrestaurante|madrid": null,
+ "28024, madrid|madrid": {
+  "lat": 40.3945966,
+  "lng": -3.7671687,
+  "direccion": "Madrid"
+ },
+ "28011, madrid|madrid": {
+  "lat": 40.4070254,
+  "lng": -3.7431469,
+  "direccion": "Madrid"
+ },
+ "28015, madrid|madrid": {
+  "lat": 40.4311364,
+  "lng": -3.7102363,
+  "direccion": "Madrid"
+ },
+ "28370, chinchón, madrid|madrid": {
+  "lat": 40.4444581,
+  "lng": -3.7115106,
+  "direccion": "Madrid"
+ },
+ "28012, madrid|madrid": {
+  "lat": 40.4109419,
+  "lng": -3.7015957,
+  "direccion": "Madrid"
+ },
+ "28004, madrid|madrid": {
+  "lat": 40.4245794,
+  "lng": -3.7013109,
+  "direccion": "Madrid"
+ },
+ "28020, madrid|madrid": {
+  "lat": 40.4573561,
+  "lng": -3.6974833,
+  "direccion": "Madrid"
+ },
+ "28. 28016, madrid|madrid": {
+  "lat": 40.4650457,
+  "lng": -3.6897489,
+  "direccion": "Paseo de la Castellana, Madrid"
+ },
+ "casamariano|madrid": null,
+ "elrancho ar|madrid": null,
+ "28013, madrid|madrid": {
+  "lat": 40.4187507,
+  "lng": -3.7070555,
+  "direccion": "Madrid"
+ },
+ "28014, madrid|madrid": {
+  "lat": 40.413542,
+  "lng": -3.6940444,
+  "direccion": "Madrid"
+ },
+ "frankfurt rogent|barcelona": {
+  "lat": 41.4087137,
+  "lng": 2.1863848,
+  "direccion": "Carrer de Rogent 4, Barcelona"
+ },
+ "18. 28006, madrid|madrid": {
+  "lat": 40.4233688,
+  "lng": -3.7057645,
+  "direccion": "Calle de Pizarro 17, Madrid"
+ },
+ "97. 28003, madrid|madrid": {
+  "lat": 40.4547072,
+  "lng": -3.6872328,
+  "direccion": "Calle del Padre Damián, Madrid"
+ },
+ "23. 28008, madrid|madrid": {
+  "lat": 40.4202261,
+  "lng": -3.7082492,
+  "direccion": "Plaza de Santo Domingo, Madrid"
+ },
+ "23. 08800, vilanova i la geltrú, barcelona|barcelona": {
+  "lat": 41.3942521,
+  "lng": 2.1837365,
+  "direccion": "Carrer de Sardenya, Barcelona"
+ },
+ "53. 28015, madrid|madrid": {
+  "lat": 40.4410493,
+  "lng": -3.69222,
+  "direccion": "Paseo de la Castellana, Madrid"
+ },
+ "28003, madrid|madrid": {
+  "lat": 40.4424273,
+  "lng": -3.7048712,
+  "direccion": "Madrid"
+ },
+ "28019, carabanchel, madrid|madrid": {
+  "lat": 40.3942341,
+  "lng": -3.7179951,
+  "direccion": "Madrid"
+ },
+ "los zagales|valladolid": {
+  "lat": 41.651347,
+  "lng": -4.7298699,
+  "direccion": "Calle de la Pasión 13, Valladolid"
+ },
+ "restaurante cabreira|madrid": {
+  "lat": 40.4273585,
+  "lng": -3.7039189,
+  "direccion": "Calle de Ruiz 2, Madrid"
+ },
+ "la tasquita de enfrente tasquita|madrid": null,
+ "cañadio|santander": {
+  "lat": 43.4633202,
+  "lng": -3.8015759,
+  "direccion": "Plaza de Cañadío 5, Santander"
+ },
+ "cañas y tapas|madrid": {
+  "lat": 40.4516729,
+  "lng": -3.6866348,
+  "direccion": "Avenida de Concha Espina, Madrid"
+ },
+ "casa enriqueta|madrid": {
+  "lat": 40.3964086,
+  "lng": -3.7174512,
+  "direccion": "Calle del General Ricardos 19, Madrid"
+ },
+ "bar la viga|salamanca": {
+  "lat": 40.963506,
+  "lng": -5.6626456,
+  "direccion": "Calle Consuelo 16, Salamanca"
+ },
+ "la cova fumada|barcelona": {
+  "lat": 41.3792983,
+  "lng": 2.1891943,
+  "direccion": "Carrer del Baluard 56, Barcelona"
+ },
+ "bilbaoberria ledesma|bilbao": null,
+ "nofin|madrid": null,
+ "yalayala|madrid": null,
+ "gelaterialaromana es|madrid": null,
+ "flor lzp|madrid": null,
+ "roostiq bar|madrid": null,
+ "tripea|madrid": null,
+ "juniors coffee|madrid": null,
+ "fiera|madrid": null,
+ "losconfites organicfarm|madrid": null,
+ "hddn|madrid": {
+  "lat": 40.4136755,
+  "lng": -3.7090549,
+  "direccion": "Plaza de Puerta Cerrada, Madrid"
+ },
+ "habits coffeehaus|madrid": null,
+ "kamezi restaurant|madrid": null,
+ "glug bar|barcelona": null,
+ "fever es|madrid": {
+  "lat": 40.4124453,
+  "lng": -3.6961583,
+  "direccion": "Calle de Moratín, Madrid"
+ },
+ "homeburgers shakes|madrid": null,
+ "cupragarage|madrid": null,
+ "chef julianaaguiar|madrid": null,
+ "mecha|madrid": null,
+ "elchato|madrid": null,
+ "cantalapiedra viticultores|madrid": null,
+ "llum i sal|madrid": null,
+ "doctor foodiee|madrid": null,
+ "balausta restaurant|málaga": null,
+ "saddlemadrid|madrid": null,
+ "cervecería marisquería toni|madrid": null,
+ "rambal|madrid": {
+  "lat": 40.4118145,
+  "lng": -3.7031148,
+  "direccion": "Calle de Lavapiés 6, Madrid"
+ },
+ "28003 madrid|madrid": {
+  "lat": 40.4424273,
+  "lng": -3.7048712,
+  "direccion": "Madrid"
+ },
+ "el bodegón argentina|madrid": null,
+ "40590 rosuero, segovia|madrid": null,
+ "la moderna apicultura|madrid": {
+  "lat": 40.4233016,
+  "lng": -3.6685746,
+  "direccion": "Calle del Doctor Esquerdo 47, Madrid"
+ },
+ "28010 madrid|madrid": {
+  "lat": 40.4329853,
+  "lng": -3.6992235,
+  "direccion": "Madrid"
+ },
+ "28015 madrid|madrid": {
+  "lat": 40.4311364,
+  "lng": -3.7102363,
+  "direccion": "Madrid"
+ },
+ "bar sidi|madrid": {
+  "lat": 40.4237802,
+  "lng": -3.7020962,
+  "direccion": "Calle de Colón 15, Madrid"
+ }
 }
