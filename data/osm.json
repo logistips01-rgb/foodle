@@ -1949,5 +1949,343 @@
  },
  "maeztu arroyofresno|madrid": null,
  "mercadillo gastro|madrid": null,
- "batchmadrid|madrid": null
+ "batchmadrid|madrid": null,
+ "relleno eu|madrid": null,
+ "bestialbyrosilaloca|madrid": null,
+ "jurassic world|madrid": null,
+ "calle barquillo 40, madrid|madrid": {
+  "lat": 40.4240191,
+  "lng": -3.695422,
+  "direccion": "Calle del Barquillo 40, Madrid"
+ },
+ "ohlalacandles|madrid": null,
+ "ahora en warner madrid|madrid": null,
+ "c. de mantuano, 8, prosperidad, madrid|madrid": null,
+ "calle eugenio salazar 56, madrid de los creadores de mo de movimiento, pero esto… está en otro tramo, literal|madrid": null,
+ "elranchodesantaafrica|madrid": null,
+ "c. de josé ortega y gasset, 40|madrid": {
+  "lat": 40.4298947,
+  "lng": -3.6785759,
+  "direccion": "Calle de José Ortega y Gasset 40, Madrid"
+ },
+ "mauz madriz|madrid": null,
+ "calle bravo murillo 122, madrid|madrid": {
+  "lat": 40.4491544,
+  "lng": -3.7028879,
+  "direccion": "Calle de Bravo Murillo 122, Madrid"
+ },
+ "calle pintor rosales 52, madrid|madrid": null,
+ "donde|leganés": {
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
+ },
+ "donde|madrid": {
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
+ },
+ "dónde|leganés": {
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha, Leganés"
+ },
+ "donde|san sebastián de los reyes": null,
+ "dónde|getafe": {
+  "lat": 40.3167745,
+  "lng": -3.7000782,
+  "direccion": "Avenida Rocinante, Getafe"
+ },
+ "donde|tres cantos": {
+  "lat": 40.6119408,
+  "lng": -3.7108931,
+  "direccion": "Sector Foresta, Tres Cantos"
+ },
+ "donde|majadahonda": null,
+ "maafushi|león": null,
+ "anuradhapura|león": null,
+ "calle augusto figueroa, 13 (chueca), madrid|madrid": {
+  "lat": 40.4228765,
+  "lng": -3.6997118,
+  "direccion": "Calle de Augusto Figueroa 13, Madrid"
+ },
+ "sushiaoi|madrid": null,
+ "ampudia|león": null,
+ "provincia de palencia|león": {
+  "lat": 42.4096322,
+  "lng": -4.6161004,
+  "direccion": "León"
+ },
+ "calle josé ortega y gasset 89, madrid|madrid": {
+  "lat": 40.4298308,
+  "lng": -3.6709472,
+  "direccion": "Calle de José Ortega y Gasset, Madrid"
+ },
+ "catedral de san antolín|sevilla": null,
+ "villa romana la olmeda|león": null,
+ "valle de altomira|madrid": null,
+ "calle juan bravo 25, madrid|madrid": {
+  "lat": 40.4329055,
+  "lng": -3.6802351,
+  "direccion": "Calle de Juan Bravo 25, Madrid"
+ },
+ "calle narváez, madrid|madrid": {
+  "lat": 40.4623487,
+  "lng": -3.6869084,
+  "direccion": "Calle de Juan Ramón Jiménez, Madrid"
+ },
+ "meteora y kalambaka|león": null,
+ "ubicación|valencia": null,
+ "ubicación|madrid": null,
+ "market ourense|madrid": null,
+ "lapostreriademarta|madrid": null,
+ "cerveceria ofrade|madrid": null,
+ "bagoa gastrobar|madrid": null,
+ "fika bylima|madrid": null,
+ "demamaluis|madrid": null,
+ "vulcaniciguimaraes|madrid": null,
+ "lamatchateria|madrid": null,
+ "restaurante orient|madrid": {
+  "lat": 40.4223656,
+  "lng": -3.7106938,
+  "direccion": "Calle de Leganitos 37, Madrid"
+ },
+ "recinto ferial de leganés|leganés": {
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
+ },
+ "burguer lalola|madrid": null,
+ "limabrasa sevilla|sevilla": null,
+ "the champions burger 2026 smash|madrid": null,
+ "mercado san antón|madrid": {
+  "lat": 40.4219551,
+  "lng": -3.6975908,
+  "direccion": "Calle de Augusto Figueroa 24, Madrid"
+ },
+ "bar caracoles puntaumbria|madrid": null,
+ "taberna victoria|madrid": {
+  "lat": 40.4148251,
+  "lng": -3.7077041,
+  "direccion": "Calle de Toledo 4, Madrid"
+ },
+ "engorilao sevilla|sevilla": null,
+ "qiqiharybbq|madrid": null,
+ "casapalma|madrid": null,
+ "midtownmadrid|madrid": null,
+ "doblemtapas|sevilla": null,
+ "kalimasushipoke|sevilla": null,
+ "madmadridartesdigitales|madrid": null,
+ "billybrunch|madrid": null,
+ "carupanadasespana|madrid": null,
+ "sushishoo|madrid": null,
+ "kartingmarinedasevilla|sevilla": null,
+ "it espana|madrid": {
+  "lat": 40.4625939,
+  "lng": -3.6787346,
+  "direccion": "Madrid"
+ },
+ "restauranteelolvido|madrid": null,
+ "thaimadrid|madrid": null,
+ "oliva lima|madrid": null,
+ "quiero humo|madrid": null,
+ "templodelasombras|sevilla": null,
+ "telepizza es|madrid": {
+  "lat": 40.4108606,
+  "lng": -3.6573099,
+  "direccion": "Calle del Camino de los Vinateros 9, Madrid"
+ },
+ "funkyburgersevilla|sevilla": null,
+ "frites 22|sevilla": null,
+ "muy cookies by susana|madrid": null,
+ "lapepamazagon|madrid": null,
+ "barrestaurantejuanjose|madrid": null,
+ "juan álvarez mendizábal|madrid": {
+  "lat": 40.4306556,
+  "lng": -3.7203344,
+  "direccion": "Calle de Juan Álvarez Mendizábal, Madrid"
+ },
+ "plaza los belgas, 1|madrid": null,
+ "andrómeda|móstoles": {
+  "lat": 40.3109349,
+  "lng": -3.8641206,
+  "direccion": "Calle de Andrómeda, Móstoles"
+ },
+ "mercado de chamberí|madrid": {
+  "lat": 40.4361584,
+  "lng": -3.6975151,
+  "direccion": "Calle de Alonso Cano, Madrid"
+ },
+ "chavarria regalos|zaragoza": null,
+ "05420 sotillo de la adrada, ávila|madrid": null,
+ "miramar torrenuevacosta|madrid": null,
+ "03004|alicante": {
+  "lat": 38.351063,
+  "lng": -0.4864294,
+  "direccion": "Alicante"
+ },
+ "plaza de la cebada 3, la latina|madrid": {
+  "lat": 40.4114838,
+  "lng": -3.7090461,
+  "direccion": "Plaza de la Cebada 3, Madrid"
+ },
+ "conde de peñalver|madrid": {
+  "lat": 40.4286064,
+  "lng": -3.6755375,
+  "direccion": "Calle del Conde de Peñalver 39, Madrid"
+ },
+ "laflaca|alcalá de henares": null,
+ "eden cheesecakes|pozuelo": null,
+ "general oráa|madrid": {
+  "lat": 40.4361124,
+  "lng": -3.685852,
+  "direccion": "Calle del General Oráa 12, Madrid"
+ },
+ "recinto ferial cuña verde|madrid": null,
+ "explanada del intercambiador centro|madrid": null,
+ "kogumi bernabeu|madrid": null,
+ "alonso cano|madrid": {
+  "lat": 40.4384455,
+  "lng": -3.6992576,
+  "direccion": "Calle de José Abascal, Madrid"
+ },
+ "general castaños|madrid": {
+  "lat": 40.4230146,
+  "lng": -3.6955259,
+  "direccion": "Calle del Barquillo, Madrid"
+ },
+ "calle de la retama 2, colmenar viejo|colmenar viejo": {
+  "lat": 40.6708561,
+  "lng": -3.7736363,
+  "direccion": "Calle de Madrid 2, Colmenar Viejo"
+ },
+ "barquillo|madrid": {
+  "lat": 40.4190873,
+  "lng": -3.6957441,
+  "direccion": "Calle de Alcalá, Madrid"
+ },
+ "martín de los heros|madrid": {
+  "lat": 40.4244029,
+  "lng": -3.7134171,
+  "direccion": "Calle de Martín de los Heros 12, Madrid"
+ },
+ "micer mascó|valencia": {
+  "lat": 39.4756146,
+  "lng": -0.3631766,
+  "direccion": "Calle de Micer Mascó, Valencia"
+ },
+ "le macao|madrid": {
+  "lat": 40.4518129,
+  "lng": -3.6917584,
+  "direccion": "Paseo de la Castellana 95, Madrid"
+ },
+ "calle de alcalá, 48, madrid|madrid": {
+  "lat": 40.4190548,
+  "lng": -3.6949256,
+  "direccion": "Calle de Alcalá, Madrid"
+ },
+ "calle del general oráa, 24, madrid|madrid": {
+  "lat": 40.4361099,
+  "lng": -3.6840859,
+  "direccion": "Calle del General Oráa 24, Madrid"
+ },
+ "info valladolid|valladolid": null,
+ "la terrace de la vega|alcobendas": null,
+ "llama inn|madrid": null,
+ "metro|madrid": {
+  "lat": 40.3959809,
+  "lng": -3.6784064,
+  "direccion": "Calle de Pedro Bosch, Madrid"
+ },
+ "calle del nuncio, 14|madrid": {
+  "lat": 40.4132395,
+  "lng": -3.7102785,
+  "direccion": "Calle del Nuncio 14, Madrid"
+ },
+ "gran vía|madrid": {
+  "lat": 40.421304,
+  "lng": -3.7075578,
+  "direccion": "Gran Vía, Madrid"
+ },
+ "museo chicote|madrid": {
+  "lat": 40.4196757,
+  "lng": -3.6989326,
+  "direccion": "Gran Vía 12, Madrid"
+ },
+ "leneirhaus  calle ballesta|madrid": null,
+ "stodola47 krakow|barcelona": null,
+ "public order krakow|barcelona": null,
+ "alochino|barcelona": null,
+ "momo avinyo|barcelona": {
+  "lat": 41.3802597,
+  "lng": 2.1793458,
+  "direccion": "Carrer d'Avinyó 39, Barcelona"
+ },
+ "sichuan|madrid": {
+  "lat": 40.3854236,
+  "lng": -3.7062216,
+  "direccion": "Calle de Nicolás Sánchez, Madrid"
+ },
+ "pizzabar barcelona|barcelona": null,
+ "sugo macerata|barcelona": null,
+ "smash and go vlc|valencia": null,
+ "ventigrani pastabar|barcelona": null,
+ "sushitogo spain|barcelona": null,
+ "nekosan ramen|valencia": null,
+ "b de bocata|barcelona": null,
+ "midasmito es|barcelona": null,
+ "seventeen company|valencia": null,
+ "fatiga tabernacastiza|madrid": null,
+ "tributo brasas bar|valencia": null,
+ "chuckchuck chicken|madrid": null,
+ "cuacua co|barcelona": null,
+ "sagardi castellana|madrid": {
+  "lat": 40.4277291,
+  "lng": -3.6902887,
+  "direccion": "Paseo de la Castellana 13, Madrid"
+ },
+ "el rastro y la latina|madrid": null,
+ "pestanacr7granviamadrid|madrid": null,
+ "casa tere charcutería|madrid": null,
+ "piscinas donde puedes entrar gratis|madrid": null,
+ "en pleno centro de madrid|madrid": null,
+ "theveganroll|madrid": null,
+ "vino premier|madrid": {
+  "lat": 40.4226186,
+  "lng": -3.7017353,
+  "direccion": "Calle de Valverde 29, Madrid"
+ },
+ "diseño|madrid": {
+  "lat": 40.4730814,
+  "lng": -3.6421234,
+  "direccion": "Calle del Mar de Bering 5, Madrid"
+ },
+ "restaurante malvar|madrid": null,
+ "understreet market|madrid": {
+  "lat": 40.4129297,
+  "lng": -3.7104809,
+  "direccion": "Calle del Nuncio 19, Madrid"
+ },
+ "toritama|madrid": null,
+ "mankaibeauty|madrid": null,
+ "firmoo optical|madrid": null,
+ "shiseido|madrid": null,
+ "sungbooneditor|madrid": null,
+ "c/ ernesto che guevara, 11|fuenlabrada": {
+  "lat": 40.2889524,
+  "lng": -3.8233597,
+  "direccion": "Calle de Ernesto \"Che\" Guevara, Fuenlabrada"
+ },
+ "belenka barefoot|madrid": null,
+ "arganour cosmetics|madrid": null,
+ "taquería tres amigos|madrid": null,
+ "la casa bistró|madrid": null,
+ "calle cervantes, colinas de bello monte|madrid": null,
+ "calle cecilio acosta, chacao, cerca del mercado municipal|madrid": null,
+ "platomico ve|madrid": null,
+ "malasaña|madrid": {
+  "lat": 40.4267079,
+  "lng": -3.7042311,
+  "direccion": "Madrid"
+ }
 }

@@ -515,7 +515,10 @@
   "precio_aprox": "9€/persona",
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "DfCcckOMuIq",
@@ -1209,7 +1212,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "De9WK6FMoKU",
@@ -1753,7 +1759,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4306556,
+  "lng": -3.7203344,
+  "direccion": "Calle de Juan Álvarez Mendizábal, Madrid"
  },
  {
   "id": "De7hXubsFpZ",
@@ -3064,7 +3073,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DexFfIdCXM8",
@@ -3106,7 +3118,8 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "Plaza Los Belgas, 1"
  },
  {
   "id": "DewXLlcO9GY",
@@ -3127,7 +3140,8 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "Calle Cervantes, Colinas de Bello Monte"
  },
  {
   "id": "DexG71et7z9",
@@ -3456,7 +3470,8 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "Calle Cecilio Acosta, Chacao, cerca del Mercado Municipal"
  },
  {
   "id": "DeuhO53R_XY",
@@ -3716,7 +3731,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "Derq2jJNn2Z",
@@ -4178,7 +4196,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3109349,
+  "lng": -3.8641206,
+  "direccion": "Calle de Andrómeda, Móstoles"
  },
  {
   "id": "DepYs2NM2nz",
@@ -4675,7 +4696,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4518129,
+  "lng": -3.6917584,
+  "direccion": "Paseo de la Castellana 95, Madrid"
  },
  {
   "id": "DejYGMRRTjD",
@@ -4696,7 +4720,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4190548,
+  "lng": -3.6949256,
+  "direccion": "Calle de Alcalá, Madrid"
  },
  {
   "id": "DekPtdBMQvl",
@@ -5028,7 +5055,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.3802597,
+  "lng": 2.1793458,
+  "direccion": "Carrer d'Avinyó 39, Barcelona"
  },
  {
   "id": "Degc4rNiUpY",
@@ -5372,7 +5402,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "DefIHk_ijUq",
@@ -5414,7 +5447,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4361099,
+  "lng": -3.6840859,
+  "direccion": "Calle del General Oráa 24, Madrid"
  },
  {
   "id": "DeecU5OgwAm",
@@ -6095,7 +6131,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DeaBxSfCcoQ",
@@ -6140,7 +6179,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3854236,
+  "lng": -3.7062216,
+  "direccion": "Calle de Nicolás Sánchez, Madrid"
  },
  {
   "id": "DeZWAEQt3ya",
@@ -6393,7 +6435,10 @@
   "precio_aprox": "45€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4361584,
+  "lng": -3.6975151,
+  "direccion": "Calle de Alonso Cano, Madrid"
  },
  {
   "id": "DeXRUnts8NR",
@@ -7708,7 +7753,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "DeNALhCMSTF",
@@ -8517,7 +8565,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DeHK2d2MvWR",
@@ -8622,7 +8673,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4267079,
+  "lng": -3.7042311,
+  "direccion": "Madrid"
  },
  {
   "id": "DeGt4GPu6tK",
@@ -10128,7 +10182,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "Dd69twMMtG_",
@@ -10850,7 +10907,10 @@
   "precio_aprox": "6.8€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha, Leganés"
  },
  {
   "id": "Dd1Y_3hA3Je",
@@ -11369,7 +11429,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3959809,
+  "lng": -3.6784064,
+  "direccion": "Calle de Pedro Bosch, Madrid"
  },
  {
   "id": "DdvyGDIsf4c",
@@ -12266,7 +12329,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4132395,
+  "lng": -3.7102785,
+  "direccion": "Calle del Nuncio 14, Madrid"
  },
  {
   "id": "Ddo6YE0sejD",
@@ -12506,7 +12572,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.421304,
+  "lng": -3.7075578,
+  "direccion": "Gran Vía, Madrid"
  },
  {
   "id": "DdmYn0xM0ht",
@@ -12793,7 +12862,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "Ddj3HATRWb3",
@@ -13796,7 +13868,10 @@
   "precio_aprox": "16.8€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4223656,
+  "lng": -3.7106938,
+  "direccion": "Calle de Leganitos 37, Madrid"
  },
  {
   "id": "DdcCblztxGW",
@@ -14107,7 +14182,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4196757,
+  "lng": -3.6989326,
+  "direccion": "Gran Vía 12, Madrid"
  },
  {
   "id": "DdZY1kxR78l",
@@ -14128,7 +14206,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4196757,
+  "lng": -3.6989326,
+  "direccion": "Gran Vía 12, Madrid"
  },
  {
   "id": "DdZf-x4McZ1",
@@ -14431,7 +14512,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
  },
  {
   "id": "DdWCVxCiLaf",
@@ -15089,7 +15173,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "DdRvWcdAmfC",
@@ -15131,7 +15218,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.2889524,
+  "lng": -3.8233597,
+  "direccion": "Calle de Ernesto \"Che\" Guevara, Fuenlabrada"
  },
  {
   "id": "DdRSHgAqJH_",
@@ -15154,7 +15244,10 @@
   "publi": false,
   "tags": [
    "pet-friendly"
-  ]
+  ],
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
  },
  {
   "id": "DdPJozHIC0i",
@@ -15392,7 +15485,8 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "05420 Sotillo de la Adrada, Ávila"
  },
  {
   "id": "DdOp863MJVM",
@@ -15455,7 +15549,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
  },
  {
   "id": "DdMClVDI1O8",
@@ -15807,7 +15904,10 @@
   "precio_aprox": "12.95€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
  },
  {
   "id": "DdHddA_K2ZH",
@@ -17614,7 +17714,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DctEABDM69W",
@@ -17849,7 +17952,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4277291,
+  "lng": -3.6902887,
+  "direccion": "Paseo de la Castellana 13, Madrid"
  },
  {
   "id": "DcndDSaNNgS",
@@ -18711,7 +18817,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3167745,
+  "lng": -3.7000782,
+  "direccion": "Avenida Rocinante, Getafe"
  },
  {
   "id": "DcbFVY9xgP-",
@@ -19107,7 +19216,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 38.351063,
+  "lng": -0.4864294,
+  "direccion": "Alicante"
  },
  {
   "id": "DcQ-FBVRn86",
@@ -19471,7 +19583,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4219551,
+  "lng": -3.6975908,
+  "direccion": "Calle de Augusto Figueroa 24, Madrid"
  },
  {
   "id": "DcJDLxii3xH",
@@ -19621,7 +19736,10 @@
   "precio_aprox": "1.5€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4228765,
+  "lng": -3.6997118,
+  "direccion": "Calle de Augusto Figueroa 13, Madrid"
  },
  {
   "id": "DcHDfudN-00",
@@ -19642,7 +19760,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4114838,
+  "lng": -3.7090461,
+  "direccion": "Plaza de la Cebada 3, Madrid"
  },
  {
   "id": "DcHKgMCC6Uk",
@@ -20203,7 +20324,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4148251,
+  "lng": -3.7077041,
+  "direccion": "Calle de Toledo 4, Madrid"
  },
  {
   "id": "Db6CTLtDSqh",
@@ -20374,7 +20498,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "Db3lwBKBCV2",
@@ -20528,7 +20655,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4286064,
+  "lng": -3.6755375,
+  "direccion": "Calle del Conde de Peñalver 39, Madrid"
  },
  {
   "id": "Db1JB1PC955",
@@ -21108,7 +21238,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3303754,
+  "lng": -3.7575597,
+  "direccion": "Avenida de la Mancha 18, Leganés"
  },
  {
   "id": "DblDmYiguFi",
@@ -22225,7 +22358,10 @@
   "precio_aprox": "9.95€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DbTW2TniENV",
@@ -22847,7 +22983,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DbInJIQsYLo",
@@ -23404,7 +23543,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DbAkefbtmbD",
@@ -23967,7 +24109,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "Da0p-ENNXyx",
@@ -24375,7 +24520,10 @@
   "precio_aprox": null,
   "nivel": "mix",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DauxSXSsYZk",
@@ -24692,7 +24840,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 42.4096322,
+  "lng": -4.6161004,
+  "direccion": "León"
  },
  {
   "id": "DanBC69sta-",
@@ -25065,7 +25216,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "Dah0z5-sCkM",
@@ -25304,7 +25458,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.6119408,
+  "lng": -3.7108931,
+  "direccion": "Sector Foresta, Tres Cantos"
  },
  {
   "id": "Dacyu4OM6UX",
@@ -25612,7 +25769,10 @@
   "precio_aprox": "13.9€/persona",
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4625939,
+  "lng": -3.6787346,
+  "direccion": "Madrid"
  },
  {
   "id": "DaVGp-piB7W",
@@ -25742,7 +25902,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DaTMpSzGrPN",
@@ -25850,7 +26013,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4298308,
+  "lng": -3.6709472,
+  "direccion": "Calle de José Ortega y Gasset, Madrid"
  },
  {
   "id": "DaP7sKcs9tZ",
@@ -26175,7 +26341,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DaKthGVRiuy",
@@ -26912,7 +27081,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZ95dw3sgO6",
@@ -27189,7 +27361,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZ5bvjBMFnV",
@@ -27411,7 +27586,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4108606,
+  "lng": -3.6573099,
+  "direccion": "Calle del Camino de los Vinateros 9, Madrid"
  },
  {
   "id": "DZ2II9RuMwA",
@@ -27669,7 +27847,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 42.4096322,
+  "lng": -4.6161004,
+  "direccion": "León"
  },
  {
   "id": "DZxA3yQsr8f",
@@ -27951,7 +28132,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZsENFxgzKJ",
@@ -28126,7 +28310,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 42.4096322,
+  "lng": -4.6161004,
+  "direccion": "León"
  },
  {
   "id": "DZp_Bubg2Md",
@@ -28262,7 +28449,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZnjuAGM3Aw",
@@ -29200,7 +29390,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZVL9AzM1s5",
@@ -29791,7 +29984,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZIpVlVOPQ6",
@@ -29961,7 +30157,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DZDL22kMmWF",
@@ -30091,7 +30290,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4361124,
+  "lng": -3.685852,
+  "direccion": "Calle del General Oráa 12, Madrid"
  },
  {
   "id": "DZAl7OjIhl-",
@@ -30348,7 +30550,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DY2RycPi_NA",
@@ -30369,7 +30574,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4329055,
+  "lng": -3.6802351,
+  "direccion": "Calle de Juan Bravo 25, Madrid"
  },
  {
   "id": "DY2ngD_DWry",
@@ -30542,7 +30750,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DYxZLrvt-bw",
@@ -30991,7 +31202,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4159132,
+  "lng": -3.699579,
+  "direccion": "Calle de Echegaray 5, Madrid"
  },
  {
   "id": "DYksagaNjWv",
@@ -31871,7 +32085,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4623487,
+  "lng": -3.6869084,
+  "direccion": "Calle de Juan Ramón Jiménez, Madrid"
  },
  {
   "id": "DYC9tgwN8KG",
@@ -32731,7 +32948,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4226186,
+  "lng": -3.7017353,
+  "direccion": "Calle de Valverde 29, Madrid"
  },
  {
   "id": "DXl6lYvt-Mi",
@@ -33527,7 +33747,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4384455,
+  "lng": -3.6992576,
+  "direccion": "Calle de José Abascal, Madrid"
  },
  {
   "id": "DXH46yIClb3",
@@ -33681,7 +33904,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4230146,
+  "lng": -3.6955259,
+  "direccion": "Calle del Barquillo, Madrid"
  },
  {
   "id": "DW9f8_Xga3c",
@@ -34642,7 +34868,10 @@
   "publi": true,
   "tags": [
    "Publicidad"
-  ]
+  ],
+  "lat": 40.4108606,
+  "lng": -3.6573099,
+  "direccion": "Calle del Camino de los Vinateros 9, Madrid"
  },
  {
   "id": "DWW5ytFCHTi",
@@ -35010,7 +35239,10 @@
   "publi": false,
   "tags": [
    "Sin gluten"
-  ]
+  ],
+  "lat": 40.6708561,
+  "lng": -3.7736363,
+  "direccion": "Calle de Madrid 2, Colmenar Viejo"
  },
  {
   "id": "DWMsgMVDr6Y",
@@ -35375,7 +35607,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3246849,
+  "lng": -3.7578169,
+  "direccion": "Leganés"
  },
  {
   "id": "DWCKLvAjDrS",
@@ -35711,7 +35946,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4190873,
+  "lng": -3.6957441,
+  "direccion": "Calle de Alcalá, Madrid"
  },
  {
   "id": "DV3TKFpCEV3",
@@ -36016,7 +36254,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4244029,
+  "lng": -3.7134171,
+  "direccion": "Calle de Martín de los Heros 12, Madrid"
  },
  {
   "id": "DVof5-HjdtU",
@@ -36338,7 +36579,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 39.4756146,
+  "lng": -0.3631766,
+  "direccion": "Calle de Micer Mascó, Valencia"
  },
  {
   "id": "DVWpn6zDXaD",
@@ -37013,7 +37257,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4730814,
+  "lng": -3.6421234,
+  "direccion": "Calle del Mar de Bering 5, Madrid"
  },
  {
   "id": "DU2wuoZjLI_",
@@ -41838,7 +42085,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4129297,
+  "lng": -3.7104809,
+  "direccion": "Calle del Nuncio 19, Madrid"
  },
  {
   "id": "DPHBANPiPkz",
@@ -42237,7 +42487,10 @@
   "precio_aprox": "44€/persona",
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4240191,
+  "lng": -3.695422,
+  "direccion": "Calle del Barquillo 40, Madrid"
  },
  {
   "id": "DOWaousDHNb",
@@ -42882,7 +43135,8 @@
   "precio_aprox": "13.5€/persona",
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "C. de Mantuano, 8, Prosperidad, Madrid"
  },
  {
   "id": "DL7uICIow1T",
@@ -42924,7 +43178,8 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "Calle Eugenio Salazar 56, Madrid De los creadores de Mo de Movimiento, pero esto… está en otro TRAMO, Literal"
  },
  {
   "id": "DLp6QO_I8T2",
@@ -43341,7 +43596,10 @@
   "publi": false,
   "tags": [
    "Michelin"
-  ]
+  ],
+  "lat": 40.4298947,
+  "lng": -3.6785759,
+  "direccion": "Calle de José Ortega y Gasset 40, Madrid"
  },
  {
   "id": "DKb-zYrIdCO",
@@ -43604,7 +43862,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.4491544,
+  "lng": -3.7028879,
+  "direccion": "Calle de Bravo Murillo 122, Madrid"
  },
  {
   "id": "DJyNBaKiFlN",
@@ -43625,7 +43886,8 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "direccion": "Calle Pintor Rosales 52, Madrid"
  },
  {
   "id": "DJl8Mx4NHwh",

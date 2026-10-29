@@ -12,6 +12,7 @@
  *        data/posts.json       todo lo leído, acumulado (Instagram solo da lo reciente)
  *        data/foodle.json      lo que sale en la web (con ciudad y restaurante o cocina)
  *        data/pendientes.json  lo que las reglas no han sabido clasificar, para revisar
+ *   6. Genera las páginas por ciudad y comida (/madrid/, /madrid/tapas/…) y sitemap.xml (foodle/paginas.js).
  *
  * Uso:
  *   node foodle/actualizar.js            # 15 publicaciones por foodie ya conocido, 50 si es nuevo
@@ -26,6 +27,7 @@ const path = require('path');
 const { clasificar } = require('./reglas');
 const { publicacionesDe, estadoToken, shortcode } = require('./instagram');
 const { enriquecer } = require('./osm');
+const { generar } = require('./paginas');
 
 const RAIZ = path.join(__dirname, '..');
 const DATA = path.join(RAIZ, 'data');
@@ -157,6 +159,11 @@ const sinOsm = args.includes('--sin-osm');
   web.sort((a, b) => String(b.fecha || '').localeCompare(String(a.fecha || '')));
   escribir(F.web, web.map(({ visible, ...f }) => f));
   escribir(F.pendientes, pendientes);
+
+  // 6. Páginas por ciudad y comida para buscadores (+ sitemap.xml) y lista de ciudades para la portada.
+  const pags = generar(web);
+  escribir(path.join(DATA, 'ciudades.json'), pags.ciudades.map(([nombre, slug, n]) => ({ nombre, slug, n })));
+  console.log(`\n🔎 ${pags.paginas} páginas para buscadores`);
 
   const ciudades = {};
   web.forEach((f) => { ciudades[f.ciudad] = (ciudades[f.ciudad] || 0) + 1; });

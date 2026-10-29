@@ -1,0 +1,127 @@
+[
+ {
+  "nombre": "Madrid",
+  "slug": "madrid",
+  "n": 1237
+ },
+ {
+  "nombre": "Zaragoza",
+  "slug": "zaragoza",
+  "n": 490
+ },
+ {
+  "nombre": "Barcelona",
+  "slug": "barcelona",
+  "n": 54
+ },
+ {
+  "nombre": "Valencia",
+  "slug": "valencia",
+  "n": 34
+ },
+ {
+  "nombre": "Burgos",
+  "slug": "burgos",
+  "n": 33
+ },
+ {
+  "nombre": "Leganés",
+  "slug": "leganes",
+  "n": 31
+ },
+ {
+  "nombre": "León",
+  "slug": "leon",
+  "n": 19
+ },
+ {
+  "nombre": "Alcalá de Henares",
+  "slug": "alcala-de-henares",
+  "n": 18
+ },
+ {
+  "nombre": "Getafe",
+  "slug": "getafe",
+  "n": 14
+ },
+ {
+  "nombre": "Sevilla",
+  "slug": "sevilla",
+  "n": 13
+ },
+ {
+  "nombre": "Alicante",
+  "slug": "alicante",
+  "n": 11
+ },
+ {
+  "nombre": "Las Rozas",
+  "slug": "las-rozas",
+  "n": 11
+ },
+ {
+  "nombre": "Fuenlabrada",
+  "slug": "fuenlabrada",
+  "n": 10
+ },
+ {
+  "nombre": "Huesca",
+  "slug": "huesca",
+  "n": 10
+ },
+ {
+  "nombre": "Toledo",
+  "slug": "toledo",
+  "n": 9
+ },
+ {
+  "nombre": "Alcorcón",
+  "slug": "alcorcon",
+  "n": 9
+ },
+ {
+  "nombre": "Bilbao",
+  "slug": "bilbao",
+  "n": 8
+ },
+ {
+  "nombre": "Granada",
+  "slug": "granada",
+  "n": 8
+ },
+ {
+  "nombre": "Tarragona",
+  "slug": "tarragona",
+  "n": 6
+ },
+ {
+  "nombre": "Cádiz",
+  "slug": "cadiz",
+  "n": 6
+ },
+ {
+  "nombre": "San Sebastián de los Reyes",
+  "slug": "san-sebastian-de-los-reyes",
+  "n": 6
+ },
+ {
+  "nombre": "Málaga",
+  "slug": "malaga",
+  "n": 6
+ },
+ {
+  "nombre": "Alcobendas",
+  "slug": "alcobendas",
+  "n": 5
+ },
+ {
+  "nombre": "Vigo",
+  "slug": "vigo",
+  "n": 5
+ },
+ {
+  "nombre": "Pozuelo",
+  "slug": "pozuelo",
+  "n": 5
+ }
+]
