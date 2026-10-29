@@ -1,0 +1,16 @@
+{
+  "name": "Foodle",
+  "short_name": "Foodle",
+  "description": "Dónde comer según los foodies",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f4f3f1",
+  "theme_color": "#d42f34",
+  "icons": [
+    { "src": "img/icono-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "img/icono-1024.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any" },
+    { "src": "img/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
