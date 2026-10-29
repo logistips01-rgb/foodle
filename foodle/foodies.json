@@ -32,5 +32,7 @@
   { "usuario": "sandiefoodie", "ciudad": "Madrid", "nota": "Madrid; 1,5k, 15/20 (comprobado con la API el 29/10/2026)" },
   { "usuario": "madriddiferente", "ciudad": "Madrid", "nota": "Madrid; 282k, guía de planes (comprobado con la API el 29/10/2026)" },
   { "usuario": "momento.madrid", "ciudad": "Madrid", "nota": "Madrid; 144k, planes y foodie (comprobado con la API el 29/10/2026)" },
-  { "usuario": "madridseduce", "ciudad": "Madrid", "nota": "Madrid; 146k, planes, 20/20 (comprobado con la API el 29/10/2026)" }
+  { "usuario": "madridseduce", "ciudad": "Madrid", "nota": "Madrid; 146k, planes, 20/20 (comprobado con la API el 29/10/2026)" },
+  { "usuario": "cenandoconpablo", "nota": "nacional; 925k, hamburguesas y más (comprobado con la API el 29/10/2026)" },
+  { "usuario": "victorprous", "nota": "nacional; 658k, especialista en kebab (comprobado con la API el 29/10/2026)" }
 ]
