@@ -4,7 +4,7 @@
   "url": "https://www.instagram.com/reel/De-FUBtIp0T/",
   "creador": "revoluciongastronomica",
   "fecha": "2026-10-26",
-  "likes": 652,
+  "likes": 663,
   "comentarios": 101,
   "tipo": "reel",
   "nombre": "Rassmia",
@@ -25,7 +25,7 @@
   "url": "https://www.instagram.com/reel/DexCFLrM3Ln/",
   "creador": "comerenzgz",
   "fecha": "2026-10-21",
-  "likes": 110,
+  "likes": 111,
   "comentarios": 11,
   "tipo": "reel",
   "nombre": "Sushi Bar Club de La Embajada",
@@ -56,7 +56,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.638666,
+  "lng": -0.8973369,
+  "direccion": "Paseo de Fernando el Católico 62, Zaragoza"
  },
  {
   "id": "DehlkCGK947",
@@ -179,7 +182,7 @@
   "url": "https://www.instagram.com/reel/DeH0mV3ql1P/",
   "creador": "highgrossery",
   "fecha": "2026-10-05",
-  "likes": 674,
+  "likes": 675,
   "comentarios": 21,
   "tipo": "reel",
   "nombre": "Coronados de Gloria",
@@ -198,8 +201,8 @@
   "url": "https://www.instagram.com/reel/Dd8svdWRRcF/",
   "creador": "cocituber",
   "fecha": "2026-10-01",
-  "likes": 5287,
-  "comentarios": 42,
+  "likes": 5290,
+  "comentarios": 43,
   "tipo": "reel",
   "nombre": "Pomo",
   "ig_local": "pomo.madrid",
@@ -210,7 +213,10 @@
   "precio_aprox": null,
   "nivel": "top",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 40.3618142,
+  "lng": -3.7562517,
+  "direccion": "Calle de los Morales, Madrid"
  },
  {
   "id": "Dd68HMvqXcd",
@@ -236,7 +242,7 @@
   "url": "https://www.instagram.com/reel/Dd3Okhfxefl/",
   "creador": "cocituber",
   "fecha": "2026-09-29",
-  "likes": 9152,
+  "likes": 9155,
   "comentarios": 281,
   "tipo": "reel",
   "nombre": null,
@@ -276,7 +282,7 @@
   "url": "https://www.instagram.com/p/DdyQ6sqjPty/",
   "creador": "comerenzgz",
   "fecha": "2026-09-27",
-  "likes": 456,
+  "likes": 457,
   "comentarios": 22,
   "tipo": "carousel_album",
   "nombre": null,
@@ -569,7 +575,7 @@
   "url": "https://www.instagram.com/reel/DdHddA_K2ZH/",
   "creador": "highgrossery",
   "fecha": "2026-09-10",
-  "likes": 1066,
+  "likes": 1067,
   "comentarios": 8,
   "tipo": "reel",
   "nombre": "La Scarpetta",
@@ -626,7 +632,7 @@
   "url": "https://www.instagram.com/reel/DceTv09qIPi/",
   "creador": "highgrossery",
   "fecha": "2026-08-25",
-  "likes": 705,
+  "likes": 707,
   "comentarios": 29,
   "tipo": "reel",
   "nombre": "Bar JAUJA",
@@ -790,7 +796,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 42.1381062,
+  "lng": -0.4077205,
+  "direccion": "Calle Cuatro Reyes, Huesca"
  },
  {
   "id": "Davk-LIMbTX",
@@ -847,7 +856,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.6403589,
+  "lng": -0.9082501,
+  "direccion": "Avenida Juan Carlos I 41, Zaragoza"
  },
  {
   "id": "DafVmvGol6j",
@@ -944,7 +956,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.651186,
+  "lng": -0.8847262,
+  "direccion": "Calle Azoque, Zaragoza"
  },
  {
   "id": "DZ-oEW0qkqE",
@@ -982,7 +997,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 42.1353189,
+  "lng": -0.4101265,
+  "direccion": "Calle Alcoraz 5, Huesca"
  },
  {
   "id": "DZsAUlEMisv",
@@ -1233,7 +1251,10 @@
   "publi": true,
   "tags": [
    "📣 Publicidad"
-  ]
+  ],
+  "lat": 41.6497667,
+  "lng": -0.8817068,
+  "direccion": "Calle de Felipe Sanclemente, Zaragoza"
  },
  {
   "id": "DYJuvaajE7v",
@@ -1347,7 +1368,10 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.6379439,
+  "lng": -0.8988932,
+  "direccion": "Zaragoza"
  },
  {
   "id": "DXH46yIClb3",
@@ -2005,7 +2029,10 @@
   "publi": true,
   "tags": [
    "📣 Publicidad"
-  ]
+  ],
+  "lat": 41.6087641,
+  "lng": -0.8871872,
+  "direccion": "Zaragoza"
  },
  {
   "id": "DPyb0zpjMAd",
@@ -2024,6 +2051,9 @@
   "precio_aprox": null,
   "nivel": "rec",
   "publi": false,
-  "tags": []
+  "tags": [],
+  "lat": 41.6493074,
+  "lng": -0.8801044,
+  "direccion": "Calle de Felipe Sanclemente, Zaragoza"
  }
 ]

@@ -1,0 +1,82 @@
+{
+ "pomo|madrid": {
+  "lat": 40.3618142,
+  "lng": -3.7562517,
+  "direccion": "Calle de los Morales, Madrid"
+ },
+ "bar las chapas|alicante": null,
+ "chinchón|madrid": null,
+ "auten|madrid": null,
+ "sushi bar club de la embajada|zaragoza": null,
+ "fendo|huesca": null,
+ "semana fantastica|zaragoza": null,
+ "la confianza|huesca": {
+  "lat": 42.1381062,
+  "lng": -0.4077205,
+  "direccion": "Calle Cuatro Reyes, Huesca"
+ },
+ "vilas|huesca": {
+  "lat": 42.1353189,
+  "lng": -0.4101265,
+  "direccion": "Calle Alcoraz 5, Huesca"
+ },
+ "confiteriavilas|huesca": null,
+ "grandesvinos ca|zaragoza": null,
+ "la flordeoro|zaragoza": null,
+ "universidad|zaragoza": {
+  "lat": 41.6379439,
+  "lng": -0.8988932,
+  "direccion": "Zaragoza"
+ },
+ "birabola|zaragoza": null,
+ "basico bar|zaragoza": null,
+ "mundo hekura|zaragoza": null,
+ "nolagras|zaragoza": null,
+ "labocca|zaragoza": null,
+ "kubo cuisine|zaragoza": null,
+ "puerto venecia|zaragoza": {
+  "lat": 41.6087641,
+  "lng": -0.8871872,
+  "direccion": "Zaragoza"
+ },
+ "sibuya es|zaragoza": {
+  "lat": 41.6493074,
+  "lng": -0.8801044,
+  "direccion": "Calle de Felipe Sanclemente, Zaragoza"
+ },
+ "rassmia|zaragoza": null,
+ "txalupa|zaragoza": {
+  "lat": 41.638666,
+  "lng": -0.8973369,
+  "direccion": "Paseo de Fernando el Católico 62, Zaragoza"
+ },
+ "las foodtrucks|zaragoza": null,
+ "arga arqueogastronomia|zaragoza": null,
+ "do somontano|zaragoza": null,
+ "mercadocentral|zaragoza": null,
+ "novo maite anduriña|zaragoza": null,
+ "bistronomo|zaragoza": null,
+ "la cordobesa|zaragoza": null,
+ "nativo|zaragoza": {
+  "lat": 41.6403589,
+  "lng": -0.9082501,
+  "direccion": "Avenida Juan Carlos I 41, Zaragoza"
+ },
+ "taberna entrebellotas|zaragoza": {
+  "lat": 41.651186,
+  "lng": -0.8847262,
+  "direccion": "Calle Azoque, Zaragoza"
+ },
+ "rusticco|zaragoza": null,
+ "vhh fincalaemperatriz|zaragoza": null,
+ "marengo|zaragoza": {
+  "lat": 41.6497667,
+  "lng": -0.8817068,
+  "direccion": "Calle de Felipe Sanclemente, Zaragoza"
+ },
+ "thechampionsburger|zaragoza": null,
+ "sanlorenzo vinosyespecialidade|huesca": null,
+ "can vi wines|barcelona": null,
+ "toda la provincia de huesca|huesca": null,
+ "descubre la trufa en zaragoza y provincia del 23 de enero al 1 de febrero|zaragoza": null
+}
