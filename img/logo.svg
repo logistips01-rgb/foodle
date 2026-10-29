@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Foodle">
-  <rect width="100" height="100" rx="22" fill="#E8492C"/>
+  <rect width="100" height="100" rx="22" fill="#D42F34"/>
   <!-- f -->
   <path d="M37 82V42q0-17 18-17h5" fill="none" stroke="#fff" stroke-width="13"/>
   <rect x="24" y="42" width="30" height="11" rx="2" fill="#fff"/>
   <!-- chincheta de ubicación -->
   <path d="M71 34c-7 0-12 5-12 11.5C59 54 71 66 71 66s12-12 12-20.5C83 39 78 34 71 34z" fill="#fff"/>
-  <circle cx="71" cy="45.5" r="4.6" fill="#E8492C"/>
+  <circle cx="71" cy="45.5" r="4.6" fill="#D42F34"/>
 </svg>
