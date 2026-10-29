@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+# Código de la actualización diaria (no son páginas). data/ NO se bloquea: la web lee de ahí su contenido.
+Disallow: /foodle/
+
+Sitemap: https://foodle.es/sitemap.xml

@@ -3,9 +3,38 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Foodle — dónde comer según los foodies</title>
-    <meta name="description" content="Foodle reúne las recomendaciones de los foodies de Instagram en un buscador por ciudad, cocina y precio." />
+    <title>Foodle — dónde comer en Zaragoza según los foodies</title>
+    <meta name="description" content="Dónde comer en Zaragoza según los foodies de Instagram: arroces, pizza, sushi, hamburguesas, tapas, chuletón… Busca por barrio, tipo de cocina y precio." />
+    <link rel="canonical" href="https://foodle.es/" />
     <link rel="icon" href="img/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="img/icono-180.png" />
+    <meta name="theme-color" content="#d42f34" />
+    <!-- Vista previa al compartir (WhatsApp, redes…) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Foodle" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="https://foodle.es/" />
+    <meta property="og:title" content="Foodle — dónde comer según los foodies" />
+    <meta property="og:description" content="Las recomendaciones de los foodies de Instagram, en un buscador por ciudad, barrio y tipo de comida." />
+    <meta property="og:image" content="https://foodle.es/img/compartir.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Foodle",
+        "url": "https://foodle.es/",
+        "inLanguage": "es",
+        "description": "Dónde comer según los foodies de Instagram.",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://foodle.es/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -548,6 +577,9 @@
             return;
           }
           poblar();
+          // Enlaces directos a una búsqueda: foodle.es/?q=arroces
+          const q = new URLSearchParams(location.search).get("q");
+          if (q) irAResultados(q);
         } catch (e) {
           console.error(e);
           irAResultados("");
