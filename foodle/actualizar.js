@@ -14,8 +14,8 @@
  *        data/pendientes.json  lo que las reglas no han sabido clasificar, para revisar
  *
  * Uso:
- *   node foodle/actualizar.js            # 50 publicaciones por foodie
- *   node foodle/actualizar.js 100        # 100 por foodie
+ *   node foodle/actualizar.js            # 15 publicaciones por foodie ya conocido, 50 si es nuevo
+ *   node foodle/actualizar.js 100        # 100 por foodie (todos)
  *   node foodle/actualizar.js --sin-osm  # sin OpenStreetMap
  *
  * Node 20+ (fetch nativo). Sin dependencias.
@@ -42,7 +42,10 @@ const leer = (f, def) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); 
 const escribir = (f, d) => fs.writeFileSync(f, JSON.stringify(d, null, 1) + '\n');
 
 const args = process.argv.slice(2);
-const MAX = parseInt(args.find((a) => /^\d+$/.test(a)) || '50', 10);
+// Lo antiguo ya está en data/posts.json: cada día basta con lo reciente. Pedir menos
+// publicaciones gasta mucho menos del límite horario de la API de Meta.
+const MAX_FIJO = args.find((a) => /^\d+$/.test(a));
+const MAX_DIARIO = 15, MAX_NUEVO = 50;
 const sinOsm = args.includes('--sin-osm');
 
 (async () => {
@@ -54,11 +57,13 @@ const sinOsm = args.includes('--sin-osm');
 
   // 1. Instagram
   if (process.env.FB_TOKEN) {
-    console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX} publicaciones c/u)…`);
+    const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
+    console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO || `${MAX_DIARIO}, o ${MAX_NUEVO} si es nuevo`} publicaciones c/u)…`);
     for (const f of foodies) {
       const u = f.usuario.replace(/^@/, '');
+      const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
       try {
-        const res = await publicacionesDe(u, MAX);
+        const res = await publicacionesDe(u, max);
         if (!res) { console.log(`  ⚠️  @${u}: no existe o no es cuenta profesional — lo salto`); continue; }
         let nuevos = 0;
         for (const p of res.posts) {

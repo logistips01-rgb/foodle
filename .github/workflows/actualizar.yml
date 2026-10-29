@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
     inputs:
       max:
-        description: "Publicaciones a leer por foodie"
-        default: "50"
+        description: "Publicaciones a leer por foodie (vacío = 15, o 50 si el foodie es nuevo)"
+        default: ""
 
 permissions:
   contents: write
@@ -21,7 +21,8 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # Si se llega al límite horario de la API, instagram.js espera y reintenta.
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -33,7 +34,7 @@ jobs:
         env:
           FB_TOKEN: ${{ secrets.FB_TOKEN }}
           FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
-        run: node foodle/actualizar.js ${{ inputs.max || '50' }}
+        run: node foodle/actualizar.js ${{ inputs.max }}
 
       - name: Guardar datos
         run: |

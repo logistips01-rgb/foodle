@@ -85,7 +85,7 @@ cuenta profesional @arrocesdebandera (`IG_USER_ID` = 17841437741882903).
 ## Ejecutar
 
 ```bash
-node foodle/actualizar.js            # 50 publicaciones por foodie
+node foodle/actualizar.js            # 15 publicaciones por foodie (50 si es nuevo)
 node foodle/actualizar.js 100        # más publicaciones
 node foodle/actualizar.js --sin-osm  # sin OpenStreetMap
 python3 -m http.server 8000          # ver la web en http://localhost:8000
