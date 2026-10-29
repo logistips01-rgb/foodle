@@ -141,4 +141,7 @@ function shortcode(url) {
   return m ? m[1] : null;
 }
 
-module.exports = { publicacionesDe, tokenSinCaducidad, shortcode, graph, IG_USER_ID };
+/** Uso de la API en la última hora (%), según la última respuesta. */
+const usoApi = () => uso;
+
+module.exports = { publicacionesDe, tokenSinCaducidad, shortcode, graph, usoApi, IG_USER_ID };
