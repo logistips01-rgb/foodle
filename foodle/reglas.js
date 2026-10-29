@@ -246,6 +246,8 @@ function nombreDeHandle(h) {
   s = s.replace(/\s+(zgz|zaragoza|huesca|teruel|madrid|bcn|restaurante|restaurantes|rest|oficial|official)$/i, '').trim();
   // restauranteelcandelas → Elcandelas, restaurantetxalupa → Txalupa (prefijo pegado).
   s = s.replace(/^(restaurante|restaurant|rte|bar|taberna)(?=[a-z]{4,}$)/i, '').trim();
+  // lacuchararestaurante → Lacuchara (el sufijo también va pegado a veces).
+  s = s.replace(/(?<=^[a-z]{4,})(restaurante|restaurant|madrid|zaragoza|zgz)$/i, '').trim();
   return s.replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
@@ -256,14 +258,62 @@ function sinMayusculas(s) {
 }
 
 // La línea 📍 muchas veces es solo la dirección: entonces no es el nombre del local.
-const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza|carrer|placa|passeig|avinguda|rua|rúa|kalea|carr\b|carr\.)/;
+const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza|carrer|placa|passeig|avinguda|rua|rúa|kalea|carr\b|carr\.|pasadizo|pasaje|cuesta|costanilla|callejon|bulevar|urbanizacion|via )/;
 
 /** Línea(s) de ubicación: "📍 Casa Pedro, Calle X, Zaragoza". */
+// Un nombre propio lleva en mayúscula todas sus palabras salvo los enlaces ("Taberna de la Tienta");
+// "Entre sus best seller encontramos" o "Antes éramos 11 en casa" son frases, no nombres.
+const ENLACES = new Set(['de', 'del', 'la', 'las', 'el', 'los', 'y', 'e', '&', 'en', 'by', 'da', 'do', 'di', 'le', 'a']);
+function esNombrePropio(t) {
+  return String(t).split(/\s+/).filter(Boolean).every((w) => ENLACES.has(w.toLowerCase()) || /^[\p{Lu}\d]/u.test(w));
+}
+
+// Palabras que a veces salen como "nombre" y no lo son.
+const NO_NOMBRE = new Set(['donde', 'aqui', 'hoy', 'este', 'esta', 'nuevo', 'nueva', 'el sitio', 'sitio', 'restaurante',
+  'bar', 'ubicacion', 'direccion', 'precio', 'menu', 'carta', 'reserva', 'horario', 'publi', 'publicidad',
+  'comida', 'cena', 'comer', 'almuerzo', 'desayuno', 'merienda', 'vermut', 'planazo', 'ruta', 'guia',
+  ...Object.keys(COCINAS).map(norm)]);
+
+/** Cuando no hay 📍 con nombre: otras formas habituales de decir el sitio. */
+function nombreSinUbicacion(pie) {
+  const lineas = String(pie || '').split(/\n/).map((l) => l.trim()).filter(Boolean);
+  const limpio = (t) => t.replace(/[^\p{L}\p{N}' &.-]/gu, ' ').replace(/\s+/g, ' ').trim();
+  const pareceNombre = (t) => t && t.length >= 3 && t.length <= 40 && t.split(' ').length <= 5 && /^\p{Lu}/u.test(t)
+    && !NO_NOMBRE.has(norm(t)) && esNombrePropio(t);
+  // 1. "Churrería San Ginés 📍 Pasadizo de San Ginés, 5": lo de antes del 📍 en la misma línea.
+  for (const l of lineas) {
+    const i = l.indexOf('📍');
+    if (i > 0) { const t = limpio(l.slice(0, i)); if (pareceNombre(t)) return sinMayusculas(t); }
+  }
+  // 2. "🍽️ Colósimo" / "🍴 Casa Pepe": línea propia con el emoji de restaurante.
+  for (const l of lineas) {
+    const m = l.match(/^(?:🍽️?|🍴)\s*(.+)$/u);
+    if (m) {
+      const t = limpio(m[1]);
+      if (/^[a-z0-9][a-z0-9._]{3,29}$/.test(t)) return nombreDeHandle(t);
+      if (pareceNombre(t)) return sinMayusculas(t);
+    }
+  }
+  // 3. Entre comillas: el mejor torrezno de Madrid “Taberna La Tienta”.
+  const q = String(pie).match(/[“"«]([^”"»\n]{3,40})[”"»]/);
+  if (q && pareceNombre(limpio(q[1]))) return sinMayusculas(limpio(q[1]));
+  // 4. La cuenta del local sola en una línea ("lacuchararestaurante") o en una lista ("1: barpadraocops …").
+  for (const l of lineas) {
+    const m = l.replace(/^[^\p{L}\p{N}]+/u, '').match(/^(?:\d+\s*[:.)-]\s*)?([a-z0-9][a-z0-9._]{3,29})(?:\s|$)/);
+    if (m && (m[0].trim() === l.replace(/^[^\p{L}\p{N}]+/u, '').trim() || /^\d/.test(l.replace(/^[^\p{L}\p{N}]+/u, ''))) && !NO_HANDLE.has(m[1])) return nombreDeHandle(m[1]);
+  }
+  // 5. Primera línea "🌯 Kevabrö": emoji y un nombre corto (1-3 palabras), nada más.
+  const p = lineas[0] && lineas[0].match(/^\p{Extended_Pictographic}[\uFE0F\s]*([\p{L}\p{N}' &.-]{3,30})$/u);
+  if (p) { const t = limpio(p[1]); if (pareceNombre(t) && t.split(' ').length <= 3 && t !== t.toUpperCase()) return t; }
+  return null;
+}
+
 function lineasUbicacion(pie) {
   return String(pie || '')
     .split(/\n/)
     .filter((l) => /📍|ubicacion:|direccion:|donde:/i.test(norm(l)) || l.includes('📍'))
-    .map((l) => l.replace(/.*?(📍|ubicaci[oó]n:|direcci[oó]n:|d[oó]nde:)\s*/i, '').trim())
+    // "📍 Dónde: Calle X" → "Calle X" (se quitan todas las etiquetas seguidas, no solo la primera).
+    .map((l) => l.replace(/^.*?(?:📍|ubicaci[oó]n:|direcci[oó]n:|d[oó]nde:)(?:\s*(?:📍|ubicaci[oó]n:|direcci[oó]n:|d[oó]nde:|[:\-–]))*\s*/i, '').trim())
     // Fuera las que son una pregunta ("📍¿Con cuál empezarías tú?") o una fecha ("📍 26 SEPTIEMBRE · …").
     .filter((l) => l && !/^[¿?]/.test(l) && !/\?\s*$/.test(l) && !/^\d/.test(l));
 }
@@ -435,10 +485,13 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
     const esFrase = primera.split(/\s+/).length > 5 || /^\p{Ll}\S*\s/u.test(primera) || /\s\d{1,4}[a-zA-Z]?$/.test(primera);
     if (primera.length > 2 && !esFrase && !Object.values(CIUDADES).flat().includes(pn) && !ES_DIRECCION.test(norm(ubic[0]))) nombre = sinMayusculas(primera);
   }
+  if (!nombre) nombre = nombreSinUbicacion(pie);
   if (!ig_local && mencs.length) {
     ig_local = mencs[0].slice(1);
     if (!nombre) nombre = nombreDeHandle(mencs[0]);
   }
+  // Nunca un nombre que es una palabra suelta de relleno, una cocina o una ciudad.
+  if (nombre && (NO_NOMBRE.has(norm(nombre)) || /^\d/.test(nombre))) nombre = null;
 
   // Dirección escrita en la línea 📍 (calle + nº o código postal): para OpenStreetMap y para la tarjeta.
   let dir_pie = null;
