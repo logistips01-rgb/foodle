@@ -24,7 +24,7 @@
 const fs = require('fs');
 const path = require('path');
 const { clasificar } = require('./reglas');
-const { publicacionesDe, shortcode } = require('./instagram');
+const { publicacionesDe, estadoToken, shortcode } = require('./instagram');
 const { enriquecer } = require('./osm');
 
 const RAIZ = path.join(__dirname, '..');
@@ -57,6 +57,14 @@ const sinOsm = args.includes('--sin-osm');
 
   // 1. Instagram
   if (process.env.FB_TOKEN) {
+    // Aviso temprano: el token debe ser el de Página (no caduca) y hay que renovarlo antes de "datos hasta".
+    try {
+      const t = await estadoToken();
+      const dias = t.datosHasta ? Math.round((new Date(t.datosHasta) - Date.now()) / 864e5) : null;
+      console.log(`\n🔑 Token ${t.tipo || '?'} · ${t.valido ? 'válido' : 'NO válido'} · caduca: ${t.caduca || '?'} · acceso a datos hasta ${t.datosHasta || '?'}${dias != null ? ` (${dias} días)` : ''}`);
+      if (t.tipo && t.tipo !== 'PAGE') console.log('   ⚠️  No es el token de Página: caducará pronto. Ver README → Token sin caducidad.');
+      if (dias != null && dias < 15) console.log('   ⚠️  Queda poco para que Meta corte el acceso: renueva el token (README → Token sin caducidad).');
+    } catch (_) { /* si falla, ya lo dirá la primera llamada */ }
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
     console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
     for (const f of foodies) {

@@ -144,7 +144,21 @@ function shortcode(url) {
   return m ? m[1] : null;
 }
 
+/**
+ * Estado del token sin revelarlo: tipo (USER / PAGE), si es válido, cuándo caduca y
+ * cuándo corta Meta el acceso a datos (90 días tras la última autorización del usuario).
+ */
+async function estadoToken(appId = '3318132571691612') {
+  const r = await fetch(`${GRAPH}/debug_token?` + new URLSearchParams({
+    input_token: limpiar(process.env.FB_TOKEN),
+    access_token: `${appId}|${String(process.env.FB_APP_SECRET || '').trim()}`,
+  }));
+  const d = (await r.json()).data || {};
+  const fecha = (t) => (t ? new Date(t * 1000).toISOString().slice(0, 10) : null);
+  return { tipo: d.type || null, valido: !!d.is_valid, caduca: d.expires_at === 0 ? 'nunca' : fecha(d.expires_at), datosHasta: fecha(d.data_access_expires_at) };
+}
+
 /** Uso de la API en la última hora (%), según la última respuesta. */
 const usoApi = () => uso;
 
-module.exports = { publicacionesDe, tokenSinCaducidad, shortcode, graph, usoApi, IG_USER_ID };
+module.exports = { publicacionesDe, tokenSinCaducidad, estadoToken, shortcode, graph, usoApi, IG_USER_ID };
