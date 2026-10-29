@@ -63,6 +63,21 @@ llenar las correcciones.
   `pages_read_engagement` y `business_management`.
 - `FB_APP_SECRET`: clave secreta de la app (firma las llamadas).
 
+**Token sin caducidad.** El token del Explorador dura 1-2 h. `tokenSinCaducidad()`
+(foodle/instagram.js) lo cambia por uno largo y de ahí saca el **token de la Página**
+de @arrocesdebandera, que no caduca (`expires_at: 0`). Ese es el que va en `FB_TOKEN`.
+Ojo: Meta corta el acceso a datos 90 días después de la última vez que el usuario
+autorizó la app (`data_access_expires_at`, se ve en el Depurador de tokens). Antes de
+esa fecha hay que volver a sacar un token en el Explorador y repetir el cambio.
+
+**Límite de uso.** Business Discovery con 50 publicaciones gasta ~4 % del límite
+horario de la app por llamada (cabecera `x-app-usage`, campo `total_time`).
+`graph()` frena al 80 % y, si llega al error #4, espera y reintenta, así que con
+muchos foodies la tarea diaria tarda más, pero no falla.
+
+**Menciones sin @.** Business Discovery devuelve los pies con las menciones sin
+la @ ("Apunta fendo.restaurante , uno de…"). reglas.js las reconoce igualmente.
+
 En GitHub van como **secretos del repositorio** (Settings → Secrets and
 variables → Actions) para la tarea diaria. Las consultas se hacen desde la
 cuenta profesional @arrocesdebandera (`IG_USER_ID` = 17841437741882903).

@@ -126,7 +126,8 @@ const COCINAS = {
   Aragonesa: ['ternasco', 'migas', 'borrajas', 'aragonesa', 'aragones', 'cocina aragonesa', 'longaniza de graus'],
   Tapas: ['tapas', 'tapeo', 'tapa', 'pinchos', 'pintxos', 'raciones', 'vermut', 'vermu', 'croquetas'],
   Tradicional: ['tradicional', 'casero', 'casera', 'de cuchara', 'cocido', 'menu del dia', 'comida casera', 'guiso'],
-  'Alta cocina': ['michelin', 'estrella michelin', 'menu degustacion', 'soles repsol', 'sol repsol', 'alta cocina', 'gastronomico'],
+  // Ojo: "gastronómico" a secas no vale (menús gastronómicos, propuestas gastronómicas…).
+  'Alta cocina': ['michelin', 'estrella michelin', 'menu degustacion', 'soles repsol', 'sol repsol', 'alta cocina'],
   Hamburguesas: ['hamburguesa', 'hamburguesas', 'burger', 'burgers', 'smash'],
   Italiana: ['pizza', 'pizzas', 'pizzeria', 'pasta', 'trattoria', 'italiano', 'italiana', 'carbonara', 'burrata'],
   Japonesa: ['sushi', 'ramen', 'japones', 'japonesa', 'izakaya', 'nigiri', 'gyozas', 'udon'],
@@ -159,9 +160,20 @@ const NIVEL_MIX = ['regular', 'decepcion', 'decepcionante', 'flojo', 'floja', 'n
 function nombreDeHandle(h) {
   let s = h.replace(/^@/, '').replace(/[._]+/g, ' ').trim();
   // Quita sufijos de ciudad típicos de los handles de restaurantes.
-  s = s.replace(/\s+(zgz|zaragoza|huesca|teruel|madrid|bcn|restaurante|rest|oficial|official)$/i, '').trim();
+  s = s.replace(/\s+(zgz|zaragoza|huesca|teruel|madrid|bcn|restaurante|restaurantes|rest|oficial|official)$/i, '').trim();
+  // restauranteelcandelas → Elcandelas, restaurantetxalupa → Txalupa (prefijo pegado).
+  s = s.replace(/^(restaurante|restaurant|rte|bar|taberna)(?=[a-z]{4,}$)/i, '').trim();
   return s.replace(/\b\w/g, (c) => c.toUpperCase());
 }
+
+/** "CANÍBAL ROYAL" → "Caníbal Royal" (los pies en mayúsculas se leen mal en la web). */
+function sinMayusculas(s) {
+  if (s !== s.toUpperCase() || !/\p{Lu}{3}/u.test(s)) return s;
+  return s.toLowerCase().replace(/(^|[\s'-])(\p{L})/gu, (_, a, c) => a + c.toUpperCase());
+}
+
+// La línea 📍 muchas veces es solo la dirección: entonces no es el nombre del local.
+const ES_DIRECCION = /^(c\/|c\.|calle|cl\.|avda|av\.|avenida|pl\.|plaza|plza|paseo|p\.?º|pº|camino|ctra|carretera|trav|tr\.|ronda|andador|glorieta|cc |centro comercial|poligono|parque|pza)/;
 
 /** Línea(s) de ubicación: "📍 Casa Pedro, Calle X, Zaragoza". */
 function lineasUbicacion(pie) {
@@ -169,11 +181,36 @@ function lineasUbicacion(pie) {
     .split(/\n/)
     .filter((l) => /📍|ubicacion:|direccion:|donde:/i.test(norm(l)) || l.includes('📍'))
     .map((l) => l.replace(/.*?(📍|ubicaci[oó]n:|direcci[oó]n:|d[oó]nde:)\s*/i, '').trim())
-    .filter(Boolean);
+    // Fuera las que son una pregunta ("📍¿Con cuál empezarías tú?") o una fecha ("📍 26 SEPTIEMBRE · …").
+    .filter((l) => l && !/^[¿?]/.test(l) && !/\?\s*$/.test(l) && !/^\d/.test(l));
 }
 
+// Palabras que, en minúscula y antes de una coma, NO son una cuenta de Instagram.
+const NO_HANDLE = new Set(['pero', 'porque', 'aunque', 'tambien', 'ademas', 'entonces', 'verdad', 'claro', 'bueno', 'vale', 'mientras', 'despues', 'luego', 'ahora', 'siempre', 'nunca', 'gracias', 'zaragoza', 'madrid', 'huesca', 'teruel', 'espana', 'precio', 'precios', 'menu', 'carta', 'horario', 'ubicacion', 'direccion', 'reserva', 'reservas']);
+
+/**
+ * Cuentas de Instagram citadas en el pie.
+ * Business Discovery devuelve los pies SIN la @ de las menciones ("Apunta fendo.restaurante , uno de…"),
+ * así que además de "@cuenta" se reconocen:
+ *   - palabras con punto o guion bajo por dentro: nativo_zgz, fendo.restaurante (no webs ni correos)
+ *   - palabras en minúscula seguidas de " ," / " :" / " ." — el hueco que deja la mención quitada
+ */
 function menciones(pie) {
-  return (String(pie || '').match(/@[A-Za-z0-9._]{2,30}/g) || []).map((m) => m.replace(/\.+$/, ''));
+  const txt = String(pie || '');
+  const out = [];
+  const add = (h) => { h = h.replace(/\.+$/, ''); if (!out.some((x) => x.toLowerCase() === h.toLowerCase())) out.push(h); };
+  const re = /(^|[^\p{L}\p{N}._@\/])(@?)([A-Za-z0-9._]{3,30})(?=([\s\S]{0,2}))/gu;
+  let m;
+  while ((m = re.exec(txt))) {
+    const [, , arroba, h, sig] = m;
+    if (arroba) { add('@' + h); continue; }
+    if (/^[\d._]+$/.test(h) || /^www\./i.test(h) || /\.(com|es|net|org|eus|cat|info|shop)$/i.test(h)) continue;
+    if (h !== h.toLowerCase()) continue;
+    const interno = /[a-z0-9][._][a-z0-9]/.test(h);
+    const hueco = /^ [,:]/.test(sig) && /^[a-z][a-z0-9._]{3,}$/.test(h) && !NO_HANDLE.has(h);
+    if (interno || hueco) add('@' + h);
+  }
+  return out;
 }
 
 function detectarCiudad(pieN, ubicN, hashtags) {
@@ -217,7 +254,14 @@ function rangoPrecio(euros) {
 }
 
 /** Precio por persona si el pie lo dice; si no, por palabras. */
-function detectarPrecio(texto) {
+function detectarPrecio(texto, pie = '') {
+  // Línea "💰 29,90-35 €": el primer número es el precio por persona.
+  const linea = String(pie).split(/\n/).find((l) => l.includes('💰'));
+  const n0 = linea && linea.match(/(\d{1,3}(?:[.,]\d{1,2})?)/);
+  if (n0) {
+    const n = parseFloat(n0[1].replace(',', '.'));
+    if (n > 0) return { precio: rangoPrecio(n), precio_aprox: `${n}€/persona` };
+  }
   // "25€ por persona", "menú 18€", "salimos a 30 euros", "ticket medio 35€", "35€/pax"
   const re = /(\d{1,3}(?:[.,]\d{1,2})?)\s*(?:€|euros?|eur)\s*(?:\/|por|x)?\s*(persona|pers|pax|cabeza)?/g;
   let m, aprox = null;
@@ -271,9 +315,11 @@ function clasificar(post) {
     ig_local = mencUbic.slice(1);
     nombre = nombreDeHandle(mencUbic);
   } else if (ubic.length) {
-    const primera = ubic[0].split(/[,(\-–|·]/)[0].replace(/[^\p{L}\p{N}' &.]/gu, '').trim();
-    // Si la línea 📍 solo dice la ciudad, no es un nombre.
-    if (primera && !Object.values(CIUDADES).flat().includes(norm(primera))) nombre = primera;
+    // "Nola Smoke. C. de Ildefonso…", "Las Foodtrucks: Parque San Pablo…" → lo de antes del corte.
+    const primera = ubic[0].split(/[,(|·:–]|\s-\s|\.\s/)[0].replace(/[^\p{L}\p{N}' &.]/gu, '').replace(/\.$/, '').trim();
+    // Si la línea 📍 solo dice la ciudad o es una dirección, no es un nombre.
+    const pn = norm(primera);
+    if (primera.length > 2 && !Object.values(CIUDADES).flat().includes(pn) && !ES_DIRECCION.test(norm(ubic[0]))) nombre = sinMayusculas(primera);
   }
   if (!ig_local && mencs.length) {
     ig_local = mencs[0].slice(1);
@@ -283,7 +329,7 @@ function clasificar(post) {
   const ciudad = detectarCiudad(pieN, ubicN, hashtags);
   const zona = ciudad ? detectarBarrio(ciudad, `${ubicN}\n${pieN}`) : null;
   const cocina = detectarCocina(pieN + ' ' + hashtags.join(' '));
-  const { precio, precio_aprox } = detectarPrecio(pieN);
+  const { precio, precio_aprox } = detectarPrecio(pieN, pie);
   const nivel = detectarNivel(pieN);
   const publi = PUBLI.some((re) => re.test(pieN));
 
@@ -296,4 +342,4 @@ function clasificar(post) {
   return { nombre, ig_local, ciudad, zona, cocina, precio, precio_aprox, nivel, publi, tags };
 }
 
-module.exports = { clasificar, norm, CIUDADES, COCINAS };
+module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS };

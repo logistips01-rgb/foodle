@@ -28,16 +28,40 @@ function proof(token) {
   return secret ? crypto.createHmac('sha256', secret).update(token).digest('hex') : null;
 }
 
-async function graph(ruta, params = {}) {
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const LIMITE = /^(4|17|32|613)$/; // límites de uso de la app / del usuario
+
+// Uso de la app en la última hora, en % (cabecera x-app-usage). Business Discovery con
+// 50 publicaciones gasta ~4 % de "total_time" por llamada: con muchos foodies se agota.
+let uso = 0;
+
+async function graph(ruta, params = {}, intento = 0) {
   const token = process.env.FB_TOKEN;
   if (!token) throw new Error('Falta FB_TOKEN');
+  // Frena antes de llegar al límite en vez de chocar con él.
+  if (uso >= 80) {
+    console.log(`  ⏳ uso de la API al ${uso} %: espero 5 min…`);
+    await sleep(5 * 60 * 1000);
+    uso = 0;
+  }
   const url = new URL(GRAPH + ruta);
   const p = proof(token);
   url.search = new URLSearchParams({ ...params, access_token: token, ...(p ? { appsecret_proof: p } : {}) });
   const r = await fetch(url);
+  try {
+    const u = JSON.parse(r.headers.get('x-app-usage') || '{}');
+    uso = Math.max(u.call_count || 0, u.total_time || 0, u.total_cputime || 0);
+  } catch (_) { /* sin cabecera */ }
   const data = await r.json();
   if (!r.ok || data.error) {
     const e = data.error || {};
+    // Límite alcanzado: se recupera solo en la hora siguiente. Espera y reintenta (máx. 1 h).
+    if (LIMITE.test(String(e.code)) && intento < 12) {
+      console.log(`  ⏳ límite de la API (#${e.code}): espero 5 min (intento ${intento + 1}/12)…`);
+      await sleep(5 * 60 * 1000);
+      uso = 0;
+      return graph(ruta, params, intento + 1);
+    }
     const err = new Error(`Graph ${ruta}: (#${e.code || r.status}) ${e.message || 'error'}`);
     err.code = e.code;
     throw err;
