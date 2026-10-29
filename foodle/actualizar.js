@@ -74,7 +74,12 @@ const sinOsm = args.includes('--sin-osm');
         console.log(`  @${u}: ${res.posts.length} leídas · ${nuevos} nuevas`);
       } catch (e) {
         console.log(`  💥 @${u}: ${e.message}`);
-        if (e.code === 190) throw new Error('El token de Facebook ha caducado o no es válido (FB_TOKEN).');
+        if (e.code === 190) {
+          // Pista sin revelar el token: un token de Página bueno empieza por "EAA" y tiene ~190-200 caracteres.
+          const t = String(process.env.FB_TOKEN || '').trim().replace(/^["']|["']$/g, '');
+          console.log(`  FB_TOKEN: ${t.length} caracteres · ${t.startsWith('EAA') ? 'empieza por EAA' : 'NO empieza por EAA'}${/\s/.test(t) ? ' · tiene espacios o saltos de línea dentro' : ''}`);
+          throw new Error('El token de Facebook ha caducado o no es válido (FB_TOKEN).');
+        }
       }
     }
   } else {
