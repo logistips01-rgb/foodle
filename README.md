@@ -47,16 +47,15 @@ foodle/manual.json  ──┐        │  pie, fecha, enlace, likes, comentarios
 
 ## Norma para los foodies
 
-Igual en todas las ciudades. Un foodie entra en `foodle/foodies.json` solo si:
+Igual en todas las ciudades: **que sea un foodie que publica de forma constante**.
 
-1. es **cuenta profesional** (si no, la API no la lee);
-2. ha **publicado en los últimos 90 días**;
-3. **al menos la mitad** de sus últimas 30 publicaciones son recomendaciones de sitios o comidas concretas
-   (fuera los que publican de todo: moda, lifestyle, viajes sin orden…);
-4. su **ciudad** es la mayoritaria en esas publicaciones (un municipio de su área cuenta como la ciudad).
+1. **Cuenta profesional** (si no, la API no la lee).
+2. **Constante:** ha publicado en cada uno de los últimos 3 meses (tramos de 30 días).
+3. **Foodie:** habla de sitios o de comida (solo deja fuera cuentas que no son de comida).
 
-Se comprueba con `node foodle/comprobar.js --ciudad Madrid usuario1 usuario2 …` (o `--lista` para los que
-ya están). La actualización diaria avisa (⚠️) de los que dejan de cumplirla.
+La ciudad no es requisito: cada publicación se cataloga en la suya. En `foodies.json`, `ciudad` es solo una
+pista para los pies que no dicen ninguna. Se comprueba con `node foodle/comprobar.js usuario1 usuario2 …`
+(o `--lista` para los que ya están). La actualización diaria avisa (⚠️) de los que dejan de publicar con constancia.
 
 ## Archivos que se tocan a mano
 

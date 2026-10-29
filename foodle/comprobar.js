@@ -3,16 +3,16 @@
 /**
  * Foodle — ¿este foodie cumple la norma para entrar?
  *
- * Norma (igual para todas las ciudades):
+ * Norma (igual para todas las ciudades): que sea un foodie que publica de forma constante.
  *   1. Cuenta profesional (si no, Business Discovery no la lee).
- *   2. Ha publicado en los últimos 90 días.
- *   3. Al menos la mitad de sus últimas 30 publicaciones hablan de un sitio o de una comida concreta
- *      (las reglas sacan restaurante, cuenta del local o tipo de cocina). Fuera los que publican de todo.
- *   4. Con --ciudad: esa es su ciudad mayoritaria (o un municipio de su área, p. ej. Alcobendas → Madrid).
+ *   2. Constante: ha publicado en cada uno de los últimos 3 tramos de 30 días.
+ *   3. Foodie: habla de sitios o de comida (solo deja fuera cuentas que no son de comida).
+ * La ciudad NO es requisito: cada publicación se cataloga en su ciudad. Se informa de la ciudad
+ * mayoritaria para ponerla en foodies.json como pista (pies que no dicen ciudad).
  *
  * Uso:
- *   node foodle/comprobar.js --ciudad Madrid usuario1 usuario2 …
- *   node foodle/comprobar.js --lista           # comprueba los de foodle/foodies.json con su ciudad
+ *   node foodle/comprobar.js usuario1 usuario2 …
+ *   node foodle/comprobar.js --lista           # comprueba los de foodle/foodies.json
  *   … --json salida.json                       # además guarda el detalle
  *
  * Gasta una consulta de Business Discovery por cuenta (30 publicaciones): con muchas, espera al límite.
@@ -23,9 +23,22 @@ const path = require('path');
 const { graph, IG_USER_ID } = require('./instagram');
 const { clasificar, PERTENECE } = require('./reglas');
 
-const NORMA = { dias: 90, minUtil: 0.5, muestra: 30 };
+// tramos: nº de tramos de 30 días seguidos con al menos una publicación; minFoodie: parte mínima de
+// publicaciones sobre sitios o comida, solo para descartar cuentas que no son de comida.
+const NORMA = { tramos: 3, minFoodie: 0.2, muestra: 30 };
 
-async function comprobar(usuario, ciudad = null) {
+/** ¿Hay al menos una publicación en cada tramo de 30 días? Si la muestra (30) se acaba antes, es que publica mucho. */
+function esConstante(fechas, llena) {
+  const dias = fechas.map((f) => (Date.now() - new Date(f)) / 864e5);
+  for (let t = 0; t < NORMA.tramos; t++) {
+    const desde = t * 30, hasta = (t + 1) * 30;
+    if (llena && dias.length && Math.max(...dias) < desde) return true; // la muestra no llega hasta aquí
+    if (!dias.some((d) => d >= desde && d < hasta)) return false;
+  }
+  return true;
+}
+
+async function comprobar(usuario) {
   const u = usuario.replace(/^@/, '');
   let bd;
   try {
@@ -39,6 +52,7 @@ async function comprobar(usuario, ciudad = null) {
   const media = (bd.media && bd.media.data) || [];
   const ultimo = (media[0] && media[0].timestamp || '').slice(0, 10) || null;
   const dias = ultimo ? Math.round((Date.now() - new Date(ultimo)) / 864e5) : null;
+  const constante = esConstante(media.map((m) => m.timestamp).filter(Boolean), media.length >= NORMA.muestra);
 
   let utiles = 0;
   const ciudades = {};
@@ -54,11 +68,10 @@ async function comprobar(usuario, ciudad = null) {
   const mayoritaria = Object.entries(ciudades).sort((a, b) => b[1] - a[1])[0];
   const res = {
     usuario: bd.username, seguidores: bd.followers_count, ultimo, util: Math.round(util * 100),
-    ciudad: mayoritaria ? mayoritaria[0] : null, deCiudad: ciudad ? (ciudades[ciudad] || 0) : null, muestra: media.length,
+    ciudad: mayoritaria ? mayoritaria[0] : null, muestra: media.length,
   };
-  if (dias == null || dias > NORMA.dias) return { ...res, ok: false, motivo: `sin publicar desde hace ${dias ?? '∞'} días` };
-  if (util < NORMA.minUtil) return { ...res, ok: false, motivo: `solo ${res.util} % de recomendaciones` };
-  if (ciudad && res.ciudad !== ciudad) return { ...res, ok: false, motivo: `su ciudad es ${res.ciudad || 'desconocida'}, no ${ciudad}` };
+  if (!constante) return { ...res, ok: false, motivo: dias != null && dias > 30 ? `no publica desde hace ${dias} días` : 'no publica todos los meses' };
+  if (util < NORMA.minFoodie) return { ...res, ok: false, motivo: `no parece de comida (${res.util} %)` };
   return { ...res, ok: true, motivo: 'cumple' };
 }
 
@@ -66,19 +79,18 @@ if (require.main === module) {
   (async () => {
     const args = process.argv.slice(2);
     const val = (k) => { const i = args.indexOf(k); return i >= 0 ? args.splice(i, 2)[1] : null; };
-    const ciudad = val('--ciudad');
     const salida = val('--json');
     let lista;
     if (args.includes('--lista')) {
-      lista = JSON.parse(fs.readFileSync(path.join(__dirname, 'foodies.json'), 'utf8')).map((f) => [f.usuario, f.ciudad || null]);
+      lista = JSON.parse(fs.readFileSync(path.join(__dirname, 'foodies.json'), 'utf8')).map((f) => f.usuario);
     } else {
-      lista = args.filter((a) => !a.startsWith('--')).map((u) => [u, ciudad]);
+      lista = args.filter((a) => !a.startsWith('--'));
     }
     const out = [];
-    for (const [u, c] of lista) {
-      const r = await comprobar(u, c);
+    for (const u of lista) {
+      const r = await comprobar(u);
       out.push(r);
-      console.log(`${r.ok ? '✅' : '❌'} ${String(r.usuario).padEnd(28)} ${r.seguidores != null ? String(r.seguidores).padStart(8) + ' seg' : '            '} · último ${r.ultimo || '—'} · ${r.util ?? '—'} % recomendaciones · ciudad ${r.ciudad || '—'} · ${r.motivo}`);
+      console.log(`${r.ok ? '✅' : '❌'} ${String(r.usuario).padEnd(28)} ${r.seguidores != null ? String(r.seguidores).padStart(8) + ' seg' : '            '} · último ${r.ultimo || '—'} · ${r.util ?? '—'} % de comida · ciudad ${r.ciudad || '—'} · ${r.motivo}`);
       if (salida) fs.writeFileSync(salida, JSON.stringify(out, null, 1));
     }
     const ok = out.filter((r) => r.ok);
@@ -86,4 +98,4 @@ if (require.main === module) {
   })().catch((e) => { console.error(e.message); process.exit(1); });
 }
 
-module.exports = { comprobar, NORMA };
+module.exports = { comprobar, esConstante, NORMA };
