@@ -41,7 +41,7 @@ Texto para pegar en cada permiso (en inglés también, Meta lo acepta en ambos i
 1. Abrir el Explorador de la API Graph con la app de Foodle y mostrar la consulta
    `17841437741882903?fields=business_discovery.username(comerenzgz){media{caption,permalink,timestamp,like_count}}`
    y su respuesta.
-2. Abrir `https://foodle.es`, buscar «arroces» o pulsar el botón 🍕 Pizza.
+2. Abrir `https://foodle.es`, buscar «arroces» o pulsar el botón Pizza.
 3. Enseñar una tarjeta: el embed oficial de Instagram y el enlace «Ver la publicación… en Instagram».
 4. Bajar al pie de la web y abrir «Privacidad y borrado de datos».
 

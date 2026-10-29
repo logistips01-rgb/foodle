@@ -396,7 +396,7 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
   const publi = PUBLI.some((re) => re.test(pieN));
 
   const tags = [];
-  if (publi) tags.push('📣 Publicidad');
+  if (publi) tags.push('Publicidad');
   if (/(perro|pet friendly|petfriendly|dog friendly)/.test(pieN)) tags.push('pet-friendly');
   if (/(sin gluten|celiac|gluten free)/.test(pieN)) tags.push('Sin gluten');
   if (/michelin/.test(pieN)) tags.push('Michelin');
