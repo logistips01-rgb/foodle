@@ -1,30 +1,13 @@
 # Dependencias
 node_modules/
-functions/node_modules/
 
 # Secretos / configuración local
 .env
 .env.local
-serviceAccount*.json
-
-# Copia generada del crawler para el deploy de Functions
-functions/crawler/
 
 # Logs
 *.log
-npm-debug.log*
-
-# Firebase
-.firebase/
-firebase-debug.log
-ui-debug.log
 
 # Sistema
 .DS_Store
 Thumbs.db
-
-# Datos generados por foodle/extract.js
-foodle/data/
-
-# Config web de Firebase (claves del navegador, local)
-firebase-config.js

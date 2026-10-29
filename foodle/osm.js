@@ -3,32 +3,28 @@
 /**
  * Foodle — enriquecido con OpenStreetMap (Nominatim).
  *
- * Para cada restaurante en Firestore que aún no tenga coordenadas, busca su
- * dirección y posición en OpenStreetMap (gratis, sin API key) y se las añade:
- *   - lat, lng   → para mapas y "cómo llegar"
- *   - direccion  → calle + localidad (versión corta y legible)
+ * Busca dirección y coordenadas de cada restaurante (gratis, sin API key):
+ *   - lat, lng   → para "cómo llegar"
+ *   - direccion  → calle + localidad
  *
  * Respeta la norma de Nominatim: 1 consulta/segundo y User-Agent identificativo.
- *
- * Uso:
- *   node foodle/enrich-osm.js              # solo los que faltan
- *   node foodle/enrich-osm.js --refresh    # re-geolocaliza todos
- *
- * Requiere serviceAccount.json (o vars FIREBASE_*). Node 18+.
+ * Guarda los resultados (también los "no encontrado") en data/osm.json para no
+ * repetir consultas cada día.
  */
-require('dotenv').config();
 
-const { db } = require('../crawler/firebase-client');
+const fs = require('fs');
+const path = require('path');
 
-const refresh = process.argv.includes('--refresh');
 const NOMINATIM = 'https://nominatim.openstreetmap.org/search';
 const HEADERS = {
   // Nominatim exige identificar la aplicación.
-  'User-Agent': 'Foodle/1.0 (agregador de restaurantes; foodle.es)',
+  'User-Agent': 'Foodle/1.0 (agregador de restaurantes; github.com/logistips01-rgb/foodle)',
   'Accept-Language': 'es',
 };
+const CACHE_FILE = path.join(__dirname, '..', 'data', 'osm.json');
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const clave = (nombre, ciudad) => `${String(nombre).toLowerCase()}|${String(ciudad).toLowerCase()}`;
 
 async function geocodificar(nombre, ciudad) {
   const intentos = [
@@ -49,36 +45,37 @@ async function geocodificar(nombre, ciudad) {
     if (Array.isArray(data) && data.length) {
       const hit = data[0];
       const a = hit.address || {};
+      const loc = a.city || a.town || a.village || a.municipality || '';
+      // Si el resultado cae en otra ciudad, es un falso positivo: mejor sin mapa.
+      if (loc && ciudad && !loc.toLowerCase().includes(ciudad.toLowerCase().split(' ')[0])) continue;
       const calle = [a.road, a.house_number].filter(Boolean).join(' ');
-      const loc = a.city || a.town || a.village || a.municipality || ciudad;
-      const direccion = [calle, loc].filter(Boolean).join(', ') || (hit.display_name || '').split(',').slice(0, 2).join(',');
+      const direccion = [calle, loc || ciudad].filter(Boolean).join(', ') || (hit.display_name || '').split(',').slice(0, 2).join(',');
       return { lat: Number(hit.lat), lng: Number(hit.lon), direccion };
     }
   }
   return null;
 }
 
-(async () => {
-  const snap = await db.collection('restaurants').get();
-  const docs = snap.docs.filter((d) => refresh || d.get('lat') == null);
-  console.log(`\n🗺️  ${snap.size} restaurantes · a geolocalizar: ${docs.length}${refresh ? ' (refresh)' : ''}\n`);
-
-  let ok = 0, sin = 0, i = 0;
-  for (const doc of docs) {
-    const r = doc.data();
-    i++;
-    const geo = await geocodificar(r.nombre, r.ciudad || '');
-    if (geo && geo.lat && geo.lng) {
-      await doc.ref.set({ ...geo }, { merge: true });
-      ok++;
-      if (ok <= 8) console.log(`  ✓ ${r.nombre} (${r.ciudad}) → ${geo.direccion}`);
-    } else {
-      sin++;
+/**
+ * Añade lat/lng/direccion a las fichas que tengan nombre y ciudad.
+ * Como mucho `max` consultas nuevas por ejecución (el resto, mañana).
+ */
+async function enriquecer(fichas, max = 40) {
+  let cache = {};
+  try { cache = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8')); } catch (_) { cache = {}; }
+  let nuevas = 0;
+  for (const f of fichas) {
+    if (!f.nombre || !f.ciudad) continue;
+    const k = clave(f.nombre, f.ciudad);
+    if (!(k in cache)) {
+      if (nuevas >= max) continue;
+      cache[k] = await geocodificar(f.nombre, f.ciudad);
+      nuevas++;
     }
-    if (i % 20 === 0) console.log(`  …${i}/${docs.length}`);
+    if (cache[k]) Object.assign(f, cache[k]);
   }
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 1));
+  return nuevas;
+}
 
-  console.log(`\n✅ Geolocalizados: ${ok} · sin resultado: ${sin}`);
-  console.log('   (Los que no encuentre seguirán sin mapa; es normal que falle un % por nombres ambiguos.)');
-  process.exit(0);
-})().catch((e) => { console.error('💥 Error:', e.message); process.exit(1); });
+module.exports = { enriquecer, geocodificar };

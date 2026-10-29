@@ -1,157 +1,79 @@
-# 🛵 Mootle
+# 🍽️ Foodle
 
-**El buscador de motos de segunda mano de España.** Agrega anuncios de
-Milanuncios, Wallapop y Coches.net en un único sitio, normalizados, sin
-duplicados y con filtros potentes — el "Skyscanner de las motos".
+**Dónde comer según los foodies.** Un buscador por ciudad de las recomendaciones
+que los foodies publican en Instagram: "¿dónde como en Zaragoza?" → salen las
+publicaciones de los foodies sobre sitios de Zaragoza, insertadas tal cual, y
+eliges tú.
 
-Esto es **Mootle v0.1**. Todo lo demás es iteración.
+Misma forma de trabajar que guitle: web estática, datos en JSON dentro del repo
+y una actualización diaria con GitHub Actions. Sin servidor ni base de datos.
 
----
-
-## Arquitectura
-
-```
-Firecrawl API
-     │  /map  → descubre URLs de anuncios
-     │  /batch/scrape → extrae campos estructurados
-     ▼
-crawler/                       (Node.js)
-  ├── portals/                 schema + URL patterns por portal
-  ├── normalize.js             normaliza al schema común
-  ├── dedup.js                 hash (marca|modelo|precio|km)
-  └── index.js                 orquestador
-     │
-     ▼
-Firebase Firestore
-  ├── listings/    anuncios normalizados (doc id = hash)
-  ├── portals/     estado de cada portal (último crawl, errores)
-  └── stats/       métricas globales
-     ▲
-     │ lectura directa vía SDK web
-index.html                     frontend (un único archivo)
-
-Firebase Cloud Functions
-  └── scheduledCrawl           cada 6 h lanza el crawler
-```
+> Origen: la primera versión (YouTube + Firestore) nació en la rama `foodle` del
+> repo Mootle. Ese historial se conserva aquí; el código de YouTube se retiró al
+> pasar a Instagram (está en el historial de git).
 
 ---
 
-## Puesta en marcha
+## Cómo funciona
 
-### 1. Dependencias
+```
+foodle/foodies.json ──► foodle/instagram.js ──► Business Discovery (API oficial de Meta)
+foodle/manual.json  ──┐        │  pie, fecha, enlace, likes, comentarios
+                      ▼        ▼
+                 foodle/actualizar.js
+                      │  foodle/reglas.js        ciudad, barrio, restaurante, cocina,
+                      │  foodle/correcciones.json precio, nivel, publicidad
+                      │  foodle/osm.js           dirección + coordenadas (OpenStreetMap)
+                      ▼
+   data/posts.json       todo lo leído (acumulado)
+   data/foodle.json      lo que sale en la web
+   data/pendientes.json  lo que las reglas no han sabido clasificar
+                      ▼
+   index.html  lee data/foodle.json y muestra cada publicación con el embed
+               oficial de Instagram (blockquote + embed.js)
+```
+
+## Normas
+
+- **Solo la API oficial de Meta.** Nada de scraping de instagram.com ni librerías
+  no oficiales.
+- **Solo cuentas profesionales** (creador/empresa): es lo que permite Business Discovery.
+- **Nunca se descargan ni se resuben vídeos o fotos.** Se muestran con el embed
+  oficial; si un foodie desactiva la inserción, queda solo el enlace.
+- La API no da la ubicación: la ciudad y el restaurante salen del pie
+  (📍, @menciones, #hashtags, barrios).
+- Para abrir la web al público, Meta tiene que aprobar la app (App Review).
+  Mientras, se pueden añadir publicaciones a mano en `foodle/manual.json`.
+
+## Archivos que se tocan a mano
+
+| Archivo | Para qué |
+|---|---|
+| `foodle/foodies.json` | Lista de foodies: `[{ "usuario": "cocituber", "nota": "…" }]` |
+| `foodle/manual.json` | Publicaciones sueltas: `[{ "url": "https://www.instagram.com/p/…/", "creador": "…", "nombre": "…", "ciudad": "Zaragoza" }]` (los campos que pongas mandan sobre las reglas) |
+| `foodle/correcciones.json` | Arreglos por publicación (clave = código del enlace): `{ "ABC123": { "nombre": "Casa Pedro", "ciudad": "Zaragoza" }, "XYZ": { "oculta": true }, "QWE": { "visible": true } }` |
+
+Si un fallo de las reglas se repite, se arregla en `foodle/reglas.js` en vez de
+llenar las correcciones.
+
+## Claves (nunca en el repo)
+
+- `FB_TOKEN`: token de Facebook de la app (id 3318132571691612) con
+  `instagram_basic`, `instagram_manage_insights`, `pages_show_list`,
+  `pages_read_engagement` y `business_management`.
+- `FB_APP_SECRET`: clave secreta de la app (firma las llamadas).
+
+En GitHub van como **secretos del repositorio** (Settings → Secrets and
+variables → Actions) para la tarea diaria. Las consultas se hacen desde la
+cuenta profesional @arrocesdebandera (`IG_USER_ID` = 17841437741882903).
+
+## Ejecutar
 
 ```bash
-npm install
+node foodle/actualizar.js            # 50 publicaciones por foodie
+node foodle/actualizar.js 100        # más publicaciones
+node foodle/actualizar.js --sin-osm  # sin OpenStreetMap
+python3 -m http.server 8000          # ver la web en http://localhost:8000
 ```
 
-### 2. Variables de entorno
-
-```bash
-cp .env.example .env
-```
-
-Rellena en `.env`:
-
-- `FIRECRAWL_API_KEY` — clave de [Firecrawl](https://www.firecrawl.dev).
-- `FIREBASE_PROJECT_ID`, `FIREBASE_CLIENT_EMAIL`, `FIREBASE_PRIVATE_KEY` —
-  del service account (Firebase Console → Configuración → Cuentas de servicio
-  → Generar nueva clave privada). Solo necesarios para ejecutar el crawler en
-  local; en Cloud Functions las credenciales se inyectan solas.
-
-### 3. Ejecutar el crawler
-
-```bash
-npm run crawl                 # todos los portales
-node crawler/index.js wallapop   # solo un portal
-```
-
-Salida esperada por portal:
-
-```
-[Milanuncios] 47 nuevos anuncios | 12 duplicados descartados | 3 errores
-```
-
-### 4. Frontend
-
-Edita el objeto `firebaseConfig` al final de `index.html` con la config de tu
-app web de Firebase (Console → Configuración → Tus apps → Web), y sirve:
-
-```bash
-firebase serve --only hosting
-# o cualquier servidor estático: npx serve .
-```
-
-### 5. Desplegar
-
-```bash
-# Reglas e índices de Firestore
-firebase deploy --only firestore
-
-# Hosting (frontend)
-firebase deploy --only hosting
-
-# Cloud Function programada (copia el crawler a functions/ automáticamente)
-firebase functions:secrets:set FIRECRAWL_API_KEY
-firebase deploy --only functions
-```
-
----
-
-## Schema de un anuncio (`listings/`)
-
-| Campo               | Tipo            | Notas                                  |
-| ------------------- | --------------- | -------------------------------------- |
-| `id`                | string          | hash sha1 de marca\|modelo\|precio\|km |
-| `titulo`            | string          |                                        |
-| `marca` / `modelo`  | string          |                                        |
-| `año`               | number          |                                        |
-| `km` / `precio`     | number          |                                        |
-| `ubicacion`         | string          |                                        |
-| `provincia`         | string          | inferida de la ubicación               |
-| `combustible`       | string          | "gasolina" por defecto                 |
-| `cilindrada`        | number          |                                        |
-| `tipo`              | string          | naked / trail / deportiva / custom / scooter |
-| `color`             | string \| null  |                                        |
-| `descripcion`       | string          |                                        |
-| `fotos`             | string[]        |                                        |
-| `url_original`      | string          |                                        |
-| `portal`            | string          | milanuncios / wallapop / cochesnet     |
-| `fecha_publicacion` | string \| null  |                                        |
-| `fecha_crawl`       | string ISO 8601 |                                        |
-| `activo`            | boolean         |                                        |
-
-Los campos que no se puedan extraer quedan como `null` (nunca se omiten).
-
----
-
-## Foodle (experimento) — buscador de restaurantes por foodies
-
-Pivote del proyecto: en vez de scrapear portales bloqueados, agrega
-**recomendaciones de foodies de YouTube** (datos accesibles vía API oficial).
-
-```bash
-npm install
-# en .env: YOUTUBE_API_KEY=... y ANTHROPIC_API_KEY=...
-node foodle/extract.js @cenandoconpablo @cocituber 40            # → foodle/data/restaurantes.json
-node foodle/extract.js @cenandoconpablo @cocituber 40 --firestore # además escribe en Firestore
-```
-
-Flujo: YouTube Data API (títulos + descripciones de los últimos vídeos) →
-Claude Haiku extrae la ficha de restaurante (o descarta el vídeo si no lo es) →
-JSON / colección `restaurants` de Firestore. Coste de IA: ~0,2 céntimos por
-vídeo.
-
-## Notas y limitaciones de v0.1
-
-- **Wallapop** es una SPA con anti-bot agresivo: `/map` puede devolver pocas
-  URLs de ficha. Milanuncios y Coches.net suelen mapear mejor. Un fallo en un
-  portal se registra y **no detiene** el resto.
-- El **frontend filtra en cliente** sobre los últimos `FETCH_LIMIT` (500)
-  anuncios traídos de Firestore. Suficiente para v0.1; al crecer el volumen,
-  los filtros se moverán a consultas server-side con índices compuestos.
-- Firestore necesita el índice `activo + fecha_crawl` (incluido en
-  `firestore.indexes.json`). Si una consulta pide un índice que falta, Firebase
-  te da en consola el enlace exacto para crearlo.
-- El crawler respeta el `rateLimit` de cada portal y el `robots.txt` (lo
-  gestiona Firecrawl por defecto).
-```
+Node 20+, sin dependencias.

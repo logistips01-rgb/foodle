@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Foodle — dónde comer según los foodies</title>
-    <meta name="description" content="Foodle agrega los restaurantes recomendados por foodies de YouTube en un buscador filtrable por ciudad, cocina y precio." />
+    <meta name="description" content="Foodle reúne las recomendaciones de los foodies de Instagram en un buscador por ciudad, cocina y precio." />
     <style>
       :root {
         --bg: #14100e; --bg-soft: #1d1714; --bg-card: #221b17; --bg-elev: #2a221d;
@@ -68,18 +68,22 @@
       .sort-wrap label { font-size: 13px; color: var(--text-faint); }
       .sort-wrap select { padding: 8px 12px; background: var(--bg-elev); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-sm); font-size: 13px; outline: none; }
 
-      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px,1fr)); gap: 18px; }
-      .card { background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform .12s, border-color .12s, box-shadow .12s; }
-      .card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: var(--shadow); }
-      .card .photo { position: relative; aspect-ratio: 16/9; overflow: hidden; display: flex; align-items: center; justify-content: center; }
-      .card .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; z-index: 1; }
-      .card .photo .ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 50px; z-index: 0; }
-      .card .photo .nivel { position: absolute; top: 10px; right: 10px; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; backdrop-filter: blur(4px); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(326px,100%),1fr)); gap: 18px; align-items: start; }
+      .card { min-width: 0; background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: border-color .12s, box-shadow .12s; }
+      .card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+      .card .photo { position: relative; height: 54px; display: flex; align-items: center; justify-content: center; }
+      .card .photo .ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 26px; z-index: 0; }
+      .card .photo .nivel { position: absolute; top: 14px; right: 52px; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 999px; backdrop-filter: blur(4px); }
+      .card .name a:hover { color: var(--accent-hover); }
+      /* Publicación insertada con el embed oficial de Instagram (nunca se descarga ni se resube). */
+      .card .embed { position: relative; padding: 0 10px 12px; overflow: hidden; }
+      .card .embed .instagram-media, .card .embed iframe { margin: 0 auto !important; min-width: 0 !important; max-width: 100% !important; width: 100% !important; }
+      .card .embed .ig-link { display: block; text-align: center; padding: 12px; border: 1px dashed var(--border); border-radius: var(--radius-sm); color: var(--accent-hover); font-size: 13px; font-weight: 600; }
       .nivel.top { background: rgba(242,183,5,.92); color: #2a1d00; }
       .nivel.rec { background: rgba(76,175,80,.9); color: #06210a; }
       .nivel.mix { background: rgba(120,120,120,.85); color: #fff; }
       .nivel.ver { background: rgba(255,90,60,.9); color: #2a0a04; }
-      .card .photo .city { position: absolute; bottom: 10px; left: 12px; font-size: 12px; font-weight: 600; color: #fff; background: rgba(0,0,0,.55); padding: 3px 9px; border-radius: 999px; backdrop-filter: blur(3px); }
+      .card .photo .city { position: absolute; top: 14px; left: 54px; font-size: 12px; font-weight: 600; color: #fff; background: rgba(0,0,0,.55); padding: 3px 9px; border-radius: 999px; backdrop-filter: blur(3px); }
       .card .body { padding: 14px 15px 15px; display: flex; flex-direction: column; gap: 9px; flex: 1; }
       .card .name { font-size: 17px; font-weight: 700; color: var(--text); line-height: 1.25; }
       .card .sub { font-size: 12.5px; color: var(--text-dim); display: flex; flex-wrap: wrap; gap: 6px; }
@@ -105,7 +109,7 @@
       .heart { position: absolute; top: 10px; left: 10px; z-index: 2; width: 34px; height: 34px; border-radius: 50%; border: none; background: rgba(0,0,0,0.55); backdrop-filter: blur(4px); color: #fff; font-size: 16px; line-height: 1; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: transform .1s; }
       .heart:hover { transform: scale(1.12); }
       .heart.on { background: var(--accent); }
-      .mapbtn { position: absolute; bottom: 10px; right: 10px; z-index: 2; width: 32px; height: 32px; border-radius: 50%; border: none; background: rgba(0,0,0,0.55); backdrop-filter: blur(4px); color: #fff; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform .1s; }
+      .mapbtn { position: absolute; top: 11px; right: 10px; z-index: 2; width: 32px; height: 32px; border-radius: 50%; border: none; background: rgba(0,0,0,0.55); backdrop-filter: blur(4px); color: #fff; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform .1s; }
       .mapbtn:hover { transform: scale(1.12); background: var(--accent); }
       .card.visitado { opacity: 0.62; }
       .card.visitado .name { text-decoration: line-through; }
@@ -195,6 +199,7 @@
               <select id="sort">
                 <option value="relevancia">Mejor valorados</option>
                 <option value="recientes">Más recientes</option>
+                <option value="likes">Más gustados</option>
                 <option value="nombre">Nombre (A-Z)</option>
               </select>
             </div>
@@ -205,25 +210,16 @@
         </section>
       </main>
       <footer>
-        <p>Foodle agrega recomendaciones públicas de foodies de YouTube. Las opiniones y el contenido pertenecen a sus creadores; cada ficha enlaza siempre al vídeo original.</p>
+        <p>Foodle reúne recomendaciones públicas de foodies de Instagram. Las publicaciones se muestran con el sistema oficial de inserción de Instagram: el contenido y las opiniones son de sus creadores y cada ficha enlaza a la publicación original.</p>
         <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:hola@foodle.es">Escríbenos</a>.</p>
       </footer>
     </div>
 
+    <script async src="https://www.instagram.com/embed.js"></script>
     <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-      import { getFirestore, collection, query, where, limit, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
-
-      /* ════════════════════════════════════════════════════════════════
-       *  CONFIG — la config de tu app web de Firebase vive en un archivo
-       *  aparte: firebase-config.js (que git ignora, para no chocar al
-       *  actualizar). Copia firebase-config.example.js → firebase-config.js
-       *  y pega ahí tus datos. Se carga abajo, en init().
-       * ════════════════════════════════════════════════════════════════ */
-      let firebaseConfig = null;
-
-      const FETCH_LIMIT = 1000;
-      const PAGE_SIZE = 24;
+      /* Los datos los genera foodle/actualizar.js (GitHub Actions, cada día) en data/foodle.json. */
+      const DATA_URL = "data/foodle.json";
+      const PAGE_SIZE = 12;
 
       const NIVEL_LABEL = { top: "🔥 Top", rec: "👍 Recomendado", mix: "😐 Mixto", ver: "⏳ Por descubrir" };
       const NIVEL_ORDER = { top: 0, rec: 1, ver: 2, mix: 3 };
@@ -232,6 +228,7 @@
         Tradicional: "🍲", Asturiana: "🧀", Gallega: "🐙", Extremeña: "🐖",
         "Alta cocina": "⭐", Italiana: "🍝", Hamburguesas: "🍔", Dulce: "🧁",
         Bocadillos: "🥪", "Sin gluten": "🌾", Internacional: "🍱", Fusión: "🍽️", Catalana: "🍲",
+        Aragonesa: "🐑", Pescado: "🐟", Japonesa: "🍣", Asiática: "🥢", Mexicana: "🌮", Brunch: "🥞", Vegetariana: "🥗",
       };
       const GRAD = [["#3a2a05","#1d1714"],["#0e2a12","#1d1714"],["#3a1505","#1d1714"],["#2a2520","#1d1714"],["#0a2520","#1d1714"]];
 
@@ -252,7 +249,7 @@
       function toggleRuta(r) {
         if (!r || !r.id) return;
         if (ruta[r.id]) delete ruta[r.id];
-        else ruta[r.id] = { id: r.id, nombre: r.nombre, ciudad: r.ciudad, zona: r.zona, cocina: r.cocina, precio: r.precio, nivel: r.nivel, veredicto: r.veredicto, tags: r.tags, creador: r.creador, url: r.url, vid: r.vid, imagen: r.imagen, visited: false };
+        else ruta[r.id] = { id: r.id, nombre: r.nombre, ciudad: r.ciudad, zona: r.zona, direccion: r.direccion, lat: r.lat, lng: r.lng, cocina: r.cocina, precio: r.precio, precio_aprox: r.precio_aprox, nivel: r.nivel, tags: r.tags, creador: r.creador, url: r.url, visited: false };
         guardarRuta();
         if (modoRuta) renderRuta(); else render();
       }
@@ -268,19 +265,12 @@
         }
       };
 
-      // Cascada de miniaturas: si una falla (404), prueba la siguiente; si se
-      // acaban, quita el <img> y queda el degradado + emoji de respaldo.
-      window.__ytfb = (img) => {
-        const v = img.dataset.vid;
-        const steps = (img.dataset.steps || "").split(",").filter(Boolean);
-        if (v && steps.length) {
-          const next = steps.shift();
-          img.dataset.steps = steps.join(",");
-          img.src = `https://i.ytimg.com/vi/${v}/${next}`;
-        } else {
-          img.remove();
-        }
-      };
+      // Convierte los <blockquote class="instagram-media"> recién pintados en publicaciones.
+      // Si el foodie desactivó la inserción, Instagram deja el enlace del blockquote.
+      function procesarEmbeds() {
+        if (window.instgrm) window.instgrm.Embeds.process();
+        else setTimeout(() => window.instgrm && window.instgrm.Embeds.process(), 800);
+      }
       const $ = (id) => document.getElementById(id);
       const grid = $("grid"), stateSlot = $("state-slot");
       const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -297,10 +287,10 @@
       $("top-form").addEventListener("submit", (e) => { e.preventDefault(); aplicar(); });
       $("logo-home").addEventListener("click", irAInicio);
 
-      function cardHTML(r, i) {
+      function cardHTML(r, i, conEmbed = true) {
         const nivel = r.nivel || "rec";
         const g = GRAD[i % GRAD.length];
-        const sub = [r.cocina, r.direccion || r.zona, r.precio || r.precio_aprox].filter(Boolean).map((x) => `<span>${esc(x)}</span>`).join("");
+        const sub = [r.cocina && `${emojiDe(r.cocina)} ${r.cocina}`, r.direccion || r.zona, r.precio_aprox || r.precio].filter(Boolean).map((x) => `<span>${esc(x)}</span>`).join("");
         const mapsUrl = (r.lat && r.lng)
           ? `https://www.google.com/maps/search/?api=1&query=${r.lat},${r.lng}`
           : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(((r.nombre || "") + " " + (r.ciudad || "")).trim())}`;
@@ -308,45 +298,41 @@
           const cls = t.startsWith("⚠️") ? "warn" : (t.startsWith("📣") ? "publi" : (/pet/i.test(t) ? "good" : ""));
           return `<span class="tag ${cls}">${esc(t)}</span>`;
         }).join("");
-        const ph = `<div class="ph" style="background:linear-gradient(135deg,${g[0]},${g[1]})">${emojiDe(r.cocina)}</div>`;
-        // Saca el id del vídeo de vid / imagen / url, lo que haya.
-        const vid = r.vid
-          || (r.imagen && (r.imagen.match(/\/vi\/([^/]+)\//) || [])[1])
-          || (r.url && (r.url.match(/youtu\.be\/([^?&]+)/) || [])[1])
-          || null;
-        // Probamos varios tamaños de miniatura en cascada antes de rendirnos.
-        const img = vid
-          ? `${ph}<img src="https://i.ytimg.com/vi/${esc(vid)}/hqdefault.jpg" alt="${esc(r.nombre)}" loading="lazy" data-vid="${esc(vid)}" data-steps="mqdefault.jpg,0.jpg,1.jpg" onerror="window.__ytfb(this)" />`
-          : ph;
+        const ph = `<div class="ph" style="background:linear-gradient(90deg,${g[0]},${g[1]})"></div>`;
         const fav = enRuta(r.id);
-        return `<a class="card ${ruta[r.id] && ruta[r.id].visited ? "visitado" : ""}" href="${esc(r.url || "#")}" target="_blank" rel="noopener noreferrer">
-          <div class="photo">${img}
-            <button class="heart ${fav ? "on" : ""}" title="${fav ? "Quitar de mi ruta" : "Añadir a mi ruta"}" onclick="event.preventDefault();event.stopPropagation();window.__ruta('toggle','${esc(r.id)}')">${fav ? "♥" : "♡"}</button>
+        const url = esc(r.url || "#");
+        const embed = conEmbed
+          ? `<div class="embed"><blockquote class="instagram-media" data-instgrm-permalink="${url}" data-instgrm-version="14"><a class="ig-link" href="${url}" target="_blank" rel="noopener noreferrer">Ver la publicación de @${esc(r.creador || "")} en Instagram</a></blockquote></div>`
+          : "";
+        const likes = r.likes != null ? `♥ ${Number(r.likes).toLocaleString("es-ES")}` : "";
+        return `<div class="card ${ruta[r.id] && ruta[r.id].visited ? "visitado" : ""}">
+          <div class="photo">${ph}
+            <button class="heart ${fav ? "on" : ""}" title="${fav ? "Quitar de mi ruta" : "Añadir a mi ruta"}" onclick="window.__ruta('toggle','${esc(r.id)}')">${fav ? "♥" : "♡"}</button>
             <span class="nivel ${nivel}">${NIVEL_LABEL[nivel] || ""}</span>
             ${r.ciudad ? `<span class="city">📍 ${esc(r.ciudad)}</span>` : ""}
-            <button class="mapbtn" title="Cómo llegar" data-maps="${esc(mapsUrl)}" onclick="event.preventDefault();event.stopPropagation();window.open(this.dataset.maps,'_blank')">📍</button>
+            <button class="mapbtn" title="Cómo llegar" data-maps="${esc(mapsUrl)}" onclick="window.open(this.dataset.maps,'_blank')">🧭</button>
           </div>
           <div class="body">
-            <div class="name">${esc(r.nombre)}</div>
+            <div class="name"><a href="${url}" target="_blank" rel="noopener noreferrer">${esc(r.nombre || r.cocina || "Recomendación")}</a></div>
             <div class="sub">${sub}</div>
-            ${(r.resumen || r.veredicto) ? `<div class="verdict">“${esc(r.resumen || r.veredicto)}”</div>` : ""}
-            ${(r.platos && r.platos.length) ? `<div class="platos">🍴 ${r.platos.slice(0, 4).map(esc).join(" · ")}</div>` : ""}
             ${chips ? `<div class="chips-row">${chips}</div>` : ""}
             <div class="foot">
-              <span class="creator"><span class="av"></span> ${esc(r.creador || "")}</span>
-              <span class="watch">▶ Ver reseña</span>
+              <span class="creator"><span class="av"></span> @${esc(r.creador || "")}</span>
+              <span class="watch">${likes}</span>
             </div>
           </div>
-        </a>`;
+          ${embed}
+        </div>`;
       }
 
       function render() {
         const total = FILTRADOS.length;
-        $("count").innerHTML = total === 0 ? "Sin resultados" : `<strong>${total}</strong> restaurantes`;
+        $("count").innerHTML = total === 0 ? "Sin resultados" : `<strong>${total}</strong> recomendaciones`;
         if (total === 0) { showState("🔍", "No hay sitios con esos filtros", "Prueba a quitar alguno."); $("loadmore-wrap").style.display = "none"; return; }
         stateSlot.innerHTML = "";
-        grid.innerHTML = FILTRADOS.slice(0, visibles).map(cardHTML).join("");
+        grid.innerHTML = FILTRADOS.slice(0, visibles).map((r, i) => cardHTML(r, i)).join("");
         $("loadmore-wrap").style.display = visibles < total ? "flex" : "none";
+        procesarEmbeds();
       }
 
       function leer() {
@@ -357,14 +343,15 @@
         if (f.cocina && r.cocina !== f.cocina) return false;
         if (f.creador && r.creador !== f.creador) return false;
         if (f.niveles.size && !f.niveles.has(r.nivel || "rec")) return false;
-        if (f.texto) { const h = [r.nombre, r.ciudad, r.zona, r.cocina, r.veredicto, r.creador].filter(Boolean).join(" ").toLowerCase(); if (!h.includes(f.texto)) return false; }
+        if (f.texto) { const h = [r.nombre, r.ciudad, r.zona, r.direccion, r.cocina, r.creador, (r.tags || []).join(" ")].filter(Boolean).join(" ").toLowerCase(); if (!h.includes(f.texto)) return false; }
         return true;
       }
       function ordenar(arr) {
         const m = $("sort").value, c = [...arr];
         if (m === "nombre") c.sort((a, b) => (a.nombre || "").localeCompare(b.nombre || "", "es"));
         else if (m === "recientes") c.sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || "")));
-        else c.sort((a, b) => (NIVEL_ORDER[a.nivel || "rec"] ?? 1) - (NIVEL_ORDER[b.nivel || "rec"] ?? 1));
+        else if (m === "likes") c.sort((a, b) => (b.likes || 0) - (a.likes || 0));
+        else c.sort((a, b) => ((NIVEL_ORDER[a.nivel || "rec"] ?? 1) - (NIVEL_ORDER[b.nivel || "rec"] ?? 1)) || ((b.likes || 0) - (a.likes || 0)));
         return c;
       }
       function aplicar() {
@@ -395,7 +382,7 @@
           const list = porCiudad[c];
           const v = list.filter((r) => r.visited).length;
           html += `<div class="ciudad-bloque"><h3>📍 ${esc(c)}</h3><div class="prog">${v}/${list.length} visitados</div><div class="grid">`;
-          html += list.map((r, i) => `<div class="ruta-item">${cardHTML(r, i)}<div class="ruta-controls">`
+          html += list.map((r, i) => `<div class="ruta-item">${cardHTML(r, i, false)}<div class="ruta-controls">`
             + `<button class="visit ${r.visited ? "done" : ""}" onclick="window.__ruta('visited','${esc(r.id)}')">${r.visited ? "✓ Visitado" : "Marcar visitado"}</button>`
             + `<button class="quitar" onclick="window.__ruta('remove','${esc(r.id)}')">Quitar</button>`
             + `</div></div>`).join("");
@@ -427,30 +414,19 @@
 
       async function init() {
         try {
-          const m = await import("./firebase-config.js");
-          firebaseConfig = m.firebaseConfig;
-        } catch (_) { /* archivo ausente → mensaje de config abajo */ }
-
-        if (!firebaseConfig || firebaseConfig.projectId === "TU_PROYECTO") {
-          irAResultados("");
-          showState("🛠️", "Configura Firebase", 'Crea <code>firebase-config.js</code> (copia <code>firebase-config.example.js</code>) y pega ahí los datos de tu app web de Firebase.');
-          return;
-        }
-        try {
-          const app = initializeApp(firebaseConfig);
-          const db = getFirestore(app);
-          const snap = await getDocs(query(collection(db, "restaurants"), where("activo", "==", true), limit(FETCH_LIMIT)));
-          TODOS = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+          const r = await fetch(DATA_URL, { cache: "no-cache" });
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          TODOS = await r.json();
           if (TODOS.length === 0) {
             irAResultados("");
-            showState("🍽️", "Aún no hay restaurantes", "Ejecuta <code>node foodle/extract.js @canal --firestore</code> para llenar la base de datos y recarga.");
+            showState("🍽️", "Aún no hay recomendaciones", "Estamos reuniendo las primeras publicaciones de los foodies. Vuelve pronto.");
             return;
           }
           poblar();
         } catch (e) {
           console.error(e);
           irAResultados("");
-          showState("⚠️", "Error al cargar", "Revisa la consola del navegador: config de Firebase o reglas de Firestore.");
+          showState("⚠️", "Error al cargar", "No se han podido leer los datos. Prueba a recargar la página.");
         }
       }
       init();
