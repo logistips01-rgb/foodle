@@ -6,7 +6,7 @@
  * Lee el pie de una publicación de Instagram y saca:
  *   - restaurante → línea "📍 …" o primera @mención que no sea el propio foodie
  *   - ciudad      → diccionario de ciudades (más peso si va en #hashtag o en la línea 📍)
- *   - zona        → barrios de las ciudades que los tienen (de momento Zaragoza)
+ *   - zona        → barrios de las ciudades que los tienen (Zaragoza y Madrid)
  *   - cocina      → palabras clave (pizza, sushi, kebab, hamburguesas…)
  *   - local       → tipo de sitio: bar de tapas, a la carta, menú del día, degustación, cafetería…
  *   - precio      → "€ por persona / menú / ticket" o palabras (barato, caro…)
@@ -114,6 +114,29 @@ const BARRIOS = {
     'La Jota': ['la jota'],
     'Santa Isabel': ['santa isabel'],
     'Expo / Ranillas': ['ranillas', 'expo'],
+  },
+  // Ojo con los alias cortos: "sol" casaría con "sol Repsol"; por eso "puerta del sol".
+  Madrid: {
+    'Malasaña': ['malasana', 'plaza del dos de mayo'],
+    'Chueca': ['chueca'],
+    'Lavapiés': ['lavapies', 'embajadores'],
+    'La Latina': ['la latina', 'cava baja', 'cava alta'],
+    'Sol': ['puerta del sol'],
+    'Barrio de las Letras': ['barrio de las letras', 'huertas', 'plaza de santa ana'],
+    'Austrias': ['madrid de los austrias', 'plaza mayor', 'mercado de san miguel'],
+    'Ópera': ['plaza de oriente', 'barrio de opera'],
+    'Gran Vía': ['gran via'],
+    'Conde Duque': ['conde duque'],
+    'Salamanca': ['barrio de salamanca', 'goya', 'serrano', 'velazquez', 'jorge juan', 'ortega y gasset'],
+    'Chamberí': ['chamberi', 'ponzano', 'trafalgar', 'rios rosas', 'alonso cano'],
+    'Retiro': ['el retiro', 'barrio del retiro', 'parque del retiro', 'ibiza', 'nino jesus'],
+    'Argüelles / Moncloa': ['arguelles', 'moncloa'],
+    'Tetuán': ['tetuan', 'bravo murillo'],
+    'Chamartín': ['chamartin', 'prosperidad', 'castellana'],
+    'Arganzuela': ['arganzuela', 'matadero', 'legazpi', 'delicias'],
+    'Usera': ['usera'],
+    'Carabanchel': ['carabanchel'],
+    'Vallecas': ['vallecas'],
   },
 };
 
