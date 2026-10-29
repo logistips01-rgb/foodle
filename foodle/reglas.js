@@ -467,4 +467,4 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
   return { nombre, ig_local, ciudad, zona, dir_pie, cocina, local, precio, precio_aprox, nivel, publi, tags };
 }
 
-module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS, LOCALES };
+module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS, LOCALES, PERTENECE };

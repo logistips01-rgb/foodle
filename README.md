@@ -45,6 +45,19 @@ foodle/manual.json  ──┐        │  pie, fecha, enlace, likes, comentarios
 - Para abrir la web al público, Meta tiene que aprobar la app (App Review).
   Mientras, se pueden añadir publicaciones a mano en `foodle/manual.json`.
 
+## Norma para los foodies
+
+Igual en todas las ciudades. Un foodie entra en `foodle/foodies.json` solo si:
+
+1. es **cuenta profesional** (si no, la API no la lee);
+2. ha **publicado en los últimos 90 días**;
+3. **al menos la mitad** de sus últimas 30 publicaciones son recomendaciones de sitios o comidas concretas
+   (fuera los que publican de todo: moda, lifestyle, viajes sin orden…);
+4. su **ciudad** es la mayoritaria en esas publicaciones (un municipio de su área cuenta como la ciudad).
+
+Se comprueba con `node foodle/comprobar.js --ciudad Madrid usuario1 usuario2 …` (o `--lista` para los que
+ya están). La actualización diaria avisa (⚠️) de los que dejan de cumplirla.
+
 ## Archivos que se tocan a mano
 
 | Archivo | Para qué |

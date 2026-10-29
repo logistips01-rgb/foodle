@@ -102,6 +102,19 @@ const sinOsm = args.includes('--sin-osm');
     if (excluidos.has(String(p.creador || '').toLowerCase())) delete posts[k];
   }
 
+  // Norma de foodies (ver foodle/comprobar.js): avisa de los que han dejado de cumplirla.
+  const { NORMA } = require('./comprobar');
+  for (const f of foodies) {
+    const u = f.usuario.replace(/^@/, '').toLowerCase();
+    const suyos = Object.values(posts).filter((p) => String(p.creador || '').toLowerCase() === u)
+      .sort((a, b) => String(b.fecha || '').localeCompare(String(a.fecha || ''))).slice(0, NORMA.muestra);
+    if (!suyos.length) continue;
+    const dias = Math.round((Date.now() - new Date(suyos[0].fecha)) / 864e5);
+    const util = suyos.filter((p) => { const c = clasificar(p); return c.nombre || c.ig_local || c.cocina; }).length / suyos.length;
+    if (dias > NORMA.dias) console.log(`  ⚠️  @${u}: no publica desde hace ${dias} días (norma: ${NORMA.dias})`);
+    else if (suyos.length >= 15 && util < NORMA.minUtil) console.log(`  ⚠️  @${u}: solo ${Math.round(util * 100)} % de recomendaciones (norma: ${NORMA.minUtil * 100} %)`);
+  }
+
   // 2. Manuales
   for (const m of manual) {
     const k = shortcode(m.url);
