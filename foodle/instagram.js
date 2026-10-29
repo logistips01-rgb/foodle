@@ -24,7 +24,7 @@ const IG_USER_ID = process.env.IG_USER_ID || '17841437741882903';
 const CAMPOS_MEDIA = 'id,caption,timestamp,permalink,like_count,comments_count,media_type,media_product_type';
 
 function proof(token) {
-  const secret = process.env.FB_APP_SECRET;
+  const secret = String(process.env.FB_APP_SECRET || '').trim();
   return secret ? crypto.createHmac('sha256', secret).update(token).digest('hex') : null;
 }
 
@@ -35,8 +35,11 @@ const LIMITE = /^(4|17|32|613)$/; // límites de uso de la app / del usuario
 // 50 publicaciones gasta ~4 % de "total_time" por llamada: con muchos foodies se agota.
 let uso = 0;
 
+// Al pegar el secreto en GitHub es fácil arrastrar comillas, espacios o un salto de línea.
+const limpiar = (t) => String(t || '').trim().replace(/^["']|["']$/g, '').trim();
+
 async function graph(ruta, params = {}, intento = 0) {
-  const token = process.env.FB_TOKEN;
+  const token = limpiar(process.env.FB_TOKEN);
   if (!token) throw new Error('Falta FB_TOKEN');
   // Frena antes de llegar al límite en vez de chocar con él.
   if (uso >= 80) {
@@ -118,11 +121,11 @@ async function publicacionesDe(username, max = 50) {
  * en el token de la Página, que no caduca. Business Discovery funciona con ambos.
  */
 async function tokenSinCaducidad(appId) {
-  const corto = process.env.FB_TOKEN;
+  const corto = limpiar(process.env.FB_TOKEN);
   const largo = await (await fetch(`${GRAPH}/oauth/access_token?` + new URLSearchParams({
     grant_type: 'fb_exchange_token',
     client_id: appId,
-    client_secret: process.env.FB_APP_SECRET,
+    client_secret: String(process.env.FB_APP_SECRET || '').trim(),
     fb_exchange_token: corto,
   }))).json();
   if (!largo.access_token) throw new Error(`Intercambio de token: ${JSON.stringify(largo.error || largo)}`);

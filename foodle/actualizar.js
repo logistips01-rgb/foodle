@@ -58,7 +58,7 @@ const sinOsm = args.includes('--sin-osm');
   // 1. Instagram
   if (process.env.FB_TOKEN) {
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
-    console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO || `${MAX_DIARIO}, o ${MAX_NUEVO} si es nuevo`} publicaciones c/u)…`);
+    console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
     for (const f of foodies) {
       const u = f.usuario.replace(/^@/, '');
       const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
