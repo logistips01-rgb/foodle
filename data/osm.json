@@ -4089,5 +4089,295 @@
   "lng": 2.1547636,
   "direccion": "Carrer Gran de Gràcia 98, Barcelona"
  },
- "boboli fashion|girona": null
+ "boboli fashion|girona": null,
+ "blackandwhite burger|barcelona": null,
+ "esquinitadelmojito|barcelona": null,
+ "l antiquari gastronòmic|barcelona": null,
+ "cervecería el doble|madrid": null,
+ "maur|barcelona": {
+  "lat": 41.3797699,
+  "lng": 2.1614112,
+  "direccion": "Carrer del Comte d'Urgell 9, 11, Barcelona"
+ },
+ "la magia mexicana|barcelona": null,
+ "lo mirador|barcelona": null,
+ "la ancha|madrid": {
+  "lat": 40.4493577,
+  "lng": -3.6775549,
+  "direccion": "Calle del Príncipe de Vergara, Madrid"
+ },
+ "weber store barcelona|barcelona": null,
+ "hostal de la plaça|barcelona": null,
+ "bar mistela|madrid": null,
+ "fincanebot|barcelona": null,
+ "pueblo libre|barcelona": {
+  "lat": 41.3823507,
+  "lng": 2.1611439,
+  "direccion": "Carrer de Sepúlveda 151, Barcelona"
+ },
+ "fonda balmes|barcelona": null,
+ "chocolatería san ginés|madrid": {
+  "lat": 40.4167707,
+  "lng": -3.706803,
+  "direccion": "Pasadizo de San Ginés 5, Madrid"
+ },
+ "fismuler|barcelona": {
+  "lat": 41.3901336,
+  "lng": 2.1799602,
+  "direccion": "Carrer del Rec Comtal 17, Barcelona"
+ },
+ "mayrashizen|barcelona": null,
+ "sodemarportroses|barcelona": null,
+ "circoraluyhistorico|barcelona": null,
+ "almadraba park|girona": null,
+ "c/ de la valleta, 1, llançà, girona|girona": null,
+ "c/ vilademunt, 1, sant feliu de boada (girona)|girona": null,
+ "comidacasera|barcelona": null,
+ "la santamarket|girona": null,
+ "el corral de sant quirze|girona": null,
+ "avinguda de platja d’aro, 291, s’agaró|barcelona": null,
+ "sódemar|girona": null,
+ "maymanta|barcelona": null,
+ "tartana can massanet|barcelona": null,
+ "can parera|girona": null,
+ "carretera de blanes a lloret de mar, km 7, 8|girona": null,
+ "can joan|girona": null,
+ "c/ de lleó, 13, badalona (a 15 minutos  de barcelona)|badalona": null,
+ "carrer de argentona, 1, 3, cabrera de mar (barcelona)|barcelona": null,
+ "sheglam|barcelona": null,
+ "laura sanes|barcelona": null,
+ "amigas|barcelona": null,
+ "anst2610|barcelona": null,
+ "edgar pb|barcelona": null,
+ "codigomurphy2 0|barcelona": null,
+ "santuari de queralt|barcelona": null,
+ "lestació espai gastronòmic estaciorestaurant|barcelona": null,
+ "turkishairlines|barcelona": null,
+ "barcelona turisme|barcelona": {
+  "lat": 41.4337222,
+  "lng": 2.1808806,
+  "direccion": "Passeig d'Andreu Nin, Barcelona"
+ },
+ "caldes de montbui|barcelona": null,
+ "casa labra|madrid": {
+  "lat": 40.4171561,
+  "lng": -3.7046107,
+  "direccion": "Calle de Tetuán 12, Madrid"
+ },
+ "es parc dels germans gabrielistes|barcelona": null,
+ "teatre més petit del món|barcelona": {
+  "lat": 41.405816,
+  "lng": 2.1590143,
+  "direccion": "Carrer de l'Encarnació 25, Barcelona"
+ },
+ "prezzemolobarcelona|barcelona": null,
+ "monasterio de piedra mondepiedra|zaragoza": null,
+ "hotel barceloraval|barcelona": null,
+ "barcelona paradoxmuseum|barcelona": null,
+ "getyourguidecommunity|barcelona": null,
+ "sitges|barcelona": null,
+ "bheaven|barcelona": null,
+ "cellersuitesboutiqueapartments|barcelona": null,
+ "pulse up|barcelona": null,
+ "parc del llac|barcelona": null,
+ "nextlevelarcadebar|barcelona": null,
+ "machakaburger|barcelona": null,
+ "casabatllo|barcelona": null,
+ "en girona|girona": null,
+ "passatge de josep llovera|barcelona": {
+  "lat": 41.3959616,
+  "lng": 2.1482256,
+  "direccion": "Passatge de Josep Llovera, Barcelona"
+ },
+ "avenida de francesc cambó, 30, barcelona|barcelona": null,
+ "hotel sir victor|barcelona": {
+  "lat": 41.3962081,
+  "lng": 2.1609608,
+  "direccion": "Carrer del Rosselló 265, Barcelona"
+ },
+ "fira de sabadell|barcelona": null,
+ "carrer consell de cent, 282 barcelona|barcelona": {
+  "lat": 41.3893451,
+  "lng": 2.1636002,
+  "direccion": "Carrer del Consell de Cent, Barcelona"
+ },
+ "cocopool es|barcelona": null,
+ "para observarlo|barcelona": null,
+ "plaça reial, 10 barcelona|barcelona": {
+  "lat": 41.3800985,
+  "lng": 2.1752608,
+  "direccion": "Barcelona"
+ },
+ "zakariyazitouni ai|barcelona": null,
+ "cardona|barcelona": null,
+ "anthonyblake|barcelona": null,
+ "vila vermella|tarragona": null,
+ "castell cartoixa de vallparadís|sant cugat": null,
+ "ciutadella ibèrica de calafell|barcelona": null,
+ "viladomiu|barcelona": null,
+ "dinar a ca la maria.|barcelona": null,
+ "salt de can batlle|girona": null,
+ "carrer de la junta de comerç, 17, al centre de barcelona|barcelona": null,
+ "la rambleta begues|barcelona": null,
+ "bubó bubobarcelona|barcelona": null,
+ "centro de barcelona|barcelona": {
+  "lat": 41.3970116,
+  "lng": 2.1461082,
+  "direccion": "Carrer de Muntaner 314, Barcelona"
+ },
+ "bloodymarybcn|barcelona": null,
+ "valentinaepasqualina tiramisu|barcelona": null,
+ "shakira|barcelona": null,
+ "pueblolibretaberna|barcelona": null,
+ "c/ enric granados, esquina parís|barcelona": null,
+ "queenys|barcelona": null,
+ "surprise box|barcelona": null,
+ "cadaqués|barcelona": {
+  "lat": 41.3816252,
+  "lng": 2.1834724,
+  "direccion": "Carrer de la Reina Cristina 6, Barcelona"
+ },
+ "mas guinardó|barcelona": {
+  "lat": 41.4184973,
+  "lng": 2.1748042,
+  "direccion": "Carrer Antic del Guinardó, Barcelona"
+ },
+ "hospital del mar|barcelona": {
+  "lat": 41.3837082,
+  "lng": 2.1939577,
+  "direccion": "Carrer del Doctor Aiguader, Barcelona"
+ },
+ "cccb  barcelona|barcelona": {
+  "lat": 41.383693,
+  "lng": 2.1662438,
+  "direccion": "Pati de les Dones, Barcelona"
+ },
+ "vidre art gallery|barcelona": null,
+ "ufesa|barcelona": null,
+ "zwilling es|barcelona": {
+  "lat": 41.3953365,
+  "lng": 2.1557708,
+  "direccion": "Avinguda Diagonal (lateral mar) 407, Barcelona"
+ },
+ "sorbete|barcelona": null,
+ "lurpak es|barcelona": null,
+ "mantis|barcelona": null,
+ "newtasteofindiaheroncity|valencia": null,
+ "eat jenkins|valencia": null,
+ "corgicafe|barcelona": null,
+ "whiterabbit|barcelona": null,
+ "plaza musical de torrent|valencia": null,
+ "c/ valdelinares 19, campanar (valencia)|valencia": {
+  "lat": 39.4808768,
+  "lng": -0.3959186,
+  "direccion": "Calle de Valdelinares 19, Valencia"
+ },
+ "manuelperistirado|valencia": null,
+ "nikolem art nails|valencia": null,
+ "tendencias|valencia": null,
+ "love epil spain|valencia": null,
+ "albacete|valencia": {
+  "lat": 39.4614471,
+  "lng": -0.385495,
+  "direccion": "Calle de Albacete, Valencia"
+ },
+ "elgarajefoodie|valencia": null,
+ "oci93lauravplifestyle7356|valencia": null,
+ "c/ del dr, manuel candela, 65, algirós, 46021, valencia|valencia": null,
+ "pl. de jules verne, 12, jesús, 46017, valencia|valencia": {
+  "lat": 39.4503585,
+  "lng": -0.391876,
+  "direccion": "Plaza de Julio Verne, Valencia"
+ },
+ "chez filete|valencia": null,
+ "c/ de vicent sancho tello, 19, el pla del real, 46021, valencia|valencia": {
+  "lat": 39.4697108,
+  "lng": -0.3567733,
+  "direccion": "Calle de Vicente Sancho Tello, Valencia"
+ },
+ "hi noodles|valencia": null,
+ "toka wok|valencia": null,
+ "c/ ferrandis luna, 38, 46940, manises, valencia|valencia": null,
+ "horchatería paco|valencia": null,
+ "c/ de la vall de la ballestera, 43, campanar, 46015, valencia|valencia": {
+  "lat": 39.4787437,
+  "lng": -0.4002672,
+  "direccion": "Calle del Valle de la Ballestera, Valencia"
+ },
+ "46024 valencia|valencia": {
+  "lat": 39.4527679,
+  "lng": -0.3357355,
+  "direccion": "Valencia"
+ },
+ "zana pasta|valencia": null,
+ "c/ de pelai, 23, extramurs, 46007, valencia|valencia": {
+  "lat": 39.4656921,
+  "lng": -0.3790856,
+  "direccion": "Calle de Pelayo, Valencia"
+ },
+ "miguel piles charcutería selecta|valencia": null,
+ "c/ nº 2 núcleo 25, 99, 46900 torrent, valencia|valencia": null,
+ "c/ de sevilla, 12, l’eixample, 46006, valencia|valencia": {
+  "lat": 39.4637937,
+  "lng": -0.374119,
+  "direccion": "Calle Sevilla 12, Valencia"
+ },
+ "cheecks|valencia": null,
+ "c/ dr, corachán, s/n, 46370, valencia|valencia": null,
+ "taberna gourmet la casota|valencia": null,
+ "avenida islas canarias, 16, c.c, los charcos, 35509 costa teguise, lanzarote|valencia": null,
+ "la tahona del abuelo|valencia": {
+  "lat": 39.4716721,
+  "lng": -0.330889,
+  "direccion": "Calle de los Ángeles 84, Valencia"
+ },
+ "c/ juan pablo ii, 12003, castellón|castellón": {
+  "lat": 39.9854255,
+  "lng": -0.017318,
+  "direccion": "Calle Juan Pablo II, Castellón de la Plana"
+ },
+ "av. de tirso de molina, 3, campanar, 46009, valencia|valencia": {
+  "lat": 39.4787322,
+  "lng": -0.3924444,
+  "direccion": "Avenida Tirso de Molina 3, Valencia"
+ },
+ "bodegas gargallo bocatería|valencia": null,
+ "c/ dels dauradors, 16, 12500, vinaròs, castellón|castellón": null,
+ "municipio|valencia": {
+  "lat": 39.4697977,
+  "lng": -0.3771993,
+  "direccion": "Plaza del Ayuntamiento, Valencia"
+ },
+ "c/ de borriana, 37, l’eixample, 46005, valencia|valencia": {
+  "lat": 39.4659805,
+  "lng": -0.3648466,
+  "direccion": "Calle Burriana 37, Valencia"
+ },
+ "in ristolab|madrid": {
+  "lat": 40.4288097,
+  "lng": -3.6993858,
+  "direccion": "Calle de Francisco de Rojas 2, Madrid"
+ },
+ "barnali food cash & carry|valencia": null,
+ "mandarina lacesta|valencia": null,
+ "ctra, general, 69, 38740, los canarios, santa cruz de tenerife|valencia": null,
+ "passeig de russafa, 4, ciutat vella, 46002, valencia|valencia": {
+  "lat": 39.4686973,
+  "lng": -0.3754835,
+  "direccion": "Paseo de Ruzafa 4, Valencia"
+ },
+ "passeig de l’albereda, 14, el pla del real, 46010, valencia|valencia": {
+  "lat": 39.4743907,
+  "lng": -0.3643359,
+  "direccion": "Paseo de la Alameda 14, Valencia"
+ },
+ "la bien parida|valencia": null,
+ "c/ virgen del losar, 12, 46520, port de sagunt, valencia|valencia": null,
+ "yuzu café|valencia": null,
+ "el asador de mikkonos|valencia": null,
+ "el jueves|sevilla": {
+  "lat": 37.399442,
+  "lng": -5.9917031,
+  "direccion": "Calle Feria, Sevilla"
+ }
 }

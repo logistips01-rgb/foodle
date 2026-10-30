@@ -2,7 +2,7 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1361
+  "n": 1365
  },
  {
   "nombre": "Barcelona",
@@ -12,22 +12,27 @@
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 546
+  "n": 547
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 487
+  "n": 489
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 244
+  "n": 279
+ },
+ {
+  "nombre": "Bilbao",
+  "slug": "bilbao",
+  "n": 210
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 53
+  "n": 54
  },
  {
   "nombre": "Córdoba",
@@ -35,9 +40,14 @@
   "n": 44
  },
  {
+  "nombre": "Burgos",
+  "slug": "burgos",
+  "n": 43
+ },
+ {
   "nombre": "A Coruña",
   "slug": "a-coruna",
-  "n": 41
+  "n": 43
  },
  {
   "nombre": "Málaga",
@@ -45,9 +55,9 @@
   "n": 40
  },
  {
-  "nombre": "Burgos",
-  "slug": "burgos",
-  "n": 35
+  "nombre": "Vitoria",
+  "slug": "vitoria",
+  "n": 30
  },
  {
   "nombre": "Leganés",
@@ -57,7 +67,22 @@
  {
   "nombre": "Cádiz",
   "slug": "cadiz",
+  "n": 26
+ },
+ {
+  "nombre": "Valladolid",
+  "slug": "valladolid",
   "n": 25
+ },
+ {
+  "nombre": "Castellón",
+  "slug": "castellon",
+  "n": 25
+ },
+ {
+  "nombre": "Santander",
+  "slug": "santander",
+  "n": 24
  },
  {
   "nombre": "Dos Hermanas",
@@ -72,6 +97,11 @@
  {
   "nombre": "Granada",
   "slug": "granada",
+  "n": 20
+ },
+ {
+  "nombre": "Barakaldo",
+  "slug": "barakaldo",
   "n": 19
  },
  {
@@ -87,12 +117,22 @@
  {
   "nombre": "Girona",
   "slug": "girona",
-  "n": 17
+  "n": 18
+ },
+ {
+  "nombre": "Tarragona",
+  "slug": "tarragona",
+  "n": 14
  },
  {
   "nombre": "Getafe",
   "slug": "getafe",
   "n": 14
+ },
+ {
+  "nombre": "Huesca",
+  "slug": "huesca",
+  "n": 13
  },
  {
   "nombre": "Toledo",
@@ -105,19 +145,14 @@
   "n": 12
  },
  {
-  "nombre": "Huesca",
-  "slug": "huesca",
-  "n": 12
- },
- {
-  "nombre": "Tarragona",
-  "slug": "tarragona",
-  "n": 11
- },
- {
   "nombre": "Las Rozas",
   "slug": "las-rozas",
   "n": 11
+ },
+ {
+  "nombre": "Getxo",
+  "slug": "getxo",
+  "n": 10
  },
  {
   "nombre": "Fuenlabrada",
@@ -130,24 +165,19 @@
   "n": 10
  },
  {
-  "nombre": "Bilbao",
-  "slug": "bilbao",
-  "n": 9
- },
- {
   "nombre": "Sant Cugat",
   "slug": "sant-cugat",
   "n": 9
  },
  {
-  "nombre": "Teruel",
-  "slug": "teruel",
+  "nombre": "San Sebastián de los Reyes",
+  "slug": "san-sebastian-de-los-reyes",
   "n": 8
  },
  {
-  "nombre": "San Sebastián de los Reyes",
-  "slug": "san-sebastian-de-los-reyes",
-  "n": 7
+  "nombre": "Teruel",
+  "slug": "teruel",
+  "n": 8
  },
  {
   "nombre": "Murcia",
@@ -160,8 +190,8 @@
   "n": 6
  },
  {
-  "nombre": "Castellón",
-  "slug": "castellon",
+  "nombre": "Torrejón",
+  "slug": "torrejon",
   "n": 6
  },
  {
@@ -172,16 +202,6 @@
  {
   "nombre": "Pozuelo",
   "slug": "pozuelo",
-  "n": 5
- },
- {
-  "nombre": "Valladolid",
-  "slug": "valladolid",
-  "n": 5
- },
- {
-  "nombre": "Torrejón",
-  "slug": "torrejon",
   "n": 5
  }
 ]
