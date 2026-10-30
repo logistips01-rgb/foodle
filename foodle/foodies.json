@@ -62,5 +62,6 @@
   { "usuario": "comiendoconainoa", "ciudad": "Madrid", "nota": "Madrid; 18k, 90 % de comida (comprobado con la API el 29/10/2026)" },
   { "usuario": "raf_decan", "nota": "Madrid; 17k, 27 % de comida (comprobado con la API el 29/10/2026)" },
   { "usuario": "eatinigo", "ciudad": "Madrid", "nota": "Madrid; 6k, 77 % de comida (comprobado con la API el 29/10/2026)" },
-  { "usuario": "gastrovidas", "ciudad": "Madrid", "nota": "Madrid; 4k, 93 % de comida (comprobado con la API el 29/10/2026)" }
+  { "usuario": "gastrovidas", "ciudad": "Madrid", "nota": "Madrid; 4k, 93 % de comida (comprobado con la API el 29/10/2026)" },
+  { "usuario": "rincones_dmadrid", "nota": "Madrid; 136k, guía de Madrid (agenda y gastronomía), 30 % de comida (comprobado con la API el 30/10/2026)" }
 ]
