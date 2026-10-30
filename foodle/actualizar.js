@@ -19,6 +19,7 @@
  *   node foodle/actualizar.js            # 15 publicaciones por foodie ya conocido, 50 si es nuevo
  *   node foodle/actualizar.js 100        # 100 por foodie (todos)
  *   node foodle/actualizar.js --sin-osm  # sin OpenStreetMap
+ *   node foodle/actualizar.js --minutos 105  # para cargas grandes por tandas (para de leer a los 105 min)
  *
  * Node 20+ (fetch nativo). Sin dependencias.
  */
@@ -52,6 +53,11 @@ const args = process.argv.slice(2);
 const MAX_FIJO = args.find((a) => /^\d+$/.test(a));
 const MAX_DIARIO = 15, MAX_NUEVO = 50;
 const sinOsm = args.includes('--sin-osm');
+// --minutos N: deja de leer Instagram a los N minutos y termina normal (clasifica, guarda y genera páginas).
+// Para cargas grandes por tandas: la siguiente ejecución sigue con los foodies que falten.
+const iMin = args.indexOf('--minutos');
+const LIMITE_MS = iMin >= 0 ? parseFloat(args[iMin + 1]) * 60000 : Infinity;
+const INICIO = Date.now();
 
 (async () => {
   fs.mkdirSync(DATA, { recursive: true });
@@ -79,8 +85,10 @@ const sinOsm = args.includes('--sin-osm');
     } catch (_) { /* si falla, ya lo dirá la primera llamada */ }
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
     console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
+    let leidos = 0;
     for (const f of foodies) {
       const u = f.usuario.replace(/^@/, '');
+      if (Date.now() - INICIO > LIMITE_MS) { console.log(`  ⏱️  Límite de tiempo: paro aquí (sigue en la próxima ejecución desde @${u})`); break; }
       if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
       const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
       try {
@@ -95,6 +103,9 @@ const sinOsm = args.includes('--sin-osm');
           posts[k] = { ...posts[k], ...resto, origen: 'api' };
         }
         console.log(`  @${u}: ${res.posts.length} leídas · ${nuevos} nuevas`);
+        // Guarda cada 5 foodies: si la ejecución se corta (límites de tiempo), la siguiente sigue donde se quedó
+        // (los ya leídos cuentan como conocidos y solo se piden 15 publicaciones).
+        if (++leidos % 5 === 0) { escribir(F.posts, posts); if (textos) pies.guardar(textos); }
       } catch (e) {
         console.log(`  💥 @${u}: ${e.message}`);
         if (e.code === 190) {
