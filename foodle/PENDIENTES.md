@@ -42,7 +42,8 @@ Actualizado: 30/10/2026.
 - [ ] **Famosos y recomendaciones** (más adelante).
 - [ ] **Buscador de recetas** (idea para más adelante, web aparte). Foodle es solo para ir a comer a sitios: las
       recetas y la comida hecha en casa no salen (regla `CASA` en reglas.js) y las cuentas de recetas quedan fuera
-      (`excluidos.json`; la norma rechaza más del 15 % de recetas). Si se hace, esas cuentas serían la base.
+      (`excluidos.json`; la norma rechaza más del 15 % de recetas). Si se hace, esas cuentas serían la base,
+      junto con @arrocesdebandera (paellas de Manuel), que podría ir como cuenta propia destacada.
 
 ## Hecho el 30/10 (revisión legal)
 
