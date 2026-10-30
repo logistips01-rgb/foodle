@@ -26,7 +26,7 @@ Actualizado: 30/10/2026.
 - [ ] Unas **700 fichas sin nombre** del sitio (salen con el tipo de comida). Corregir a mano las importantes en
       `foodle/correcciones.json`.
 - [ ] **Más foodies de Alcobendas / zona norte** (pedir nombres a la familia).
-- [ ] **En curso:** Barcelona, Valencia, Bilbao y Sevilla (candidatos comprobados con la norma, barrios ya puestos).
+- [x] Barcelona, Valencia, Bilbao y Sevilla cargadas (30/10).
 - [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
       Comunidad Valenciana (Alicante, Castellón, Elche, Benidorm, Dénia, Gandía…) y País Vasco (Donostia, Vitoria,
       Getxo, Zarautz…).
@@ -40,6 +40,9 @@ Actualizado: 30/10/2026.
 - [ ] **Luego:** Extremadura (Badajoz, Cáceres, Mérida, Plasencia…), las islas (Baleares: Palma, Ibiza, Menorca;
       Canarias: Las Palmas, Santa Cruz de Tenerife, Lanzarote, Fuerteventura…) y Ceuta y Melilla.
 - [ ] **Famosos y recomendaciones** (más adelante).
+- [ ] **Buscador de recetas** (idea para más adelante, web aparte). Foodle es solo para ir a comer a sitios: las
+      recetas y la comida hecha en casa no salen (regla `CASA` en reglas.js) y las cuentas de recetas quedan fuera
+      (`excluidos.json`; la norma rechaza más del 15 % de recetas). Si se hace, esas cuentas serían la base.
 
 ## Hecho el 30/10 (revisión legal)
 
