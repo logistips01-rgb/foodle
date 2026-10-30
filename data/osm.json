@@ -3469,5 +3469,303 @@
   "lat": 40.4208054,
   "lng": -3.6982043,
   "direccion": "Calle de Barbieri 6, Madrid"
- }
+ },
+ "trafalgar del mar|badalona": null,
+ "estación de atocha|madrid": {
+  "lat": 40.4065055,
+  "lng": -3.6898891,
+  "direccion": "Intercambiador de Atocha, Madrid"
+ },
+ "apit|madrid": null,
+ "reservas|madrid": null,
+ "lugar|madrid": {
+  "lat": 40.4663664,
+  "lng": -3.7189228,
+  "direccion": "Madrid"
+ },
+ "miradores incluidos este año|madrid": null,
+ "salida|madrid": {
+  "lat": 40.4799363,
+  "lng": -3.6885412,
+  "direccion": "Salida Anillo Distribuidor Cuatro Torres, Madrid"
+ },
+ "convento de los padres capuchinos|madrid": null,
+ "cerro almodóvar|madrid": {
+  "lat": 40.3862662,
+  "lng": -3.5979615,
+  "direccion": "Madrid"
+ },
+ "entes|madrid": null,
+ "carrer de matias perelló, 15, l'eixample, 46005 valència, valencia|valencia": null,
+ "08918 badalona, barcelona|badalona": {
+  "lat": 41.4336706,
+  "lng": 2.2269561,
+  "direccion": "Badalona"
+ },
+ "tendencias|barcelona": null,
+ "mura|barcelona": null,
+ "emma colchon|barcelona": null,
+ "aqualandia|barcelona": null,
+ "terramitica|barcelona": null,
+ "festival fits|barcelona": null,
+ "valeriia color|barcelona": null,
+ "maria almenar|barcelona": null,
+ "carrer nou de la rambla 35, barcelona|barcelona": {
+  "lat": 41.3778272,
+  "lng": 2.173039,
+  "direccion": "Carrer Nou de la Rambla 35, Barcelona"
+ },
+ "carrer de l’encarnació, 38, gràcia|barcelona": {
+  "lat": 41.4060948,
+  "lng": 2.1597082,
+  "direccion": "Carrer de l'Encarnació 38, Barcelona"
+ },
+ "le barcares village de noel|barcelona": null,
+ "badiani1932 es|barcelona": null,
+ "plaça dels àngels, 1, ciutat vella|barcelona": {
+  "lat": 41.3827589,
+  "lng": 2.1670692,
+  "direccion": "Barcelona"
+ },
+ "todo|barcelona": null,
+ "passeig de gracia|barcelona": {
+  "lat": 41.3942764,
+  "lng": 2.1619998,
+  "direccion": "Passeig de Gràcia (lateral Llobregat), Barcelona"
+ },
+ "zinc|barcelona": null,
+ "agua|barcelona": {
+  "lat": 41.3848204,
+  "lng": 2.1960272,
+  "direccion": "Passeig Marítim de la Barceloneta - Oriol Bohigas i Guardiola, Barcelona"
+ },
+ "tefal es|barcelona": null,
+ "saludable|barcelona": null,
+ "jugodetox|barcelona": null,
+ "cata & harry|barcelona": null,
+ "tuset|barcelona": {
+  "lat": 41.3959554,
+  "lng": 2.151957,
+  "direccion": "Carrer de Tuset, Barcelona"
+ },
+ "recetasaludable|barcelona": null,
+ "oysho community|barcelona": null,
+ "recetasaludables|barcelona": null,
+ "goja rooftop|barcelona": null,
+ "kenwood es|barcelona": null,
+ "poble espanyol|barcelona": {
+  "lat": 41.3695531,
+  "lng": 2.146762,
+  "direccion": "Avinguda de Francesc Ferrer i Guàrdia, Barcelona"
+ },
+ "encontrarás lugares|barcelona": null,
+ "coco lounge & restaurant|barcelona": null,
+ "talkingtom kids|barcelona": null,
+ "rayan brunch|l'hospitalet": null,
+ "catalunya en miniatura|barcelona": null,
+ "pertenecer|barcelona": null,
+ "teatre de sant andreu|barcelona": {
+  "lat": 41.4304645,
+  "lng": 2.1884538,
+  "direccion": "Carrer de Neopàtria 50, Barcelona"
+ },
+ "circuit de barcelonacatalunya|barcelona": null,
+ "estamos en magic play zone|castellón": null,
+ "bertos milanesa|barcelona": null,
+ "house of candy|barcelona": {
+  "lat": 41.3878103,
+  "lng": 2.1665603,
+  "direccion": "Gran Via de les Corts Catalanes (lateral mar) 618, Barcelona"
+ },
+ "detalle|barcelona": null,
+ "oncity resort|barcelona": null,
+ "carrer del consell de cent , 408 eixample ( bcn )|barcelona": {
+  "lat": 41.3968896,
+  "lng": 2.173611,
+  "direccion": "Carrer del Consell de Cent 408, Barcelona"
+ },
+ "mollet del vallès|barcelona": null,
+ "infierno|barcelona": null,
+ "horrorland|barcelona": null,
+ "creepy|barcelona": null,
+ "trafalgar pizza club|barcelona": null,
+ "cine|sant cugat": {
+  "lat": 41.4832299,
+  "lng": 2.0537817,
+  "direccion": "Avinguda de la Via Augusta 2-14, Sant Cugat del Vallès"
+ },
+ "hijumppark sabadell|barcelona": null,
+ "passatge de pere calders|barcelona": null,
+ "jennifer morejon fotografia|barcelona": null,
+ "can pizza universitat|barcelona": {
+  "lat": 41.3868614,
+  "lng": 2.1676652,
+  "direccion": "Ronda de la Universitat 20, Barcelona"
+ },
+ "parc vallès|barcelona": null,
+ "parrizal|teruel": null,
+ "nomo|madrid": null,
+ "carrer de bilbao, 140, sant martí, barcelona 🇪🇸|barcelona": {
+  "lat": 41.407842,
+  "lng": 2.1969919,
+  "direccion": "Carrer de Bilbao 144-140, Barcelona"
+ },
+ "calles medievales, naturaleza y paisajes que parecen sacados de una película 🤎|teruel": null,
+ "les olles|barcelona": null,
+ "cc arenas, planta 4|barcelona": null,
+ "decimas|barcelona": {
+  "lat": 41.4104982,
+  "lng": 2.217479,
+  "direccion": "Avinguda Diagonal, Barcelona"
+ },
+ "ctra. de barcelona, 191 — cerdanyola del vallès|barcelona": null,
+ "carrer dels almogàvers, 169, poblenou, barcelona|barcelona": {
+  "lat": 41.3997511,
+  "lng": 2.1934712,
+  "direccion": "Carrer dels Almogàvers 169, Barcelona"
+ },
+ "futuroscope es|barcelona": null,
+ "sodabusbarcelona|barcelona": null,
+ "parc del fòrum|barcelona": {
+  "lat": 41.4101105,
+  "lng": 2.2204167,
+  "direccion": "Barcelona"
+ },
+ "inicio y final|barcelona": null,
+ "golfo de bizkaia born|barcelona": {
+  "lat": 41.3839894,
+  "lng": 2.1830381,
+  "direccion": "Carrer de la Vidrieria, Barcelona"
+ },
+ "caprabo supermercats|barcelona": null,
+ "salida|barcelona": null,
+ "coofandy de|barcelona": null,
+ "el cccb|barcelona": {
+  "lat": 41.383693,
+  "lng": 2.1662438,
+  "direccion": "Carrer de Montalegre, Barcelona"
+ },
+ "hablamos|barcelona": null,
+ "c/ jota, 22 de #barcelona|barcelona": {
+  "lat": 41.4294528,
+  "lng": 2.1823909,
+  "direccion": "Carrer de la Jota 22,24, Barcelona"
+ },
+ "descobrint badalona|badalona": null,
+ "c/ escudellers, 10 de #barcelona|barcelona": {
+  "lat": 41.3793598,
+  "lng": 2.1762144,
+  "direccion": "Carrer dels Escudellers 10, Barcelona"
+ },
+ "latasca punk|badalona": null,
+ "c/ sant pere, 97 de badalona|badalona": {
+  "lat": 41.449515,
+  "lng": 2.2509814,
+  "direccion": "Carrer de Sant Pere, Badalona"
+ },
+ "hotel suites moma centro|barcelona": null,
+ "lunfardo bocateria|barcelona": null,
+ "passeig de camprodon i arrieta, 26, lloret de mar|barcelona": null,
+ "gastrobar|barcelona": {
+  "lat": 41.3759881,
+  "lng": 2.1572553,
+  "direccion": "Carrer de Tamarit 109, Barcelona"
+ },
+ "bistrot1954|badalona": null,
+ "c/ bailen, 158, barcelona|barcelona": {
+  "lat": 41.4000779,
+  "lng": 2.1666543,
+  "direccion": "Carrer de Bailèn 158, Barcelona"
+ },
+ "c/ mandri, 29, barcelona|barcelona": {
+  "lat": 41.403085,
+  "lng": 2.1337574,
+  "direccion": "Carrer de Mandri 29-31, Barcelona"
+ },
+ "lesbanderesbadalona|badalona": null,
+ "c/ de martínez de la rosa, 10 gràcia, #barcelona, un rincón auténtico que se va a poner de moda muy rápido|barcelona": null,
+ "l'illa diagonal|barcelona": {
+  "lat": 41.3895165,
+  "lng": 2.134703,
+  "direccion": "Avinguda Diagonal (lateral muntanya) 545-577, Barcelona"
+ },
+ "macarfi com|badalona": null,
+ "lagresca bar|barcelona": null,
+ "peru|barcelona": null,
+ "pintxos|barcelona": {
+  "lat": 41.4055986,
+  "lng": 2.1761384,
+  "direccion": "Carrer de Provença, Barcelona"
+ },
+ "estafa|barcelona": null,
+ "uchu|barcelona": null,
+ "carmen|barcelona": {
+  "lat": 41.3780804,
+  "lng": 2.1373158,
+  "direccion": "Carrer de Valladolid, Barcelona"
+ },
+ "hammer restaurants|barcelona": null,
+ "leche detigre|barcelona": null,
+ "ubereats es|badalona": null,
+ "mamut parrillero|barcelona": null,
+ "comidajaponesa|barcelona": null,
+ "tutu vietnamese cuisine|barcelona": {
+  "lat": 41.4071016,
+  "lng": 2.1877492,
+  "direccion": "Carrer del Clot 31, Barcelona"
+ },
+ "terraza|barcelona": null,
+ "salmarbarcelona|barcelona": null,
+ "el tribut|barcelona": {
+  "lat": 41.3886392,
+  "lng": 2.2011813,
+  "direccion": "Moll de Gregal, Barcelona"
+ },
+ "restaurante can quer|barcelona": null,
+ "chiringuito mona roja  castelldefels beach|barcelona": null,
+ "plaça salvador riera 2, 08041 barcelona|barcelona": null,
+ "lora barcelona|barcelona": null,
+ "carmen churros|barcelona": null,
+ "papa|barcelona": null,
+ "casa candela|barcelona": null,
+ "bodebernat arago|barcelona": null,
+ "proyectotrnd|barcelona": null,
+ "origen|barcelona": null,
+ "shein spain|barcelona": null,
+ "homeexchange esp|murcia": null,
+ "homeexchange esp|madrid": null,
+ "eclipso barcelona|barcelona": null,
+ "balloonstory live|barcelona": null,
+ "homeexchange esp|barcelona": null,
+ "fever es|barcelona": null,
+ "birrieria dos coyotes|barcelona": null,
+ "dominospizza es|barcelona": null,
+ "lentrecote barcelona|barcelona": null,
+ "tope|barcelona": null,
+ "la uramakeria|barcelona": {
+  "lat": 41.4048117,
+  "lng": 2.1992027,
+  "direccion": "Carrer de Pere IV 199, Barcelona"
+ },
+ "hacienda monasterio|barcelona": null,
+ "planazo en bcn|barcelona": null,
+ "el sushi viral en barcelona|barcelona": null,
+ "kokko brunch|barcelona": null,
+ "tienen buffet a la carta|barcelona": null,
+ "newyorker en paris|barcelona": null,
+ "restaurante peruano en sagrada familia|barcelona": null,
+ "los platos|barcelona": null,
+ "albertroca chefheladero|barcelona": null,
+ "seoul|barcelona": {
+  "lat": 41.4105472,
+  "lng": 2.1745413,
+  "direccion": "Avinguda de Gaudí 70, Barcelona"
+ },
+ "carnisseria trinxant|barcelona": {
+  "lat": 41.4001308,
+  "lng": 2.2057752,
+  "direccion": "Carrer de l'Amistat 22, Barcelona"
+ },
+ "a mano ginyburgers|barcelona": null,
+ "rooftop en poblenou|barcelona": null
 }
