@@ -28,6 +28,9 @@ Actualizado: 30/10/2026.
 - [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
       Comunidad Valenciana (Alicante, Castellón, Elche, Benidorm, Dénia, Gandía…) y País Vasco (Donostia, Vitoria,
       Getxo, Zarautz…).
+- [ ] **Después:** Navarra (Pamplona, Tudela…), Aragón completo (Huesca, Teruel, Jaca, Barbastro, Calatayud…),
+      Cantabria (Santander, Laredo, Comillas…), Asturias (Oviedo, Gijón, Avilés, Cangas…) y Galicia (A Coruña, Vigo,
+      Santiago, Pontevedra, Lugo, Ourense…).
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
