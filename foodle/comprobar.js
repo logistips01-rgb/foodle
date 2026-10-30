@@ -6,7 +6,7 @@
  * Norma (igual para todas las ciudades): que sea un foodie que publica de forma constante.
  *   1. Cuenta profesional (si no, Business Discovery no la lee).
  *   2. Constante: ha publicado en cada uno de los últimos 3 tramos de 30 días.
- *   3. Foodie: habla de sitios o de comida (las recetas hechas en casa no cuentan), y no es un
+ *   3. Foodie: va a bares y restaurantes (más del 15 % de recetas o comida hecha en casa lo deja fuera), y no es un
  *      local o negocio (lo dice su biografía: restaurante, reservas, delivery, tiendas…).
  * La ciudad NO es requisito: cada publicación se cataloga en su ciudad. Se informa de la ciudad
  * mayoritaria para ponerla en foodies.json como pista (pies que no dicen ciudad).
@@ -25,8 +25,9 @@ const { graph, IG_USER_ID } = require('./instagram');
 const { clasificar, PERTENECE } = require('./reglas');
 
 // tramos: nº de tramos de 30 días seguidos con al menos una publicación; minFoodie: parte mínima de
-// publicaciones sobre sitios o comida, solo para descartar cuentas que no son de comida.
-const NORMA = { tramos: 3, minFoodie: 0.2, muestra: 30 };
+// publicaciones sobre sitios o comida, solo para descartar cuentas que no son de comida; maxRecetas: parte
+// máxima de recetas o comida hecha en casa (se buscan foodies que van a bares y restaurantes, no cocineros).
+const NORMA = { tramos: 3, minFoodie: 0.2, maxRecetas: 0.15, muestra: 30 };
 
 /** ¿Hay al menos una publicación en cada tramo de 30 días? Si la muestra (30) se acaba antes, es que publica mucho. */
 function esConstante(fechas, llena) {
@@ -55,11 +56,12 @@ async function comprobar(usuario) {
   const dias = ultimo ? Math.round((Date.now() - new Date(ultimo)) / 864e5) : null;
   const constante = esConstante(media.map((m) => m.timestamp).filter(Boolean), media.length >= NORMA.muestra);
 
-  let utiles = 0;
+  let utiles = 0, recetas = 0;
   const ciudades = {};
   for (const m of media) {
     const c = clasificar({ pie: m.caption || '', creador: u });
-    if (!c.casa && (c.nombre || c.ig_local || c.cocina)) utiles++; // las recetas no cuentan: no son sitios
+    if (c.casa) recetas++;
+    else if (c.nombre || c.ig_local || c.cocina) utiles++; // las recetas no cuentan: no son sitios
     if (c.ciudad) {
       const grande = PERTENECE[c.ciudad] || c.ciudad;
       ciudades[grande] = (ciudades[grande] || 0) + 1;
@@ -72,6 +74,7 @@ async function comprobar(usuario) {
     ciudad: mayoritaria ? mayoritaria[0] : null, muestra: media.length,
   };
   if (!constante) return { ...res, ok: false, motivo: dias != null && dias > 30 ? `no publica desde hace ${dias} días` : 'no publica todos los meses' };
+  if (media.length && recetas / media.length > NORMA.maxRecetas) return { ...res, ok: false, motivo: `publica recetas, no visita sitios (${Math.round(100 * recetas / media.length)} % recetas)` };
   if (util < NORMA.minFoodie) return { ...res, ok: false, motivo: `no parece de comida (${res.util} %)` };
   // Un restaurante o una tienda publica mucho de comida, pero no es un foodie: lo delata su biografía.
   if (/\b(restaurante|restaurant|reservas?|delivery|a domicilio|pedidos|tiendas?|nuestra carta|nuestro local|abrimos|horario|franquicia|obrador|take ?away)\b/i.test(bd.biography || ''))
