@@ -28,7 +28,7 @@ Actualizado: 30/10/2026.
 - [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
       Comunidad Valenciana (Alicante, Castellón, Elche, Benidorm, Dénia, Gandía…) y País Vasco (Donostia, Vitoria,
       Getxo, Zarautz…).
-- [ ] **Después:** Navarra (Pamplona, Tudela…), Aragón completo (Huesca, Teruel, Jaca, Barbastro, Calatayud…),
+- [ ] **Después:** Navarra (Pamplona, Tudela…), La Rioja (Logroño, Haro, Calahorra…), Aragón completo (Huesca, Teruel, Jaca, Barbastro, Calatayud…),
       Cantabria (Santander, Laredo, Comillas…), Asturias (Oviedo, Gijón, Avilés, Cangas…) y Galicia (A Coruña, Vigo,
       Santiago, Pontevedra, Lugo, Ourense…).
 - [ ] **Luego:** Andalucía (Sevilla ya en curso; Málaga, Granada, Córdoba, Cádiz, Jerez, Marbella, Almería,
@@ -37,7 +37,7 @@ Actualizado: 30/10/2026.
       Castilla-La Mancha (Toledo, Cuenca, Albacete, Ciudad Real, Guadalajara…).
 - [ ] **Luego:** Extremadura (Badajoz, Cáceres, Mérida, Plasencia…), las islas (Baleares: Palma, Ibiza, Menorca;
       Canarias: Las Palmas, Santa Cruz de Tenerife, Lanzarote, Fuerteventura…) y Ceuta y Melilla.
-- [ ] **Quedan por ordenar:** Murcia y La Rioja.
+- [ ] **Queda por ordenar:** Murcia.
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
