@@ -19,7 +19,7 @@
  *   node foodle/actualizar.js            # 15 publicaciones por foodie ya conocido, 50 si es nuevo
  *   node foodle/actualizar.js 100        # 100 por foodie (todos)
  *   node foodle/actualizar.js --sin-osm  # sin OpenStreetMap
- *   node foodle/actualizar.js --minutos 105  # para cargas grandes por tandas (para de leer a los 105 min)
+ *   node foodle/actualizar.js --minutos 105 --solo-nuevos  # cargas grandes por tandas: solo foodies nuevos, para a los 105 min
  *
  * Node 20+ (fetch nativo). Sin dependencias.
  */
@@ -58,6 +58,8 @@ const sinOsm = args.includes('--sin-osm');
 const iMin = args.indexOf('--minutos');
 const LIMITE_MS = iMin >= 0 ? parseFloat(args[iMin + 1]) * 60000 : Infinity;
 const INICIO = Date.now();
+// --solo-nuevos: solo lee los foodies que aún no tienen nada guardado (para cargas por tandas).
+const SOLO_NUEVOS = args.includes('--solo-nuevos');
 
 (async () => {
   fs.mkdirSync(DATA, { recursive: true });
@@ -90,6 +92,7 @@ const INICIO = Date.now();
       const u = f.usuario.replace(/^@/, '');
       if (Date.now() - INICIO > LIMITE_MS) { console.log(`  ⏱️  Límite de tiempo: paro aquí (sigue en la próxima ejecución desde @${u})`); break; }
       if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
+      if (SOLO_NUEVOS && conocidos.has(u.toLowerCase())) continue;
       const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
       try {
         const res = await publicacionesDe(u, max);
