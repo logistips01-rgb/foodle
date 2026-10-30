@@ -13,9 +13,9 @@ Actualizado: 30/10/2026.
 - [ ] **Verificación del negocio** en el Business Manager de Meta y envío de la revisión (App Review) con `APP_REVIEW.md`.
 - [ ] **Revisión por un abogado** antes del lanzamiento público (privacidad, aviso legal, uso de contenido de Instagram).
 - [ ] **Historial de git con los pies antiguos**: hasta el 30/10 `data/posts.json` llevaba los textos completos. Ya no se
-      publican en foodle.es, pero siguen en el historial del repositorio (público). Opciones: hacer el repo privado
-      (GitHub Pages en repo privado necesita plan de pago) o reescribir el historial para borrarlos (lo hago yo, pero
-      reescribe la rama y hay que confirmarlo).
+      publican en foodle.es, pero siguen en el historial del repositorio (público).
+      **Decidido:** cuando empiece a haber tráfico, pasar a GitHub Pro y poner los repos en privado (Pages sigue
+      funcionando con Pro). Antes de hacerlo, comprobar que foodle.es sigue viéndose tras el cambio.
 
 ## Mío / ideas
 
