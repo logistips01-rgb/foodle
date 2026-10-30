@@ -50,7 +50,8 @@ const escribir = (f, d) => fs.writeFileSync(f, JSON.stringify(d, null, 1) + '\n'
 const args = process.argv.slice(2);
 // Lo antiguo ya está en data/posts.json: cada día basta con lo reciente. Pedir menos
 // publicaciones gasta mucho menos del límite horario de la API de Meta.
-const MAX_FIJO = args.find((a) => /^\d+$/.test(a));
+// Un número suelto = publicaciones por foodie (el que va detrás de --minutos no cuenta).
+const MAX_FIJO = args.find((a, i) => /^\d+$/.test(a) && args[i - 1] !== '--minutos');
 const MAX_DIARIO = 15, MAX_NUEVO = 50;
 const sinOsm = args.includes('--sin-osm');
 // --minutos N: deja de leer Instagram a los N minutos y termina normal (clasifica, guarda y genera páginas).
