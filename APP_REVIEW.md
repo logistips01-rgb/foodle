@@ -10,7 +10,7 @@ App: **3318132571691612** · Cuenta desde la que se consulta: **@arrocesdebander
 | Instrucciones de eliminación de datos | `https://foodle.es/privacidad.html#borrado` |
 | Icono de la app (1024×1024) | `img/icono-1024.png` |
 | Categoría | Comida y bebida (o «Estilo de vida») |
-| Correo de contacto | `hola@foodle.es` (comprobar que existe y se lee) |
+| Correo de contacto | `foodle@guitle.com` (comprobar que existe y se lee) |
 
 Antes de enviar: rellenar el **Responsable** (nombre o razón social, NIF y dirección) en `privacidad.html`,
 y tener hecha la **verificación del negocio** en el Business Manager (Meta la exige para el acceso avanzado).

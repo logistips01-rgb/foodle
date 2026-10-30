@@ -4,9 +4,9 @@ Actualizado: 30/10/2026.
 
 ## Tuyo (antes de pedir la aprobación de Meta y de mover la web)
 
-- [ ] **Datos del titular** (nombre o razón social, NIF y dirección) en `privacidad.html` y `aviso-legal.html`.
-      Están como `[NOMBRE O RAZÓN SOCIAL] · [NIF] · [DIRECCIÓN]`. Pásamelos y los pongo.
-- [ ] **Correo `hola@foodle.es`** que funcione (vale un reenvío a tu correo actual: redirección de DonDominio o ImprovMX).
+- [ ] **Dirección del titular** en `privacidad.html` y `aviso-legal.html` (está como `[DIRECCIÓN]`). Nombre y NIF
+      ya puestos (Manuel Lorente Gálvez, 17747339X).
+- [x] **Correo de contacto:** foodle@guitle.com (30/10).
 - [ ] **Marca "Foodle"**: buscar en OEPM (consultas2.oepm.es/LocalizadorWeb) y TMview (tmdn.org/tmview) marcas en vigor
       en clases 43, 9 y 42. Hay varias empresas "Foodle" en el mundo (una app de pedidos que opera en España). Si está libre,
       plantearse registrarla.
