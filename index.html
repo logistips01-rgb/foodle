@@ -88,7 +88,7 @@
       .chip { padding: 7px 15px; font-size: 14px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text-dim); transition: all .14s; }
       .chip:hover { color: var(--accent); border-color: var(--accent); }
       .chip.on { color: #fff; background: var(--accent); border-color: var(--accent); }
-      .chips.antojo { margin-top: 10px; }
+      .chips.antojo { margin-top: 18px; }
       .chips.antojo .chip { font-weight: 600; color: var(--text); }
       .results { min-width: 0; } /* si no, la fila de botones rápidos ensancha la columna */
       .quick { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 16px; scrollbar-width: thin; }
@@ -110,7 +110,7 @@
       /* ── Resultados ── */
       .topbar { position: sticky; top: 0; z-index: 40; display: flex; align-items: center; gap: 18px; padding: 12px 20px; background: rgba(244,243,241,.94); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-soft); }
       .topbar .brand { font-size: 30px; flex-shrink: 0; }
-      .topbar-search { display: flex; align-items: center; flex: 1; max-width: 620px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: 4px 4px 4px 18px; }
+      .topbar-search { display: flex; align-items: center; flex: 1; min-width: 0; max-width: 620px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: 4px 4px 4px 18px; }
       .topbar-search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
       .topbar-search input { flex: 1; min-width: 0; border: none; background: transparent; outline: none; font: inherit; font-size: 15px; color: var(--text); padding: 7px 0; }
       .topbar-search .btn-buscar { padding: 8px 16px; font-size: 14px; }
@@ -202,7 +202,7 @@
       footer a { color: var(--accent); }
       .app footer, .home footer { border-top: 1px solid var(--border-soft); }
       .home footer { margin-top: auto; }
-      .ciudades-pie { max-width: calc(var(--maxw) + 84px); margin: 0 auto; padding: 0 clamp(16px,3vw,42px) 28px; font-size: 14px; color: var(--text-faint); line-height: 2; }
+      .ciudades-pie { box-sizing: border-box; width: 100%; max-width: calc(var(--maxw) + 84px); margin: 0 auto; padding: 0 clamp(16px,3vw,42px) 28px; font-size: 14px; color: var(--text-faint); line-height: 2; }
       .ciudades-pie b { color: var(--text-dim); font-weight: 600; margin-right: 6px; }
       .ciudades-pie a { color: var(--text-dim); margin-right: 14px; text-decoration: none; white-space: nowrap; }
       .ciudades-pie a:hover { color: var(--accent); }
@@ -214,10 +214,22 @@
         aside.filters.open { display: block; }
         .topbar { gap: 10px; padding: 10px 14px; }
         .topbar .brand .word { display: none; }
+        .ruta-btn { padding: 9px 11px; }
+      }
+      @media (max-width: 420px) {
+        .ruta-btn .txt { display: none; }
       }
       @media (max-width: 560px) {
-        .home-top { justify-content: center; }
-        .stat { font-size: 13px; padding: 6px 11px; }
+        .home-top { justify-content: center; padding-top: 14px; padding-bottom: 6px; gap: 6px; }
+        /* Contadores en una sola línea discreta, sin cajas. */
+        .stats { width: 100%; justify-content: center; gap: 0; }
+        .stat { font-size: 12.5px; padding: 0; border: none; background: none; color: var(--text-faint); }
+        .stat + .stat::before { content: "·"; margin: 0 7px; }
+        .stat b { color: var(--text-dim); font-weight: 700; }
+        /* Etiquetas de comida: una fila que se desliza con el dedo, sin mover la página. */
+        .chips.antojo { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; width: calc(100% + 32px); margin-left: -16px; margin-right: -16px; padding: 0 16px 4px; scrollbar-width: none; }
+        .chips.antojo::-webkit-scrollbar { display: none; }
+        .chips.antojo .chip { flex-shrink: 0; }
         .nav { font-size: 15px; }
         .btn-buscar { padding: 12px 18px; font-size: 15px; }
         .home-search { padding-left: 18px; }
@@ -236,7 +248,7 @@
         <nav class="nav">
           <button id="nav-ciudades">Ciudades</button>
           <button id="nav-foodies">Foodies</button>
-          <button id="nav-ruta">Mi Ruta</button>
+          <button id="nav-ruta">Mi ruta</button>
         </nav>
       </div>
       <div class="hero">
@@ -247,7 +259,6 @@
           <input id="q-home" type="text" placeholder="Busca: arroces, hamburguesas, el tubo, japonesa…" aria-label="Buscar" />
           <button class="btn-buscar" type="submit">Buscar</button>
         </form>
-        <div class="chips" id="city-chips"></div>
         <div class="chips antojo" id="food-chips"></div>
       </div>
       <!-- Sección especial: arroces y paellas (Foodle consulta desde @arrocesdebandera). -->
@@ -274,7 +285,7 @@
           <input id="q" type="text" placeholder="Restaurante, ciudad, barrio o comida…" aria-label="Buscar" />
           <button class="btn-buscar" type="submit">Buscar</button>
         </form>
-        <button class="ruta-btn" id="rutaBtn" title="Mi ruta"><span class="txt">Mi ruta</span> <span class="ruta-count" id="rutaCount">0</span></button>
+        <button class="ruta-btn" id="rutaBtn" title="Mi ruta"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span class="txt">Mi ruta</span> <span class="ruta-count" id="rutaCount">0</span></button>
       </header>
       <main class="layout">
         <button class="mobile-filter-toggle" id="filterToggle">Filtros</button>
@@ -545,22 +556,15 @@
         const cuenta = {};
         TODOS.forEach((r) => { if (r.cocina) cuenta[r.cocina] = (cuenta[r.cocina] || 0) + 1; });
         const rapidas = RAPIDAS.filter((c) => cuenta[c]);
+        // En la portada, solo las 8 primeras: el resto está en "Qué comer" y en la fila de resultados.
         const chip = (c) => `<button class="chip" data-cocina="${esc(c)}">${esc(corto(c))}</button>`;
-        $("food-chips").innerHTML = rapidas.map(chip).join("");
+        $("food-chips").innerHTML = rapidas.slice(0, 8).map(chip).join("");
         $("quick-res").innerHTML = rapidas.map(chip).join("");
         // Portada: contadores (como guitle) y las ciudades con más recomendaciones.
         const n = (x) => x.toLocaleString("es-ES");
         $("st-recs").textContent = n(TODOS.length);
         $("st-foodies").textContent = n(creadores.length);
         $("st-ciudades").textContent = n(ciudades.length);
-        const porCiudad = {};
-        TODOS.forEach((r) => { if (r.ciudad) porCiudad[r.ciudad] = (porCiudad[r.ciudad] || 0) + 1; });
-        const cc = $("city-chips");
-        Object.keys(porCiudad).sort((a, b) => porCiudad[b] - porCiudad[a]).slice(0, 8).forEach((c) => {
-          const b = document.createElement("button"); b.className = "chip"; b.textContent = `📍 ${c}`;
-          b.onclick = () => { $("f-ciudad").value = c; irAResultados(""); };
-          cc.appendChild(b);
-        });
         // "Lo último de los foodies": las 8 más recientes con nombre de sitio.
         const ultimas = [...TODOS].filter((r) => r.nombre).sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || ""))).slice(0, 8);
         $("mini-grid").innerHTML = ultimas.map(miniHTML).join("");
@@ -586,7 +590,7 @@
       // Enlaces a las páginas de cada ciudad (/madrid/…), para que los buscadores las encuentren.
       fetch("data/ciudades.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : []).then((cs) => {
         if (!cs.length) return;
-        $("ciudades-pie").innerHTML = `<b>Dónde comer en</b>` + cs.map((c) => `<a href="/${encodeURIComponent(c.slug)}/">${esc(c.nombre)}</a>`).join("");
+        $("ciudades-pie").innerHTML = `<b>Dónde comer en</b>` + cs.map((c) => `<a href="/${encodeURIComponent(c.slug)}/">${esc(c.nombre)}</a>`).join(" "); // con espacio: si no, no parte la línea
         $("ciudades-pie").hidden = false;
       }).catch(() => {});
 

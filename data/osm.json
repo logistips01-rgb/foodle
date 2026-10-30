@@ -3434,5 +3434,24 @@
  "paracuellos del jarama|madrid": null,
  "delivery y take away|madrid": null,
  "calle canal de suez 1, madrid|madrid": null,
- "calle arturo soria 198, madrid|madrid": null
+ "calle arturo soria 198, madrid|madrid": null,
+ "sushitetuan|madrid": null,
+ "sushitokio es|alcorcón": null,
+ "orgullosa|madrid": {
+  "lat": 40.4312964,
+  "lng": -3.664424,
+  "direccion": "Calle de Julio Camba 7, Madrid"
+ },
+ "matilda|madrid": {
+  "lat": 40.4110877,
+  "lng": -3.6943434,
+  "direccion": "Calle Almadén 15, Madrid"
+ },
+ "mendrugobeer|madrid": null,
+ "balbisiana|madrid": {
+  "lat": 40.428328,
+  "lng": -3.684074,
+  "direccion": "Calle de Velázquez, Madrid"
+ },
+ "don narciso|madrid": null
 }

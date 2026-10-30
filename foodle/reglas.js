@@ -272,6 +272,7 @@ function esNombrePropio(t) {
 const NO_NOMBRE = new Set(['donde', 'aqui', 'hoy', 'este', 'esta', 'nuevo', 'nueva', 'el sitio', 'sitio', 'restaurante',
   'bar', 'ubicacion', 'direccion', 'precio', 'menu', 'carta', 'reserva', 'horario', 'publi', 'publicidad',
   'comida', 'cena', 'comer', 'almuerzo', 'desayuno', 'merienda', 'vermut', 'planazo', 'ruta', 'guia',
+  'probamos', 'probe', 'pruebo', 'probando', 'fuimos', 'estuvimos', 'descubrimos', 'nuevo sitio', 'sitiazo', 'brutal', 'top',
   ...Object.keys(COCINAS).map(norm)]);
 
 /** Cuando no hay 📍 con nombre: otras formas habituales de decir el sitio. */
