@@ -3453,5 +3453,21 @@
   "lng": -3.684074,
   "direccion": "Calle de Velázquez, Madrid"
  },
- "don narciso|madrid": null
+ "don narciso|madrid": null,
+ "oktoberfest es|madrid": {
+  "lat": 40.4454029,
+  "lng": -3.7141976,
+  "direccion": "Calle del Maestro Ángel Llorca, Madrid"
+ },
+ "cardy es|madrid": {
+  "lat": 40.3746214,
+  "lng": -3.7508237,
+  "direccion": "Calle de Eugenia de Montijo, Madrid"
+ },
+ "rêverie|madrid": null,
+ "calle de barbieri, 6, madrid|madrid": {
+  "lat": 40.4208054,
+  "lng": -3.6982043,
+  "direccion": "Calle de Barbieri 6, Madrid"
+ }
 }

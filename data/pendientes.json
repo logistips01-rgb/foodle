@@ -15630,7 +15630,7 @@
   "fecha": "2026-10-28",
   "sugerido": {
    "nombre": "Descubre sus locales en",
-   "ig_local": null,
+   "ig_local": "birrieria_dos_coyotes",
    "ciudad": null,
    "zona": null,
    "dir_pie": null,
@@ -27766,6 +27766,26 @@
    "ciudad": "Madrid",
    "zona": "Tetuán",
    "dir_pie": "Calle Bravo Murillo 216, Madrid",
+   "cocina": null,
+   "local": "Restaurante a la carta",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DfF0iv4xM_Z",
+  "url": "https://www.instagram.com/reel/DfF0iv4xM_Z/",
+  "creador": "byanatika",
+  "fecha": "2026-10-29",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Zaragoza",
+   "zona": null,
+   "dir_pie": null,
    "cocina": null,
    "local": "Restaurante a la carta",
    "precio": null,
