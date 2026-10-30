@@ -6,7 +6,7 @@
  * Lee el pie de una publicación de Instagram y saca:
  *   - restaurante → línea "📍 …" o primera @mención que no sea el propio foodie
  *   - ciudad      → diccionario de ciudades (más peso si va en #hashtag o en la línea 📍)
- *   - zona        → barrios de las ciudades que los tienen (Zaragoza y Madrid)
+ *   - zona        → barrios de las ciudades que los tienen (Zaragoza, Madrid, Barcelona, Valencia, Bilbao, Sevilla…)
  *   - cocina      → palabras clave (pizza, sushi, kebab, hamburguesas…)
  *   - local       → tipo de sitio: bar de tapas, a la carta, menú del día, degustación, cafetería…
  *   - precio      → "€ por persona / menú / ticket" o palabras (barato, caro…)
@@ -68,6 +68,14 @@ const CIUDADES = {
   'Torrejón': ['torrejon de ardoz', 'torrejon'],
   Rivas: ['rivas vaciamadrid', 'rivas'],
   'Colmenar Viejo': ['colmenar viejo'],
+  // Áreas metropolitanas de Barcelona, Bilbao y Sevilla (ver PERTENECE).
+  "L'Hospitalet": ['hospitalet', "l'hospitalet", 'hospitalet de llobregat'],
+  Badalona: ['badalona'],
+  'Sant Cugat': ['sant cugat'],
+  Getxo: ['getxo', 'algorta', 'neguri'],
+  Barakaldo: ['barakaldo', 'baracaldo'],
+  'Dos Hermanas': ['dos hermanas'],
+  'Mairena del Aljarafe': ['mairena del aljarafe'],
   Barcelona: ['barcelona', 'bcn'],
   Valencia: ['valencia'],
   Sevilla: ['sevilla'],
@@ -104,6 +112,10 @@ const CIUDADES = {
 const PERTENECE = Object.fromEntries(['Alcobendas', 'San Sebastián de los Reyes', 'Tres Cantos', 'Pozuelo', 'Las Rozas',
   'Majadahonda', 'Boadilla', 'Getafe', 'Leganés', 'Alcorcón', 'Móstoles', 'Fuenlabrada', 'Alcalá de Henares', 'Torrejón',
   'Rivas', 'Colmenar Viejo'].map((c) => [c, 'Madrid']));
+Object.assign(PERTENECE,
+  { "L'Hospitalet": 'Barcelona', Badalona: 'Barcelona', 'Sant Cugat': 'Barcelona' },
+  { Getxo: 'Bilbao', Barakaldo: 'Bilbao' },
+  { 'Dos Hermanas': 'Sevilla', 'Mairena del Aljarafe': 'Sevilla' });
 
 // Barrios / zonas por ciudad. Solo se usan si la ciudad ya está decidida.
 const BARRIOS = {
@@ -159,6 +171,55 @@ const BARRIOS = {
     'Usera': ['usera'],
     'Carabanchel': ['carabanchel'],
     'Vallecas': ['vallecas'],
+  },
+  Barcelona: {
+    'Gràcia': ['gracia', 'vila de gracia'],
+    'Eixample': ['eixample', "l'eixample", 'ensanche', 'passeig de gracia', 'rambla de catalunya', 'enric granados'],
+    'El Born': ['el born', 'born'],
+    'Gòtic': ['barri gotic', 'barrio gotico', 'gotic', 'gotico'],
+    'El Raval': ['raval', 'el raval'],
+    'Barceloneta': ['barceloneta'],
+    'Poble-sec': ['poble sec', 'poble-sec', 'poblesec', 'blai'],
+    'Sant Antoni': ['sant antoni'],
+    'Poblenou': ['poblenou', 'poble nou'],
+    'Sants': ['sants'],
+    'Les Corts': ['les corts'],
+    'Sarrià - Sant Gervasi': ['sarria', 'sant gervasi'],
+    'Sagrada Família': ['sagrada familia'],
+    'Horta - Guinardó': ['horta', 'guinardo'],
+  },
+  Valencia: {
+    'Ruzafa': ['ruzafa', 'russafa'],
+    'El Carmen': ['barrio del carmen', 'el carmen', 'el carme'],
+    'Ciutat Vella': ['ciutat vella', 'mercado central', 'plaza de la virgen', 'lonja'],
+    'Cabanyal - Malvarrosa': ['cabanyal', 'el cabanyal', 'malvarrosa', 'patacona'],
+    'Benimaclet': ['benimaclet'],
+    'Ensanche': ['ensanche', 'eixample', 'pla del remei', 'colon'],
+    'Campanar': ['campanar'],
+    'Patraix': ['patraix'],
+    'Benimámet / Burjassot': ['benimamet', 'burjassot'],
+    'El Saler / Albufera': ['el saler', 'albufera', 'el palmar'],
+  },
+  Bilbao: {
+    'Casco Viejo': ['casco viejo', 'zazpi kaleak', 'siete calles', 'plaza nueva', 'plaza berria'],
+    'Bilbao La Vieja': ['bilbao la vieja', 'san francisco'],
+    'Indautxu': ['indautxu', 'indautxo'],
+    'Abando': ['abando', 'gran via de bilbao', 'ledesma'],
+    'Deusto': ['deusto'],
+    'Santutxu': ['santutxu'],
+    'Ribera': ['mercado de la ribera', 'la ribera'],
+  },
+  Sevilla: {
+    'Triana': ['triana', 'calle betis', 'betis'],
+    'Alameda': ['alameda de hercules', 'alameda'],
+    'Santa Cruz': ['barrio de santa cruz', 'santa cruz'],
+    'Arenal': ['el arenal', 'arenal'],
+    'Alfalfa': ['alfalfa'],
+    'Feria / Macarena': ['calle feria', 'macarena', 'feria'],
+    'Nervión': ['nervion'],
+    'Los Remedios': ['los remedios'],
+    'San Bernardo': ['san bernardo'],
+    'Centro': ['plaza nueva de sevilla', 'calle sierpes', 'sierpes', 'tetuan'],
   },
   Alcobendas: {
     'La Moraleja': ['la moraleja', 'moraleja', 'soto de la moraleja'],
