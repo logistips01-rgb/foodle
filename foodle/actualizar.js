@@ -176,7 +176,9 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
     // El "nivel" (top / mixto…) lo deduce la máquina: no se publica como si fuera la opinión del foodie.
     delete ficha.nivel;
     if (ficha.oculta) continue;
-    const valida = ficha.visible === true || (ficha.ciudad && (ficha.nombre || ficha.cocina));
+    // Recetas y comida hecha en casa (la de la abuela…) no son un sitio al que ir: no salen en la web.
+    const valida = ficha.visible === true || (!ficha.casa && ficha.ciudad && (ficha.nombre || ficha.cocina));
+    delete ficha.casa;
     if (valida) web.push(ficha);
     else pendientes.push({ id: k, url: p.url, creador: p.creador, fecha: p.fecha, sugerido: auto });
   }

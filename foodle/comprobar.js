@@ -6,7 +6,7 @@
  * Norma (igual para todas las ciudades): que sea un foodie que publica de forma constante.
  *   1. Cuenta profesional (si no, Business Discovery no la lee).
  *   2. Constante: ha publicado en cada uno de los últimos 3 tramos de 30 días.
- *   3. Foodie: habla de sitios o de comida (solo deja fuera cuentas que no son de comida), y no es un
+ *   3. Foodie: habla de sitios o de comida (las recetas hechas en casa no cuentan), y no es un
  *      local o negocio (lo dice su biografía: restaurante, reservas, delivery, tiendas…).
  * La ciudad NO es requisito: cada publicación se cataloga en su ciudad. Se informa de la ciudad
  * mayoritaria para ponerla en foodies.json como pista (pies que no dicen ciudad).
@@ -59,7 +59,7 @@ async function comprobar(usuario) {
   const ciudades = {};
   for (const m of media) {
     const c = clasificar({ pie: m.caption || '', creador: u });
-    if (c.nombre || c.ig_local || c.cocina) utiles++;
+    if (!c.casa && (c.nombre || c.ig_local || c.cocina)) utiles++; // las recetas no cuentan: no son sitios
     if (c.ciudad) {
       const grande = PERTENECE[c.ciudad] || c.ciudad;
       ciudades[grande] = (ciudades[grande] || 0) + 1;

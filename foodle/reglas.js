@@ -288,6 +288,23 @@ function detectarLocal(texto) {
 
 // Ojo: igual que en la versión de YouTube, solo cuenta si la publi es DEL LOCAL,
 // no los patrocinios fijos del creador. Por eso no miramos "código descuento" a secas.
+// Comida hecha en casa (recetas, la comida de la abuela…): no es un sitio al que ir, no sale en la web.
+// Solo cuenta si el pie no tiene línea 📍: un restaurante puede presumir de "la receta de la abuela".
+const CASA = [
+  /\bingredientes\s*(:|\(\s*(\d|para)|\n|para\b)/,
+  /\b\d+\s?(g|gr|grs|ml|kg)\s+de\s/,
+  /\bprecalienta/,
+  /\bhorno a \d{3}/,
+  /\b(te dejo|aqui (te dejo|tienes)|guarda(te)?|apunta(te)?) (esta|la|mi) receta/,
+  /\breceta (facil|facilisima|sencilla|casera|rapida|saludable)/,
+  /\b(cocinando|comiendo|cocinamos|comemos|cocina) con (mi|la) (abuela|yaya|iaia|amama|madre|mama)\b/,
+  /\b(hech[oa]s?|cocinad[oa]s?|preparad[oa]s?) en casa\b/,
+  /\bhoy cocino\b/,
+  /\ben mi cocina\b/,
+];
+// …salvo que hable de un sitio: "fuimos a…", "el restaurante…", un evento de hamburguesas.
+const EN_UN_SITIO = /\b(restaurantes?|local|bar|taberna|cafeteria|hamburgueseria|fuimos|visitamos|hemos ido|nos pasamos|thechampions\w*|sorteo|reserva|encargo|lavapies|carrer|calle)\b/;
+
 const PUBLI = [
   /#publi\b/, /#publicidad\b/, /#ad\b/, /#colab\b/, /#colaboracion\b/, /#sponsored\b/,
   /\bpublicidad\b/, /\bcolaboracion\b/, /\ben colaboracion con\b/,
@@ -573,6 +590,8 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
   const { precio, precio_aprox } = detectarPrecio(pieN, pie);
   const nivel = detectarNivel(pieN);
   const publi = PUBLI.some((re) => re.test(pieN));
+  const enLocal = ig_local && new RegExp(`\\b(en|por|a|al|de) @?${ig_local.replace(/[.]/g, '\\.')}`).test(pieN);
+  const casa = !ubic.length && !enLocal && CASA.some((re) => re.test(pieN)) && !EN_UN_SITIO.test(pieN);
 
   const tags = [];
   if (publi) tags.push('Publicidad');
@@ -580,7 +599,7 @@ function clasificar(post, { ciudadPorDefecto = null } = {}) {
   if (/(sin gluten|celiac|gluten free)/.test(pieN)) tags.push('Sin gluten');
   if (/michelin/.test(pieN)) tags.push('Michelin');
 
-  return { nombre, ig_local, ciudad, zona, dir_pie, cocina, local, precio, precio_aprox, nivel, publi, tags };
+  return { nombre, ig_local, ciudad, zona, dir_pie, cocina, local, precio, precio_aprox, nivel, publi, casa, tags };
 }
 
 module.exports = { clasificar, menciones, norm, CIUDADES, COCINAS, LOCALES, PERTENECE };

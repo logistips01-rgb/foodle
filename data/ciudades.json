@@ -2,27 +2,27 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1365
+  "n": 1363
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 734
+  "n": 662
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 547
+  "n": 539
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 489
+  "n": 487
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 279
+  "n": 263
  },
  {
   "nombre": "Bilbao",
@@ -40,14 +40,14 @@
   "n": 44
  },
  {
-  "nombre": "Burgos",
-  "slug": "burgos",
-  "n": 43
- },
- {
   "nombre": "A Coruña",
   "slug": "a-coruna",
   "n": 43
+ },
+ {
+  "nombre": "Burgos",
+  "slug": "burgos",
+  "n": 42
  },
  {
   "nombre": "Málaga",
@@ -55,14 +55,14 @@
   "n": 40
  },
  {
-  "nombre": "Vitoria",
-  "slug": "vitoria",
-  "n": 30
- },
- {
   "nombre": "Leganés",
   "slug": "leganes",
   "n": 30
+ },
+ {
+  "nombre": "Vitoria",
+  "slug": "vitoria",
+  "n": 29
  },
  {
   "nombre": "Cádiz",
@@ -90,18 +90,18 @@
   "n": 21
  },
  {
-  "nombre": "León",
-  "slug": "leon",
-  "n": 21
+  "nombre": "Barakaldo",
+  "slug": "barakaldo",
+  "n": 19
  },
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 20
+  "n": 19
  },
  {
-  "nombre": "Barakaldo",
-  "slug": "barakaldo",
+  "nombre": "León",
+  "slug": "leon",
   "n": 19
  },
  {
@@ -180,13 +180,13 @@
   "n": 8
  },
  {
-  "nombre": "Murcia",
-  "slug": "murcia",
-  "n": 7
- },
- {
   "nombre": "Vigo",
   "slug": "vigo",
+  "n": 6
+ },
+ {
+  "nombre": "Murcia",
+  "slug": "murcia",
   "n": 6
  },
  {
