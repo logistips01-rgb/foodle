@@ -4,8 +4,8 @@ Actualizado: 30/10/2026.
 
 ## Tuyo (antes de pedir la aprobación de Meta y de mover la web)
 
-- [ ] **Dirección del titular** en `privacidad.html` y `aviso-legal.html` (está como `[DIRECCIÓN]`). Nombre y NIF
-      ya puestos (Manuel Lorente Gálvez, 17747339X).
+- [x] **Titular** en `privacidad.html` y `aviso-legal.html`: Manuel Lorente Gálvez, NIF 17747339X, Calle Allué Salvador 22,
+      50830 Villanueva de Gállego (Zaragoza) (30/10).
 - [x] **Correo de contacto:** foodle@guitle.com (30/10).
 - [ ] **Marca "Foodle"**: buscar en OEPM (consultas2.oepm.es/LocalizadorWeb) y TMview (tmdn.org/tmview) marcas en vigor
       en clases 43, 9 y 42. Hay varias empresas "Foodle" en el mundo (una app de pedidos que opera en España). Si está libre,
