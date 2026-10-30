@@ -40,10 +40,17 @@ Actualizado: 30/10/2026.
 - [ ] **Luego:** Extremadura (Badajoz, Cáceres, Mérida, Plasencia…), las islas (Baleares: Palma, Ibiza, Menorca;
       Canarias: Las Palmas, Santa Cruz de Tenerife, Lanzarote, Fuerteventura…) y Ceuta y Melilla.
 - [ ] **Famosos y recomendaciones** (más adelante).
-- [ ] **Buscador de recetas** (idea para más adelante, web aparte). Foodle es solo para ir a comer a sitios: las
-      recetas y la comida hecha en casa no salen (regla `CASA` en reglas.js) y las cuentas de recetas quedan fuera
-      (`excluidos.json`; la norma rechaza más del 15 % de recetas). Si se hace, esas cuentas serían la base,
-      junto con @arrocesdebandera (paellas de Manuel), que podría ir como cuenta propia destacada.
+- [ ] **Sección de recetas** (decidido el 30/10). Separada de los sitios, con su propio buscador:
+      «merluza a la vasca» → las publicaciones de los foodies que la han cocinado (vídeo con la inserción oficial).
+      - Categorías: Postres, Arroces y paellas, Asados y carnes, Pescados y mariscos, Guisos y legumbres, Pasta,
+        Verduras y ensaladas, Sopas y cremas, Panes y masas; etiquetas Saludable, Sin gluten, Keto, Rápida.
+      - Fuentes: las cuentas de recetas (hoy en `excluidos.json`: pasarlas a una lista propia `recetas.json`, hay que
+        volver a leerlas), @arrocesdebandera como cuenta propia destacada y marcada así, y las recetas sueltas de los
+        foodies de sitios (las que hoy separa la regla `CASA`).
+      - Norma de entrada para cocineros: constantes (3 tramos de 30 días) y que publiquen recetas.
+      - El texto no se publica: se saca el nombre del plato, la categoría y los ingredientes para buscar; la receta
+        se ve en la publicación de Instagram.
+      - Añadir el caso de uso a APP_REVIEW.md antes de pedir la revisión de Meta.
 
 ## Hecho el 30/10 (revisión legal)
 
