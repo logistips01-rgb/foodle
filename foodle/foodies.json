@@ -165,5 +165,20 @@
   { "usuario": "allaboutus_03", "nota": "Sevilla; 18k, 43 % de comida (comprobado con la API el 30/10/2026)" },
   { "usuario": "luisavalma", "nota": "Sevilla; 13k, 23 % de comida (comprobado con la API el 30/10/2026)" },
   { "usuario": "divinavinagreta", "ciudad": "Sevilla", "nota": "Sevilla; 10k, 50 % de comida (comprobado con la API el 30/10/2026)" },
-  { "usuario": "tecomosevilla_", "ciudad": "Sevilla", "nota": "Sevilla; 4k, 80 % de comida (comprobado con la API el 30/10/2026)" }
+  { "usuario": "tecomosevilla_", "ciudad": "Sevilla", "nota": "Sevilla; 4k, 80 % de comida (comprobado con la API el 30/10/2026)" },
+  { "usuario": "jambriento_", "ciudad": "Sevilla", "nota": "Norma comprobada 2026-10-30 · 67 % de comida" },
+  { "usuario": "guk_green", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 50 % de comida" },
+  { "usuario": "maikandfood", "ciudad": "Vitoria", "nota": "Norma comprobada 2026-10-30 · 67 % de comida" },
+  { "usuario": "con__sentidos", "ciudad": "Castellón", "nota": "Norma comprobada 2026-10-30 · 73 % de comida" },
+  { "usuario": "viajaenunminuto", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 50 % de comida" },
+  { "usuario": "gingerinbilbao", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 63 % de comida" },
+  { "usuario": "quehacerbilbao", "nota": "Norma comprobada 2026-10-30 · 40 % de comida" },
+  { "usuario": "kimhakuna_matata", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 87 % de comida" },
+  { "usuario": "lesvoyagesdelena", "ciudad": "Valladolid", "nota": "Norma comprobada 2026-10-30 · 83 % de comida" },
+  { "usuario": "bilbaotxiki", "nota": "Norma comprobada 2026-10-30 · 47 % de comida" },
+  { "usuario": "aniamodelo", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 63 % de comida" },
+  { "usuario": "food_looker_", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 77 % de comida" },
+  { "usuario": "comesaurios", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 83 % de comida" },
+  { "usuario": "notodoesgula", "ciudad": "Bilbao", "nota": "Norma comprobada 2026-10-30 · 67 % de comida" },
+  { "usuario": "crisocejo", "ciudad": "Santander", "nota": "Norma comprobada 2026-10-30 · 57 % de comida" }
 ]

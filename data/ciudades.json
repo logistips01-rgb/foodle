@@ -2,32 +2,47 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1333
+  "n": 1361
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 733
+  "n": 734
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 545
+  "n": 546
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 362
+  "n": 487
+ },
+ {
+  "nombre": "Sevilla",
+  "slug": "sevilla",
+  "n": 244
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 52
+  "n": 53
+ },
+ {
+  "nombre": "Córdoba",
+  "slug": "cordoba",
+  "n": 44
  },
  {
   "nombre": "A Coruña",
   "slug": "a-coruna",
   "n": 41
+ },
+ {
+  "nombre": "Málaga",
+  "slug": "malaga",
+  "n": 40
  },
  {
   "nombre": "Burgos",
@@ -40,14 +55,24 @@
   "n": 30
  },
  {
-  "nombre": "Sevilla",
-  "slug": "sevilla",
+  "nombre": "Cádiz",
+  "slug": "cadiz",
   "n": 25
+ },
+ {
+  "nombre": "Dos Hermanas",
+  "slug": "dos-hermanas",
+  "n": 21
  },
  {
   "nombre": "León",
   "slug": "leon",
   "n": 21
+ },
+ {
+  "nombre": "Granada",
+  "slug": "granada",
+  "n": 19
  },
  {
   "nombre": "Badalona",
@@ -62,7 +87,7 @@
  {
   "nombre": "Girona",
   "slug": "girona",
-  "n": 16
+  "n": 17
  },
  {
   "nombre": "Getafe",
@@ -85,11 +110,6 @@
   "n": 12
  },
  {
-  "nombre": "Granada",
-  "slug": "granada",
-  "n": 11
- },
- {
   "nombre": "Tarragona",
   "slug": "tarragona",
   "n": 11
@@ -105,6 +125,11 @@
   "n": 10
  },
  {
+  "nombre": "Alcorcón",
+  "slug": "alcorcon",
+  "n": 10
+ },
+ {
   "nombre": "Bilbao",
   "slug": "bilbao",
   "n": 9
@@ -115,21 +140,6 @@
   "n": 9
  },
  {
-  "nombre": "Cádiz",
-  "slug": "cadiz",
-  "n": 9
- },
- {
-  "nombre": "Alcorcón",
-  "slug": "alcorcon",
-  "n": 9
- },
- {
-  "nombre": "Málaga",
-  "slug": "malaga",
-  "n": 8
- },
- {
   "nombre": "Teruel",
   "slug": "teruel",
   "n": 8
@@ -137,7 +147,12 @@
  {
   "nombre": "San Sebastián de los Reyes",
   "slug": "san-sebastian-de-los-reyes",
-  "n": 6
+  "n": 7
+ },
+ {
+  "nombre": "Murcia",
+  "slug": "murcia",
+  "n": 7
  },
  {
   "nombre": "Vigo",
@@ -145,8 +160,8 @@
   "n": 6
  },
  {
-  "nombre": "Murcia",
-  "slug": "murcia",
+  "nombre": "Castellón",
+  "slug": "castellon",
   "n": 6
  },
  {
@@ -155,13 +170,13 @@
   "n": 5
  },
  {
-  "nombre": "Castellón",
-  "slug": "castellon",
+  "nombre": "Pozuelo",
+  "slug": "pozuelo",
   "n": 5
  },
  {
-  "nombre": "Pozuelo",
-  "slug": "pozuelo",
+  "nombre": "Valladolid",
+  "slug": "valladolid",
   "n": 5
  },
  {

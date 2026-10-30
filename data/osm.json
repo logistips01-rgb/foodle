@@ -3767,5 +3767,327 @@
   "direccion": "Carrer de l'Amistat 22, Barcelona"
  },
  "a mano ginyburgers|barcelona": null,
- "rooftop en poblenou|barcelona": null
+ "rooftop en poblenou|barcelona": null,
+ "xopo|barcelona": null,
+ "jasmine&kokuto|barcelona": null,
+ "thesocialhub barcelona|barcelona": null,
+ "italiano en girona|girona": null,
+ "del huerto al plato|barcelona": null,
+ "semana|sant cugat": null,
+ "del huerto al plato|sant cugat": null,
+ "del huerto al plato|vitoria": null,
+ "pasaje concepción 2|barcelona": null,
+ "del huerto al plato|córdoba": null,
+ "isabellasbcn|barcelona": null,
+ "melisa conceptstore|sant cugat": null,
+ "av gran via 144 hospitalet|l'hospitalet": {
+  "lat": 41.3532683,
+  "lng": 2.1199139,
+  "direccion": "Avinguda de la Gran Via de l'Hospitalet, l'Hospitalet de Llobregat"
+ },
+ "salisucre caljan|tarragona": null,
+ "del huerto al plato|cádiz": null,
+ "bistromato|barcelona": null,
+ "crta masnou granollers|barcelona": null,
+ "bricoazúcar|zaragoza": null,
+ "bricoazucar|zaragoza": null,
+ "en bricoazúcar|zaragoza": null,
+ "yo quiero|zaragoza": null,
+ "info|l'hospitalet": null,
+ "academia|zaragoza": {
+  "lat": 41.6994285,
+  "lng": -0.8719862,
+  "direccion": "Zaragoza"
+ },
+ "receta|zaragoza": null,
+ "pan|l'hospitalet": {
+  "lat": 41.3559923,
+  "lng": 2.112208,
+  "direccion": "Avinguda d'Europa, l'Hospitalet de Llobregat"
+ },
+ "sweetsweetbj|zaragoza": null,
+ "info|zaragoza": null,
+ "tartadictos imma|l'hospitalet": null,
+ "carrer del duc, 15, barcelona 🕐 todos los días de 13h a 15:30h y de 19h a 00h 💶 a la carta: unos 45–55 € por persona \ud83c|barcelona": null,
+ "el palace barcelona|barcelona": {
+  "lat": 41.3890696,
+  "lng": 2.1671823,
+  "direccion": "Gran Via de les Corts Catalanes (lateral muntanya), Barcelona"
+ },
+ "plaça d’eivissa, 2, horta 💰 precio medio: 20-30 € por persona ⛱️ terraza disponible|barcelona": null,
+ "avinguda diagonal, 439, barcelona|barcelona": {
+  "lat": 41.3939382,
+  "lng": 2.1503364,
+  "direccion": "Avinguda Diagonal (lateral mar) 439, Barcelona"
+ },
+ "rosselló|barcelona": {
+  "lat": 41.3883899,
+  "lng": 2.1505565,
+  "direccion": "Carrer del Rosselló, Barcelona"
+ },
+ "en pleno centro|barcelona": null,
+ "canjuliana|barcelona": null,
+ "twister|barcelona": null,
+ "granja aventura park|barcelona": null,
+ "fotoprix|barcelona": {
+  "lat": 41.3970291,
+  "lng": 2.1678705,
+  "direccion": "Carrer de Girona 119, Barcelona"
+ },
+ "08339 vilassar de dalt, barcelona (¡a solo 20 minutos de la ciudad!)|barcelona": null,
+ "chiringuito ancla|barcelona": null,
+ "ideales|barcelona": null,
+ "la masia rosàs|sant cugat": null,
+ "08015 barcelona|barcelona": {
+  "lat": 41.3778996,
+  "lng": 2.1566665,
+  "direccion": "Barcelona"
+ },
+ "carrer del rosselló, 515, barcelona|barcelona": {
+  "lat": 41.4090968,
+  "lng": 2.1781574,
+  "direccion": "Carrer del Rosselló 515, Barcelona"
+ },
+ "casa batlló|barcelona": {
+  "lat": 41.3915446,
+  "lng": 2.1646961,
+  "direccion": "Passeig de Gràcia (lateral Llobregat) 43, Barcelona"
+ },
+ "taco alto|barcelona": {
+  "lat": 41.3896941,
+  "lng": 2.1810119,
+  "direccion": "Carrer del Portal Nou 62, Barcelona"
+ },
+ "cines participantes en barcelona ciudad|l'hospitalet": null,
+ "mercat de mercats|l'hospitalet": null,
+ "lhospitalet de llobregat|l'hospitalet": null,
+ "carrer de sant pau 12, ciutat vella|barcelona": {
+  "lat": 41.3803833,
+  "lng": 2.1730125,
+  "direccion": "Carrer de Sant Pau, Barcelona"
+ },
+ "mercat de mercats|barcelona": null,
+ "barceloneta|barcelona": {
+  "lat": 41.38209,
+  "lng": 2.1855154,
+  "direccion": "Plaça de Pau Vila, Barcelona"
+ },
+ "moll de la fusta|barcelona": {
+  "lat": 41.3781196,
+  "lng": 2.1807974,
+  "direccion": "Moll de la Fusta, Barcelona"
+ },
+ "platja de lespigó del gas|barcelona": null,
+ "passeig de gràcia, de provença a consell de cent|barcelona": null,
+ "kurios cirquedusoleil|l'hospitalet": null,
+ "plaça del pla de palau|barcelona": {
+  "lat": 41.3861363,
+  "lng": 2.1785048,
+  "direccion": "Carrer del Tragí, Barcelona"
+ },
+ "fundació julio muñoz ramonet|l'hospitalet": null,
+ "drsimi|barcelona": null,
+ "lamafiamexicana|barcelona": null,
+ "c/ puigmartí, 28|barcelona": {
+  "lat": 41.4017719,
+  "lng": 2.1596673,
+  "direccion": "Carrer de Puigmartí 28, Barcelona"
+ },
+ "poblenou|barcelona": {
+  "lat": 41.4037049,
+  "lng": 2.2033841,
+  "direccion": "Carrer de Pujades, Barcelona"
+ },
+ "bajo la gran carpa|l'hospitalet": null,
+ "billy brunch|barcelona": {
+  "lat": 41.387993,
+  "lng": 2.1783882,
+  "direccion": "Carrer de Sant Pere Més Baix, Barcelona"
+ },
+ "rda|barcelona": null,
+ "tienen varios locales en barcelona|barcelona": null,
+ "mirador solar de tristaina|barcelona": null,
+ "riesenradpl|barcelona": null,
+ "casa vicens|barcelona": {
+  "lat": 41.4035057,
+  "lng": 2.1506255,
+  "direccion": "Carrer de les Carolines, Barcelona"
+ },
+ "terrysburgers|barcelona": null,
+ "rico burguer|barcelona": null,
+ "cascada monumental de la ciutadella|barcelona": null,
+ "curlystop com|barcelona": null,
+ "giulimage|barcelona": null,
+ "passeig de sant joan, 116, sagrada família, verdaguer|barcelona": null,
+ "freshhousemollet|barcelona": null,
+ "wello apartments|barcelona": null,
+ "par|barcelona": null,
+ "edutorres molinoroca|barcelona": null,
+ "mini vlog bcn-mad|madrid": null,
+ "port esportiu|barcelona": null,
+ "kaoru|barcelona": {
+  "lat": 41.3935319,
+  "lng": 2.1726426,
+  "direccion": "Carrer de Girona 49, Barcelona"
+ },
+ "bar inés|valencia": null,
+ "alfons pc|barcelona": null,
+ "labtwentytwo|barcelona": {
+  "lat": 41.4089858,
+  "lng": 2.1972417,
+  "direccion": "Carrer del Perú 102, Barcelona"
+ },
+ "nu bcn|barcelona": {
+  "lat": 41.3963664,
+  "lng": 2.1475284,
+  "direccion": "Carrer de l'Avenir, Barcelona"
+ },
+ "carrer dels banys nous, 15, barcelona|barcelona": {
+  "lat": 41.3824547,
+  "lng": 2.1747865,
+  "direccion": "Carrer dels Banys Nous 15, Barcelona"
+ },
+ "barcelona barcelona|barcelona": {
+  "lat": 41.3754056,
+  "lng": 2.1487302,
+  "direccion": "Plaza de España, Barcelona"
+ },
+ "portal de la pau|barcelona": {
+  "lat": 41.3766861,
+  "lng": 2.1785342,
+  "direccion": "Passeig de Colom, Barcelona"
+ },
+ "fira de barcelona montjuïc|barcelona": {
+  "lat": 41.3719298,
+  "lng": 2.1517909,
+  "direccion": "Barcelona"
+ },
+ "enric granados|barcelona": {
+  "lat": 41.3933482,
+  "lng": 2.1547371,
+  "direccion": "Carrer d'Enric Granados, Barcelona"
+ },
+ "barcelona  badalona|l'hospitalet": null,
+ "soscuatropatasbcn|barcelona": null,
+ "plaça de sant vicenç de sarrià, 8|barcelona": {
+  "lat": 41.3975123,
+  "lng": 2.1241522,
+  "direccion": "Plaça de Sant Vicenç de Sarrià 8, Barcelona"
+ },
+ "natali mart|barcelona": null,
+ "val daran|barcelona": null,
+ "noticias biral|barcelona": null,
+ "carrer ferran turné, 1–11|barcelona": {
+  "lat": 41.424277,
+  "lng": 2.1929165,
+  "direccion": "Carrer de Ferran Turné 1-11, Barcelona"
+ },
+ "carrer ferran turné, 1-11|barcelona": {
+  "lat": 41.424277,
+  "lng": 2.1929165,
+  "direccion": "Carrer de Ferran Turné 1-11, Barcelona"
+ },
+ "las golondrinas|barcelona": {
+  "lat": 41.3676436,
+  "lng": 2.1869839,
+  "direccion": "Barcelona"
+ },
+ "cooperativa lapalma|granada": null,
+ "betterbalance esp|barcelona": null,
+ "amando|barcelona": null,
+ "repente|barcelona": null,
+ "pimienta|barcelona": null,
+ "pasteles|barcelona": {
+  "lat": 41.4001055,
+  "lng": 2.1510609,
+  "direccion": "Carrer de Laforja 1 B, Barcelona"
+ },
+ "ferrari world|barcelona": null,
+ "innout burger|barcelona": null,
+ "calle de castelló, 14, madrid|madrid": {
+  "lat": 40.4232854,
+  "lng": -3.6815174,
+  "direccion": "Calle de Castelló 14, Madrid"
+ },
+ "mcdonalds global menu|barcelona": null,
+ "museum of ice cream|barcelona": null,
+ "provincia de málaga|málaga": {
+  "lat": 36.7615185,
+  "lng": -4.4748558,
+  "direccion": "Málaga"
+ },
+ "xline dubai marina|barcelona": null,
+ "aqua park reda|barcelona": null,
+ "carrer de la concòrdia, 1, badalona, barcelona|badalona": {
+  "lat": 41.4432766,
+  "lng": 2.2298132,
+  "direccion": "Carrer de la Concòrdia 1, Badalona"
+ },
+ "zero suite|barcelona": null,
+ "isla de alcatraz|barcelona": null,
+ "parte 2|barcelona": null,
+ "calle jesús de las tres caídas, 3, sevilla|sevilla": {
+  "lat": 37.389973,
+  "lng": -5.9906603,
+  "direccion": "Calle Jesús de las Tres Caídas, Sevilla"
+ },
+ "burj al arab|barcelona": null,
+ "atlantis the royal|barcelona": null,
+ "the venetian|barcelona": null,
+ "monte titlis|barcelona": null,
+ "red force|tarragona": null,
+ "super nintendo world|barcelona": null,
+ "chocolarium|barcelona": null,
+ "ferrari land|tarragona": null,
+ "manner coffee 国客滨江店|barcelona": null,
+ "el tintero|málaga": {
+  "lat": 36.7168885,
+  "lng": -4.3480936,
+  "direccion": "Avenida Salvador Allende 340, Málaga"
+ },
+ "giannis|barcelona": null,
+ "lecreuset es|barcelona": null,
+ "aemps gob|barcelona": null,
+ "vent del nord|barcelona": null,
+ "valentina|barcelona": {
+  "lat": 41.4192269,
+  "lng": 2.2070168,
+  "direccion": "Gran Via de les Corts Catalanes 1143, Barcelona"
+ },
+ "mar4wave|barcelona": null,
+ "goleta aran|barcelona": null,
+ "casa perris|barcelona": {
+  "lat": 41.3858149,
+  "lng": 2.1826867,
+  "direccion": "Plaça Comercial 2, Barcelona"
+ },
+ "sabor|barcelona": {
+  "lat": 41.3839296,
+  "lng": 2.1765539,
+  "direccion": "Carrer de Santa Llúcia, Barcelona"
+ },
+ "gonnchu|barcelona": null,
+ "moulinex es|barcelona": null,
+ "peñalver|madrid": {
+  "lat": 40.4495856,
+  "lng": -3.554938,
+  "direccion": "Calle Ezequiel Peñalver, Madrid"
+ },
+ "academia renace|barcelona": null,
+ "keto aove|barcelona": null,
+ "sibio technology|barcelona": null,
+ "sibionics cgm|barcelona": null,
+ "keto|barcelona": {
+  "lat": 41.407121,
+  "lng": 2.1617047,
+  "direccion": "Carrer de l'Escorial, Barcelona"
+ },
+ "clinicaplanas|barcelona": null,
+ "ronda de sant ramon, 157, sant boi de llobregat, barcelona|barcelona": null,
+ "carrer gran de gràcia, 98, barcelona|barcelona": {
+  "lat": 41.4005601,
+  "lng": 2.1547636,
+  "direccion": "Carrer Gran de Gràcia 98, Barcelona"
+ },
+ "boboli fashion|girona": null
 }
