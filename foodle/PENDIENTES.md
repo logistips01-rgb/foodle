@@ -33,6 +33,8 @@ Actualizado: 30/10/2026.
       Santiago, Pontevedra, Lugo, Ourense…).
 - [ ] **Luego:** Andalucía (Sevilla ya en curso; Málaga, Granada, Córdoba, Cádiz, Jerez, Marbella, Almería,
       Huelva, Jaén…).
+- [ ] **Luego:** las Castillas: Castilla y León (Valladolid, Burgos, León, Salamanca, Segovia, Soria, Ávila…) y
+      Castilla-La Mancha (Toledo, Cuenca, Albacete, Ciudad Real, Guadalajara…).
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
