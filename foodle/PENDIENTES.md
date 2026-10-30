@@ -32,12 +32,11 @@ Actualizado: 30/10/2026.
       Cantabria (Santander, Laredo, Comillas…), Asturias (Oviedo, Gijón, Avilés, Cangas…) y Galicia (A Coruña, Vigo,
       Santiago, Pontevedra, Lugo, Ourense…).
 - [ ] **Luego:** Andalucía (Sevilla ya en curso; Málaga, Granada, Córdoba, Cádiz, Jerez, Marbella, Almería,
-      Huelva, Jaén…).
+      Huelva, Jaén…) y Murcia (Murcia, Cartagena, Lorca…).
 - [ ] **Luego:** las Castillas: Castilla y León (Valladolid, Burgos, León, Salamanca, Segovia, Soria, Ávila…) y
       Castilla-La Mancha (Toledo, Cuenca, Albacete, Ciudad Real, Guadalajara…).
 - [ ] **Luego:** Extremadura (Badajoz, Cáceres, Mérida, Plasencia…), las islas (Baleares: Palma, Ibiza, Menorca;
       Canarias: Las Palmas, Santa Cruz de Tenerife, Lanzarote, Fuerteventura…) y Ceuta y Melilla.
-- [ ] **Queda por ordenar:** Murcia.
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
