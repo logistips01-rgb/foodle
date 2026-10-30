@@ -24,6 +24,10 @@ Actualizado: 30/10/2026.
 - [ ] Unas **700 fichas sin nombre** del sitio (salen con el tipo de comida). Corregir a mano las importantes en
       `foodle/correcciones.json`.
 - [ ] **Más foodies de Alcobendas / zona norte** (pedir nombres a la familia).
+- [ ] **En curso:** Barcelona, Valencia, Bilbao y Sevilla (candidatos comprobados con la norma, barrios ya puestos).
+- [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
+      Comunidad Valenciana (Alicante, Castellón, Elche, Benidorm, Dénia, Gandía…) y País Vasco (Donostia, Vitoria,
+      Getxo, Zarautz…).
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
