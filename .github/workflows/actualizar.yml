@@ -34,7 +34,9 @@ jobs:
         env:
           FB_TOKEN: ${{ secrets.FB_TOKEN }}
           FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
-        run: node foodle/actualizar.js ${{ inputs.max }}
+        # --minutos 100: con muchos foodies nuevos (50 publicaciones cada uno) el límite de Meta obliga a esperar;
+        # a los 100 min deja de leer, guarda y publica, y al día siguiente sigue con los que falten.
+        run: node foodle/actualizar.js --minutos 100 ${{ inputs.max }}
 
       - name: Guardar datos
         run: |

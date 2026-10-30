@@ -8,8 +8,9 @@ Actualizado: 30/10/2026.
       50830 Villanueva de Gállego (Zaragoza) (30/10).
 - [x] **Correo de contacto:** foodle@guitle.com (30/10).
 - [ ] **Marca (baja prioridad, si Foodle crece):** en la OEPM hay **"STREET FOODLE"** (M3623345, mixta, clases 35 y 43,
-      titular Estefanía Alegre Moreno, en vigor, concedida en 2017). Probablemente vence en 2026: mirar la fecha de
-      vencimiento en su ficha. Si caduca, registrar "Foodle" en 35, 43, 42 y 9. Si se quiere registrar ya: clases 42 y 9.
+      titular Estefanía Alegre Moreno, en vigor, concedida en 2017). Solicitada hacia junio-julio de 2016: venció hacia
+      junio-julio de 2026 y está en los 6 meses de gracia. **Volver a mirar en febrero de 2027:** si pone caducada,
+      registrar "Foodle" en 35, 43, 42 y 9. Si se quiere registrar ya: clases 42 y 9.
       Ojo: el ".es" no cuenta para distinguir la marca.
 - [ ] **Verificación del negocio** en el Business Manager de Meta y envío de la revisión (App Review) con `APP_REVIEW.md`.
 - [ ] **Revisión por un abogado** antes del lanzamiento público (privacidad, aviso legal, uso de contenido de Instagram).
