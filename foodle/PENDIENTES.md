@@ -31,6 +31,8 @@ Actualizado: 30/10/2026.
 - [ ] **Después:** Navarra (Pamplona, Tudela…), Aragón completo (Huesca, Teruel, Jaca, Barbastro, Calatayud…),
       Cantabria (Santander, Laredo, Comillas…), Asturias (Oviedo, Gijón, Avilés, Cangas…) y Galicia (A Coruña, Vigo,
       Santiago, Pontevedra, Lugo, Ourense…).
+- [ ] **Luego:** Andalucía (Sevilla ya en curso; Málaga, Granada, Córdoba, Cádiz, Jerez, Marbella, Almería,
+      Huelva, Jaén…).
 - [ ] **Famosos y recomendaciones** (más adelante).
 
 ## Hecho el 30/10 (revisión legal)
