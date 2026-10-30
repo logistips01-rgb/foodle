@@ -7,8 +7,10 @@ Actualizado: 30/10/2026.
 - [x] **Titular** en `privacidad.html` y `aviso-legal.html`: Manuel Lorente Gálvez, NIF 17747339X, Calle Allué Salvador 22,
       50830 Villanueva de Gállego (Zaragoza) (30/10).
 - [x] **Correo de contacto:** foodle@guitle.com (30/10).
-- [ ] **Marca (baja prioridad, si Foodle crece):** registrar "Foodle" / "foodle.es" en la OEPM (clases 43, 9 y 42).
-      Ojo: el ".es" no cuenta para distinguir la marca; antes de registrar, mirar si hay "Foodle" en vigor en esas clases.
+- [ ] **Marca (baja prioridad, si Foodle crece):** en la OEPM hay **"STREET FOODLE"** (M3623345, mixta, clases 35 y 43,
+      titular Estefanía Alegre Moreno, en vigor, concedida en 2017). Probablemente vence en 2026: mirar la fecha de
+      vencimiento en su ficha. Si caduca, registrar "Foodle" en 35, 43, 42 y 9. Si se quiere registrar ya: clases 42 y 9.
+      Ojo: el ".es" no cuenta para distinguir la marca.
 - [ ] **Verificación del negocio** en el Business Manager de Meta y envío de la revisión (App Review) con `APP_REVIEW.md`.
 - [ ] **Revisión por un abogado** antes del lanzamiento público (privacidad, aviso legal, uso de contenido de Instagram).
 - [ ] **Historial de git con los pies antiguos**: hasta el 30/10 `data/posts.json` llevaba los textos completos. Ya no se
