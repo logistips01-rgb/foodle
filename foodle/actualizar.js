@@ -9,7 +9,8 @@
  *   3. Clasifica todo con reglas (foodle/reglas.js) y aplica foodle/correcciones.json.
  *   4. Busca dirección y coordenadas en OpenStreetMap (con caché).
  *   5. Escribe:
- *        data/posts.json       todo lo leído, acumulado (Instagram solo da lo reciente)
+ *        data/posts.json       todo lo leído, acumulado (Instagram solo da lo reciente), SIN los textos
+ *        data/pies.enc         los textos (pies), cifrados con FB_APP_SECRET (foodle/pies.js)
  *        data/foodle.json      lo que sale en la web (con ciudad y restaurante o cocina)
  *        data/pendientes.json  lo que las reglas no han sabido clasificar, para revisar
  *   6. Genera las páginas por ciudad y comida (/madrid/, /madrid/tapas/…) y sitemap.xml (foodle/paginas.js).
@@ -28,6 +29,7 @@ const { clasificar } = require('./reglas');
 const { publicacionesDe, estadoToken, shortcode } = require('./instagram');
 const { enriquecer } = require('./osm');
 const { generar } = require('./paginas');
+const pies = require('./pies');
 
 const RAIZ = path.join(__dirname, '..');
 const DATA = path.join(RAIZ, 'data');
@@ -56,7 +58,14 @@ const sinOsm = args.includes('--sin-osm');
   const foodies = leer(F.foodies, []);
   const manual = leer(F.manual, []);
   const correcciones = leer(F.correcciones, {});
-  const posts = leer(F.posts, {}); // clave: shortcode
+  const posts = leer(F.posts, {}); // clave: shortcode. Sin los pies: van cifrados en data/pies.enc
+  // Los textos de las publicaciones no se publican (ver foodle/pies.js). Si quedan pies antiguos en
+  // posts.json, se pasan al archivo cifrado.
+  const textos = pies.cargar();
+  if (!textos) console.log('\n(Sin FB_APP_SECRET: no puedo leer los pies cifrados; uso la última clasificación guardada)');
+  for (const [k, p] of Object.entries(posts)) {
+    if (p.pie != null) { if (textos && !(k in textos)) textos[k] = p.pie; delete p.pie; }
+  }
 
   // 1. Instagram
   if (process.env.FB_TOKEN) {
@@ -81,7 +90,9 @@ const sinOsm = args.includes('--sin-osm');
         for (const p of res.posts) {
           const k = shortcode(p.url) || p.id;
           if (!posts[k]) nuevos++;
-          posts[k] = { ...posts[k], ...p, origen: 'api' };
+          const { pie, ...resto } = p;
+          if (textos) textos[k] = pie;
+          posts[k] = { ...posts[k], ...resto, origen: 'api' };
         }
         console.log(`  @${u}: ${res.posts.length} leídas · ${nuevos} nuevas`);
       } catch (e) {
@@ -101,7 +112,7 @@ const sinOsm = args.includes('--sin-osm');
   // Creadores que han pedido salir de Foodle: se borra todo lo suyo, también lo antiguo.
   const excluidos = new Set(leer(F.excluidos, []).map((u) => String(u).replace(/^@/, '').toLowerCase()));
   for (const [k, p] of Object.entries(posts)) {
-    if (excluidos.has(String(p.creador || '').toLowerCase())) delete posts[k];
+    if (excluidos.has(String(p.creador || '').toLowerCase())) { delete posts[k]; if (textos) delete textos[k]; }
   }
 
   // Norma de foodies (ver foodle/comprobar.js): avisa de los que han dejado de publicar con constancia.
@@ -119,18 +130,22 @@ const sinOsm = args.includes('--sin-osm');
   for (const m of manual) {
     const k = shortcode(m.url);
     if (!k) { console.log(`  ⚠️  enlace manual no válido: ${m.url}`); continue; }
-    posts[k] = { ...posts[k], id: k, pie: '', ...m, creador: (m.creador || (posts[k] && posts[k].creador) || '').replace(/^@/, ''), origen: posts[k] && posts[k].origen === 'api' ? 'api' : 'manual' };
+    if (textos && !(k in textos)) textos[k] = m.pie || '';
+    const { pie: _pie, ...sinPie } = m;
+    posts[k] = { ...posts[k], id: k, ...sinPie, creador: (m.creador || (posts[k] && posts[k].creador) || '').replace(/^@/, ''), origen: posts[k] && posts[k].origen === 'api' ? 'api' : 'manual' };
   }
-  escribir(F.posts, posts);
-
-  // 3. Clasificar
+  // 3. Clasificar (con el pie si se puede descifrar; si no, la última clasificación guardada en "clasif")
   const web = [], pendientes = [];
   // Ciudad de cada foodie local (foodies.json → "ciudad"): se usa si el pie no dice ninguna.
   const ciudadDe = Object.fromEntries(foodies.filter((f) => f.ciudad).map((f) => [f.usuario.replace(/^@/, '').toLowerCase(), f.ciudad]));
   for (const [k, p] of Object.entries(posts)) {
-    const auto = clasificar(p, { ciudadPorDefecto: ciudadDe[String(p.creador || '').toLowerCase()] });
+    const pie = textos ? textos[k] : undefined;
+    const auto = pie != null || !p.clasif
+      ? clasificar({ ...p, pie: pie || '' }, { ciudadPorDefecto: ciudadDe[String(p.creador || '').toLowerCase()] })
+      : p.clasif;
+    p.clasif = auto;
     // Lo escrito a mano (en manual.json o correcciones.json) manda sobre las reglas.
-    const aMano = Object.fromEntries(Object.entries(p).filter(([c]) => c in auto && p[c] != null));
+    const aMano = Object.fromEntries(Object.entries(p).filter(([c]) => c !== 'clasif' && c in auto && p[c] != null));
     const ficha = {
       id: k,
       url: p.url,
@@ -143,11 +158,15 @@ const sinOsm = args.includes('--sin-osm');
       ...aMano,
       ...(correcciones[k] || {}),
     };
+    // El "nivel" (top / mixto…) lo deduce la máquina: no se publica como si fuera la opinión del foodie.
+    delete ficha.nivel;
     if (ficha.oculta) continue;
     const valida = ficha.visible === true || (ficha.ciudad && (ficha.nombre || ficha.cocina));
     if (valida) web.push(ficha);
-    else pendientes.push({ id: k, url: p.url, creador: p.creador, fecha: p.fecha, sugerido: auto, pie: String(p.pie || '').slice(0, 400) });
+    else pendientes.push({ id: k, url: p.url, creador: p.creador, fecha: p.fecha, sugerido: auto });
   }
+  escribir(F.posts, posts);
+  if (textos) pies.guardar(textos);
 
   // 4. OpenStreetMap
   if (!sinOsm) {

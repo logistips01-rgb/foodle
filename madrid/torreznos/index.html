@@ -14,10 +14,8 @@
     <meta property="og:title" content="Torreznos en Madrid según los foodies | Foodle" />
     <meta property="og:description" content="13 sitios de torreznos en Madrid recomendados por foodies de Instagram, con barrio, tipo de local y precio." />
     <meta property="og:image" content="https://foodle.es/img/compartir.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Torreznos en Madrid según los foodies","url":"https://foodle.es/madrid/torreznos/","numberOfItems":13,"itemListElement":[{"@type":"ListItem","position":1,"name":"Torreznos","url":"https://www.instagram.com/reel/DdgOAJvuGIC/"},{"@type":"ListItem","position":2,"name":"Torreznos","url":"https://www.instagram.com/reel/DdE8FinMsqJ/"},{"@type":"ListItem","position":3,"name":"Torreznos","url":"https://www.instagram.com/reel/DaJAkI5Mpjh/"},{"@type":"ListItem","position":4,"name":"Auxmerveilleux","url":"https://www.instagram.com/p/DRQAeByiLcz/"},{"@type":"ListItem","position":5,"name":"Roostiq Bar","url":"https://www.instagram.com/reel/DOd8H-NAhEt/"},{"@type":"ListItem","position":6,"name":"Torreznos","url":"https://www.instagram.com/reel/Dd3kdY6uNg9/"},{"@type":"ListItem","position":7,"name":"Taberna La Tienta","url":"https://www.instagram.com/reel/DbXycLxu4B-/"},{"@type":"ListItem","position":8,"name":"Torreznos","url":"https://www.instagram.com/reel/De9P83AOfmW/"},{"@type":"ListItem","position":9,"name":"Ahihayay Bar","url":"https://www.instagram.com/reel/DbtQbs8MMRf/"},{"@type":"ListItem","position":10,"name":"Baelo  Torrelodones","url":"https://www.instagram.com/reel/DebmRWtBEiW/"},{"@type":"ListItem","position":11,"name":"Colón","url":"https://www.instagram.com/reel/DWvg7bkgm-Q/"},{"@type":"ListItem","position":12,"name":"Somoslosmendrugos","url":"https://www.instagram.com/reel/DNQjo91CWMo/"},{"@type":"ListItem","position":13,"name":"El Molar","url":"https://www.instagram.com/p/DaEAjcdkWUA/"}]}</script>
+    <link href="/fuentes/inter.css" rel="stylesheet" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Torreznos en Madrid según los foodies","url":"https://foodle.es/madrid/torreznos/","numberOfItems":13,"itemListElement":[{"@type":"ListItem","position":1,"name":"Torreznos","url":"https://www.instagram.com/reel/Dd3kdY6uNg9/"},{"@type":"ListItem","position":2,"name":"Taberna La Tienta","url":"https://www.instagram.com/reel/DbXycLxu4B-/"},{"@type":"ListItem","position":3,"name":"Torreznos","url":"https://www.instagram.com/reel/DdgOAJvuGIC/"},{"@type":"ListItem","position":4,"name":"Torreznos","url":"https://www.instagram.com/reel/DdE8FinMsqJ/"},{"@type":"ListItem","position":5,"name":"Torreznos","url":"https://www.instagram.com/reel/DaJAkI5Mpjh/"},{"@type":"ListItem","position":6,"name":"Torreznos","url":"https://www.instagram.com/reel/De9P83AOfmW/"},{"@type":"ListItem","position":7,"name":"Ahihayay Bar","url":"https://www.instagram.com/reel/DbtQbs8MMRf/"},{"@type":"ListItem","position":8,"name":"Baelo  Torrelodones","url":"https://www.instagram.com/reel/DebmRWtBEiW/"},{"@type":"ListItem","position":9,"name":"Auxmerveilleux","url":"https://www.instagram.com/p/DRQAeByiLcz/"},{"@type":"ListItem","position":10,"name":"Colón","url":"https://www.instagram.com/reel/DWvg7bkgm-Q/"},{"@type":"ListItem","position":11,"name":"Roostiq Bar","url":"https://www.instagram.com/reel/DOd8H-NAhEt/"},{"@type":"ListItem","position":12,"name":"Somoslosmendrugos","url":"https://www.instagram.com/reel/DNQjo91CWMo/"},{"@type":"ListItem","position":13,"name":"El Molar","url":"https://www.instagram.com/p/DaEAjcdkWUA/"}]}</script>
     <style>
       :root { --bg: #f4f3f1; --card: #fff; --border: #e2dfdb; --text: #141414; --dim: #5f5b57; --faint: #8d8883; --accent: #d42f34; }
       * { box-sizing: border-box; }
@@ -37,11 +35,8 @@
       .enlaces a:hover { border-color: var(--accent); color: var(--accent); }
       .lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px,100%),1fr)); gap: 12px; }
       .ficha { position: relative; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; }
-      .ficha .nombre { display: block; font-weight: 700; font-size: 17px; text-decoration: none; padding-right: 92px; line-height: 1.25; }
+      .ficha .nombre { display: block; font-weight: 700; font-size: 17px; text-decoration: none; line-height: 1.25; }
       .ficha .nombre:hover { color: var(--accent); }
-      .ficha .nivel { position: absolute; top: 14px; right: 14px; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #d9f0da; color: #1d5a20; }
-      .ficha .nivel.top { background: #fde9a6; color: #5a4100; }
-      .ficha .nivel.mix { background: #e7e5e2; color: #4a4643; }
       .ficha p { margin: 6px 0 0; font-size: 13.5px; color: var(--dim); }
       .ficha .por { color: var(--faint); font-size: 12.5px; }
       .ficha .por a { color: var(--accent); text-decoration: none; font-weight: 600; }
@@ -59,95 +54,82 @@
       <p class="migas"><a href="/">Foodle</a> › <a href="/madrid/">Madrid</a> › Torreznos</p>
       <h1>Torreznos en Madrid según los foodies</h1>
       <p class="intro">13 sitios recomendados por foodies de Instagram.</p>
-      <ul class="enlaces"><li><a href="/madrid/hamburguesas/">Hamburguesas</a></li><li><a href="/madrid/dulce/">Dulce</a></li><li><a href="/madrid/tapas/">Tapas</a></li><li><a href="/madrid/sushi-y-japonesa/">Sushi y japonesa</a></li><li><a href="/madrid/arroces/">Arroces</a></li><li><a href="/madrid/italiana/">Italiana</a></li><li><a href="/madrid/mexicana/">Mexicana</a></li><li><a href="/madrid/brasa/">Brasa</a></li><li><a href="/madrid/tradicional/">Tradicional</a></li><li><a href="/madrid/marisco/">Marisco</a></li></ul>
+      <ul class="enlaces"><li><a href="/madrid/hamburguesas/">Hamburguesas</a></li><li><a href="/madrid/dulce/">Dulce</a></li><li><a href="/madrid/tapas/">Tapas</a></li><li><a href="/madrid/sushi-y-japonesa/">Sushi y japonesa</a></li><li><a href="/madrid/arroces/">Arroces</a></li><li><a href="/madrid/italiana/">Italiana</a></li><li><a href="/madrid/mexicana/">Mexicana</a></li><li><a href="/madrid/marisco/">Marisco</a></li><li><a href="/madrid/tradicional/">Tradicional</a></li><li><a href="/madrid/brasa/">Brasa</a></li></ul>
       <ol class="lista">
       <li class="ficha">
-        <a class="nombre" href="https://www.instagram.com/reel/DdgOAJvuGIC/" target="_blank" rel="noopener">Torreznos</a>
-        <span class="nivel top">Top</span>
-        <p class="meta">Torreznos · Bar de tapas · Tetuán · €</p>
-        
-        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DdgOAJvuGIC/" target="_blank" rel="noopener">@laubicacionperfecta</a> · 2026-09-20</p>
-      </li>
-      <li class="ficha">
-        <a class="nombre" href="https://www.instagram.com/reel/DdE8FinMsqJ/" target="_blank" rel="noopener">Torreznos</a>
-        <span class="nivel top">Top</span>
-        <p class="meta">Torreznos</p>
-        
-        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DdE8FinMsqJ/" target="_blank" rel="noopener">@detapasconrufo</a> · 2026-09-09</p>
-      </li>
-      <li class="ficha">
-        <a class="nombre" href="https://www.instagram.com/reel/DaJAkI5Mpjh/" target="_blank" rel="noopener">Torreznos</a>
-        <span class="nivel top">Top</span>
-        <p class="meta">Torreznos</p>
-        
-        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DaJAkI5Mpjh/" target="_blank" rel="noopener">@detapasconrufo</a> · 2026-06-28</p>
-      </li>
-      <li class="ficha">
-        <a class="nombre" href="https://www.instagram.com/p/DRQAeByiLcz/" target="_blank" rel="noopener">Auxmerveilleux</a>
-        <span class="nivel top">Top</span>
-        <p class="meta">Torreznos · Bar de tapas · 23€/persona</p>
-        <p class="dir">📍 Calle Santa Teresa 9, Las Rozas de Madrid</p>
-        <p class="por">Recomendado por <a href="https://www.instagram.com/p/DRQAeByiLcz/" target="_blank" rel="noopener">@foodies.madrid.es</a> · 2025-11-19</p>
-      </li>
-      <li class="ficha">
-        <a class="nombre" href="https://www.instagram.com/reel/DOd8H-NAhEt/" target="_blank" rel="noopener">Roostiq Bar</a>
-        <span class="nivel top">Top</span>
-        <p class="meta">Torreznos · Bar de tapas · 44€/persona</p>
-        <p class="dir">📍 Calle del Barquillo 40, Madrid</p>
-        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DOd8H-NAhEt/" target="_blank" rel="noopener">@sos_dondecomemos</a> · 2025-09-11</p>
-      </li>
-      <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/Dd3kdY6uNg9/" target="_blank" rel="noopener">Torreznos</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Bar de tapas · Tetuán</p>
         
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/Dd3kdY6uNg9/" target="_blank" rel="noopener">@laubicacionperfecta</a> · 2026-09-29</p>
       </li>
       <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/DbXycLxu4B-/" target="_blank" rel="noopener">Taberna La Tienta</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Bar de tapas</p>
         <p class="dir">📍 Calle de Alejandro González 7, Madrid</p>
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DbXycLxu4B-/" target="_blank" rel="noopener">@victorprous</a> · 2026-07-29</p>
       </li>
       <li class="ficha">
+        <a class="nombre" href="https://www.instagram.com/reel/DdgOAJvuGIC/" target="_blank" rel="noopener">Torreznos</a>
+        <p class="meta">Torreznos · Bar de tapas · Tetuán · €</p>
+        
+        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DdgOAJvuGIC/" target="_blank" rel="noopener">@laubicacionperfecta</a> · 2026-09-20</p>
+      </li>
+      <li class="ficha">
+        <a class="nombre" href="https://www.instagram.com/reel/DdE8FinMsqJ/" target="_blank" rel="noopener">Torreznos</a>
+        <p class="meta">Torreznos</p>
+        
+        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DdE8FinMsqJ/" target="_blank" rel="noopener">@detapasconrufo</a> · 2026-09-09</p>
+      </li>
+      <li class="ficha">
+        <a class="nombre" href="https://www.instagram.com/reel/DaJAkI5Mpjh/" target="_blank" rel="noopener">Torreznos</a>
+        <p class="meta">Torreznos</p>
+        
+        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DaJAkI5Mpjh/" target="_blank" rel="noopener">@detapasconrufo</a> · 2026-06-28</p>
+      </li>
+      <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/De9P83AOfmW/" target="_blank" rel="noopener">Torreznos</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Bar de tapas · €</p>
         
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/De9P83AOfmW/" target="_blank" rel="noopener">@laubicacionperfecta</a> · 2026-10-26</p>
       </li>
       <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/DbtQbs8MMRf/" target="_blank" rel="noopener">Ahihayay Bar</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Bar de tapas</p>
         <p class="dir">📍 Calle Poitiers 7</p>
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DbtQbs8MMRf/" target="_blank" rel="noopener">@deviajesymanjares</a> · 2026-08-06</p>
       </li>
       <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/DebmRWtBEiW/" target="_blank" rel="noopener">Baelo  Torrelodones</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Restaurante a la carta</p>
         
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DebmRWtBEiW/" target="_blank" rel="noopener">@elpaladardefabio</a> · 2026-10-13</p>
       </li>
       <li class="ficha">
+        <a class="nombre" href="https://www.instagram.com/p/DRQAeByiLcz/" target="_blank" rel="noopener">Auxmerveilleux</a>
+        <p class="meta">Torreznos · Bar de tapas · 23€/persona</p>
+        <p class="dir">📍 Calle Santa Teresa 9, Las Rozas de Madrid</p>
+        <p class="por">Recomendado por <a href="https://www.instagram.com/p/DRQAeByiLcz/" target="_blank" rel="noopener">@foodies.madrid.es</a> · 2025-11-19</p>
+      </li>
+      <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/DWvg7bkgm-Q/" target="_blank" rel="noopener">Colón</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Para llevar</p>
         <p class="dir">📍 Calle de Génova, Madrid</p>
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DWvg7bkgm-Q/" target="_blank" rel="noopener">@sos_dondecomemos</a> · 2026-04-05</p>
       </li>
       <li class="ficha">
+        <a class="nombre" href="https://www.instagram.com/reel/DOd8H-NAhEt/" target="_blank" rel="noopener">Roostiq Bar</a>
+        <p class="meta">Torreznos · Bar de tapas · 44€/persona</p>
+        <p class="dir">📍 Calle del Barquillo 40, Madrid</p>
+        <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DOd8H-NAhEt/" target="_blank" rel="noopener">@sos_dondecomemos</a> · 2025-09-11</p>
+      </li>
+      <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/reel/DNQjo91CWMo/" target="_blank" rel="noopener">Somoslosmendrugos</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Restaurante a la carta</p>
         
         <p class="por">Recomendado por <a href="https://www.instagram.com/reel/DNQjo91CWMo/" target="_blank" rel="noopener">@sos_dondecomemos</a> · 2025-08-12</p>
       </li>
       <li class="ficha">
         <a class="nombre" href="https://www.instagram.com/p/DaEAjcdkWUA/" target="_blank" rel="noopener">El Molar</a>
-        <span class="nivel rec">Recomendado</span>
         <p class="meta">Torreznos · Menú degustación · 32.95€/persona</p>
         
         <p class="por">Recomendado por <a href="https://www.instagram.com/p/DaEAjcdkWUA/" target="_blank" rel="noopener">@comiendoconainoa</a> · 2026-06-26</p>
@@ -157,7 +139,7 @@
     </main>
     <footer>
       <p>Foodle reúne recomendaciones públicas de foodies de Instagram. Cada ficha enlaza a la publicación original; el contenido y las opiniones son de sus creadores.</p>
-      <p><a href="/">Inicio</a> · <a href="/privacidad.html">Privacidad y borrado de datos</a></p>
+      <p><a href="/">Inicio</a> · <a href="/privacidad.html">Privacidad y borrado de datos</a> · <a href="/aviso-legal.html">Aviso legal</a></p>
     </footer>
   </body>
 </html>

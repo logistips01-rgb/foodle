@@ -33,6 +33,15 @@ foodle/manual.json  ──┐        │  pie, fecha, enlace, likes, comentarios
                oficial de Instagram (blockquote + embed.js)
 ```
 
+## Privacidad y legal (resumen)
+
+- Los **pies no se publican**: `data/posts.json` va sin textos y los pies se guardan cifrados en `data/pies.enc`
+  con una clave derivada de `FB_APP_SECRET` (`foodle/pies.js`). Sin la clave se usa la última clasificación guardada.
+- **Instagram solo se carga con permiso**: hasta que la persona pulsa «Ver la publicación», la página no conecta con Meta.
+- **Sin Google Fonts**: la fuente Inter se sirve desde `fuentes/`.
+- **Sin opiniones inventadas**: no se muestran etiquetas tipo «Top» o «Mixto» deducidas por la máquina.
+- `privacidad.html` y `aviso-legal.html`; lo pendiente está en `foodle/PENDIENTES.md`.
+
 ## Normas
 
 - **Solo la API oficial de Meta.** Nada de scraping de instagram.com ni librerías

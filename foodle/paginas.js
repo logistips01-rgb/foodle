@@ -25,13 +25,12 @@ const MAX_FICHAS = 80;  // fichas por página (las mejor valoradas)
 // Carpetas del repo que nunca se pueden pisar.
 const RESERVADAS = new Set(['data', 'foodle', 'img', '.github', 'node_modules']);
 
-const NIVEL = { top: 0, rec: 1, ver: 2, mix: 3 };
-const NIVEL_TXT = { top: 'Top', rec: 'Recomendado', mix: 'Mixto', ver: 'Por descubrir' };
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const slug = (s) => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
   .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const ordenar = (a, b) => ((NIVEL[a.nivel || 'rec'] ?? 1) - (NIVEL[b.nivel || 'rec'] ?? 1)) || ((b.likes || 0) - (a.likes || 0));
+// Primero las más populares (me gusta): un dato de Instagram, no una opinión atribuida al foodie.
+const ordenar = (a, b) => (b.likes || 0) - (a.likes || 0);
 
 // Título por tipo de comida: "Tapas en Madrid", "Sushi en Madrid", "Comida italiana en Madrid"…
 function tituloComida(cocina, ciudad) {
@@ -48,7 +47,6 @@ function ficha(r) {
   const meta = [r.cocina, r.local, r.zona, r.precio_aprox || r.precio].filter(Boolean).map(esc).join(' · ');
   return `<li class="ficha">
         <a class="nombre" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.nombre || r.cocina || 'Recomendación')}</a>
-        <span class="nivel ${esc(r.nivel || 'rec')}">${NIVEL_TXT[r.nivel || 'rec'] || ''}</span>
         <p class="meta">${meta}</p>
         ${r.direccion ? `<p class="dir">📍 ${esc(r.direccion)}</p>` : ''}
         <p class="por">Recomendado por <a href="${esc(r.url)}" target="_blank" rel="noopener">@${esc(r.creador)}</a>${r.fecha ? ` · ${esc(r.fecha)}` : ''}</p>
@@ -78,9 +76,7 @@ function pagina({ ruta, titulo, h1, descripcion, intro, migas, enlaces, fichas, 
     <meta property="og:title" content="${esc(titulo)}" />
     <meta property="og:description" content="${esc(descripcion)}" />
     <meta property="og:image" content="${DOMINIO}/img/compartir.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet" />
+    <link href="/fuentes/inter.css" rel="stylesheet" />
     <script type="application/ld+json">${JSON.stringify(ld)}</script>
     <style>
       :root { --bg: #f4f3f1; --card: #fff; --border: #e2dfdb; --text: #141414; --dim: #5f5b57; --faint: #8d8883; --accent: #d42f34; }
@@ -101,11 +97,8 @@ function pagina({ ruta, titulo, h1, descripcion, intro, migas, enlaces, fichas, 
       .enlaces a:hover { border-color: var(--accent); color: var(--accent); }
       .lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px,100%),1fr)); gap: 12px; }
       .ficha { position: relative; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 14px 16px; }
-      .ficha .nombre { display: block; font-weight: 700; font-size: 17px; text-decoration: none; padding-right: 92px; line-height: 1.25; }
+      .ficha .nombre { display: block; font-weight: 700; font-size: 17px; text-decoration: none; line-height: 1.25; }
       .ficha .nombre:hover { color: var(--accent); }
-      .ficha .nivel { position: absolute; top: 14px; right: 14px; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #d9f0da; color: #1d5a20; }
-      .ficha .nivel.top { background: #fde9a6; color: #5a4100; }
-      .ficha .nivel.mix { background: #e7e5e2; color: #4a4643; }
       .ficha p { margin: 6px 0 0; font-size: 13.5px; color: var(--dim); }
       .ficha .por { color: var(--faint); font-size: 12.5px; }
       .ficha .por a { color: var(--accent); text-decoration: none; font-weight: 600; }
@@ -131,7 +124,7 @@ function pagina({ ruta, titulo, h1, descripcion, intro, migas, enlaces, fichas, 
     </main>
     <footer>
       <p>Foodle reúne recomendaciones públicas de foodies de Instagram. Cada ficha enlaza a la publicación original; el contenido y las opiniones son de sus creadores.</p>
-      <p><a href="/">Inicio</a> · <a href="/privacidad.html">Privacidad y borrado de datos</a></p>
+      <p><a href="/">Inicio</a> · <a href="/privacidad.html">Privacidad y borrado de datos</a> · <a href="/aviso-legal.html">Aviso legal</a></p>
     </footer>
   </body>
 </html>
@@ -194,6 +187,7 @@ function generar(web) {
     }
   }
   urls.push({ loc: `${DOMINIO}/privacidad.html`, freq: 'yearly', prio: '0.2' });
+  urls.push({ loc: `${DOMINIO}/aviso-legal.html`, freq: 'yearly', prio: '0.1' });
 
   // Borra las carpetas generadas la vez anterior que ya no tocan.
   const listaF = path.join(RAIZ, 'data', 'paginas.json');
