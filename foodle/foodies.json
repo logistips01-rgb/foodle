@@ -185,5 +185,6 @@
   { "usuario": "lauratokill", "ciudad": "Girona", "nota": "Norma comprobada 2026-10-31 · 57 % de comida" },
   { "usuario": "loskatamierdas", "nota": "Norma comprobada 2026-10-31 · 43 % de comida" },
   { "usuario": "experimentaconsandra", "ciudad": "Gijón", "nota": "Norma comprobada 2026-10-31 · 63 % de comida" },
-  { "usuario": "tastysouls_vlc", "ciudad": "Valencia", "nota": "Excepción a la norma (pidió Manuel el 31/10): 87 % de comida, pero 65 días sin publicar" }
+  { "usuario": "tastysouls_vlc", "ciudad": "Valencia", "nota": "Excepción a la norma (pidió Manuel el 31/10): 87 % de comida, pero 65 días sin publicar" },
+  { "usuario": "enjoybyana", "ciudad": "Valencia", "nota": "Norma comprobada 2026-10-31 · 87 % de comida (la seguía Manuel)" }
 ]
