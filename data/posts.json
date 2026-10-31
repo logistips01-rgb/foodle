@@ -7742,7 +7742,7 @@
   "clasif": {
    "nombre": "Trangol",
    "ig_local": "la_lanternapizzeria",
-   "ciudad": "Zaragoza",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -9860,7 +9860,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Zaragoza",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -10137,7 +10137,7 @@
   "clasif": {
    "nombre": "Tu Lum Restaurant",
    "ig_local": "tu.lum.restaurant",
-   "ciudad": "Zaragoza",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -13967,7 +13967,7 @@
   "clasif": {
    "nombre": "Raval de Sant Pere",
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Reus",
    "zona": null,
    "dir_pie": "43201 Reus, Tarragona",
    "cocina": "Hamburguesas",
@@ -17101,7 +17101,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -17126,7 +17126,7 @@
   "clasif": {
    "nombre": "Alpunt Cambrils",
    "ig_local": "alpunt.cambrils",
-   "ciudad": "Zaragoza",
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -19361,7 +19361,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Eibar",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -48261,7 +48261,7 @@
   "clasif": {
    "nombre": "Ichiban Ramen",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": "Avinguda de Josep Tarradellas, 8, 08225 Terrassa, Barcelona",
    "cocina": "Sushi y japonesa",
@@ -48461,7 +48461,7 @@
   "clasif": {
    "nombre": "Hunger Station",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Mataró",
    "zona": null,
    "dir_pie": "Carrer Port de Mataró, 1, 08301 Mataró, Barcelona",
    "cocina": "Kebab",
@@ -48761,7 +48761,7 @@
   "clasif": {
    "nombre": "Restaurante Parc Nou",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "El Prat",
    "zona": null,
    "dir_pie": "Carrer de la Carretera de l’Aviació, 05, 08820 El Prat de Llobregat, Barcelona",
    "cocina": null,
@@ -56552,7 +56552,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -58658,7 +58658,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Calle San Roc 5, Benidorm",
    "cocina": null,
@@ -61672,7 +61672,7 @@
   "clasif": {
    "nombre": "Teatrosluchana",
    "ig_local": "belen_orihuela_",
-   "ciudad": "Madrid",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -78932,7 +78932,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -78957,7 +78957,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -79007,7 +79007,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zarautz",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -79157,7 +79157,7 @@
   "clasif": {
    "nombre": "Mar de luna",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -84925,7 +84925,7 @@
   "clasif": {
    "nombre": "Streetfood Gandia",
    "ig_local": "chemasoler_chef",
-   "ciudad": "Madrid",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -85506,7 +85506,7 @@
   "clasif": {
    "nombre": "Playa de Gandia y Daimús",
    "ig_local": "santopecado.smashburger",
-   "ciudad": "Valencia",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -85658,7 +85658,7 @@
   "clasif": {
    "nombre": "𝙋𝙖𝙨𝙨𝙚𝙞𝙜 𝙈𝙖𝙧𝜾𝙩𝙞𝙢 𝙙𝙚 𝙉𝙚𝙥𝙩𝙪",
    "ig_local": "heladeriavenezia_gandia",
-   "ciudad": "Madrid",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -85683,7 +85683,7 @@
   "clasif": {
    "nombre": "Kplatscalpe",
    "ig_local": "espectacular",
-   "ciudad": "Alicante",
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": "Av. de Ifach, 20 (Calpe, Alicante)",
    "cocina": null,
@@ -92066,7 +92066,7 @@
   "clasif": {
    "nombre": "Aqualandia",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -92093,7 +92093,7 @@
   "clasif": {
    "nombre": "Terramitica",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -92788,7 +92788,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -92888,7 +92888,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -93013,7 +93013,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -93492,7 +93492,7 @@
   "clasif": {
    "nombre": "Sasabeauty",
    "ig_local": "sasabeauty_oficial",
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -93721,7 +93721,7 @@
   "clasif": {
    "nombre": "Lovren Italia",
    "ig_local": "lovren_italia",
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -94550,7 +94550,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -95302,7 +95302,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -95881,7 +95881,7 @@
   "clasif": {
    "nombre": "Detalle",
    "ig_local": "detalle",
-   "ciudad": "Barcelona",
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -95906,7 +95906,7 @@
   "clasif": {
    "nombre": "El Paraíso Familiar En Salou",
    "ig_local": "alanniasalou",
-   "ciudad": null,
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -95931,7 +95931,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "El Prat",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -96333,7 +96333,7 @@
   "clasif": {
    "nombre": "Sushi Hand Terrassa",
    "ig_local": "sushihand_terrassa",
-   "ciudad": null,
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": "Avinguda del Vallès, 37, Terrassa",
    "cocina": "Sushi y japonesa",
@@ -96513,7 +96513,7 @@
   "clasif": {
    "nombre": "Hijumppark Sabadell",
    "ig_local": "hijumppark_sabadell",
-   "ciudad": "Barcelona",
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -96617,7 +96617,7 @@
   "clasif": {
    "nombre": "Parc Vallès",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -97003,9 +97003,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Cambrils",
+   "nombre": "Platja Cambrils",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -100455,7 +100455,7 @@
   "clasif": {
    "nombre": "Lagarota",
    "ig_local": "lagarota_rest",
-   "ciudad": "Barcelona",
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": "Passeig de Camprodon i Arrieta, 26, Lloret de Mar",
    "cocina": "Arroces",
@@ -101917,7 +101917,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -103424,7 +103424,7 @@
   "clasif": {
    "nombre": "Homeexchange Esp",
    "ig_local": "homeexchange_esp",
-   "ciudad": "Barcelona",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -103449,7 +103449,7 @@
   "clasif": {
    "nombre": "Homeexchange Esp",
    "ig_local": "homeexchange_esp",
-   "ciudad": "Barcelona",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -105327,7 +105327,7 @@
   "clasif": {
    "nombre": "Del Huerto Al Plato",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -105656,7 +105656,7 @@
   "clasif": {
    "nombre": "Del Huerto Al Plato",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -107853,7 +107853,7 @@
   "clasif": {
    "nombre": "Twister",
    "ig_local": "windoor.barcelona",
-   "ciudad": "Barcelona",
+   "ciudad": "Cornellà",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -108665,7 +108665,7 @@
   "clasif": {
    "nombre": "Chiringuito Ancla",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -108692,7 +108692,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -110520,7 +110520,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -110574,7 +110574,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": "Plaça de Josep Freixa i Argemí, 11",
    "cocina": null,
@@ -111445,7 +111445,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": "Avinguda de la Roca Grossa, 22, Lloret de Mar",
    "cocina": null,
@@ -111499,7 +111499,7 @@
   "clasif": {
    "nombre": "Rico Burguer",
    "ig_local": "rico.burguer",
-   "ciudad": "Barcelona",
+   "ciudad": "Cornellà",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -113101,7 +113101,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Cornellà",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -116580,7 +116580,7 @@
   "clasif": {
    "nombre": "Happylandia Terrassa",
    "ig_local": "happylandia.park",
-   "ciudad": null,
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -117363,7 +117363,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Vilanova i la Geltrú",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -117590,7 +117590,7 @@
   "clasif": {
    "nombre": "Evenia Hotels",
    "ig_local": "evenia_hotels",
-   "ciudad": null,
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -118171,7 +118171,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -120304,7 +120304,7 @@
   "clasif": {
    "nombre": "Migusto",
    "ig_local": "migusto.restaurantes",
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -123495,7 +123495,7 @@
   "clasif": {
    "nombre": "Circoraluyhistorico",
    "ig_local": "circoraluyhistorico",
-   "ciudad": "Barcelona",
+   "ciudad": "Figueres",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -123920,7 +123920,7 @@
   "clasif": {
    "nombre": "Tartana Can Massanet",
    "ig_local": "joel_llopis",
-   "ciudad": "Barcelona",
+   "ciudad": "Figueres",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -123970,7 +123970,7 @@
   "clasif": {
    "nombre": "Patxoca Sidreria",
    "ig_local": "patxoca.sidreria",
-   "ciudad": "Girona",
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": "Carretera de Blanes a Lloret de Mar, km 7, 8",
    "cocina": "Chuletón",
@@ -126226,9 +126226,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Sitges",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -126882,7 +126882,7 @@
   "clasif": {
    "nombre": "Fira de Sabadell",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -127261,7 +127261,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": "Avenida de la Constitució 71, Castelldefels, Barcelona",
    "cocina": null,
@@ -127336,7 +127336,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -127361,7 +127361,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sitges",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -127686,7 +127686,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": "Via de Massagué, 31 Sabadell",
    "cocina": "Pizza",
@@ -127738,7 +127738,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": "Calle Sant Tomàs, 11 Terrassa",
    "cocina": null,
@@ -128521,7 +128521,7 @@
   "clasif": {
    "nombre": "Masia Freixa",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -128596,7 +128596,7 @@
   "clasif": {
    "nombre": "Castell Cartoixa de Vallparadís",
    "ig_local": null,
-   "ciudad": "Sant Cugat",
+   "ciudad": "Terrassa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -128721,7 +128721,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sabadell",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -129146,7 +129146,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -134844,7 +134844,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Vila-real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -135371,7 +135371,7 @@
   "clasif": {
    "nombre": "Parentesisburgers",
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Sagunto",
    "zona": null,
    "dir_pie": "C/ Virgen del Losar, 12, 46520, Port de Sagunt, Valencia",
    "cocina": "Hamburguesas",
@@ -135721,7 +135721,7 @@
   "clasif": {
    "nombre": "Sara86as",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -136298,9 +136298,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Benidorm",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -136552,7 +136552,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -136629,7 +136629,7 @@
   "clasif": {
    "nombre": "Judithramiirez27",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -139582,7 +139582,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -139607,7 +139607,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -139734,7 +139734,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -139834,7 +139834,7 @@
   "clasif": {
    "nombre": "Magicpiratesislandresort",
    "ig_local": "magic_hotelgroup",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -140192,7 +140192,7 @@
   "clasif": {
    "nombre": "Brunos",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "calle Rioja, Benidorm",
    "cocina": "Pizza",
@@ -142718,7 +142718,7 @@
   "clasif": {
    "nombre": "Yuzumi restauranteyuzumi",
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -145431,7 +145431,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -146431,9 +146431,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Peñíscola",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -153885,7 +153885,7 @@
   "clasif": {
    "nombre": "Foodiesvalencia5",
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -154460,7 +154460,7 @@
   "clasif": {
    "nombre": "Escama Cánovas",
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -154724,7 +154724,7 @@
   "clasif": {
    "nombre": "Tartas Fondant Gandia",
    "ig_local": "tartas_fondant_gandia",
-   "ciudad": "Valencia",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -155011,9 +155011,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Gandia",
+   "nombre": "Sushisom Espana",
    "ig_local": "sushisom_espana",
-   "ciudad": "Valencia",
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -157676,7 +157676,7 @@
   "clasif": {
    "nombre": "Baret de Miquel",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "Carrer historiador Palau, 1",
    "cocina": "Tapas",
@@ -157801,7 +157801,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": "Av. de la Llibertat, 11, Local 8, Jávea",
    "cocina": "Brunch",
@@ -157851,7 +157851,7 @@
   "clasif": {
    "nombre": "Atalaya",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -157876,7 +157876,7 @@
   "clasif": {
    "nombre": "caletabandida",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -157926,7 +157926,7 @@
   "clasif": {
    "nombre": "Marina de Dénia",
    "ig_local": "aguademar_denia",
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -158026,7 +158026,7 @@
   "clasif": {
    "nombre": "Javea",
    "ig_local": "javea.official",
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -158276,7 +158276,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -162035,7 +162035,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -164221,7 +164221,7 @@
   "clasif": {
    "nombre": "C Sagunto Barrio Zaidia",
    "ig_local": "kakis.bar",
-   "ciudad": "Valencia",
+   "ciudad": "Sagunto",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -164521,7 +164521,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -164671,7 +164671,7 @@
   "clasif": {
    "nombre": "Alqueria Deferrando",
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -168068,7 +168068,7 @@
   "clasif": {
    "nombre": "Mercadillo Jesús Pobre",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "03749 Dénia, Alicante",
    "cocina": null,
@@ -173253,7 +173253,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -182897,7 +182897,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Vila-real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -198898,8 +198898,8 @@
   "clasif": {
    "nombre": "Pintxos En Bilbao",
    "ig_local": null,
-   "ciudad": "Bilbao",
-   "zona": "Casco Viejo",
+   "ciudad": "Portugalete",
+   "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
    "local": "Bar de tapas",
@@ -199000,7 +199000,7 @@
   "clasif": {
    "nombre": "Marina",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Bermeo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -199023,9 +199023,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Lekeitio",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lekeitio",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -199050,7 +199050,7 @@
   "clasif": {
    "nombre": "Viernes",
    "ig_local": "viernes",
-   "ciudad": "Bilbao",
+   "ciudad": "Portugalete",
    "zona": null,
    "dir_pie": "Centro Comercial Ballonti, Portugalete (Bizkaia)",
    "cocina": "Sushi y japonesa",
@@ -199575,7 +199575,7 @@
   "clasif": {
    "nombre": "Explanada del Cementerio de Bermeo",
    "ig_local": null,
-   "ciudad": "Bilbao",
+   "ciudad": "Bermeo",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -199775,7 +199775,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Zarautz",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -200879,7 +200879,7 @@
   "clasif": {
    "nombre": "Lo puedes encontrar en Portugalete",
    "ig_local": null,
-   "ciudad": "Vitoria",
+   "ciudad": "Portugalete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -201552,9 +201552,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Peñíscola",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -201704,7 +201704,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Peñíscola",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -201754,7 +201754,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Bermeo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -201979,7 +201979,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202004,7 +202004,7 @@
   "clasif": {
    "nombre": "rincondeharbour",
    "ig_local": "elrinconcitodemanel",
-   "ciudad": "Castellón",
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -202054,7 +202054,7 @@
   "clasif": {
    "nombre": "Camper Park Ponoig",
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202102,9 +202102,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Benicàssim",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Benicàssim",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202179,7 +202179,7 @@
   "clasif": {
    "nombre": "Tripstop Eu",
    "ig_local": "tripstop.eu",
-   "ciudad": null,
+   "ciudad": "Bermeo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202358,7 +202358,7 @@
   "clasif": {
    "nombre": "Camper Park Ponoig",
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202614,7 +202614,7 @@
   "clasif": {
    "nombre": "Camper Park Ponoig",
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -203618,7 +203618,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Portugalete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -203818,7 +203818,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Getaria",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -211413,7 +211413,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Bilbao",
+   "ciudad": "Portugalete",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -213627,7 +213627,7 @@
   "clasif": {
    "nombre": "Txipotes And Burger",
    "ig_local": "txipotes.and_burger",
-   "ciudad": "Bilbao",
+   "ciudad": "Portugalete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -216510,7 +216510,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": "Av. de la Diputació, 197, Cambrils, Tarragona",
    "cocina": "Internacional",
@@ -216699,7 +216699,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": "Carrer de Josep Carner, 22, Salou, Tarragona",
    "cocina": "Hamburguesas",
@@ -216726,7 +216726,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": "Carrer de Murillo, 5, Salou, Tarragona",
    "cocina": "Mexicana",
@@ -216886,7 +216886,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Salou",
    "zona": null,
    "dir_pie": "Carrer de Barcelona, 40, Salou",
    "cocina": "Pizza",
@@ -217073,7 +217073,7 @@
   "clasif": {
    "nombre": "RCDE Stadium",
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Cornellà",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -217100,7 +217100,7 @@
   "clasif": {
    "nombre": "RCDE Stadium",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Cornellà",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -217262,7 +217262,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Tarragona",
+   "ciudad": "Reus",
    "zona": null,
    "dir_pie": "Avinguda del Mediterrani, 1, Reus",
    "cocina": "Pizza",
@@ -217447,7 +217447,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "El Prat",
    "zona": null,
    "dir_pie": "Carrer de Pablo Neruda, 56, El Prat de Llobregat, Barcelona",
    "cocina": "Tapas",
@@ -218634,7 +218634,7 @@
   "clasif": {
    "nombre": "Mika",
    "ig_local": null,
-   "ciudad": "San Sebastián",
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -218659,7 +218659,7 @@
   "clasif": {
    "nombre": "Justiz",
    "ig_local": null,
-   "ciudad": "San Sebastián",
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -218784,7 +218784,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -219161,7 +219161,7 @@
   "clasif": {
    "nombre": "Hondarribia",
    "ig_local": "jordi_comellasg",
-   "ciudad": "San Sebastián",
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -221198,7 +221198,7 @@
   "clasif": {
    "nombre": "Pasteleriavalderrama",
    "ig_local": "sugarpop.bakehouse",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -221223,7 +221223,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "C/ del Rosari, 10, 03501 Benidorm, Alicante",
    "cocina": "Italiana",
@@ -221248,7 +221248,7 @@
   "clasif": {
    "nombre": "Huerto de Colón",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -221298,7 +221298,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -221348,7 +221348,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Camino Viejo de Altea, 3, 03581 L’Albir, Alicante",
    "cocina": null,
@@ -221373,7 +221373,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "03503 Benidorm, Alicante",
    "cocina": "Hamburguesas",
@@ -221398,7 +221398,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -221425,7 +221425,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Av. de Andalucía, 6, 03502 Benidorm, Alicante",
    "cocina": "Internacional",
@@ -221475,7 +221475,7 @@
   "clasif": {
    "nombre": "Esquina con",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Carrer Camí Vell d’Elda, 03610 Petrer, Alicante",
    "cocina": "Tradicional",
@@ -221500,7 +221500,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Calle Esperanto, 5, 03503 Benidorm, Alicante",
    "cocina": "Dulce",
@@ -221525,7 +221525,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "03501 Benidorm, Alicante",
    "cocina": "Arroces",
@@ -221550,7 +221550,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -221575,7 +221575,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -221600,7 +221600,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -221625,7 +221625,7 @@
   "clasif": {
    "nombre": "Orno Benidorm",
    "ig_local": "orno_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -221650,7 +221650,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -221675,7 +221675,7 @@
   "clasif": {
    "nombre": "Etika Altea",
    "ig_local": "etika_altea",
-   "ciudad": "Alicante",
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Internacional",
@@ -221700,7 +221700,7 @@
   "clasif": {
    "nombre": "Brunch Box",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -221725,7 +221725,7 @@
   "clasif": {
    "nombre": "El Trasto",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -221750,7 +221750,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "P.º de las Acacias, 22, 03502 Benidorm, Alicante",
    "cocina": "Tradicional",
@@ -221775,7 +221775,7 @@
   "clasif": {
    "nombre": "Brunch Box",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -221800,7 +221800,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -221852,7 +221852,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -221877,7 +221877,7 @@
   "clasif": {
    "nombre": "Lonuncavisto Comedy",
    "ig_local": "lonuncavisto_comedy",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -221902,7 +221902,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -221927,7 +221927,7 @@
   "clasif": {
    "nombre": "Solo por hoy",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -221952,7 +221952,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -222027,7 +222027,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -222052,7 +222052,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222077,7 +222077,7 @@
   "clasif": {
    "nombre": "Vante Benidorm",
    "ig_local": "vante_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -222102,7 +222102,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222127,7 +222127,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -222152,7 +222152,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -222252,7 +222252,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -222277,7 +222277,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -222302,7 +222302,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222327,7 +222327,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -222352,7 +222352,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -222377,7 +222377,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -222402,7 +222402,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222427,7 +222427,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -222452,7 +222452,7 @@
   "clasif": {
    "nombre": "Orno Pizzería",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -222477,7 +222477,7 @@
   "clasif": {
    "nombre": "Cerveceriavictors",
    "ig_local": "cerveceriavictors",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222527,7 +222527,7 @@
   "clasif": {
    "nombre": "Churreriasoto2benidorm",
    "ig_local": "churreriasoto2benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222552,7 +222552,7 @@
   "clasif": {
    "nombre": "Makroesp",
    "ig_local": "makroesp",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222577,7 +222577,7 @@
   "clasif": {
    "nombre": "LHort de Colón",
    "ig_local": "pasteleria_sanchez1981",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222627,7 +222627,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -222652,7 +222652,7 @@
   "clasif": {
    "nombre": "Noche",
    "ig_local": "noche",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222677,7 +222677,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -222702,7 +222702,7 @@
   "clasif": {
    "nombre": "Lhort de Colón",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222754,7 +222754,7 @@
   "clasif": {
    "nombre": "Ristorante Nonna Angela",
    "ig_local": "ristorante_nonna_angela",
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Carrer Puig campana 3, Finestrat pueblo",
    "cocina": "Italiana",
@@ -222779,7 +222779,7 @@
   "clasif": {
    "nombre": "Restaurante Casa Guillermo",
    "ig_local": "restaurante_casa_guillermo",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222804,7 +222804,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -222854,7 +222854,7 @@
   "clasif": {
    "nombre": "Inizio 60",
    "ig_local": "toyristorante",
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -222881,7 +222881,7 @@
   "clasif": {
    "nombre": "Lhort de Colon",
    "ig_local": "comomontarturestaurante",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -222908,7 +222908,7 @@
   "clasif": {
    "nombre": "Fannelis  C",
    "ig_local": "fannelisburgers",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -222933,7 +222933,7 @@
   "clasif": {
    "nombre": "Murmur Altea",
    "ig_local": "murmur_altea",
-   "ciudad": "Alicante",
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -222983,7 +222983,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Asiática",
@@ -223033,7 +223033,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -223058,7 +223058,7 @@
   "clasif": {
    "nombre": "Grupomalpas",
    "ig_local": "grupomalpas",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -223083,7 +223083,7 @@
   "clasif": {
    "nombre": "Grandmas Dumplings",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -223108,7 +223108,7 @@
   "clasif": {
    "nombre": "Puedes encontrarlos en",
    "ig_local": "lakremheladerias",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -223133,7 +223133,7 @@
   "clasif": {
    "nombre": "Orno Benidorm",
    "ig_local": "orno_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "avenida de Mont Benidorm 4, local 7, Benidorm",
    "cocina": "Pizza",
@@ -223233,7 +223233,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -223308,7 +223308,7 @@
   "clasif": {
    "nombre": "SkyFest Benidorm",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -223333,7 +223333,7 @@
   "clasif": {
    "nombre": "Rita",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Pasaje de Santa Rita, Benidorm",
    "cocina": null,
@@ -223358,7 +223358,7 @@
   "clasif": {
    "nombre": "Entrecote Salsacafedeparis",
    "ig_local": "entrecote_salsacafedeparis",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -223408,7 +223408,7 @@
   "clasif": {
    "nombre": "VANTE Urban Café",
    "ig_local": "vante_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Paseo Marítimo de la Playa de la Fossa, Calpe, a la altura de C/ Llevant",
    "cocina": null,
@@ -223433,7 +223433,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -223483,7 +223483,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "C/ La Palma, 41, Benidorm",
    "cocina": "Alta cocina",
@@ -223508,7 +223508,7 @@
   "clasif": {
    "nombre": "Vante Benidorm",
    "ig_local": "vante_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -223533,7 +223533,7 @@
   "clasif": {
    "nombre": "Restauración",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -223558,7 +223558,7 @@
   "clasif": {
    "nombre": "Ritabenidorm",
    "ig_local": "ritabenidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -223583,7 +223583,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -223608,7 +223608,7 @@
   "clasif": {
    "nombre": "Enigma Cocina con Alma",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": "Carrer Campanario 5, Calpe",
    "cocina": "Tradicional",
@@ -223633,7 +223633,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -223658,7 +223658,7 @@
   "clasif": {
    "nombre": "Marakka Club",
    "ig_local": "marakka_club",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -223683,7 +223683,7 @@
   "clasif": {
    "nombre": "Avenida Marina Baixa 5 Benidorm",
    "ig_local": "restaurante_casa_guillermo",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -223933,7 +223933,7 @@
   "clasif": {
    "nombre": "Tiffin",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Internacional",
@@ -223981,9 +223981,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Benidorm",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -224233,7 +224233,7 @@
   "clasif": {
    "nombre": "Castell de lOlla",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -224258,7 +224258,7 @@
   "clasif": {
    "nombre": "Diva Imperium",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -224306,9 +224306,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Torrevieja",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -224358,7 +224358,7 @@
   "clasif": {
    "nombre": "El Sabor de la Mafia",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -224431,9 +224431,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Villajoyosa",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -224560,7 +224560,7 @@
   "clasif": {
    "nombre": "El Rugido Burger  Calle Esperanto",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -224658,9 +224658,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Altea",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -224685,7 +224685,7 @@
   "clasif": {
    "nombre": "Q' Crunch  Calle Lepanto",
    "ig_local": "qcrunch.ve",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -224760,7 +224760,7 @@
   "clasif": {
    "nombre": "Rico Taco Benidorm",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Mexicana",
@@ -225172,7 +225172,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -225303,7 +225303,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -225355,7 +225355,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -225565,7 +225565,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "la_madurada",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -225669,7 +225669,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -225751,7 +225751,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "tropika_lab",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -225911,7 +225911,7 @@
   "clasif": {
    "nombre": "Publicodad",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -226494,7 +226494,7 @@
   "clasif": {
    "nombre": "Yufukisushi",
    "ig_local": "yufukisushi",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -226646,7 +226646,7 @@
   "clasif": {
    "nombre": "Invitacion",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": "Paseo de la Libertad, Torrevieja",
    "cocina": "Sushi y japonesa",
@@ -226927,7 +226927,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -227541,7 +227541,7 @@
   "clasif": {
    "nombre": "St Jeremis",
    "ig_local": "st.jeremis",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -227566,7 +227566,7 @@
   "clasif": {
    "nombre": "Felici",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -227618,7 +227618,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -227668,7 +227668,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227718,7 +227718,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": "Parque de las Naciones, Torrevieja",
    "cocina": null,
@@ -227743,7 +227743,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227768,7 +227768,7 @@
   "clasif": {
    "nombre": "Bett Munoz",
    "ig_local": "bett.munoz",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227793,7 +227793,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": "Parque de las Naciones, Torrevieja",
    "cocina": null,
@@ -227818,7 +227818,7 @@
   "clasif": {
    "nombre": "Zumaya",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -227843,7 +227843,7 @@
   "clasif": {
    "nombre": "La Plaza by Borja",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227868,7 +227868,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227968,7 +227968,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -227991,9 +227991,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Torrevieja",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228043,7 +228043,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228143,7 +228143,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -228193,7 +228193,7 @@
   "clasif": {
    "nombre": "Love Epil Pr Torrevieja",
    "ig_local": "love_epil_pr_torrevieja",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228243,7 +228243,7 @@
   "clasif": {
    "nombre": "Cc Plazanueva",
    "ig_local": "cc_plazanueva",
-   "ciudad": null,
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -228318,7 +228318,7 @@
   "clasif": {
    "nombre": "Dialprix Torrevieja",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228343,7 +228343,7 @@
   "clasif": {
    "nombre": "Clau Tropiezos",
    "ig_local": "clau_tropiezos",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228391,9 +228391,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Torrevieja",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228443,7 +228443,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228518,7 +228518,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -228568,7 +228568,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -228593,7 +228593,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228668,7 +228668,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -228718,7 +228718,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228743,7 +228743,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228768,7 +228768,7 @@
   "clasif": {
    "nombre": "Wave The Wave",
    "ig_local": "wave.the.wave",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -228793,7 +228793,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "ica.acai",
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": "C/ Clot de la mota, 6, Playa de Gandia",
    "cocina": null,
@@ -228818,7 +228818,7 @@
   "clasif": {
    "nombre": "Partida els Arcs",
    "ig_local": "murmur_altea",
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -228843,7 +228843,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Av. de los almendors, 3, Benidorm",
    "cocina": "Marisco",
@@ -228870,7 +228870,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": "Av. de Ultramar, 95, Xàbia",
    "cocina": "Brunch",
@@ -228970,7 +228970,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": "C/ la Colometa, 1, Altea",
    "cocina": "Tradicional",
@@ -228995,7 +228995,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "vante_benidorm",
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Av. de Estocolmo, 4, Hotel Port Benidorm",
    "cocina": "Dulce",
@@ -229076,7 +229076,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "dexcaro.denia",
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "C/ Abu-s-salt, 1, Dénia",
    "cocina": "Arroces",
@@ -229101,7 +229101,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": "C/ Sant Pere, 39, Altea",
    "cocina": "Arroces",
@@ -229126,7 +229126,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": "C/ Rausell, 18, Gandia",
    "cocina": "Pescado",
@@ -229151,7 +229151,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": "C/ Sant Pere, 35, Altea",
    "cocina": "Dulce",
@@ -229176,7 +229176,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "kyomu.izakaya",
-   "ciudad": null,
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": "C/ Canalejas, 24, La Vila Joiosa",
    "cocina": "Sushi y japonesa",
@@ -229201,7 +229201,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "safra.calpe",
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -229228,7 +229228,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": "C/ Major, 38, Gandia",
    "cocina": "Tradicional",
@@ -229255,7 +229255,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": "Av. de la Marina Baixa, Cala de Finestrat",
    "cocina": "Arroces",
@@ -229282,7 +229282,7 @@
   "clasif": {
    "nombre": "Ca Curro",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "C/ del pont, 19, Els Magazinos, Dénia",
    "cocina": "Brasa",
@@ -229332,7 +229332,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": "C/ Jesuitas, 3, Gandia",
    "cocina": "Arroces",
@@ -229357,7 +229357,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "munay_pueblo",
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": "C/ Major, 1, Xàbia",
    "cocina": "Hamburguesas",
@@ -229382,7 +229382,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "C/ de Patricio Ferrándiz, 82, Dénia",
    "cocina": "Sushi y japonesa",
@@ -229407,7 +229407,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "bartrinquet.javea",
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": "C/ de l’escola, 2, Xàbia",
    "cocina": "Arroces",
@@ -229432,7 +229432,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -229457,7 +229457,7 @@
   "clasif": {
    "nombre": "Puerto Dep",
    "ig_local": "mesa_lamarina",
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -229484,7 +229484,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "damajo.calpe",
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": "C/ Blasco Ibáñez, 5, Calp",
    "cocina": "Pizza",
@@ -229536,7 +229536,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "mimosabrunch.calpe",
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": "C/ Letonia, 3, Calp",
    "cocina": "Brasa",
@@ -229588,7 +229588,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": "Av. de l’Església, 3, La Nucia",
    "cocina": "Arroces",
@@ -229821,7 +229821,7 @@
   "clasif": {
    "nombre": "Criollo Albir",
    "ig_local": "criollo.albir",
-   "ciudad": "Valencia",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -229848,7 +229848,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": "C/ Marqués de Campo, 39, Dénia",
    "cocina": "Tapas",
@@ -229873,7 +229873,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "umami.calpe",
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": "Plaza Colón, Calp",
    "cocina": "Marisco",
@@ -229925,7 +229925,7 @@
   "clasif": {
    "nombre": "Pepecabrera Homes",
    "ig_local": "pepecabrera_homes",
-   "ciudad": null,
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -230000,7 +230000,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Gandía",
    "zona": null,
    "dir_pie": "Plaza Mayor, 7, Gandía",
    "cocina": "Mexicana",
@@ -230053,7 +230053,7 @@
   "clasif": {
    "nombre": "Partida Marisol Park",
    "ig_local": "jose.manuel.miguel",
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -230103,7 +230103,7 @@
   "clasif": {
    "nombre": "La Enoteca by Mateo Wines",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230128,7 +230128,7 @@
   "clasif": {
    "nombre": "Auditorio La Lonja",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": "Calle Aragón, s/n, Orihuela",
    "cocina": null,
@@ -230155,7 +230155,7 @@
   "clasif": {
    "nombre": "Nueva Apertura En Orihuela",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230180,7 +230180,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230205,7 +230205,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230228,9 +230228,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Orihuela",
+   "nombre": "Nueva Fecha 8 De Noviembre",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230255,7 +230255,7 @@
   "clasif": {
    "nombre": "Dulcefresa Es",
    "ig_local": "dulcefresa_es",
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230280,7 +230280,7 @@
   "clasif": {
    "nombre": "Yufukisushi",
    "ig_local": "yufukisushi",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -230355,7 +230355,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230430,7 +230430,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230480,7 +230480,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230553,9 +230553,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Orihuela",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230580,7 +230580,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230605,7 +230605,7 @@
   "clasif": {
    "nombre": "Dulcefresa Es",
    "ig_local": "dulcefresa_es",
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230680,7 +230680,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230705,7 +230705,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230755,7 +230755,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230782,7 +230782,7 @@
   "clasif": {
    "nombre": "La Bohemia by Guillenico",
    "ig_local": "labohemia_byguillenico",
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -230888,7 +230888,7 @@
   "clasif": {
    "nombre": "Auray Dance Studio",
    "ig_local": "auray.dance.studio",
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230938,7 +230938,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Calpe",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -230990,7 +230990,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -231015,7 +231015,7 @@
   "clasif": {
    "nombre": "Weiq Pagos",
    "ig_local": "weiq.pagos",
-   "ciudad": "Alicante",
+   "ciudad": "Torrevieja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -231294,7 +231294,7 @@
   "clasif": {
    "nombre": "Parcela Rural La Monsina",
    "ig_local": "parcela_rural_la_monsina",
-   "ciudad": "Alicante",
+   "ciudad": "Orihuela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -231371,7 +231371,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -231596,7 +231596,7 @@
   "clasif": {
    "nombre": "Noki",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -232023,7 +232023,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Mexicana",
@@ -232048,7 +232048,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -232098,7 +232098,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -232123,7 +232123,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -232173,7 +232173,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -232248,7 +232248,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -232475,7 +232475,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -232525,7 +232525,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -232652,7 +232652,7 @@
   "clasif": {
    "nombre": "Brunosbenidorm",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": "Avenida Ruzafa con Calle Rioja",
    "cocina": "Pizza",
@@ -232702,7 +232702,7 @@
   "clasif": {
    "nombre": "En este local",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": "Avenida Benidorm 10, Villajoyosa",
    "cocina": "Hamburguesas",
@@ -233052,7 +233052,7 @@
   "clasif": {
    "nombre": "Duna Artisandonuts",
    "ig_local": "duna_artisandonuts",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -233150,7 +233150,7 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Benidorm",
+   "nombre": "Carmencita Brunch",
    "ig_local": "carmencita.brunch",
    "ciudad": "Madrid",
    "zona": null,
@@ -233252,7 +233252,7 @@
   "clasif": {
    "nombre": "Vante Benidorm",
    "ig_local": "vante_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -233327,7 +233327,7 @@
   "clasif": {
    "nombre": "Castelldelolla",
    "ig_local": "buca.chabelas",
-   "ciudad": null,
+   "ciudad": "Altea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -233427,7 +233427,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -233527,7 +233527,7 @@
   "clasif": {
    "nombre": "Umaibenidorm",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -233577,7 +233577,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "C/ Albacete, 10, Arenales del Sol (Elche)",
    "cocina": null,
@@ -233681,7 +233681,7 @@
   "clasif": {
    "nombre": "Playa de la Antoneta",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Villajoyosa",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -233856,7 +233856,7 @@
   "clasif": {
    "nombre": "P P",
    "ig_local": "p.p",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -233883,7 +233883,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Avda Jubalcoi 14, Altabix",
    "cocina": "Torreznos",
@@ -233908,7 +233908,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -233935,7 +233935,7 @@
   "clasif": {
    "nombre": "Fray Luis de León",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -233962,7 +233962,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -233989,7 +233989,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -234014,7 +234014,7 @@
   "clasif": {
    "nombre": "Menú Wonder 28 50",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -234064,7 +234064,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -234114,7 +234114,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Plza del Congreso Eucarístico 17, Centro de Elche",
    "cocina": "Arroces",
@@ -234164,7 +234164,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Paseo de la Juventud 1, Centro de Elche",
    "cocina": "Tapas",
@@ -234214,7 +234214,7 @@
   "clasif": {
    "nombre": "Puro Orixe",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Avda Illice 48 (Torrellano)",
    "cocina": "Brasa",
@@ -234264,7 +234264,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -234339,7 +234339,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Avda de Dolores km 6, Camp d’Elx",
    "cocina": null,
@@ -234414,7 +234414,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Plaça d’Altabix, 10",
    "cocina": null,
@@ -234544,7 +234544,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -234569,7 +234569,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -234648,7 +234648,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -234727,7 +234727,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Avda de la Constitución 12, Aspe",
    "cocina": "Dulce",
@@ -234806,7 +234806,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Plza de la Constitución 15, Centro de Elche",
    "cocina": "Sushi y japonesa",
@@ -234860,7 +234860,7 @@
   "clasif": {
    "nombre": "P P",
    "ig_local": "p.p",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Ctra de Dolores Km 6",
    "cocina": "Arroces",
@@ -234887,7 +234887,7 @@
   "clasif": {
    "nombre": "Chicocallaelche",
    "ig_local": "elgaraje_bar",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -234939,7 +234939,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -234966,7 +234966,7 @@
   "clasif": {
    "nombre": "P P",
    "ig_local": "p.p",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": "Plaza Obispo Siuri 4, Pont Nou",
    "cocina": null,
@@ -234993,7 +234993,7 @@
   "clasif": {
    "nombre": "P P",
    "ig_local": "p.p",
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -235020,7 +235020,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -235045,7 +235045,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -235070,7 +235070,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -235120,7 +235120,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Elche",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -235722,7 +235722,7 @@
   "clasif": {
    "nombre": "LEriçó del Trampolí",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -235922,7 +235922,7 @@
   "clasif": {
    "nombre": "La Terrasse",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -236074,7 +236074,7 @@
   "clasif": {
    "nombre": "Vante Benidorm",
    "ig_local": "vante_benidorm",
-   "ciudad": "Alicante",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -237034,7 +237034,7 @@
   "clasif": {
    "nombre": "Kofu Coffee & Kitchen",
    "ig_local": null,
-   "ciudad": "Castellón",
+   "ciudad": "Benicàssim",
    "zona": null,
    "dir_pie": "Carrer La Sequiota, 15, Benicàssim ( Brunch y Cenas )",
    "cocina": "Pizza",
@@ -237742,7 +237742,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lloret de Mar",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -238092,7 +238092,7 @@
   "clasif": {
    "nombre": "La Brasa",
    "ig_local": "labrasavilareal",
-   "ciudad": "Castellón",
+   "ciudad": "Vila-real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -238519,7 +238519,7 @@
   "clasif": {
    "nombre": "Laclandestina Trattoria",
    "ig_local": "laclandestina_trattoria",
-   "ciudad": "Castellón",
+   "ciudad": "Benicàssim",
    "zona": null,
    "dir_pie": "Calle Bisbe Serra, 16, Benicàssim (Castellón)",
    "cocina": "Italiana",
@@ -240604,7 +240604,7 @@
   "clasif": {
    "nombre": "Holidays26",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Hondarribia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -241158,7 +241158,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cambrils",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -245993,7 +245993,7 @@
   "clasif": {
    "nombre": "Ca Ortunyo",
    "ig_local": "ca_ortunyo",
-   "ciudad": "Valencia",
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -246068,7 +246068,7 @@
   "clasif": {
    "nombre": "Bonamb",
    "ig_local": "bonambrestaurant",
-   "ciudad": "Valencia",
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -246120,7 +246120,7 @@
   "clasif": {
    "nombre": "Shjavea",
    "ig_local": "shjavea",
-   "ciudad": null,
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -246145,7 +246145,7 @@
   "clasif": {
    "nombre": "Puelche",
    "ig_local": "puelche_restaurante",
-   "ciudad": "Valencia",
+   "ciudad": "Jávea",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -246170,7 +246170,7 @@
   "clasif": {
    "nombre": "Pontsec",
    "ig_local": "restaurantpontsec",
-   "ciudad": "Valencia",
+   "ciudad": "Dénia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -249791,7 +249791,7 @@
   "clasif": {
    "nombre": "Can Gallina",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Granollers",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -249993,7 +249993,7 @@
   "clasif": {
    "nombre": "Capo",
    "ig_local": "capo_italiano_",
-   "ciudad": "Barcelona",
+   "ciudad": "Granollers",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -251647,7 +251647,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Granollers",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -252975,9 +252975,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Benidorm",
+   "nombre": "Zanapasta",
    "ig_local": null,
-   "ciudad": "Vitoria",
+   "ciudad": "Benidorm",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -254433,7 +254433,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Getaria",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -254837,7 +254837,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "El Prat",
    "zona": null,
    "dir_pie": "Carrer de Jaume Casanovas, 6 — El Prat de Llobregat",
    "cocina": "Arroces",
@@ -255189,7 +255189,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Mataró",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -255539,7 +255539,7 @@
   "clasif": {
    "nombre": "Solraig Tiburon",
    "ig_local": "solraig.tiburon",
-   "ciudad": "Barcelona",
+   "ciudad": "Castelldefels",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",

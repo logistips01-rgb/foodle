@@ -106,6 +106,49 @@ const CIUDADES = {
   Castellón: ['castellon'],
   Girona: ['girona'],
   'Vitoria': ['vitoria', 'gasteiz'],
+  // Cataluña
+  Sabadell: ['sabadell'],
+  Terrassa: ['terrassa', 'tarrasa'],
+  Reus: ['reus'],
+  'Mataró': ['mataro'],
+  Sitges: ['sitges'],
+  Granollers: ['granollers'],
+  Manresa: ['manresa'],
+  Figueres: ['figueres', 'figueras'],
+  Salou: ['salou'],
+  Cambrils: ['cambrils'],
+  'Lloret de Mar': ['lloret de mar', 'lloret'],
+  Tortosa: ['tortosa'],
+  'Vilanova i la Geltrú': ['vilanova i la geltru'],
+  Castelldefels: ['castelldefels'],
+  'Cornellà': ['cornella'],
+  'El Prat': ['el prat de llobregat', 'prat de llobregat'],
+  // Comunidad Valenciana
+  Elche: ['elche', 'elx'],
+  Benidorm: ['benidorm'],
+  Torrevieja: ['torrevieja'],
+  'Dénia': ['denia'],
+  'Gandía': ['gandia'],
+  'Jávea': ['javea', 'xabia'],
+  Altea: ['altea'],
+  Calpe: ['calpe'],
+  'Villajoyosa': ['villajoyosa', 'la vila joiosa'],
+  Orihuela: ['orihuela'],
+  Alcoy: ['alcoy', 'alcoi'],
+  Sagunto: ['sagunto', 'sagunt'],
+  'Vila-real': ['vila-real', 'villarreal'],
+  'Benicàssim': ['benicassim'],
+  'Peñíscola': ['peniscola'],
+  // País Vasco
+  Zarautz: ['zarautz'],
+  Getaria: ['getaria', 'guetaria'],
+  Hondarribia: ['hondarribia', 'fuenterrabia'],
+  Eibar: ['eibar'],
+  Gernika: ['gernika', 'guernica'],
+  Bermeo: ['bermeo'],
+  Mundaka: ['mundaka'],
+  Lekeitio: ['lekeitio'],
+  Portugalete: ['portugalete'],
 };
 
 // Municipio → ciudad grande a la que pertenece. "Restaurante en Alcobendas, Madrid" es Alcobendas.
@@ -114,7 +157,8 @@ const PERTENECE = Object.fromEntries(['Alcobendas', 'San Sebastián de los Reyes
   'Rivas', 'Colmenar Viejo'].map((c) => [c, 'Madrid']));
 Object.assign(PERTENECE,
   { "L'Hospitalet": 'Barcelona', Badalona: 'Barcelona', 'Sant Cugat': 'Barcelona' },
-  { Getxo: 'Bilbao', Barakaldo: 'Bilbao' },
+  { Castelldefels: 'Barcelona', 'Cornellà': 'Barcelona', 'El Prat': 'Barcelona' },
+  { Getxo: 'Bilbao', Barakaldo: 'Bilbao', Portugalete: 'Bilbao' },
   { 'Dos Hermanas': 'Sevilla', 'Mairena del Aljarafe': 'Sevilla' });
 
 // Barrios / zonas por ciudad. Solo se usan si la ciudad ya está decidida.
