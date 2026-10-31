@@ -27,6 +27,8 @@ Actualizado: 30/10/2026.
       `foodle/correcciones.json`.
 - [ ] **Más foodies de Alcobendas / zona norte** (pedir nombres a la familia).
 - [x] Barcelona, Valencia, Bilbao y Sevilla cargadas (30/10).
+- [ ] **Criterio (31/10):** primero que haya representación en todas las ciudades, fase a fase; después una pasada
+      buscando foodies nuevos para completar las flojas (Sabadell, Terrassa, Lleida, Reus, Pamplona, Logroño…).
 - [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
       Comunidad Valenciana (Alicante, Castellón, Elche, Benidorm, Dénia, Gandía…) y País Vasco (Donostia, Vitoria,
       Getxo, Zarautz…).
