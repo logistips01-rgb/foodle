@@ -4855,5 +4855,295 @@
  "carrer de migjorn, 2, 07108 port de sóller, illes balears|valencia": null,
  "cecotec|valencia": null,
  "c/ espartero, 63, pobles de l’oest, 46100, burjassot, valencia|valencia": null,
- "03749 dénia, alicante|alicante": null
+ "03749 dénia, alicante|alicante": null,
+ "arantxaabm90|sevilla": null,
+ "c. de augusto figueroa, 24, planta 2 puesto 21, centro, 28004 madrid|madrid": {
+  "lat": 40.4219551,
+  "lng": -3.6975908,
+  "direccion": "Calle de Augusto Figueroa 24, Madrid"
+ },
+ "calle pelayo, en pleno barrio chino de valencia, aquí no vienes a hacerte el fino, vienes a comer como un animal 🐷|valencia": null,
+ "c/ del poeta serrano clavero, 19, benicalap, 46025 valència|valencia": {
+  "lat": 39.4914035,
+  "lng": -0.3897254,
+  "direccion": "Calle del Poeta Serrano Clavero 19, Valencia"
+ },
+ "esmorzaret|valencia": null,
+ "c/ del convent de sta, clara, 13, ciutat vella, valencia|valencia": null,
+ "c/ de correus, 8, valencia|valencia": null,
+ "c/ vall de la ballestera, 44, campanar, 46015 valència|valencia": null,
+ "46014 valència|valencia": {
+  "lat": 39.4634518,
+  "lng": -0.4033502,
+  "direccion": "Valencia"
+ },
+ "c/ espartero, 63, burjassot|valencia": null,
+ "c/ de reus, 16, la saïdia, 46009 valència 📞 622 06 73 02|valencia": null,
+ "c/ de málaga, 24, la saïdia, 46009 valència|valencia": {
+  "lat": 39.4842676,
+  "lng": -0.3834655,
+  "direccion": "Calle de Málaga 24, Valencia"
+ },
+ "c/ vicente marco miranda, 6, quatre carreres, 46026 valència 📞 963 83 90 67|valencia": null,
+ "carrer de sant vicent màrtir, 42, ciutat vella, 46002 valència 📞 963 94 03 38|valencia": null,
+ "c/ del comte d'almodóvar, 4, ciutat ve|valencia": null,
+ "the ceramic bar|valencia": null,
+ "avinguda dels pinars, 16, pobles del sud, 46012 valència|valencia": {
+  "lat": 39.3560616,
+  "lng": -0.3241544,
+  "direccion": "Avinguda dels Pinars, Valencia"
+ },
+ "46007 valència, valencia|valencia": {
+  "lat": 39.4606646,
+  "lng": -0.3861348,
+  "direccion": "Valencia"
+ },
+ "p p|valencia": null,
+ "casa el famos|valencia": null,
+ "paterna|valencia": null,
+ "c/ de reus, 16 — la saïdia, valència|valencia": {
+  "lat": 39.4858075,
+  "lng": -0.38191,
+  "direccion": "Calle Reus, Valencia"
+ },
+ "av. de burjassot, 58, la saïdia, valència|valencia": {
+  "lat": 39.4861598,
+  "lng": -0.3866793,
+  "direccion": "Avenida de Burjasot, Valencia"
+ },
+ "ca rakel|valencia": {
+  "lat": 39.4639304,
+  "lng": -0.3289783,
+  "direccion": "Calle del Doctor Lluch 9, Valencia"
+ },
+ "c. del dr, lluch, 9, poblats marítims, valència|valencia": null,
+ "sakana|valencia": null,
+ "c/ de sagunt, 174, la saïdia, valència|valencia": {
+  "lat": 39.4880944,
+  "lng": -0.3754775,
+  "direccion": "Calle de Sagunto, Valencia"
+ },
+ "bar fox|valencia": {
+  "lat": 39.4732085,
+  "lng": -0.378461,
+  "direccion": "Calle Palafox, Valencia"
+ },
+ "extramurs|valencia": {
+  "lat": 39.4708608,
+  "lng": -0.3881723,
+  "direccion": "Valencia"
+ },
+ "c/ de gaudencia torres, 15, 46015 valència|valencia": {
+  "lat": 39.4818497,
+  "lng": -0.3947585,
+  "direccion": "Calle de Gaudencia Torres, Valencia"
+ },
+ "av. de navarro reverter, 8, l'eixample (valència)|valencia": {
+  "lat": 39.4711245,
+  "lng": -0.3671423,
+  "direccion": "Avenida de Navarro Reverter 8, Valencia"
+ },
+ "c/v-1, paterna 2, c, heron city, sector 14, local 3 c, 46980 paterna, valencia|valencia": null,
+ "carrer de l'arquebisbe fabián y fuero, 40, valència|valencia": null,
+ "av. del primer de maig, 81, paterna (valencia)|valencia": null,
+ "av. de les corts valencianes, 50, benicalap|valencia": {
+  "lat": 39.4940021,
+  "lng": -0.4012589,
+  "direccion": "Avenida de las Cortes Valencianas 50, Valencia"
+ },
+ "c/ de reus, 27, la saïdia — valència|valencia": {
+  "lat": 39.4858299,
+  "lng": -0.3806231,
+  "direccion": "Calle Reus 27, Valencia"
+ },
+ "taste the floor|valencia": null,
+ "si estás en gastrónoma|valencia": null,
+ "c/ literato azorín, 13-a, valència|valencia": {
+  "lat": 39.4604061,
+  "lng": -0.3739532,
+  "direccion": "Calle del Literato Azorín 13-A, Valencia"
+ },
+ "juana tiendavlc|valladolid": null,
+ "casino cirsa valencia|valencia": {
+  "lat": 39.4954208,
+  "lng": -0.4039167,
+  "direccion": "Calle de los Cipreses 59, Valencia"
+ },
+ "riberadelduero|valladolid": null,
+ "los pedrones|valencia": null,
+ "link|valencia": {
+  "lat": 39.4552278,
+  "lng": -0.3842608,
+  "direccion": "Calle de San Vicente Mártir, Valencia"
+ },
+ "bodegas vegalfaro|valencia": null,
+ "kawori vlc|valencia": {
+  "lat": 39.4631563,
+  "lng": -0.3723841,
+  "direccion": "Calle Carlos Cervera 8, Valencia"
+ },
+ "c/ de dalt, 12, valencia|valencia": null,
+ "mistela|valencia": null,
+ "hangkook hankookbbq.es|valencia": null,
+ "te esperan en c|valencia": null,
+ "perfumarte spain|valencia": null,
+ "tienen dos locales|valencia": null,
+ "lacasetaperellonet|valencia": null,
+ "experiencity valencia|valencia": null,
+ "manolita chen madrid|madrid": {
+  "lat": 40.4240084,
+  "lng": -3.6814898,
+  "direccion": "Calle de Castelló 18, Madrid"
+ },
+ "laoncemil|madrid": null,
+ "rutins es|valencia": {
+  "lat": 39.4909716,
+  "lng": -0.3989877,
+  "direccion": "Avenida de las Cortes Valencianas, Valencia"
+ },
+ "yoshi sushichef|valencia": null,
+ "kibo|valencia": null,
+ "sedes|madrid": null,
+ "temporada|madrid": {
+  "lat": 40.5038469,
+  "lng": -3.7070088,
+  "direccion": "Calle del Monasterio de las Huelgas, Madrid"
+ },
+ "drvn project|sevilla": null,
+ "brand|córdoba": null,
+ "supermirror|córdoba": null,
+ "pixi spain|córdoba": null,
+ "chicblooms|córdoba": null,
+ "tendencias|córdoba": {
+  "lat": 37.8882751,
+  "lng": -4.7655101,
+  "direccion": "Calle San Francisco de Sales, Córdoba"
+ },
+ "la sierra|córdoba": null,
+ "amavivashop|córdoba": null,
+ "joom|córdoba": null,
+ "buddhastones deutsch|córdoba": null,
+ "madbeauty es|córdoba": null,
+ "yesstyleinfluencers|córdoba": null,
+ "qiqihary bbq  cc parque corredor|madrid": null,
+ "unglotonconarte|dos hermanas": null,
+ "calle de castelló, 113|madrid": {
+  "lat": 40.435879,
+  "lng": -3.6807241,
+  "direccion": "Calle de Castelló 113, Madrid"
+ },
+ "c/ botica 6, dos hermanas|dos hermanas": {
+  "lat": 37.2833511,
+  "lng": -5.9244959,
+  "direccion": "Calle Botica 6, Dos Hermanas"
+ },
+ "aureliano|dos hermanas": {
+  "lat": 37.3436836,
+  "lng": -5.9345551,
+  "direccion": "Calle Aureliano, Dos Hermanas"
+ },
+ "laowanghotpot|alcorcón": null,
+ "cc entrenasas|sevilla": null,
+ "bar jaula|dos hermanas": {
+  "lat": 37.2842919,
+  "lng": -5.9220511,
+  "direccion": "Calle San Rafael, Dos Hermanas"
+ },
+ "el gordito de triana|sevilla": null,
+ "villamartín|cádiz": null,
+ "bar triana|dos hermanas": null,
+ "el caminante andaluz|sevilla": null,
+ "cafeteria caffedolce|dos hermanas": null,
+ "dominospizza es|sevilla": null,
+ "miguelitos roda|sevilla": null,
+ "elmejorbocata|cádiz": null,
+ "paco valle 526|sevilla": null,
+ "alexdeluna cheesecakee|córdoba": null,
+ "javier flores101|sevilla": null,
+ "fiveguys es|sevilla": null,
+ "cremette es|sevilla": null,
+ "elrincondefran jerez|sevilla": null,
+ "abaceria losangeles|sevilla": null,
+ "somosmaniacos|sevilla": null,
+ "doritos|sevilla": null,
+ "mcextreme|sevilla": null,
+ "grillaera algeciras|sevilla": null,
+ "calle antoni ros marba|dos hermanas": {
+  "lat": 37.2781835,
+  "lng": -5.9135025,
+  "direccion": "Calle Antoni Ros Marbà, Dos Hermanas"
+ },
+ "the burger games|cádiz": null,
+ "jumpyard sevilla|sevilla": null,
+ "alojamientorurallospozos|sevilla": null,
+ "thecreepyhalloween|sevilla": null,
+ "sevilla|sevilla": {
+  "lat": 37.3886303,
+  "lng": -5.9953403,
+  "direccion": "Sevilla"
+ },
+ "tovias app|sevilla": null,
+ "avenida de la constitución s/n, casco antiguo|sevilla": {
+  "lat": 37.3856073,
+  "lng": -5.9940102,
+  "direccion": "Sevilla"
+ },
+ "the ninja games|sevilla": null,
+ "viajar|barcelona": null,
+ "viajar|sevilla": null,
+ "fun ride sevilla|sevilla": null,
+ "alameda de hércules|sevilla": {
+  "lat": 37.3988837,
+  "lng": -5.9937356,
+  "direccion": "Sevilla"
+ },
+ "caño ronco alto|sevilla": null,
+ "el aguador condequinto|dos hermanas": null,
+ "elrefugiodelindio|málaga": null,
+ "calle cabeza del rey don pedro, 21|sevilla": {
+  "lat": 37.3897755,
+  "lng": -5.9898283,
+  "direccion": "Calle Cabeza del Rey Don Pedro, Sevilla"
+ },
+ "qué ver|sevilla": null,
+ "benalmádena|málaga": null,
+ "atarde|cádiz": null,
+ "playa de camposoto|cádiz": null,
+ "hotel ribera de triana|sevilla": {
+  "lat": 37.3891551,
+  "lng": -6.0073372,
+  "direccion": "Calle Gracia de Triana, Sevilla"
+ },
+ "haoyouduo sevilla|sevilla": null,
+ "marinahome es|sevilla": null,
+ "ecowoman es|sevilla": null,
+ "firmoo spain|sevilla": null,
+ "paintuber|sevilla": null,
+ "oci93cristinagmera5725|sevilla": null,
+ "lacuponera app|sevilla": null,
+ "freeprints es|sevilla": null,
+ "yoli stein|sevilla": null,
+ "tendencias|sevilla": {
+  "lat": 37.3762734,
+  "lng": -5.9701793,
+  "direccion": "Calle Pintor Rosales, Sevilla"
+ },
+ "m wokway|sevilla": null,
+ "shein spain|sevilla": null,
+ "elsofarojo weddings|málaga": null,
+ "makeupxalba|málaga": null,
+ "fotografoivan777|málaga": null,
+ "blurmag|málaga": null,
+ "byinfluence marketing|málaga": null,
+ "dellafuente|málaga": null,
+ "symart magazine|málaga": null,
+ "protsalke|sevilla": null,
+ "telas vicente|córdoba": null,
+ "rovescio magazine|málaga": null,
+ "luxars studio|málaga": null,
+ "prieto atelier|córdoba": null,
+ "luxars studio|madrid": null,
+ "robbreportenes|málaga": null,
+ "nm scouting|málaga": null,
+ "brote|córdoba": null
 }
