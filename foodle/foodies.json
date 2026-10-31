@@ -192,5 +192,17 @@
   { "usuario": "polviladoms", "ciudad": "Barcelona", "nota": "Norma comprobada 2026-10-31 · 60 % de comida" },
   { "usuario": "elgastronautaalaves", "ciudad": "Vitoria", "nota": "Norma comprobada 2026-10-31 · 90 % de comida" },
   { "usuario": "topcatalanrestaurants", "nota": "Norma comprobada 2026-10-31 · 83 % de comida" },
-  { "usuario": "gourmetfoodbcn", "ciudad": "Barcelona", "nota": "Excepción a la norma (pidió Manuel el 31/10): 100 % de comida, algún mes sin publicar" }
+  { "usuario": "gourmetfoodbcn", "ciudad": "Barcelona", "nota": "Excepción a la norma (pidió Manuel el 31/10): 100 % de comida, algún mes sin publicar" },
+  { "usuario": "asturiasesenciafolixera", "ciudad": "Gijón", "nota": "Norma comprobada 2026-10-31 · 100 % de comida" },
+  { "usuario": "ayukitar_foodie", "ciudad": "Pamplona", "nota": "Norma comprobada 2026-10-31 · 87 % de comida" },
+  { "usuario": "bocaviajera", "ciudad": "Vigo", "nota": "Norma comprobada 2026-10-31 · 73 % de comida" },
+  { "usuario": "bydrita_", "ciudad": "A Coruña", "nota": "Norma comprobada 2026-10-31 · 67 % de comida" },
+  { "usuario": "cocinarhastaallegar", "ciudad": "Logroño", "nota": "Norma comprobada 2026-10-31 · 93 % de comida" },
+  { "usuario": "hacerhambre", "nota": "Norma comprobada 2026-10-31 · 80 % de comida" },
+  { "usuario": "pamplonagourmets", "ciudad": "Pamplona", "nota": "Norma comprobada 2026-10-31 · 87 % de comida" },
+  { "usuario": "comerensantander", "ciudad": "Santander", "nota": "Norma comprobada 2026-10-31 · 77 % de comida" },
+  { "usuario": "alfonsojlt", "ciudad": "Santander", "nota": "Norma comprobada 2026-10-31 · 90 % de comida" },
+  { "usuario": "lifeasvalu", "ciudad": "Vigo", "nota": "Norma comprobada 2026-10-31 · 53 % de comida" },
+  { "usuario": "viajemos_cerca_o_lejos", "ciudad": "Zaragoza", "nota": "Norma comprobada 2026-10-31 · 60 % de comida" },
+  { "usuario": "albarico__", "ciudad": "Gijón", "nota": "Norma comprobada 2026-10-31 · 90 % de comida" }
 ]
