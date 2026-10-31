@@ -186,5 +186,10 @@
   { "usuario": "loskatamierdas", "nota": "Norma comprobada 2026-10-31 · 43 % de comida" },
   { "usuario": "experimentaconsandra", "ciudad": "Gijón", "nota": "Norma comprobada 2026-10-31 · 63 % de comida" },
   { "usuario": "tastysouls_vlc", "ciudad": "Valencia", "nota": "Excepción a la norma (pidió Manuel el 31/10): 87 % de comida, pero 65 días sin publicar" },
-  { "usuario": "enjoybyana", "ciudad": "Valencia", "nota": "Norma comprobada 2026-10-31 · 87 % de comida (la seguía Manuel)" }
+  { "usuario": "enjoybyana", "ciudad": "Valencia", "nota": "Norma comprobada 2026-10-31 · 87 % de comida (la seguía Manuel)" },
+  { "usuario": "edurnyx", "nota": "Norma comprobada 2026-10-31 · 73 % de comida" },
+  { "usuario": "olixfood", "ciudad": "Barcelona", "nota": "Norma comprobada 2026-10-31 · 90 % de comida" },
+  { "usuario": "polviladoms", "ciudad": "Barcelona", "nota": "Norma comprobada 2026-10-31 · 60 % de comida" },
+  { "usuario": "elgastronautaalaves", "ciudad": "Vitoria", "nota": "Norma comprobada 2026-10-31 · 90 % de comida" },
+  { "usuario": "topcatalanrestaurants", "nota": "Norma comprobada 2026-10-31 · 83 % de comida" }
 ]
