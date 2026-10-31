@@ -2,12 +2,12 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1377
+  "n": 1379
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 645
+  "n": 647
  },
  {
   "nombre": "Valencia",
@@ -17,22 +17,27 @@
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 513
+  "n": 528
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 232
+  "n": 235
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 230
+  "n": 231
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 209
+  "n": 213
+ },
+ {
+  "nombre": "Santander",
+  "slug": "santander",
+  "n": 90
  },
  {
   "nombre": "Benidorm",
@@ -47,12 +52,27 @@
  {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
-  "n": 70
+  "n": 72
+ },
+ {
+  "nombre": "A Coruña",
+  "slug": "a-coruna",
+  "n": 63
  },
  {
   "nombre": "Vitoria",
   "slug": "vitoria",
-  "n": 59
+  "n": 61
+ },
+ {
+  "nombre": "Pamplona",
+  "slug": "pamplona",
+  "n": 60
+ },
+ {
+  "nombre": "Gijón",
+  "slug": "gijon",
+  "n": 51
  },
  {
   "nombre": "Córdoba",
@@ -70,19 +90,24 @@
   "n": 43
  },
  {
-  "nombre": "A Coruña",
-  "slug": "a-coruna",
+  "nombre": "Tarragona",
+  "slug": "tarragona",
+  "n": 43
+ },
+ {
+  "nombre": "Logroño",
+  "slug": "logrono",
   "n": 43
  },
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 41
+  "n": 42
  },
  {
-  "nombre": "Tarragona",
-  "slug": "tarragona",
-  "n": 41
+  "nombre": "Vigo",
+  "slug": "vigo",
+  "n": 38
  },
  {
   "nombre": "Elche",
@@ -105,18 +130,23 @@
   "n": 27
  },
  {
-  "nombre": "Santander",
-  "slug": "santander",
-  "n": 24
- },
- {
   "nombre": "Barakaldo",
   "slug": "barakaldo",
   "n": 23
  },
  {
+  "nombre": "Santiago de Compostela",
+  "slug": "santiago-de-compostela",
+  "n": 23
+ },
+ {
   "nombre": "Badalona",
   "slug": "badalona",
+  "n": 22
+ },
+ {
+  "nombre": "León",
+  "slug": "leon",
   "n": 22
  },
  {
@@ -145,11 +175,6 @@
   "n": 19
  },
  {
-  "nombre": "León",
-  "slug": "leon",
-  "n": 19
- },
- {
   "nombre": "Huesca",
   "slug": "huesca",
   "n": 18
@@ -165,8 +190,8 @@
   "n": 17
  },
  {
-  "nombre": "Gijón",
-  "slug": "gijon",
+  "nombre": "Teruel",
+  "slug": "teruel",
   "n": 16
  },
  {
@@ -180,13 +205,18 @@
   "n": 13
  },
  {
-  "nombre": "Teruel",
-  "slug": "teruel",
+  "nombre": "Toledo",
+  "slug": "toledo",
   "n": 13
  },
  {
-  "nombre": "Toledo",
-  "slug": "toledo",
+  "nombre": "Oviedo",
+  "slug": "oviedo",
+  "n": 12
+ },
+ {
+  "nombre": "Hondarribia",
+  "slug": "hondarribia",
   "n": 12
  },
  {
@@ -198,6 +228,11 @@
   "nombre": "Altea",
   "slug": "altea",
   "n": 12
+ },
+ {
+  "nombre": "Pontevedra",
+  "slug": "pontevedra",
+  "n": 11
  },
  {
   "nombre": "San Sebastián de los Reyes",
@@ -240,11 +275,6 @@
   "n": 10
  },
  {
-  "nombre": "Oviedo",
-  "slug": "oviedo",
-  "n": 8
- },
- {
   "nombre": "Sabadell",
   "slug": "sabadell",
   "n": 8
@@ -253,11 +283,6 @@
   "nombre": "Calpe",
   "slug": "calpe",
   "n": 8
- },
- {
-  "nombre": "Vigo",
-  "slug": "vigo",
-  "n": 7
  },
  {
   "nombre": "Terrassa",
@@ -275,6 +300,11 @@
   "n": 5
  },
  {
+  "nombre": "Lleida",
+  "slug": "lleida",
+  "n": 5
+ },
+ {
   "nombre": "Alcobendas",
   "slug": "alcobendas",
   "n": 5
@@ -287,11 +317,6 @@
  {
   "nombre": "Pozuelo",
   "slug": "pozuelo",
-  "n": 5
- },
- {
-  "nombre": "Hondarribia",
-  "slug": "hondarribia",
   "n": 5
  },
  {

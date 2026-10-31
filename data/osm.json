@@ -5653,5 +5653,307 @@
   "direccion": "Plaza del Museo 2, Bilbao"
  },
  "laureaolive|bilbao": null,
- "flaca|bilbao": null
+ "flaca|bilbao": null,
+ "trangol|peñíscola": null,
+ "tu lum restaurant|peñíscola": null,
+ "43201 reus, tarragona|reus": {
+  "lat": 41.1551127,
+  "lng": 1.1108187,
+  "direccion": "Reus"
+ },
+ "alpunt cambrils|cambrils": null,
+ "albanta|pontevedra": null,
+ "avinguda de josep tarradellas, 8, 08225 terrassa, barcelona|terrassa": {
+  "lat": 41.5725276,
+  "lng": 2.0027894,
+  "direccion": "Avinguda de Josep Tarradellas, Terrassa"
+ },
+ "rua san juan de loyo, s/n, 27611 paradela, lugo|lugo": null,
+ "27744 orrea, lugo|lugo": {
+  "lat": 43.0395266,
+  "lng": -7.4567985,
+  "direccion": "Lugo"
+ },
+ "carrer port de mataró, 1, 08301 mataró, barcelona|mataró": null,
+ "carrer de la carretera de l’aviació, 05, 08820 el prat de llobregat, barcelona|el prat": {
+  "lat": 41.314941,
+  "lng": 2.0924363,
+  "direccion": "Carretera de l'Aviació, el Prat de Llobregat"
+ },
+ "teatrosluchana|orihuela": null,
+ "market ourense|ourense": null,
+ "lapostreriademarta|pontevedra": null,
+ "huntersmashh|pontevedra": null,
+ "nabrasa ourense|ourense": null,
+ "cerveceria ofrade|ourense": null,
+ "bagoa gastrobar|ourense": null,
+ "fika bylima|ourense": null,
+ "demamaluis|ourense": null,
+ "larubensrestaurant|laredo": null,
+ "isabella trattoria|suances": null,
+ "mar de luna|dénia": null,
+ "c/ santiago de compostela, n-30, madrid|santiago de compostela": null,
+ "streetfood gandia|gandía": null,
+ "playa de gandia y daimús|gandía": null,
+ "𝙋𝙖𝙨𝙨𝙚𝙞𝙜 𝙈𝙖𝙧𝜾𝙩𝙞𝙢 𝙙𝙚 𝙉𝙚𝙥𝙩𝙪|gandía": {
+  "lat": 38.9675925,
+  "lng": -0.1803423,
+  "direccion": "Gandía"
+ },
+ "av. de ifach, 20 (calpe, alicante)|calpe": null,
+ "aqualandia|benidorm": {
+  "lat": 38.5408497,
+  "lng": -0.0934826,
+  "direccion": "Avenida de Marsella, Benidorm"
+ },
+ "terramitica|benidorm": null,
+ "sasabeauty|sabadell": null,
+ "lovren italia|sabadell": null,
+ "detalle|salou": null,
+ "el paraíso familiar en salou|salou": null,
+ "avinguda del vallès, 37, terrassa|terrassa": {
+  "lat": 41.5345212,
+  "lng": 2.0365862,
+  "direccion": "Avinguda del Vallès, Terrassa"
+ },
+ "hijumppark sabadell|sabadell": null,
+ "parc vallès|terrassa": {
+  "lat": 41.5457103,
+  "lng": 2.0239765,
+  "direccion": "Avinguda del Tèxtil, Terrassa"
+ },
+ "platja cambrils|cambrils": {
+  "lat": 41.0684031,
+  "lng": 1.0810863,
+  "direccion": "Carrer del Riu Glorieta, Cambrils"
+ },
+ "passeig de camprodon i arrieta, 26, lloret de mar|lloret de mar": {
+  "lat": 41.7009905,
+  "lng": 2.8552608,
+  "direccion": "Passeig de Camprodon i Arrieta, Lloret de Mar"
+ },
+ "homeexchange esp|peñíscola": null,
+ "del huerto al plato|sitges": null,
+ "twister|cornellà": null,
+ "chiringuito ancla|castelldefels": null,
+ "rico burguer|cornellà": null,
+ "happylandia terrassa|terrassa": null,
+ "evenia hotels|lloret de mar": {
+  "lat": 41.7044128,
+  "lng": 2.8374321,
+  "direccion": "Carrer de la Senyora de Rosell, Lloret de Mar"
+ },
+ "migusto|sabadell": null,
+ "circoraluyhistorico|figueres": null,
+ "tartana can massanet|figueres": null,
+ "carretera de blanes a lloret de mar, km 7, 8|lloret de mar": null,
+ "fira de sabadell|sabadell": {
+  "lat": 41.5457724,
+  "lng": 2.1171321,
+  "direccion": "Carrer de Alguersuari I Pascual 202, Sabadell"
+ },
+ "masia freixa|terrassa": {
+  "lat": 41.5630233,
+  "lng": 2.0042475,
+  "direccion": "Plaça de Josep Freixa i Argemí 11, Terrassa"
+ },
+ "castell cartoixa de vallparadís|terrassa": {
+  "lat": 41.5646022,
+  "lng": 2.0191406,
+  "direccion": "Plaça de les Teixidores, Terrassa"
+ },
+ "c/ virgen del losar, 12, 46520, port de sagunt, valencia|sagunto": {
+  "lat": 39.662047,
+  "lng": -0.2140293,
+  "direccion": "Calle Virgen del Losar, Sagunto"
+ },
+ "sara86as|benidorm": null,
+ "judithramiirez27|benidorm": null,
+ "magicpiratesislandresort|benidorm": null,
+ "calle rioja, benidorm|benidorm": {
+  "lat": 38.5381546,
+  "lng": -0.1292493,
+  "direccion": "Calle de la Rioja, Benidorm"
+ },
+ "gran talaso hotel sanxenxo|sanxenxo": {
+  "lat": 42.3994431,
+  "lng": -8.8166857,
+  "direccion": "Paseo de Silgar 3, Sanxenxo"
+ },
+ "o cargadoiro|ribadeo": {
+  "lat": 43.5436844,
+  "lng": -7.0390448,
+  "direccion": "Ribadeo"
+ },
+ "yuzumi restauranteyuzumi|gandía": null,
+ "dra albarracin|albarracín": null,
+ "foodiesvalencia5|dénia": null,
+ "escama cánovas|altea": null,
+ "tartas fondant gandia|gandía": null,
+ "sushisom espana|gandía": null,
+ "carrer historiador palau, 1|dénia": {
+  "lat": 38.8387417,
+  "lng": 0.1058941,
+  "direccion": "Calle Historiador Palau 1, Dénia"
+ },
+ "atalaya|jávea": {
+  "lat": 38.7936132,
+  "lng": 0.1357076,
+  "direccion": "Calle Atalaya del Sabinar, Jávea"
+ },
+ "caletabandida|jávea": null,
+ "marina de dénia|dénia": {
+  "lat": 38.8393355,
+  "lng": 0.1203718,
+  "direccion": "Calle Escollera Sur, Dénia"
+ },
+ "javea|jávea": {
+  "lat": 38.7760649,
+  "lng": 0.1314408,
+  "direccion": "Jávea"
+ },
+ "c sagunto barrio zaidia|sagunto": null,
+ "alqueria deferrando|dénia": null,
+ "03749 dénia, alicante|dénia": {
+  "lat": 38.8043461,
+  "lng": 0.0870293,
+  "direccion": "Dénia"
+ },
+ "pintxos en bilbao|portugalete": null,
+ "marina|bermeo": {
+  "lat": 43.4173081,
+  "lng": -2.7234841,
+  "direccion": "Kurtzio kalea, Bermeo"
+ },
+ "centro comercial ballonti, portugalete (bizkaia)|portugalete": {
+  "lat": 43.3117596,
+  "lng": -3.0220841,
+  "direccion": "Avenida Ballonti 1, Portugalete"
+ },
+ "explanada del cementerio de bermeo|bermeo": null,
+ "lo puedes encontrar en portugalete|portugalete": null,
+ "rincondeharbour|cambrils": null,
+ "camper park ponoig|benidorm": null,
+ "tripstop eu|bermeo": null,
+ "biosurfcamp|suances": {
+  "lat": 43.4208882,
+  "lng": -4.0408175,
+  "direccion": "Calle Serapio Beade, Suances"
+ },
+ "allariz|ourense": null,
+ "bitácora cocktail lounge|noja": null,
+ "paseo marítimo 1, noja (cantabria)|noja": {
+  "lat": 43.4912942,
+  "lng": -3.5271196,
+  "direccion": "Paseo Marítimo, Noja"
+ },
+ "c/ los pinares 47, noja (cantabria)|noja": {
+  "lat": 43.4822271,
+  "lng": -3.521623,
+  "direccion": "Calle los Pinares, Noja"
+ },
+ "castes blancas|ourense": null,
+ "crdo ribeiro|ourense": null,
+ "turismoprovinciaourense|ourense": null,
+ "ciudad de as burgas|ourense": null,
+ "somo|mieres": null,
+ "casa tatayugo|avilés": null,
+ "kaikai pizza|getxo": null,
+ "begotxu jatetxea|bilbao": null,
+ "disponible|bilbao": null,
+ "hotel ercilladebilbao|bilbao": null,
+ "molica focaccia|bilbao": null,
+ "gose smash burgers|bilbao": null,
+ "berango|bilbao": null,
+ "focaccia|bilbao": null,
+ "txipotes and burger|portugalete": null,
+ "ilovemelita|bilbao": null,
+ "vici espana|bilbao": null,
+ "tastethepassport|bilbao": null,
+ "kaia yoga studio|bilbao": null,
+ "misska bilbao|bilbao": {
+  "lat": 43.2635769,
+  "lng": -2.9330152,
+  "direccion": "Calle Colón de Larreátegui 35, Bilbao"
+ },
+ "contraelcancer bizkaia|bilbao": null,
+ "durango|bilbao": {
+  "lat": 43.2453004,
+  "lng": -2.9393263,
+  "direccion": "Calle Durango, Bilbao"
+ },
+ "el nautico de san vicente|bilbao": null,
+ "iruko sg|bilbao": null,
+ "lamastina bilbao|barakaldo": null,
+ "forastera bilbao|bilbao": null,
+ "carne|granada": null,
+ "surco|bilbao": null,
+ "cesar marquez perez|bilbao": null,
+ "maisonbelleville bilbao|bilbao": null,
+ "suntorywhisky hibiki|bilbao": null,
+ "bilbotxeros band|bilbao": null,
+ "suntory rokugin|bilbao": null,
+ "vivasuecia|bilbao": null,
+ "restaurante izusushi|bilbao": null,
+ "piperren txokoa|bilbao": null,
+ "tetsuro tetxubarri|bilbao": null,
+ "suances|suances": {
+  "lat": 43.4420144,
+  "lng": -4.0431986,
+  "direccion": "Calle de Acacio Gutiérrez, Suances"
+ },
+ "txispa restaurant|bilbao": null,
+ "marcos thericefactory|bilbao": null,
+ "hondartzape erretegia|bilbao": null,
+ "borja goikoetxea|bilbao": null,
+ "asador opazo|bilbao": null,
+ "asador txakoliberriz|bilbao": null,
+ "shein spain|santander": null,
+ "cefalú|santander": null,
+ "palermo|santander": null,
+ "olisticforwomen|santander": null,
+ "parking del palacio de deportes|santander": null,
+ "lolalolita land|santander": null,
+ "firmooes|santander": null,
+ "carrer del torrent de l’olla, 169, gràcia, barcelona|barcelona": {
+  "lat": 41.4048033,
+  "lng": 2.1541552,
+  "direccion": "Carrer del Torrent de l'Olla 169, Barcelona"
+ },
+ "rambla de ponent|tarragona": {
+  "lat": 41.1239304,
+  "lng": 1.2113528,
+  "direccion": "Rambla de Ponent, Tarragona"
+ },
+ "bloc sardenya|tarragona": null,
+ "comet tarragona|tarragona": null,
+ "el vendrell|tarragona": null,
+ "rcde stadium|cornellà": {
+  "lat": 41.3478567,
+  "lng": 2.0764584,
+  "direccion": "Splau parking, Cornellà de Llobregat"
+ },
+ "carrer d’alacant, 4, l’hospitalet de llobregat|l'hospitalet": {
+  "lat": 41.3724897,
+  "lng": 2.1108314,
+  "direccion": "Carrer d'Alacant, l'Hospitalet de Llobregat"
+ },
+ "carrer rovira i virgili, 38, tarragona|tarragona": {
+  "lat": 41.1249219,
+  "lng": 1.253059,
+  "direccion": "Carrer Rovira i Virgili, Tarragona"
+ },
+ "carrer d’august, 34, tarragona|tarragona": {
+  "lat": 41.1168444,
+  "lng": 1.2516973,
+  "direccion": "Carrer d'August, Tarragona"
+ },
+ "theroadhousesalou|tarragona": null,
+ "rambla president francesc macià|tarragona": null,
+ "rambla|barcelona": null,
+ "rambla nova|tarragona": {
+  "lat": 41.1177094,
+  "lng": 1.24852,
+  "direccion": "Rambla Nova, Tarragona"
+ }
 }
