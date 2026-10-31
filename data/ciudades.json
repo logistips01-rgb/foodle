@@ -2,17 +2,17 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1386
+  "n": 1393
+ },
+ {
+  "nombre": "Barcelona",
+  "slug": "barcelona",
+  "n": 677
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
   "n": 575
- },
- {
-  "nombre": "Barcelona",
-  "slug": "barcelona",
-  "n": 552
  },
  {
   "nombre": "Zaragoza",
@@ -32,7 +32,7 @@
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 210
+  "n": 213
  },
  {
   "nombre": "Castellón",
@@ -45,9 +45,14 @@
   "n": 73
  },
  {
+  "nombre": "Vitoria",
+  "slug": "vitoria",
+  "n": 61
+ },
+ {
   "nombre": "Tarragona",
   "slug": "tarragona",
-  "n": 46
+  "n": 47
  },
  {
   "nombre": "Córdoba",
@@ -75,23 +80,18 @@
   "n": 41
  },
  {
+  "nombre": "Cádiz",
+  "slug": "cadiz",
+  "n": 32
+ },
+ {
   "nombre": "Leganés",
   "slug": "leganes",
   "n": 30
  },
  {
-  "nombre": "Vitoria",
-  "slug": "vitoria",
-  "n": 29
- },
- {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 27
- },
- {
-  "nombre": "Cádiz",
-  "slug": "cadiz",
   "n": 27
  },
  {
@@ -105,28 +105,28 @@
   "n": 24
  },
  {
+  "nombre": "Barakaldo",
+  "slug": "barakaldo",
+  "n": 23
+ },
+ {
+  "nombre": "Badalona",
+  "slug": "badalona",
+  "n": 22
+ },
+ {
   "nombre": "Dos Hermanas",
   "slug": "dos-hermanas",
   "n": 21
  },
  {
-  "nombre": "Badalona",
-  "slug": "badalona",
+  "nombre": "Alcalá de Henares",
+  "slug": "alcala-de-henares",
   "n": 20
  },
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 19
- },
- {
-  "nombre": "Alcalá de Henares",
-  "slug": "alcala-de-henares",
-  "n": 19
- },
- {
-  "nombre": "Barakaldo",
-  "slug": "barakaldo",
   "n": 19
  },
  {
@@ -160,6 +160,11 @@
   "n": 12
  },
  {
+  "nombre": "Sant Cugat",
+  "slug": "sant-cugat",
+  "n": 11
+ },
+ {
   "nombre": "San Sebastián de los Reyes",
   "slug": "san-sebastian-de-los-reyes",
   "n": 11
@@ -190,11 +195,6 @@
   "n": 10
  },
  {
-  "nombre": "Sant Cugat",
-  "slug": "sant-cugat",
-  "n": 9
- },
- {
   "nombre": "Oviedo",
   "slug": "oviedo",
   "n": 8
@@ -202,7 +202,7 @@
  {
   "nombre": "Vigo",
   "slug": "vigo",
-  "n": 6
+  "n": 7
  },
  {
   "nombre": "Torrejón",

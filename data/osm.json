@@ -5145,5 +5145,513 @@
  "luxars studio|madrid": null,
  "robbreportenes|málaga": null,
  "nm scouting|málaga": null,
- "brote|córdoba": null
+ "brote|córdoba": null,
+ "edward magicman|córdoba": null,
+ "heladeriapiacerino|córdoba": null,
+ "zona torre del agua|córdoba": null,
+ "fuente del rey|córdoba": {
+  "lat": 37.4355204,
+  "lng": -4.197016,
+  "direccion": "Calle Río, Priego de Córdoba"
+ },
+ "plaza de las tendillas, córdoba|córdoba": {
+  "lat": 37.8845063,
+  "lng": -4.7795552,
+  "direccion": "Córdoba"
+ },
+ "barra de tollín|córdoba": null,
+ "meme|córdoba": null,
+ "todos|córdoba": {
+  "lat": 37.8825909,
+  "lng": -4.7835132,
+  "direccion": "Plaza de la Trinidad, Córdoba"
+ },
+ "iluminando juntos|córdoba": null,
+ "cortijo cc|córdoba": {
+  "lat": 37.8400098,
+  "lng": -4.6173915,
+  "direccion": "Córdoba"
+ },
+ "casa tala|córdoba": null,
+ "kimacoffeeroaster|córdoba": null,
+ "avenida lagartijo 2, al lado del centro comercial el zoco|córdoba": {
+  "lat": 37.8400098,
+  "lng": -4.6173915,
+  "direccion": "Córdoba"
+ },
+ "luzen studio|córdoba": null,
+ "mariposas en la barriga|córdoba": null,
+ "andalucia turismo|málaga": {
+  "lat": 36.7213762,
+  "lng": -4.4222966,
+  "direccion": "Calle Rodríguez Rubí 7, Málaga"
+ },
+ "𝙁𝙧𝙞𝙜𝙞𝙡𝙞𝙖𝙣𝙖|málaga": {
+  "lat": 36.7647913,
+  "lng": -4.4422005,
+  "direccion": "Málaga"
+ },
+ "cueva del gato|sevilla": {
+  "lat": 37.399386,
+  "lng": -5.9413655,
+  "direccion": "Calle Cueva del Gato, Sevilla"
+ },
+ "área recreativa arroyomolinos|sevilla": null,
+ "imprescindibles si visitas granada|granada": null,
+ "plaza de españa|cádiz": {
+  "lat": 36.5351276,
+  "lng": -6.2931981,
+  "direccion": "Calle Fermín Salvochea, Cádiz"
+ },
+ "feria de sevilla|sevilla": {
+  "lat": 37.3697743,
+  "lng": -5.9998505,
+  "direccion": "Calle Curro Romero, Sevilla"
+ },
+ "cateringsantateresa|sevilla": null,
+ "boutique catering|sevilla": null,
+ "fismuler sevilla|sevilla": null,
+ "alameda catering|granada": null,
+ "tanabata sevilla|sevilla": null,
+ "cabanote de furancho|sevilla": null,
+ "viapol|sevilla": {
+  "lat": 37.3774188,
+  "lng": -5.9790744,
+  "direccion": "Avenida Ramón Carande, Sevilla"
+ },
+ "nudo  la encarnación|sevilla": null,
+ "amarguinha es|sevilla": null,
+ "recoveco gourmet|sevilla": null,
+ "cateringcampuzano|sevilla": null,
+ "riograndesev|sevilla": null,
+ "bodegasmontecillo|sevilla": null,
+ "bar periqui chico|sevilla": {
+  "lat": 37.3802586,
+  "lng": -5.9990787,
+  "direccion": "Calle Gustavo Bacarisas 2, Sevilla"
+ },
+ "bestial marmalade|madrid": null,
+ "quesoslaantigua|madrid": null,
+ "dominospizza es|madrid": null,
+ "mexicanisimo|madrid": {
+  "lat": 40.4357373,
+  "lng": -3.7180843,
+  "direccion": "Calle de Isaac Peral 8, Madrid"
+ },
+ "cooperativa frusana|madrid": null,
+ "jamoneseirizjabugo|madrid": null,
+ "cooperativa frusana|cádiz": null,
+ "la braseria de la abuela charo|cádiz": null,
+ "pizzeriabrenda|cádiz": null,
+ "pcao chipiona|cádiz": null,
+ "epoka speluqueriaanamary|sevilla": null,
+ "petiblue cafeparis|sevilla": null,
+ "studio dulceespera|sevilla": null,
+ "sheglam|sevilla": null,
+ "av. 4 de diciembre 555a|dos hermanas": {
+  "lat": 37.2903893,
+  "lng": -5.9452425,
+  "direccion": "Avenida 4 de Diciembre, Dos Hermanas"
+ },
+ "john l montoya|sevilla": null,
+ "c/ antonio salado 2|sevilla": {
+  "lat": 37.3939593,
+  "lng": -6.001124,
+  "direccion": "Calle Antonio Salado, Sevilla"
+ },
+ "fresilandia es|sevilla": null,
+ "la sucursaldelsabor|sevilla": null,
+ "te proponemos albania|málaga": null,
+ "aleste del sur|sevilla": null,
+ "elpoyetetapas|sevilla": null,
+ "guárdalo para tu próxima visita|sevilla": null,
+ "trianabar tapas|sevilla": null,
+ "lanette helados|sevilla": null,
+ "japaneseheadspa es|sevilla": null,
+ "casa matarrocin|cádiz": null,
+ "sunset pics|cádiz": null,
+ "labarrademareaviva|sevilla": null,
+ "marimorenazahara|sevilla": null,
+ "pomodoro es|sevilla": {
+  "lat": 37.3983537,
+  "lng": -5.9943094,
+  "direccion": "Alameda de Hércules 29, Sevilla"
+ },
+ "cocacolaep espana|sevilla": null,
+ "almensilla|sevilla": null,
+ "circomaldito show|sevilla": null,
+ "francesita dulceria|sevilla": null,
+ "coac26|sevilla": null,
+ "doner kebab burger macarena|sevilla": null,
+ "thaifood dh|dos hermanas": null,
+ "folks bier|sevilla": null,
+ "tarta home|sevilla": {
+  "lat": 37.3784479,
+  "lng": -6.0028398,
+  "direccion": "Calle Esperanza de Triana 55, Sevilla"
+ },
+ "ubicado en camas|sevilla": null,
+ "lacomilonasev|sevilla": null,
+ "santocieloburger|sevilla": null,
+ "streetfood burger|sevilla": null,
+ "wowsmashburger|sevilla": null,
+ "calle maimónides|sevilla": {
+  "lat": 37.4069109,
+  "lng": -5.9916895,
+  "direccion": "Calle Maimónides, Sevilla"
+ },
+ "calle pepe suero, 28, sevilla|sevilla": {
+  "lat": 37.3686855,
+  "lng": -5.9542057,
+  "direccion": "Calle Pepe Suero, Sevilla"
+ },
+ "cafetería la placita|sevilla": null,
+ "calle japón 4⭐️|sevilla": {
+  "lat": 37.4072327,
+  "lng": -5.9147946,
+  "direccion": "Calle Japón, Sevilla"
+ },
+ "nikkei 76 sinai|sevilla": null,
+ "casa ofelia|sevilla": null,
+ "los bermejales|sevilla": {
+  "lat": 37.3465852,
+  "lng": -5.9796283,
+  "direccion": "Sevilla"
+ },
+ "garysol ii|alicante": null,
+ "albacete|sevilla": {
+  "lat": 37.3780828,
+  "lng": -5.9878031,
+  "direccion": "Plaza de España, Sevilla"
+ },
+ "myka greek|madrid": null,
+ "tapería ktomas|sevilla": null,
+ "c/ luis arenas ladislao s/n, junto al estadio del sevilla fc|sevilla": null,
+ "nuevo cuartero|sevilla": null,
+ "calle miguel servet 16|sevilla": {
+  "lat": 37.3670794,
+  "lng": -5.9768368,
+  "direccion": "Calle Miguel Servet, Sevilla"
+ },
+ "la incontrastable|sevilla": null,
+ "calle pedro martínez gutiérrez, 9|sevilla": null,
+ "calle parra 6, albacete|sevilla": null,
+ "paseo de la circunvalación, 91|sevilla": null,
+ "layema|sevilla": null,
+ "pintxos en bilbao|bilbao": null,
+ "centro comercial ballonti, portugalete (bizkaia)|bilbao": null,
+ "salida y llegada|vitoria": null,
+ "bizkaia arena|bilbao": {
+  "lat": 43.2522166,
+  "lng": -2.9260436,
+  "direccion": "Acceso Bilbao Arena, Bilbao"
+ },
+ "la cerveceria del antiguo|san sebastián": null,
+ "azotea del mercado de abastos|vitoria": {
+  "lat": 42.8443554,
+  "lng": -2.6670481,
+  "direccion": "1, Vitoria"
+ },
+ "vitoriagasteiz|vitoria": null,
+ "santurtzi|bilbao": {
+  "lat": 43.267764,
+  "lng": -2.9165775,
+  "direccion": "Calle Santurtzi, Bilbao"
+ },
+ "explanada del cementerio de bermeo|bilbao": null,
+ "juan antonio de olaguíbel|vitoria": null,
+ "ivan saldanapardo|vitoria": null,
+ "bimbambum burger|vitoria": null,
+ "karra elejalde|vitoria": null,
+ "calle licenciado poza, 73, bilbao edu.kebap|bilbao": null,
+ "funplaypark vitoria|vitoria": null,
+ "ferran adria1|vitoria": null,
+ "urumi berango|bilbao": null,
+ "pizzplass pizzas|sevilla": null,
+ "el trasgu farton vitoria|vitoria": null,
+ "lo puedes encontrar en portugalete|vitoria": null,
+ "miniature cooking experence|vitoria": null,
+ "tolon tolonbilbao|bilbao": null,
+ "villaantilla com|vitoria": null,
+ "degusteatbyamutio|vitoria": null,
+ "01012 vitoria-gasteiz (ies francisco de vitoria) iesfranciscodevitoriabhi somos_turismo_fdv|vitoria": null,
+ "espinosa de los monteros|burgos": null,
+ "bici rural|castellón": null,
+ "fuente de los baños|castellón": null,
+ "magicsportshotel|castellón": null,
+ "camping riberamar|castellón": null,
+ "segorbe|castellón": null,
+ "rincondeharbour|castellón": null,
+ "gastroadictos|valencia": null,
+ "camper park ponoig|castellón": null,
+ "benicàssim|castellón": null,
+ "aquatic landes|castellón": null,
+ "maxima aventura|castellón": null,
+ "mallos de riglos|huesca": null,
+ "coves de sant josep|castellón": null,
+ "urbanplanetjump eus|bilbao": null,
+ "lola jatetxea|castellón": null,
+ "próximas fechas en bilbao|bilbao": null,
+ "cómo llegar|bilbao": null,
+ "azkuna zentroa|bilbao": {
+  "lat": 43.2596949,
+  "lng": -2.9371186,
+  "direccion": "Plaza de Arriquíbar 4, Bilbao"
+ },
+ "oroitzapenak recuerdos|bilbao": null,
+ "calle de la amistad, 5, bilbao|bilbao": null,
+ "manuel allende|bilbao": {
+  "lat": 43.2606544,
+  "lng": -2.9418119,
+  "direccion": "Calle Manuel Allende, Bilbao"
+ },
+ "calle ledesma, 5, bilbao|bilbao": {
+  "lat": 43.2621357,
+  "lng": -2.9285746,
+  "direccion": "Calle Ledesma 5, Bilbao"
+ },
+ "perla del adriático|bilbao": null,
+ "vivo espana|bilbao": null,
+ "visit logrono|bilbao": null,
+ "muelle evaristo churruca|bilbao": {
+  "lat": 43.2692754,
+  "lng": -2.9396432,
+  "direccion": "Muelle de Evaristo Churruca y Brunet, Bilbao"
+ },
+ "bilbao exhibition centre|bilbao": null,
+ "nuestro campo base|bilbao": null,
+ "iparraguirre kalea|bilbao": {
+  "lat": 43.2570462,
+  "lng": -2.9389057,
+  "direccion": "Calle Iparraguirre, Bilbao"
+ },
+ "olio bilbao|bilbao": null,
+ "kanala auzoa|bilbao": null,
+ "elpaladarbyzurine|bilbao": null,
+ "himawaribilbao|bilbao": null,
+ "zurekinbilbao|bilbao": null,
+ "dandolabrasa|getxo": null,
+ "old swing|bilbao": null,
+ "jmcakesss|bilbao": null,
+ "dedas gastrohouse|bilbao": null,
+ "nura|bilbao": {
+  "lat": 43.2576589,
+  "lng": -2.9280439,
+  "direccion": "Calle Dos de Mayo, Bilbao"
+ },
+ "c/ puente de deusto 2-4, bilbao ( debajo de la torre iberdrola)|bilbao": null,
+ "misska creative cooking|bilbao": null,
+ "mas57bilbao|bilbao": null,
+ "cocoagetxo|getxo": null,
+ "info|bilbao": null,
+ "kaliorexialabrasa|bilbao": null,
+ "fashionoutlet bk|bilbao": null,
+ "aitaren bilbao|bilbao": {
+  "lat": 43.2593357,
+  "lng": -2.9239866,
+  "direccion": "Calle Arenal, Bilbao"
+ },
+ "nailsroom bilbao|bilbao": null,
+ "encartaciones|barakaldo": null,
+ "museo guggenheim bilbao|bilbao": {
+  "lat": 43.2684285,
+  "lng": -2.9340613,
+  "direccion": "Lehendakari Leizaola kalea 2, Bilbao"
+ },
+ "film sozialak|bilbao": null,
+ "teatrocamposeliseos|bilbao": null,
+ "evita elmusical|bilbao": null,
+ "circo del panico|bilbao": null,
+ "gran circo holiday|bilbao": null,
+ "calle aretxaga, frente a lamaridesanfran|bilbao": null,
+ "bikandi etxea|bilbao": {
+  "lat": 43.2645523,
+  "lng": -2.9244492,
+  "direccion": "Paseo Campo Volantín 4, Bilbao"
+ },
+ "bec barakaldo|barakaldo": null,
+ "asador kerren|bilbao": null,
+ "parking conectoado|bilbao": null,
+ "neraikermobiliariobilbao|bilbao": null,
+ "etxoste jatetxea|bilbao": null,
+ "señora de vizcaya|bilbao": {
+  "lat": 43.2537883,
+  "lng": -2.9374605,
+  "direccion": "Calle Nuestra Señora de Montserrat, Bilbao"
+ },
+ "la superfiesta|bilbao": null,
+ "teatro arriaga|bilbao": {
+  "lat": 43.2594707,
+  "lng": -2.9250118,
+  "direccion": "Arriaga plaza 1, Bilbao"
+ },
+ "casa rural el torreón mágico|zaragoza": null,
+ "arcos de la llana|burgos": null,
+ "monte ermua|bilbao": null,
+ "titanes del mar|torrejón": null,
+ "c/ maría díaz de haro, 10 bis bilbao (bizkaia)|bilbao": {
+  "lat": 43.263526,
+  "lng": -2.943775,
+  "direccion": "Calle María Díaz de Haro 10 BIS, Bilbao"
+ },
+ "parque tellaetxe, gorostiza (bizkaia)|barakaldo": null,
+ "villasana de mena|burgos": null,
+ "recinto ferial de ansio|barakaldo": null,
+ "c/ kareaga 113, barakaldo (bizkaia)|barakaldo": null,
+ "interpals eco resort|girona": null,
+ "av. del sanatori s/n, 43880, coma-ruga, el vendrell, baix penedès (costa dorada)|bilbao": null,
+ "wow park|bilbao": null,
+ "camping larrouleta|bilbao": null,
+ "me gusta|getxo": null,
+ "carretera de barrika a sopelana 1, elexalde (bizkaia)|bilbao": null,
+ "zabaloetxe|bilbao": null,
+ "bizkaia|getxo": null,
+ "piscinasvalenciadonjuan|valencia": null,
+ "ctra, tiedra, san cebrián, tiedra (valladolid)|valladolid": null,
+ "ronda de azcue, barrio areagabeitia-zuazo, barakaldo (bizkaia)|barakaldo": null,
+ "gozkoetxe|bilbao": null,
+ "el regato|barakaldo": null,
+ "hace talleres en|barakaldo": null,
+ "ramón rubial cavia parkea s|barakaldo": null,
+ "vegetariano garibolo|bilbao": null,
+ "vegetariano garibolo|valladolid": null,
+ "n 7|getxo": null,
+ "cava do|valladolid": null,
+ "arimune hotel|valladolid": null,
+ "crdo ribeiro|valladolid": null,
+ "turismoprovinciaourense|valladolid": null,
+ "preludio awards ibiza style|valladolid": null,
+ "lesvoyagesdelena|valladolid": null,
+ "milla de oro|valladolid": null,
+ "parmesano|valladolid": null,
+ "homeexchange esp|valladolid": null,
+ "checkpoint charlie|burgos": null,
+ "purasdevillafranca|burgos": null,
+ "amalur|valladolid": null,
+ "menu ostatu|valladolid": null,
+ "euskal paisaiak|getxo": null,
+ "souhail antiguedades|bilbao": null,
+ "frómista|boadilla": null,
+ "cala jovera|tarragona": {
+  "lat": 41.1295375,
+  "lng": 1.3606103,
+  "direccion": "Tarragona"
+ },
+ "badator marijaia|bilbao": null,
+ "plaza del arriaga, el domingo 30 de agosto, desde las 11:00 hasta las 13.30 horas|bilbao": {
+  "lat": 43.2609544,
+  "lng": -2.9253142,
+  "direccion": "Calle Ripa 3, Bilbao"
+ },
+ "astenagusia2026|bilbao": null,
+ "grancircoholiday|bilbao": null,
+ "parque europa- 00:00|bilbao": {
+  "lat": 43.2601699,
+  "lng": -2.9238668,
+  "direccion": "Paseo del Arenal, Bilbao"
+ },
+ "camping caledonia|tarragona": {
+  "lat": 41.1391782,
+  "lng": 1.3553345,
+  "direccion": "Passeig de l'Esquirol, Tarragona"
+ },
+ "cantina freestyle|bilbao": null,
+ "campingametlla|tarragona": null,
+ "la vida cañón|bilbao": null,
+ "julian iantzi|san sebastián de los reyes": null,
+ "sergio arrospide|bilbao": null,
+ "nivea es|bilbao": null,
+ "octubre|bilbao": null,
+ "estrella electronica|bilbao": null,
+ "euskalduna eus|bilbao": null,
+ "kill jackie|bilbao": null,
+ "bbk kuna|bilbao": null,
+ "macarfi com|getxo": null,
+ "tcb2026 g2 barakaldo|barakaldo": null,
+ "rico burguer|barakaldo": null,
+ "horneandoilusiones niglesias|barakaldo": null,
+ "kondutxo|bilbao": {
+  "lat": 43.2679263,
+  "lng": -2.9311123,
+  "direccion": "Alameda Mazarredo 22, Bilbao"
+ },
+ "operación maletero|bilbao": null,
+ "supernova uruguay|bilbao": null,
+ "muelle de batería|a coruña": {
+  "lat": 43.366049,
+  "lng": -8.4016667,
+  "direccion": "La Coruña"
+ },
+ "horneandoilusiones niglesias|a coruña": null,
+ "herbalessences es|bilbao": null,
+ "mundial|bilbao": null,
+ "terra|bilbao": {
+  "lat": 43.2578866,
+  "lng": -2.9243518,
+  "direccion": "Calle Bidebarrieta, Bilbao"
+ },
+ "fitoyfitipaldisoficial|bilbao": null,
+ "marinñmacho|bilbao": null,
+ "kaitxo2017|bilbao": null,
+ "patxes pasteleria|bilbao": null,
+ "congelador|bilbao": null,
+ "problema|bilbao": null,
+ "elbollodebilbao|bilbao": null,
+ "teike balmaseda|bilbao": null,
+ "arketa erretegia|bilbao": null,
+ "general|bilbao": {
+  "lat": 43.2566301,
+  "lng": -2.9465723,
+  "direccion": "Bilbao"
+ },
+ "casa tatayugo|gijón": null,
+ "la latadegalletas|gijón": null,
+ "trespaderne|burgos": null,
+ "caso|bilbao": null,
+ "zaka restaurante bilbao|bilbao": {
+  "lat": 43.2600628,
+  "lng": -2.9423283,
+  "direccion": "Calle Simón Bolívar, Bilbao"
+ },
+ "cerca del azkunazentroa tabernadezarate|bilbao": null,
+ "cafeteriapentxo|bilbao": null,
+ "cotolino|bilbao": null,
+ "finde|bilbao": null,
+ "buah tiramisu|bilbao": null,
+ "arte gallego pulperia|barakaldo": null,
+ "el mexicano colombres|bilbao": null,
+ "ensanche|bilbao": {
+  "lat": 43.264788,
+  "lng": -2.9308959,
+  "direccion": "Calle Ercilla, Bilbao"
+ },
+ "jazmino s|bilbao": null,
+ "arte gallego pulpería|barakaldo": null,
+ "descubre crusoe treasure|getxo": null,
+ "shua|getxo": null,
+ "leioa|bilbao": {
+  "lat": 43.2694873,
+  "lng": -2.9403888,
+  "direccion": "Bilbao"
+ },
+ "lays esp|bilbao": null,
+ "max center y ballonti|bilbao": null,
+ "anaiak|bilbao": {
+  "lat": 43.2766684,
+  "lng": -2.9616039,
+  "direccion": "Pedro Astigarraga plaza, Bilbao"
+ },
+ "patxes|bilbao": {
+  "lat": 43.2658105,
+  "lng": -2.932071,
+  "direccion": "Calle Heros, Bilbao"
+ },
+ "my little diner|bilbao": null,
+ "kai eder|bilbao": {
+  "lat": 43.2654587,
+  "lng": -2.9381014,
+  "direccion": "Plaza del Museo 2, Bilbao"
+ },
+ "laureaolive|bilbao": null,
+ "flaca|bilbao": null
 }
