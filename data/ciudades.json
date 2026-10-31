@@ -2,7 +2,7 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1388
+  "n": 1377
  },
  {
   "nombre": "Barcelona",
@@ -12,7 +12,7 @@
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 560
+  "n": 559
  },
  {
   "nombre": "Zaragoza",
@@ -105,11 +105,6 @@
   "n": 27
  },
  {
-  "nombre": "Valladolid",
-  "slug": "valladolid",
-  "n": 25
- },
- {
   "nombre": "Santander",
   "slug": "santander",
   "n": 24
@@ -130,6 +125,11 @@
   "n": 21
  },
  {
+  "nombre": "Valladolid",
+  "slug": "valladolid",
+  "n": 21
+ },
+ {
   "nombre": "Alcalá de Henares",
   "slug": "alcala-de-henares",
   "n": 20
@@ -137,6 +137,11 @@
  {
   "nombre": "Granada",
   "slug": "granada",
+  "n": 19
+ },
+ {
+  "nombre": "Ourense",
+  "slug": "ourense",
   "n": 19
  },
  {
@@ -155,14 +160,14 @@
   "n": 18
  },
  {
-  "nombre": "Gijón",
-  "slug": "gijon",
-  "n": 17
- },
- {
   "nombre": "Torrevieja",
   "slug": "torrevieja",
   "n": 17
+ },
+ {
+  "nombre": "Gijón",
+  "slug": "gijon",
+  "n": 16
  },
  {
   "nombre": "Getafe",

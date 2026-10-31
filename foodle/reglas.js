@@ -149,6 +149,58 @@ const CIUDADES = {
   Mundaka: ['mundaka'],
   Lekeitio: ['lekeitio'],
   Portugalete: ['portugalete'],
+  // Navarra
+  Tudela: ['tudela'],
+  Estella: ['estella', 'lizarra'],
+  Olite: ['olite'],
+  'Burlada': ['burlada'],
+  'Villava': ['villava', 'atarrabia'],
+  'Barañáin': ['baranain'],
+  // La Rioja
+  Haro: ['haro'],
+  Calahorra: ['calahorra'],
+  Arnedo: ['arnedo'],
+  Ezcaray: ['ezcaray'],
+  'Nájera': ['najera'],
+  'Santo Domingo de la Calzada': ['santo domingo de la calzada'],
+  // Aragón
+  'Monzón': ['monzon'],
+  Caspe: ['caspe'],
+  'Sabiñánigo': ['sabinanigo'],
+  Benasque: ['benasque'],
+  'Albarracín': ['albarracin'],
+  Daroca: ['daroca'],
+  // Cantabria
+  Torrelavega: ['torrelavega'],
+  'Castro Urdiales': ['castro urdiales'],
+  Laredo: ['laredo'],
+  'Santillana del Mar': ['santillana del mar', 'santillana'],
+  'Santoña': ['santona'],
+  Noja: ['noja'],
+  Suances: ['suances'],
+  'San Vicente de la Barquera': ['san vicente de la barquera'],
+  Potes: ['potes'],
+  // Asturias
+  'Avilés': ['aviles'],
+  Llanes: ['llanes'],
+  'Cangas de Onís': ['cangas de onis'],
+  Ribadesella: ['ribadesella'],
+  Cudillero: ['cudillero'],
+  Luarca: ['luarca'],
+  Mieres: ['mieres'],
+  // Galicia
+  'Santiago de Compostela': ['santiago de compostela', 'compostela'],
+  Pontevedra: ['pontevedra'],
+  Lugo: ['lugo'],
+  Ourense: ['ourense', 'orense'],
+  Ferrol: ['ferrol'],
+  Sanxenxo: ['sanxenxo', 'sangenjo'],
+  Cambados: ['cambados'],
+  'O Grove': ['o grove', 'el grove'],
+  Baiona: ['baiona'],
+  Ribadeo: ['ribadeo'],
+  'Vilagarcía': ['vilagarcia', 'villagarcia de arosa'],
+  Betanzos: ['betanzos'],
 };
 
 // Municipio → ciudad grande a la que pertenece. "Restaurante en Alcobendas, Madrid" es Alcobendas.
@@ -159,7 +211,9 @@ Object.assign(PERTENECE,
   { "L'Hospitalet": 'Barcelona', Badalona: 'Barcelona', 'Sant Cugat': 'Barcelona' },
   { Castelldefels: 'Barcelona', 'Cornellà': 'Barcelona', 'El Prat': 'Barcelona' },
   { Getxo: 'Bilbao', Barakaldo: 'Bilbao', Portugalete: 'Bilbao' },
-  { 'Dos Hermanas': 'Sevilla', 'Mairena del Aljarafe': 'Sevilla' });
+  { 'Dos Hermanas': 'Sevilla', 'Mairena del Aljarafe': 'Sevilla' },
+  { Burlada: 'Pamplona', Villava: 'Pamplona', 'Barañáin': 'Pamplona' },
+  { Utebo: 'Zaragoza', Cuarte: 'Zaragoza' });
 
 // Barrios / zonas por ciudad. Solo se usan si la ciudad ya está decidida.
 const BARRIOS = {

@@ -11889,7 +11889,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Zaragoza",
+   "ciudad": "Cuarte",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -12466,7 +12466,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Zaragoza",
+   "ciudad": "Cuarte",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -19892,7 +19892,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Betanzos",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -36163,7 +36163,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Baiona",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -36213,7 +36213,7 @@
   "clasif": {
    "nombre": "Albanta",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Pontevedra",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -48361,7 +48361,7 @@
   "clasif": {
    "nombre": "Río Loyo",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lugo",
    "zona": null,
    "dir_pie": "Rua San Juan de Loyo, s/n, 27611 Paradela, Lugo",
    "cocina": null,
@@ -48386,7 +48386,7 @@
   "clasif": {
    "nombre": "N640",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lugo",
    "zona": null,
    "dir_pie": "27744 Orrea, Lugo",
    "cocina": null,
@@ -65790,7 +65790,7 @@
   "clasif": {
    "nombre": "Market Ourense",
    "ig_local": "market_ourense",
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -65815,7 +65815,7 @@
   "clasif": {
    "nombre": "lapostreriademarta",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Pontevedra",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -65840,7 +65840,7 @@
   "clasif": {
    "nombre": "huntersmashh",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Pontevedra",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -65890,7 +65890,7 @@
   "clasif": {
    "nombre": "Nabrasa Ourense",
    "ig_local": "nabrasa.ourense",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -65915,7 +65915,7 @@
   "clasif": {
    "nombre": "Cerveceria Ofrade",
    "ig_local": "cerveceria_ofrade",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -65965,7 +65965,7 @@
   "clasif": {
    "nombre": "Cerveceria Ofrade",
    "ig_local": "cerveceria_ofrade",
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65990,7 +65990,7 @@
   "clasif": {
    "nombre": "Bagoa Gastrobar",
    "ig_local": "bagoa_gastrobar",
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -66015,7 +66015,7 @@
   "clasif": {
    "nombre": "Fika Bylima",
    "ig_local": "fika.bylima",
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -66040,7 +66040,7 @@
   "clasif": {
    "nombre": "demamaluis",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -66540,7 +66540,7 @@
   "clasif": {
    "nombre": "larubensrestaurant",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Laredo",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -67367,7 +67367,7 @@
   "clasif": {
    "nombre": "Isabella Trattoria",
    "ig_local": "isabella.trattoria",
-   "ciudad": null,
+   "ciudad": "Suances",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -67392,8 +67392,8 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
-   "zona": "Chamberí",
+   "ciudad": "Tudela",
+   "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
    "local": "Menú degustación",
@@ -76694,9 +76694,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Santiago de Compostela",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Santiago de Compostela",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -76771,7 +76771,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "O Grove",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -81488,7 +81488,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Santiago de Compostela",
    "zona": null,
    "dir_pie": "Rua de Sar 80, Santiago de Compostela",
    "cocina": "Chuletón",
@@ -81788,7 +81788,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Santiago de Compostela",
    "zona": null,
    "dir_pie": "Rua do Hórreo 26",
    "cocina": "Sushi y japonesa",
@@ -83696,7 +83696,7 @@
   "clasif": {
    "nombre": "Baked Es",
    "ig_local": "baked_es",
-   "ciudad": "Madrid",
+   "ciudad": "Santiago de Compostela",
    "zona": null,
    "dir_pie": "C/ Santiago de Compostela, N-30, Madrid",
    "cocina": "Dulce",
@@ -125393,9 +125393,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Cudillero",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cudillero",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -140696,7 +140696,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Betanzos",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -141196,7 +141196,7 @@
   "clasif": {
    "nombre": "Gran Talaso Hotel Sanxenxo",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sanxenxo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -141321,7 +141321,7 @@
   "clasif": {
    "nombre": "O Cargadoiro",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ribadeo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -141448,7 +141448,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Sanxenxo",
    "zona": null,
    "dir_pie": "Polígono de Nantes, Aprovecha para acercarte a echar un vistazo porque tienen ofertas especiales durante las cinco prime",
    "cocina": null,
@@ -141500,7 +141500,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Lugo",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -141675,7 +141675,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ribadeo",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -141725,7 +141725,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Pontevedra",
    "zona": null,
    "dir_pie": "Calle Ameiro 25, Meaño, Pontevedra",
    "cocina": null,
@@ -144431,7 +144431,7 @@
   "clasif": {
    "nombre": "Dra Albarracin",
    "ig_local": "dra.albarracin",
-   "ciudad": "Valencia",
+   "ciudad": "Albarracín",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -180263,7 +180263,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Santiago de Compostela",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -201429,7 +201429,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Potes",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202308,7 +202308,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Potes",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -202383,7 +202383,7 @@
   "clasif": {
    "nombre": "Biosurfcamp",
    "ig_local": "biosurfcamp",
-   "ciudad": null,
+   "ciudad": "Suances",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -202485,7 +202485,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "O Grove",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -204524,7 +204524,7 @@
   "clasif": {
    "nombre": "Allariz",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -205549,7 +205549,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Noja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -206862,7 +206862,7 @@
   "clasif": {
    "nombre": "Bitácora Cocktail Lounge",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Noja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -206939,7 +206939,7 @@
   "clasif": {
    "nombre": "Lacabananojaa",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Noja",
    "zona": null,
    "dir_pie": "Paseo Marítimo 1, Noja (CANTABRIA)",
    "cocina": null,
@@ -207145,7 +207145,7 @@
   "clasif": {
    "nombre": "Asador El Águila",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Noja",
    "zona": null,
    "dir_pie": "c/ Los Pinares 47, Noja (CANTABRIA)",
    "cocina": "Brasa",
@@ -207168,9 +207168,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Noja",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Noja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -207799,7 +207799,7 @@
   "clasif": {
    "nombre": "Castes Blancas",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -207876,7 +207876,7 @@
   "clasif": {
    "nombre": "Crdo Ribeiro",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -207926,7 +207926,7 @@
   "clasif": {
    "nombre": "Turismoprovinciaourense",
    "ig_local": "crdo_ribeiro",
-   "ciudad": "Valladolid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -208026,7 +208026,7 @@
   "clasif": {
    "nombre": "Castes Blancas",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -208051,7 +208051,7 @@
   "clasif": {
    "nombre": "Crdo Ribeiro",
    "ig_local": "crdo_ribeiro",
-   "ciudad": "Valladolid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -208101,7 +208101,7 @@
   "clasif": {
    "nombre": "Crdo Ribeiro",
    "ig_local": "crdo_ribeiro",
-   "ciudad": "Valladolid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -208126,7 +208126,7 @@
   "clasif": {
    "nombre": "Turismoprovinciaourense",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -208151,7 +208151,7 @@
   "clasif": {
    "nombre": "Crdo Ribeiro",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -208176,7 +208176,7 @@
   "clasif": {
    "nombre": "Crdo Ribeiro",
    "ig_local": "costeira.es",
-   "ciudad": "Valladolid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -208201,7 +208201,7 @@
   "clasif": {
    "nombre": "Ciudad de As Burgas",
    "ig_local": "crdo_ribeiro",
-   "ciudad": null,
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -211967,7 +211967,7 @@
   "clasif": {
    "nombre": "Somo",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Mieres",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -211992,7 +211992,7 @@
   "clasif": {
    "nombre": "Casa Tatayugo",
    "ig_local": null,
-   "ciudad": "Gijón",
+   "ciudad": "Avilés",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -212140,9 +212140,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Ribadeo",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ribadeo",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -214979,7 +214979,7 @@
   "clasif": {
    "nombre": "Suances",
    "ig_local": "lasurferia_suances",
-   "ciudad": null,
+   "ciudad": "Suances",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -241764,7 +241764,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Haro",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -242816,7 +242816,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "asturias_mola",
-   "ciudad": null,
+   "ciudad": "Llanes",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -243722,7 +243722,7 @@
   "clasif": {
    "nombre": "Loscauces Com",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cangas de Onís",
    "zona": null,
    "dir_pie": "Carretera de Arriondas, Cangas de Onis, N-625, Km 162, 33540 Arriondas, Asturias",
    "cocina": null,
@@ -247128,7 +247128,7 @@
   "clasif": {
    "nombre": "Fogardosantiso Allariz",
    "ig_local": "fogardosantiso_allariz",
-   "ciudad": "Madrid",
+   "ciudad": "Ourense",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -254937,7 +254937,7 @@
   "clasif": {
    "nombre": "O Eirado da Leña",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Pontevedra",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",

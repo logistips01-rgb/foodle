@@ -11,9 +11,9 @@
   <url><loc>https://foodle.es/madrid/mexicana/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/marisco/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/tradicional/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/madrid/pizza/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/brunch/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/brasa/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/madrid/pizza/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/asiatica/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/bocadillos/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/madrid/internacional/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -186,7 +186,6 @@
   <url><loc>https://foodle.es/murcia/dulce/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/murcia/tapas/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/murcia/sushi-y-japonesa/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/valladolid/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/santander/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/barakaldo/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/barakaldo/hamburguesas/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -195,18 +194,20 @@
   <url><loc>https://foodle.es/dos-hermanas/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/dos-hermanas/tapas/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/dos-hermanas/brunch/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/valladolid/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/alcala-de-henares/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/alcala-de-henares/dulce/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/alcala-de-henares/italiana/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/granada/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/granada/tapas/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/ourense/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/leon/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/huesca/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/huesca/aragonesa/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/denia/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://foodle.es/gijon/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/torrevieja/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/torrevieja/sushi-y-japonesa/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/gijon/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/getafe/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/orihuela/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/teruel/</loc><lastmod>2026-10-31</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
