@@ -6205,5 +6205,247 @@
  "latteartoficial|murcia": null,
  "gioeliacremeria es|alicante": null,
  "lapistacheria|alicante": null,
- "larimarcity|murcia": null
+ "larimarcity|murcia": null,
+ "el oráculo|almería": null,
+ "restaurantecaribe2 el rompido|zahara de los atunes": null,
+ "chiringuito pezlola|marbella": null,
+ "colombiamia marbella|marbella": null,
+ "sushilovers|fuengirola": null,
+ "espectacular|jerez": null,
+ "ventresca|conil": null,
+ "tartar|conil": null,
+ "francisco fontanilla|conil": {
+  "lat": 36.2807521,
+  "lng": -6.0984997,
+  "direccion": "Acceso a La Fontanilla, Conil de la Frontera"
+ },
+ "burguer lalola|huelva": null,
+ "the champions burger 2026 smash|huelva": null,
+ "legend winner|huelva": null,
+ "bar caracoles puntaumbria|huelva": null,
+ "taberna victoria|huelva": null,
+ "larubensrestaurant|huelva": null,
+ "lapepamazagon|huelva": null,
+ "barrestaurantejuanjose|huelva": null,
+ "restaurante pedro nolasco|jerez": {
+  "lat": 36.6815176,
+  "lng": -6.1417634,
+  "direccion": "Calle Ciegos, Jerez de la Frontera"
+ },
+ "paseo marítimo, 6, vera playa (almería)|almería": null,
+ "matalascañas|huelva": null,
+ "oncity resort|huelva": null,
+ "latriada ctg|cartagena": null,
+ "homeexchange esp|cartagena": null,
+ "minas de riotinto|huelva": null,
+ "castillo de santiago|sanlúcar de barrameda": {
+  "lat": 36.7770803,
+  "lng": -6.3506469,
+  "direccion": "Calle Cava del Castillo, Sanlúcar de Barrameda"
+ },
+ "el cid|mojácar": null,
+ "la simona  paseo del malecón|almería": null,
+ "aires de jaloque|la manga": null,
+ "nos vemos en jaén|jaén": null,
+ "elmejorbocata|jerez": null,
+ "grillaera algeciras|algeciras": {
+  "lat": 36.1328925,
+  "lng": -5.4517308,
+  "direccion": "Algeciras"
+ },
+ "mariposas en la barriga|conil": {
+  "lat": 36.2798088,
+  "lng": -6.0890812,
+  "direccion": "Calle Arrumbadores, Conil de la Frontera"
+ },
+ "amarguinha es|sanlúcar de barrameda": null,
+ "cooperativa frusana|sanlúcar de barrameda": {
+  "lat": 36.8075531,
+  "lng": -6.3347766,
+  "direccion": "Sanlúcar de Barrameda"
+ },
+ "jamoneseirizjabugo|huelva": null,
+ "pcao chipiona|chipiona": null,
+ "labarrademareaviva|tomares": null,
+ "marimorenazahara|zahara de los atunes": null,
+ "aquopolis cartaya|huelva": null,
+ "el descanso del icue|cartagena": {
+  "lat": 37.6030206,
+  "lng": -0.9885222,
+  "direccion": "Calle Jabonerías 9, Cartagena"
+ },
+ "st jeremis|torrevieja": null,
+ "felici|orihuela": null,
+ "bett munoz|torrevieja": null,
+ "zumaya|torrevieja": null,
+ "la plaza by borja|elche": null,
+ "guardamar|alicante": null,
+ "love epil pr torrevieja|torrevieja": null,
+ "cc plazanueva|orihuela": null,
+ "hola patatas  ciudad quesada|alicante": null,
+ "dialprix torrevieja|torrevieja": {
+  "lat": 37.9788039,
+  "lng": -0.684166,
+  "direccion": "Calle Campoamor, Torrevieja"
+ },
+ "clau tropiezos|torrevieja": null,
+ "bett munoz|murcia": null,
+ "wave the wave|torrevieja": null,
+ "partida els arcs|altea": null,
+ "c/ del pont, 19, els magazinos, dénia|dénia": null,
+ "puerto dep|dénia": null,
+ "criollo albir|dénia": null,
+ "pepecabrera homes|dénia": null,
+ "galerías comerciales c|alicante": null,
+ "partida marisol park|calpe": null,
+ "la enoteca by mateo wines|orihuela": null,
+ "calle aragón, s/n, orihuela|orihuela": {
+  "lat": 38.0819271,
+  "lng": -0.9959687,
+  "direccion": "Calle Aragón, Orihuela"
+ },
+ "nueva apertura en orihuela|orihuela": null,
+ "nueva fecha 8 de noviembre|orihuela": null,
+ "dulcefresa es|orihuela": null,
+ "calle girona, 2, alicante|alicante": null,
+ "tienen dos locales en alicante|alicante": null,
+ "hotel lucentum|alicante": {
+  "lat": 38.3473851,
+  "lng": -0.4861474,
+  "direccion": "Avenida Alfonso El Sabio 11, Alicante"
+ },
+ "euro toques|alicante": null,
+ "antoniom r 24|alicante": null,
+ "restaurante marino ii|alicante": null,
+ "la bohemia by guillenico|orihuela": null,
+ "en quesa|valencia": null,
+ "cabo de palos  calblanque|murcia": null,
+ "auray dance studio|orihuela": null,
+ "weiq pagos|torrevieja": null,
+ "murcia|murcia": {
+  "lat": 37.9347521,
+  "lng": -1.1131029,
+  "direccion": "Murcia"
+ },
+ "hotel montsant  xàtiva|valencia": null,
+ "mejías beach|alicante": null,
+ "la casita de el cuervo|teruel": null,
+ "río|valencia": null,
+ "parcela rural la monsina|orihuela": null,
+ "galeriasdeltresillo|alicante": null,
+ "noki|elche": null,
+ "frigo helados|alicante": null,
+ "cantinamariachi es|alicante": null,
+ "burgerking es|alicante": null,
+ "mcdonalds es|alicante": null,
+ "rico burguer|alicante": null,
+ "ladyfoodie plan|alicante": null,
+ "avenida ruzafa con calle rioja|benidorm": null,
+ "avenida benidorm 10, villajoyosa|villajoyosa": {
+  "lat": 38.5103347,
+  "lng": -0.2254757,
+  "direccion": "Avenida de Benidorm, Villajoyosa"
+ },
+ "la boya taperia sanjuan|alicante": null,
+ "plaza de toros de alicante 📅 del 8 al 18 de octubre 🎟️ ¡entrada gratuita!|alicante": null,
+ "malta tiene algo especial|alicante": null,
+ "calle 365|madrid": {
+  "lat": 40.4151775,
+  "lng": -3.6996408,
+  "direccion": "Calle de Echegaray 18, Madrid"
+ },
+ "duna artisandonuts|benidorm": null,
+ "plaza séneca el primer campeonato de bravas de alicante a_lasbravas , tres días para disfrutar, probar y descubrir cuál |alicante": null,
+ "carmencita brunch|madrid": {
+  "lat": 40.4118776,
+  "lng": -3.7099514,
+  "direccion": "Calle de la Cava Alta 32, Madrid"
+ },
+ "descaro alicante|alicante": null,
+ "castelldelolla|altea": null,
+ "san juan|alicante": null,
+ "derigo|alicante": null,
+ "lalbir|alicante": null,
+ "goldenvibesfest|alicante": null,
+ "umaibenidorm|benidorm": null,
+ "marakka club|alicante": null,
+ "virtualzone immersive|alicante": null,
+ "quadalicantexperience|alicante": null,
+ "playa de la antoneta|villajoyosa": null,
+ "love epil spain|alicante": null,
+ "sitio totalmente recomendado|alicante": null,
+ "p p|elche": {
+  "lat": 38.2537793,
+  "lng": -0.6946346,
+  "direccion": "Elche"
+ },
+ "fray luis de león|elche": {
+  "lat": 38.2582265,
+  "lng": -0.6968608,
+  "direccion": "carrer Fray Luis de León, Elche"
+ },
+ "menú wonder 28 50|elche": null,
+ "avda illice 48 (torrellano)|elche": {
+  "lat": 38.2922863,
+  "lng": -0.5905871,
+  "direccion": "Avinguda d'Illice 48, Elche"
+ },
+ "c/ el cantueso, el raso, guardamar|alicante": null,
+ "p p|alicante": {
+  "lat": 38.3532458,
+  "lng": -0.4862085,
+  "direccion": "Paseo de Campoamor, Alicante"
+ },
+ "avda josé martínez gonzález 71, elda|alicante": {
+  "lat": 38.3532458,
+  "lng": -0.4862085,
+  "direccion": "Paseo de Campoamor, Alicante"
+ },
+ "dels|valencia": null,
+ "ctra de dolores km 6|elche": {
+  "lat": 38.1479846,
+  "lng": -0.7213225,
+  "direccion": "Carretera de Elche - Dolores, Elche"
+ },
+ "chicocallaelche|elche": null,
+ "partida peña águilas|alicante": null,
+ "plaza obispo siuri 4, pont nou|elche": {
+  "lat": 38.2669595,
+  "lng": -0.708006,
+  "direccion": "plaza obispo Siuri 4, Elche"
+ },
+ "pachamalbir|alicante": null,
+ "morralet morralettaberna|alicante": null,
+ "okaeri|valencia": null,
+ "akito|alicante": null,
+ "c/ periodista pirula arderius, 10|alicante": {
+  "lat": 38.3450328,
+  "lng": -0.4874591,
+  "direccion": "Calle Periodista Pirula Arderius, Alicante"
+ },
+ "tapas 6|alicante": null,
+ "morralet  dársena pesquera|alicante": null,
+ "solotiramisu alc|alicante": null,
+ "leriçó del trampolí|dénia": null,
+ "quiero|alicante": null,
+ "kaia coffee alicante|alicante": null,
+ "vall de laguar|alicante": null,
+ "la terrasse|benidorm": null,
+ "mil delicias|alicante": null,
+ "mas ferrat|valencia": null,
+ "laodisea|alicante": null,
+ "lestany de cullera|valencia": null,
+ "beneixama|alicante": null,
+ "lalbufera de valencia|valencia": null,
+ "highbar rooftop|alicante": null,
+ "pizzería cosa mía|castellón": null,
+ "la tacita  av|castellón": null,
+ "totuma by tachira|castellón": null,
+ "12001 castelló de la plana|castellón": {
+  "lat": 39.9870298,
+  "lng": -0.038484,
+  "direccion": "Castellón de la Plana"
+ },
+ "mar de sal|castellón": null,
+ "ubereats es|castellón": null
 }
