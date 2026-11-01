@@ -2,7 +2,7 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1391
+  "n": 1372
  },
  {
   "nombre": "Barcelona",
@@ -22,12 +22,12 @@
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 235
+  "n": 231
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 234
+  "n": 228
  },
  {
   "nombre": "Bilbao",
@@ -42,7 +42,7 @@
  {
   "nombre": "Benidorm",
   "slug": "benidorm",
-  "n": 88
+  "n": 87
  },
  {
   "nombre": "Castellón",
@@ -72,16 +72,11 @@
  {
   "nombre": "Gijón",
   "slug": "gijon",
-  "n": 52
+  "n": 50
  },
  {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 45
- },
- {
-  "nombre": "Burgos",
-  "slug": "burgos",
   "n": 44
  },
  {
@@ -102,7 +97,7 @@
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 42
+  "n": 39
  },
  {
   "nombre": "Vigo",
@@ -115,23 +110,28 @@
   "n": 34
  },
  {
-  "nombre": "Cádiz",
-  "slug": "cadiz",
-  "n": 32
- },
- {
   "nombre": "Leganés",
   "slug": "leganes",
   "n": 30
  },
  {
-  "nombre": "Murcia",
-  "slug": "murcia",
-  "n": 27
+  "nombre": "Burgos",
+  "slug": "burgos",
+  "n": 29
+ },
+ {
+  "nombre": "Cádiz",
+  "slug": "cadiz",
+  "n": 24
  },
  {
   "nombre": "Barakaldo",
   "slug": "barakaldo",
+  "n": 23
+ },
+ {
+  "nombre": "Murcia",
+  "slug": "murcia",
   "n": 23
  },
  {
@@ -188,6 +188,11 @@
   "nombre": "Torrevieja",
   "slug": "torrevieja",
   "n": 17
+ },
+ {
+  "nombre": "Huelva",
+  "slug": "huelva",
+  "n": 16
  },
  {
   "nombre": "Teruel",
@@ -255,6 +260,11 @@
   "n": 10
  },
  {
+  "nombre": "Jerez",
+  "slug": "jerez",
+  "n": 10
+ },
+ {
   "nombre": "Fuenlabrada",
   "slug": "fuenlabrada",
   "n": 10
@@ -275,8 +285,23 @@
   "n": 10
  },
  {
+  "nombre": "Marbella",
+  "slug": "marbella",
+  "n": 9
+ },
+ {
+  "nombre": "Almería",
+  "slug": "almeria",
+  "n": 9
+ },
+ {
   "nombre": "Sabadell",
   "slug": "sabadell",
+  "n": 8
+ },
+ {
+  "nombre": "Sanlúcar de Barrameda",
+  "slug": "sanlucar-de-barrameda",
   "n": 8
  },
  {

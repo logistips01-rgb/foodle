@@ -486,7 +486,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Antequera",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -511,7 +511,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ronda",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -1213,7 +1213,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -25339,9 +25339,9 @@
   "tipo": "image",
   "origen": "api",
   "clasif": {
-   "nombre": "Sanlúcar de Barrameda",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -30844,7 +30844,7 @@
   "clasif": {
    "nombre": "El Oráculo",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -42258,7 +42258,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Málaga",
+   "ciudad": "Nerja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -46903,7 +46903,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -51249,7 +51249,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -51449,7 +51449,7 @@
   "clasif": {
    "nombre": "Restaurantecaribe2 El Rompido",
    "ig_local": "restaurantecaribe2_el_rompido",
-   "ciudad": "Madrid",
+   "ciudad": "Zahara de los Atunes",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -51499,7 +51499,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zahara de los Atunes",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -59385,7 +59385,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Málaga",
+   "ciudad": "Nerja",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59460,7 +59460,7 @@
   "clasif": {
    "nombre": "Chiringuito Pezlola",
    "ig_local": "chiringuito.pezlola",
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59485,7 +59485,7 @@
   "clasif": {
    "nombre": "Chiringuito Pezlola",
    "ig_local": "chiringuito.pezlola",
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -59510,7 +59510,7 @@
   "clasif": {
    "nombre": "Colombiamia Marbella",
    "ig_local": "colombiamia.marbella",
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59535,7 +59535,7 @@
   "clasif": {
    "nombre": "Colombiamia Marbella",
    "ig_local": "colombiamia.marbella",
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59610,7 +59610,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Torremolinos",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -59637,7 +59637,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Torremolinos",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -59664,7 +59664,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59764,7 +59764,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -59789,7 +59789,7 @@
   "clasif": {
    "nombre": "Sushilovers",
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Fuengirola",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -59814,7 +59814,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Torremolinos",
    "zona": null,
    "dir_pie": null,
    "cocina": "Asiática",
@@ -59839,7 +59839,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -59939,7 +59939,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Italiana",
@@ -59989,7 +59989,7 @@
   "clasif": {
    "nombre": "Espectacular",
    "ig_local": "espectacular",
-   "ciudad": "Cádiz",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Kebab",
@@ -60064,7 +60064,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -60089,7 +60089,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -60114,7 +60114,7 @@
   "clasif": {
    "nombre": "Ventresca",
    "ig_local": "ventresca",
-   "ciudad": "Burgos",
+   "ciudad": "Conil",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -60166,7 +60166,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -60191,7 +60191,7 @@
   "clasif": {
    "nombre": "Tartar",
    "ig_local": "tartar",
-   "ciudad": "Burgos",
+   "ciudad": "Conil",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -60597,7 +60597,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -60622,7 +60622,7 @@
   "clasif": {
    "nombre": "Francisco Fontanilla",
    "ig_local": "francisco.fontanilla",
-   "ciudad": "Burgos",
+   "ciudad": "Conil",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -60647,7 +60647,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -66190,7 +66190,7 @@
   "clasif": {
    "nombre": "Burguer Lalola",
    "ig_local": "burguer.lalola",
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -66240,7 +66240,7 @@
   "clasif": {
    "nombre": "The Champions Burger 2026 Smash",
    "ig_local": "smash_hiro",
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -66265,7 +66265,7 @@
   "clasif": {
    "nombre": "Legend Winner",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -66315,7 +66315,7 @@
   "clasif": {
    "nombre": "Bar Caracoles Puntaumbria",
    "ig_local": "bar_caracoles_puntaumbria",
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -66340,7 +66340,7 @@
   "clasif": {
    "nombre": "Taberna Victoria",
    "ig_local": "taberna_victoria_",
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -66540,7 +66540,7 @@
   "clasif": {
    "nombre": "larubensrestaurant",
    "ig_local": null,
-   "ciudad": "Laredo",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -66992,7 +66992,7 @@
   "clasif": {
    "nombre": "lapepamazagon",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -67017,7 +67017,7 @@
   "clasif": {
    "nombre": "barrestaurantejuanjose",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -76219,7 +76219,7 @@
   "clasif": {
    "nombre": "Restaurante Pedro Nolasco",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -76294,7 +76294,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -76621,7 +76621,7 @@
   "clasif": {
    "nombre": "Restaurante Pedro Nolasco",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -77839,7 +77839,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Úbeda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -83873,7 +83873,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": "Paseo Marítimo, 20, Vera Playa (Almería)",
    "cocina": "Arroces",
@@ -83898,7 +83898,7 @@
   "clasif": {
    "nombre": "Rest Elcenachero Vera",
    "ig_local": "rest_elcenachero_vera",
-   "ciudad": "Madrid",
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": "Paseo Marítimo, 6, Vera Playa (Almería)",
    "cocina": "Arroces",
@@ -96108,7 +96108,7 @@
   "clasif": {
    "nombre": "Matalascañas",
    "ig_local": "colchonetas",
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -96183,7 +96183,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -96208,7 +96208,7 @@
   "clasif": {
    "nombre": "Oncity Resort",
    "ig_local": "oncity.resort",
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -96233,7 +96233,7 @@
   "clasif": {
    "nombre": "Matalascañas",
    "ig_local": "toboganes",
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -96258,7 +96258,7 @@
   "clasif": {
    "nombre": "Oncity Resort",
    "ig_local": "oncity.resort",
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -98689,9 +98689,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "La Manga del Mar Menor",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "La Manga",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -99197,7 +99197,7 @@
   "clasif": {
    "nombre": "Latriada Ctg",
    "ig_local": "latriada.ctg",
-   "ciudad": null,
+   "ciudad": "Cartagena",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -99322,7 +99322,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cartagena",
    "zona": null,
    "dir_pie": "Calle San Agustín, Cartagena",
    "cocina": null,
@@ -102654,7 +102654,7 @@
   "clasif": {
    "nombre": "Homeexchange Esp",
    "ig_local": "homeexchange_esp",
-   "ciudad": "Murcia",
+   "ciudad": "Cartagena",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -131493,7 +131493,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -131622,7 +131622,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -135596,7 +135596,7 @@
   "clasif": {
    "nombre": "Minas de Riotinto",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -135696,7 +135696,7 @@
   "clasif": {
    "nombre": "Castillo de Santiago",
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -139557,7 +139557,7 @@
   "clasif": {
    "nombre": "El Cid",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Mojácar",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -139709,7 +139709,7 @@
   "clasif": {
    "nombre": "La Simona  Paseo del Malecón",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -139734,7 +139734,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Benidorm",
+   "ciudad": "Mojácar",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -154485,7 +154485,7 @@
   "clasif": {
    "nombre": "Aires De Jaloque",
    "ig_local": null,
-   "ciudad": "Murcia",
+   "ciudad": "La Manga",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -163746,7 +163746,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "La Manga",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -172249,7 +172249,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -175432,7 +175432,7 @@
   "clasif": {
    "nombre": "Nos vemos en Jaén",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jaén",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -178455,7 +178455,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ronda",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -178782,7 +178782,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -178932,7 +178932,7 @@
   "clasif": {
    "nombre": "Elmejorbocata",
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -179709,7 +179709,7 @@
   "clasif": {
    "nombre": "Grillaera Algeciras",
    "ig_local": "grillaera.algeciras",
-   "ciudad": "Sevilla",
+   "ciudad": "Algeciras",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -179834,7 +179834,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Alcalá de Guadaíra",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -181500,7 +181500,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -181977,7 +181977,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Tomares",
    "zona": null,
    "dir_pie": "Plaza príncipe de Asturias, 20, Tomares, Sevilla",
    "cocina": "Tradicional",
@@ -183070,7 +183070,7 @@
   "tipo": "carousel_album",
   "origen": "api",
   "clasif": {
-   "nombre": "Benalmádena",
+   "nombre": null,
    "ig_local": null,
    "ciudad": "Málaga",
    "zona": null,
@@ -187403,7 +187403,7 @@
   "clasif": {
    "nombre": "Mariposas en la Barriga",
    "ig_local": null,
-   "ciudad": "Córdoba",
+   "ciudad": "Conil",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -187453,7 +187453,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Málaga",
+   "ciudad": "Nerja",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -189332,7 +189332,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -189457,7 +189457,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": "Marisco",
@@ -189509,7 +189509,7 @@
   "clasif": {
    "nombre": "Amarguinha Es",
    "ig_local": "amarguinha_es",
-   "ciudad": "Sevilla",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -190537,7 +190537,7 @@
   "clasif": {
    "nombre": "Cooperativa Frusana",
    "ig_local": "cooperativa_frusana",
-   "ciudad": "Madrid",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -190643,7 +190643,7 @@
   "clasif": {
    "nombre": "Cooperativa Frusana",
    "ig_local": "cooperativa_frusana",
-   "ciudad": "Madrid",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -190797,7 +190797,7 @@
   "clasif": {
    "nombre": "Jamoneseirizjabugo",
    "ig_local": "jamoneseirizjabugo",
-   "ciudad": "Madrid",
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -190926,7 +190926,7 @@
   "clasif": {
    "nombre": "Cooperativa Frusana",
    "ig_local": "cooperativa_frusana",
-   "ciudad": "Madrid",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -190976,7 +190976,7 @@
   "clasif": {
    "nombre": "Cooperativa Frusana",
    "ig_local": "cooperativa_frusana",
-   "ciudad": "Madrid",
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -191076,7 +191076,7 @@
   "clasif": {
    "nombre": "Cooperativa Frusana",
    "ig_local": "cooperativa_frusana",
-   "ciudad": null,
+   "ciudad": "Sanlúcar de Barrameda",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -191153,7 +191153,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Chipiona",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -191178,7 +191178,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Chipiona",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -191253,7 +191253,7 @@
   "clasif": {
    "nombre": "Pcao Chipiona",
    "ig_local": "pcao.chipiona",
-   "ciudad": "Cádiz",
+   "ciudad": "Chipiona",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -196336,7 +196336,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "El Puerto de Santa María",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -196411,7 +196411,7 @@
   "clasif": {
    "nombre": "Labarrademareaviva",
    "ig_local": "labarrademareaviva",
-   "ciudad": "Sevilla",
+   "ciudad": "Tomares",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -196436,7 +196436,7 @@
   "clasif": {
    "nombre": "Marimorenazahara",
    "ig_local": "marimorenazahara",
-   "ciudad": "Sevilla",
+   "ciudad": "Zahara de los Atunes",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -196944,7 +196944,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Tomares",
    "zona": null,
    "dir_pie": null,
    "cocina": "Mexicana",
@@ -203016,7 +203016,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Cádiz",
+   "ciudad": "Vejer",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -207370,7 +207370,7 @@
   "clasif": {
    "nombre": "Aquopolis Cartaya",
    "ig_local": "aquopolis_cartaya",
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -225276,7 +225276,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "pacorosapremium",
-   "ciudad": "Alicante",
+   "ciudad": "Molina de Segura",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -226621,7 +226621,7 @@
   "clasif": {
    "nombre": "El Descanso del Icue",
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Cartagena",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -227083,7 +227083,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Úbeda",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -228016,9 +228016,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Molina de Segura",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Alicante",
+   "ciudad": "Molina de Segura",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -228368,7 +228368,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Murcia",
+   "ciudad": "La Manga",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -242691,7 +242691,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -242791,7 +242791,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Gijón",
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -242966,7 +242966,7 @@
   "clasif": {
    "nombre": "Daroka Eatbu Com",
    "ig_local": null,
-   "ciudad": "Gijón",
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": "04700 El Ejido, Almería",
    "cocina": null,
@@ -245218,7 +245218,7 @@
   "clasif": {
    "nombre": "Munashisushi",
    "ig_local": "munashisushi",
-   "ciudad": "Murcia",
+   "ciudad": "Molina de Segura",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -252444,9 +252444,9 @@
   "tipo": "image",
   "origen": "api",
   "clasif": {
-   "nombre": "Jerez de la Frontera",
+   "nombre": "Aje Bar",
    "ig_local": "aje_bar",
-   "ciudad": "Cádiz",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -252469,9 +252469,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Jerez de la Frontera",
+   "nombre": "Aje Bar",
    "ig_local": "javierd_vadillo",
-   "ciudad": "Cádiz",
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -268423,9 +268423,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Marbella",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Marbella",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -268787,7 +268787,7 @@
   "clasif": {
    "nombre": "Paredes Es",
    "ig_local": "paredes_es",
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -268912,7 +268912,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Huelva",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -269212,7 +269212,7 @@
   "clasif": {
    "nombre": "Mirador de Rachida",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Almería",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -272243,7 +272243,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Jerez",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
