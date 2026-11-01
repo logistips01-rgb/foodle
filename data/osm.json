@@ -5955,5 +5955,255 @@
   "lat": 41.1177094,
   "lng": 1.24852,
   "direccion": "Rambla Nova, Tarragona"
- }
+ },
+ "la merienda de la infancia|tarragona": null,
+ "datos del taller|san sebastián": null,
+ "soa  edificio goe del bcc|san sebastián": null,
+ "erre donostia|san sebastián": null,
+ "apar|san sebastián": null,
+ "bodega donostiarra|san sebastián": {
+  "lat": 43.3230591,
+  "lng": -1.9852632,
+  "direccion": "Calle Fermín Calbetón, San Sebastián"
+ },
+ "marianitotime|san sebastián": null,
+ "hosteleriagipuzkoa|san sebastián": null,
+ "bugati erretegia|san sebastián": null,
+ "alboka|san sebastián": null,
+ "monte igueldo|san sebastián": {
+  "lat": 43.321044,
+  "lng": -2.0096514,
+  "direccion": "Paseo de Igueldo 183, San Sebastián"
+ },
+ "garibai kalea|san sebastián": {
+  "lat": 43.3206804,
+  "lng": -1.983415,
+  "direccion": "Calle Garibay, San Sebastián"
+ },
+ "lafresca vinoteca|san sebastián": null,
+ "igeldo|san sebastián": {
+  "lat": 43.3089759,
+  "lng": -2.036057,
+  "direccion": "San Sebastián"
+ },
+ "calle matia (antiguo)|san sebastián": {
+  "lat": 43.3136511,
+  "lng": -2.002614,
+  "direccion": "Calle Matía, San Sebastián"
+ },
+ "somos bakery|san sebastián": null,
+ "somos bakery|san sebastián de los reyes": null,
+ "aburuza sagardotegia|san sebastián": null,
+ "namie sushi namiesushi en lasarte|san sebastián": null,
+ "calle hernani, donostia|san sebastián": {
+  "lat": 43.3200416,
+  "lng": -1.9839204,
+  "direccion": "Calle Hernani, San Sebastián"
+ },
+ "mika|hondarribia": null,
+ "justiz|hondarribia": null,
+ "super amara|san sebastián": {
+  "lat": 43.312478,
+  "lng": -2.0059066,
+  "direccion": "Super Amara, San Sebastián"
+ },
+ "rico burguer|san sebastián": null,
+ "haizea jatetxea inspiratu|san sebastián": null,
+ "es de|san sebastián": {
+  "lat": 43.3177368,
+  "lng": -1.9769301,
+  "direccion": "Paseo de Francia 22, San Sebastián"
+ },
+ "weare goe|san sebastián": null,
+ "p.º de ramón maría lili, 2, gros|san sebastián": {
+  "lat": 43.3234456,
+  "lng": -1.9788992,
+  "direccion": "Paseo de Ramón María Lili 2, San Sebastián"
+ },
+ "josé maría soria|san sebastián": null,
+ "calle iñigo, 8|san sebastián": {
+  "lat": 43.3239703,
+  "lng": -1.9839589,
+  "direccion": "Calle Iñigo 8, San Sebastián"
+ },
+ "dulces free|san sebastián": null,
+ "covarrubias|burgos": null,
+ "burgos|burgos": {
+  "lat": 42.3448498,
+  "lng": -3.6812477,
+  "direccion": "Burgos"
+ },
+ "donostia|san sebastián": {
+  "lat": 43.3177368,
+  "lng": -1.9769301,
+  "direccion": "Paseo de Francia 22, San Sebastián"
+ },
+ "hondarribia|hondarribia": null,
+ "plaza del buen pastor en el centro de san sebastián|san sebastián": {
+  "lat": 43.3177368,
+  "lng": -1.9769301,
+  "direccion": "Paseo de Francia 22, San Sebastián"
+ },
+ "cotebasque|san sebastián": null,
+ "el falkon|san sebastián": null,
+ "sansebastian|san sebastián": null,
+ "massorrer|san sebastián": null,
+ "verano|san sebastián": {
+  "lat": 38.6414909,
+  "lng": -3.4605855,
+  "direccion": "Calle San Sebastián 32, Santa Cruz de Mudela"
+ },
+ "begur|san sebastián": null,
+ "capdecreus|san sebastián": null,
+ "costabrava|san sebastián": null,
+ "costabrava|barcelona": null,
+ "girona|girona": null,
+ "biarritz|san sebastián": {
+  "lat": 43.312029,
+  "lng": -1.9569298,
+  "direccion": "Biarritz plaza, San Sebastián"
+ },
+ "relaisandchateaux|san sebastián": null,
+ "alfonso viii kalea|san sebastián": null,
+ "ibiza|san sebastián": null,
+ "doña chepina en kaxilda|san sebastián": null,
+ "cortazardonostia|san sebastián": null,
+ "barsport ss|san sebastián de los reyes": null,
+ "bakerboyz es|san sebastián": null,
+ "blessed|san sebastián": null,
+ "mahalo poke|san sebastián": null,
+ "pasteleriavalderrama|benidorm": null,
+ "huerto de colón|benidorm": null,
+ "carrer camí vell d’elda, 03610 petrer, alicante|benidorm": null,
+ "orno benidorm|benidorm": null,
+ "etika altea|altea": null,
+ "brunch box|benidorm": {
+  "lat": 38.5359911,
+  "lng": -0.1109913,
+  "direccion": "Avenida del Mediterráneo 47, Benidorm"
+ },
+ "el trasto|benidorm": null,
+ "sugarpop bakehouse|alicante": null,
+ "lonuncavisto comedy|benidorm": null,
+ "solo por hoy|benidorm": null,
+ "fuegos cruzados|alicante": null,
+ "vante benidorm|benidorm": null,
+ "carniceria alfonsolara|alicante": null,
+ "orno pizzería|benidorm": null,
+ "cerveceriavictors|benidorm": null,
+ "quesomentero cheesebar|alicante": null,
+ "churreriasoto2benidorm|benidorm": null,
+ "makroesp|benidorm": null,
+ "lhort de colón|benidorm": null,
+ "dulcesol|alicante": null,
+ "noche|benidorm": null,
+ "carrer puig campana 3, finestrat pueblo|benidorm": null,
+ "restaurante casa guillermo|benidorm": null,
+ "nueva taberna mediterránea en alicante|alicante": null,
+ "inizio 60|dénia": null,
+ "lhort de colon|benidorm": null,
+ "fannelis  c|benidorm": null,
+ "murmur altea|altea": null,
+ "hotelalahuar|alicante": null,
+ "grupomalpas|benidorm": null,
+ "grandmas dumplings|benidorm": null,
+ "puedes encontrarlos en|benidorm": null,
+ "avenida de mont benidorm 4, local 7, benidorm|benidorm": null,
+ "panypepinilloscafe|madrid": null,
+ "port royal steakhouse|alicante": null,
+ "skyfest benidorm|benidorm": null,
+ "pasaje de santa rita, benidorm|benidorm": {
+  "lat": 38.5377165,
+  "lng": -0.1317065,
+  "direccion": "Calle Antonio Ramos Carratalà, Benidorm"
+ },
+ "entrecote salsacafedeparis|benidorm": null,
+ "paseo marítimo de la playa de la fossa, calpe, a la altura de c/ llevant|benidorm": null,
+ "restauración|benidorm": null,
+ "ritabenidorm|benidorm": null,
+ "carrer campanario 5, calpe|calpe": null,
+ "marakka club|benidorm": null,
+ "avenida marina baixa 5 benidorm|benidorm": {
+  "lat": 38.5364071,
+  "lng": -0.1576228,
+  "direccion": "Avenida Marina Baixa, Benidorm"
+ },
+ "restaurante tbone|alicante": null,
+ "magic robin hood resort|alicante": null,
+ "tiffin|benidorm": null,
+ "desafío medieval|alicante": null,
+ "vb spaces|alicante": null,
+ "sí o qué restaurante|alicante": null,
+ "gangnam korean bbq|alicante": null,
+ "alicante|alicante": {
+  "lat": 38.3436365,
+  "lng": -0.4881708,
+  "direccion": "Alicante"
+ },
+ "playa de san juan|alicante": {
+  "lat": 38.3703033,
+  "lng": -0.4097663,
+  "direccion": "Alicante"
+ },
+ "castell de lolla|altea": null,
+ "diva imperium|benidorm": null,
+ "el sabor de la mafia|villajoyosa": null,
+ "ditaly|alicante": {
+  "lat": 38.3447743,
+  "lng": -0.4849929,
+  "direccion": "Calle Castaños 16, Alicante"
+ },
+ "un rincón perfecto para desayunar|alicante": null,
+ "rice & bones|alicante": {
+  "lat": 38.3467278,
+  "lng": -0.4859774,
+  "direccion": "Calle Castaños 34, Alicante"
+ },
+ "el rugido burger  calle esperanto|benidorm": null,
+ "quad alicante experience|alicante": null,
+ "balles restaurante avenida de l'almassera|alicante": null,
+ "q' crunch  calle lepanto|elche": null,
+ "carrer poeta campos vasallo, 7 (alicante)|alicante": {
+  "lat": 38.3483334,
+  "lng": -0.4878547,
+  "direccion": "Calle Poeta Campos Vassallo, Alicante"
+ },
+ "rico taco benidorm|benidorm": null,
+ "plisplas burger|alicante": null,
+ "provincia de alicante|alicante": {
+  "lat": 38.3436365,
+  "lng": -0.4881708,
+  "direccion": "Alicante"
+ },
+ "hyrace|alicante": null,
+ "sushisom espana|alicante": null,
+ "temu spain|alicante": null,
+ "publicodad|elche": null,
+ "servipizza es|alicante": null,
+ "publicodad|alicante": null,
+ "bakery byana|alicante": null,
+ "almoradí|alicante": null,
+ "holacascanueces|alicante": null,
+ "cabarita terraza|alicante": null,
+ "yufukisushi|torrevieja": null,
+ "mattina bakery|murcia": null,
+ "almoradí|murcia": null,
+ "el descanso del icue|alicante": null,
+ "paseo de la libertad, torrevieja|torrevieja": {
+  "lat": 37.9753931,
+  "lng": -0.6792681,
+  "direccion": "Paseo de la Libertad, Torrevieja"
+ },
+ "personal coach jota|alicante": null,
+ "munashi|murcia": null,
+ "río chícamo|murcia": null,
+ "theburgerweek es|alicante": null,
+ "invitacion|alicante": null,
+ "circoburger|alicante": null,
+ "sol market|alicante": null,
+ "justo enfrente del zig zag|murcia": null,
+ "latteartoficial|murcia": null,
+ "gioeliacremeria es|alicante": null,
+ "lapistacheria|alicante": null,
+ "larimarcity|murcia": null
 }

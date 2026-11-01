@@ -2,22 +2,22 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1379
+  "n": 1391
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 647
+  "n": 655
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 559
+  "n": 562
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 528
+  "n": 533
  },
  {
   "nombre": "Alicante",
@@ -27,12 +27,12 @@
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 231
+  "n": 234
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 213
+  "n": 214
  },
  {
   "nombre": "Santander",
@@ -55,14 +55,14 @@
   "n": 72
  },
  {
+  "nombre": "Vitoria",
+  "slug": "vitoria",
+  "n": 64
+ },
+ {
   "nombre": "A Coruña",
   "slug": "a-coruna",
   "n": 63
- },
- {
-  "nombre": "Vitoria",
-  "slug": "vitoria",
-  "n": 61
  },
  {
   "nombre": "Pamplona",
@@ -72,7 +72,7 @@
  {
   "nombre": "Gijón",
   "slug": "gijon",
-  "n": 51
+  "n": 52
  },
  {
   "nombre": "Córdoba",
@@ -160,6 +160,11 @@
   "n": 21
  },
  {
+  "nombre": "Ourense",
+  "slug": "ourense",
+  "n": 20
+ },
+ {
   "nombre": "Alcalá de Henares",
   "slug": "alcala-de-henares",
   "n": 20
@@ -167,11 +172,6 @@
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 19
- },
- {
-  "nombre": "Ourense",
-  "slug": "ourense",
   "n": 19
  },
  {
