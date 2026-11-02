@@ -2,12 +2,12 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1418
+  "n": 1426
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 658
+  "n": 668
  },
  {
   "nombre": "Valencia",
@@ -17,7 +17,7 @@
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 533
+  "n": 537
  },
  {
   "nombre": "Málaga",
@@ -102,7 +102,7 @@
  {
   "nombre": "Girona",
   "slug": "girona",
-  "n": 45
+  "n": 46
  },
  {
   "nombre": "Logroño",
@@ -117,7 +117,7 @@
  {
   "nombre": "Vigo",
   "slug": "vigo",
-  "n": 39
+  "n": 40
  },
  {
   "nombre": "Elche",
@@ -165,6 +165,11 @@
   "n": 23
  },
  {
+  "nombre": "Ourense",
+  "slug": "ourense",
+  "n": 22
+ },
+ {
   "nombre": "Almería",
   "slug": "almeria",
   "n": 22
@@ -183,11 +188,6 @@
   "nombre": "Jerez",
   "slug": "jerez",
   "n": 22
- },
- {
-  "nombre": "Ourense",
-  "slug": "ourense",
-  "n": 21
  },
  {
   "nombre": "Valladolid",

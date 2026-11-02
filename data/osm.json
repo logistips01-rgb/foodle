@@ -6447,5 +6447,315 @@
   "direccion": "Castellón de la Plana"
  },
  "mar de sal|castellón": null,
- "ubereats es|castellón": null
+ "ubereats es|castellón": null,
+ "n jm nv|sabadell": null,
+ "lart cafetería|castellón": null,
+ "roberts  c|castellón": null,
+ "carrer de carcaixent, 17, castellón de la plana|castellón": {
+  "lat": 39.9808088,
+  "lng": -0.0326042,
+  "direccion": "Calle Carcagente 17, Castellón de la Plana"
+ },
+ "funtastik  carrer de císcar|valencia": null,
+ "c/ del bisbe salinas, 8a, castellón|castellón": {
+  "lat": 39.9842047,
+  "lng": -0.0327643,
+  "direccion": "Calle Obispo Salinas 8A, Castellón de la Plana"
+ },
+ "la llama restobar|castellón": null,
+ "casa la gata|castellón": null,
+ "centro comercial estepark ( castellón de la plana)|castellón": {
+  "lat": 39.9745358,
+  "lng": -0.0617014,
+  "direccion": "Avenida Enrique Gimeno 101, Castellón de la Plana"
+ },
+ "clarel esp|castellón": null,
+ "plaza san cristóbal, 11, onda (castellón)|castellón": null,
+ "c/alloza, 49, castellón|castellón": {
+  "lat": 39.9879184,
+  "lng": -0.0386214,
+  "direccion": "Calle Alloza, Castellón de la Plana"
+ },
+ "laser game evolution castellón|castellón": null,
+ "carrer la sequiota, 15, benicàssim ( brunch y cenas )|benicàssim": null,
+ "acústico gastrobar|castellón": null,
+ "calle carcagente 17- castellón de la plana|castellón": {
+  "lat": 39.9808088,
+  "lng": -0.0326042,
+  "direccion": "Calle Carcagente 17, Castellón de la Plana"
+ },
+ "carrer tripulants de la paca, 2, grau de castellón|castellón": {
+  "lat": 39.9727892,
+  "lng": 0.0115813,
+  "direccion": "Calle Tripulantes de la Paca, Castellón de la Plana"
+ },
+ "la clandestina trattoria|castellón": null,
+ "calle de amadeo i, 34, castellón de la plana|castellón": null,
+ "los lebrillos restaurante|castellón": null,
+ "plaza cruz roja, 2, castellón de la plana|castellón": {
+  "lat": 39.9775142,
+  "lng": -0.032335,
+  "direccion": "Plaza de la Cruz Roja 2, Castellón de la Plana"
+ },
+ "la terreta c|castellón": null,
+ "el restaurante|castellón": {
+  "lat": 40.0146602,
+  "lng": 0.0278288,
+  "direccion": "Camino del Serradal, Castellón de la Plana"
+ },
+ "calle de carcagente, 17, castellón de la plana|castellón": {
+  "lat": 39.9808088,
+  "lng": -0.0326042,
+  "direccion": "Calle Carcagente 17, Castellón de la Plana"
+ },
+ "paseo de la universidad, 35-37, castellón de la plana|castellón": {
+  "lat": 39.9922391,
+  "lng": -0.0625761,
+  "direccion": "Paseo de la Universidad, Castellón de la Plana"
+ },
+ "calle gasset, 4, castellón de la plana|castellón": {
+  "lat": 39.9842689,
+  "lng": -0.0381948,
+  "direccion": "Calle Gasset, Castellón de la Plana"
+ },
+ "carretera rural els ibarsos, sierra engarcerán (castellón), camino a culla|castellón": null,
+ "calle de goya, 34, oropesa (castellón)|castellón": null,
+ "plaza del doctor marañón, 2 (castellón de la plana)|castellón": {
+  "lat": 39.979532,
+  "lng": -0.0339237,
+  "direccion": "Plaza Doctor Marañón 2, Castellón de la Plana"
+ },
+ "carretera rural els ivarsos, els ibarsos, castellón (camino a culla)|castellón": null,
+ "soju bbq|castellón": null,
+ "c/ del pintor soler blasco, 16  castellón de la plana|castellón": {
+  "lat": 39.9819412,
+  "lng": -0.0283791,
+  "direccion": "Calle Pintor Soler Blasco 16, Castellón de la Plana"
+ },
+ "carrer de sant jaume, 113, almassora|castellón": null,
+ "la cochinita loca|madrid": {
+  "lat": 40.4549251,
+  "lng": -3.6964003,
+  "direccion": "Plaza de San Amaro 8, Madrid"
+ },
+ "mirarte experience|castellón": null,
+ "avenida arcadi garcía sanz, 6 (vila-real)|castellón": null,
+ "bodega besalduch valls & bellmunt|castellón": null,
+ "yokai onda|castellón": null,
+ "pueblosconencanto|valencia": null,
+ "apartamentorurallasabina2026|teruel": null,
+ "viajandoaunnuevomundo|valencia": null,
+ "c/ ben al abbar, 24, onda (castellón)|castellón": null,
+ "la brasa|vila-real": null,
+ "c/ historiador bernardo mundina, 2, onda (castellón)|castellón": null,
+ "caracter carmona|sevilla": null,
+ "extra|castellón": null,
+ "esteticzhen|castellón": null,
+ "mirambel|teruel": null,
+ "elchiringuito drinks|valencia": null,
+ "avenida de valencia, 165, castellón|castellón": null,
+ "calle bisbe serra, 16, benicàssim (castellón)|benicàssim": null,
+ "circuit dandorra|castellón": null,
+ "blót andorra la vella|castellón": null,
+ "marruecos|castellón": null,
+ "calles con siglos de historia, rincones llenos de encanto, una gran tradición cerámica y hasta área de autocaravanas🚐|castellón": null,
+ "avda, francesc tarraega, 26, vila-real (castellón)|castellón": null,
+ "datos de la ruta|girona": null,
+ "ambros es|badalona": null,
+ "ascensor bailong|barcelona": null,
+ "sotoki taberna|getxo": null,
+ "la daisy|tarragona": null,
+ "firmoo spain|tarragona": null,
+ "salto de sallent|huesca": null,
+ "valle de otal|huesca": null,
+ "the champions burger|barcelona": null,
+ "estany divars i vilasana|lleida": null,
+ "my fucking restaurant|barcelona": {
+  "lat": 41.3778272,
+  "lng": 2.173039,
+  "direccion": "Carrer Nou de la Rambla 35, Barcelona"
+ },
+ "mirador de la figuerassa|barcelona": null,
+ "rasos de peguera|barcelona": null,
+ "spark81 barcelona|barcelona": null,
+ "albert gca|madrid": null,
+ "salt del molí|barcelona": null,
+ "hay varios wetherspoon en edimburgo|barcelona": null,
+ "sunset campers|alicante": null,
+ "casa seat|barcelona": {
+  "lat": 41.39661,
+  "lng": 2.1587433,
+  "direccion": "Avinguda Diagonal, Barcelona"
+ },
+ "sunset campers|barcelona": null,
+ "bluerocket toys|girona": null,
+ "familyandfriends|girona": null,
+ "worldeli santadriabesos|girona": null,
+ "okaidi obaibi spain|girona": null,
+ "gran de gracia|girona": null,
+ "holidays26|girona": null,
+ "holidays26|hondarribia": null,
+ "summer26|girona": null,
+ "heinz esp|girona": null,
+ "vtech juguetes|girona": null,
+ "tomaquet restaurant|girona": null,
+ "balloonstory live|girona": null,
+ "valquer laboratorios|girona": null,
+ "philadelphia es|girona": null,
+ "calle la playa, 7, centro, 33202 gijón, asturias|gijón": {
+  "lat": 43.5398787,
+  "lng": -5.6539968,
+  "direccion": "Calle La Playa, Gijón"
+ },
+ "ctra salamanca a zamora, km 1, 5, 37184 villares de la reina, salamanca|salamanca": null,
+ "04700 el ejido, almería|almería": null,
+ "av. de aragón, 362, san blas-canillejas, 28022 madrid|madrid": {
+  "lat": 40.4491274,
+  "lng": -3.569818,
+  "direccion": "Avenida de Aragón 362, Madrid"
+ },
+ "asturias|gijón": {
+  "lat": 43.535374,
+  "lng": -5.6971577,
+  "direccion": "Estacion de La Calzada, Gijón"
+ },
+ "carrer de menéndez y pelayo, 22, 12002 castelló de la plana, castelló|castellón": {
+  "lat": 39.9841374,
+  "lng": -0.0424644,
+  "direccion": "Calle Menéndez y Pelayo, Castellón de la Plana"
+ },
+ "labraca photo|gijón": null,
+ "carretera carbonera n° 14 bajo (armored skin, 33210 gijón, asturias|gijón": null,
+ "c. de orense, 28, posterior, tetuán, 28020 madrid|madrid": null,
+ "av. de la costa, 72, centro, 33205 gijón, asturias|gijón": {
+  "lat": 43.5374807,
+  "lng": -5.6581793,
+  "direccion": "Avenida de la Costa 72, Gijón"
+ },
+ "33002 oviedo, asturias|oviedo": {
+  "lat": 43.3649081,
+  "lng": -5.8491046,
+  "direccion": "Oviedo"
+ },
+ "12579 alcossebre, province of castellón|castellón": null,
+ "paseo dr, fleming, 37, periurbano, rural, 33203 gijón, asturias|gijón": null,
+ "28042 madrid|madrid": {
+  "lat": 40.4618011,
+  "lng": -3.5875434,
+  "direccion": "Madrid"
+ },
+ "33003 oviedo, asturias|oviedo": {
+  "lat": 43.3631409,
+  "lng": -5.8482501,
+  "direccion": "Oviedo"
+ },
+ "33001 oviedo, asturias|oviedo": {
+  "lat": 43.3659494,
+  "lng": -5.8495025,
+  "direccion": "Oviedo"
+ },
+ "28801 alcalá de henares, madrid|alcalá de henares": {
+  "lat": 40.4821908,
+  "lng": -3.3662345,
+  "direccion": "Alcalá de Henares"
+ },
+ "booko2 apartments|gijón": null,
+ "berisha kamez|gijón": null,
+ "carretera de arriondas, cangas de onis, n-625, km 162, 33540 arriondas, asturias|cangas de onís": null,
+ "c. de fernando vela, 2, 33001 oviedo, asturias|oviedo": null,
+ "33208 gijón, asturias|gijón": {
+  "lat": 43.5309339,
+  "lng": -5.667046,
+  "direccion": "Gijón"
+ },
+ "mistelachamartin|madrid": null,
+ "origen clandestino by salines|valencia": null,
+ "viva méxico fest vivamexicofest.es|castellón": null,
+ "paquito|valencia": null,
+ "black taurus|valencia": null,
+ "alegalstory|valencia": null,
+ "c/ matías perelló, 14, ruzafa, valencia|valencia": {
+  "lat": 39.4628406,
+  "lng": -0.3646032,
+  "direccion": "Calle Matías Perelló, Valencia"
+ },
+ "calle jesus 14 (a 10min de la plaza)|valencia": {
+  "lat": 39.4680024,
+  "lng": -0.3819729,
+  "direccion": "Calle del Padre Jofre, Valencia"
+ },
+ "plaza de cisneros , 2 , valencia (muy cerca de la plaza de la virgen)|valencia": null,
+ "gran vía marqués del túria|valencia": {
+  "lat": 39.4661253,
+  "lng": -0.3713034,
+  "direccion": "Gran Vía del Marqués del Turia, Valencia"
+ },
+ "c/ del hospital 18, valencia|valencia": {
+  "lat": 39.4710147,
+  "lng": -0.3816044,
+  "direccion": "Calle del Hospital 18, Valencia"
+ },
+ "c/ del hospital, 18, valencia 46001|valencia": {
+  "lat": 39.4710147,
+  "lng": -0.3816044,
+  "direccion": "Calle del Hospital 18, Valencia"
+ },
+ "c/ martínez cubelles 10, ciutat vella, valencia|valencia": {
+  "lat": 39.4746741,
+  "lng": -0.3546091,
+  "direccion": "Calle de Polo y Peyrolón, Valencia"
+ },
+ "c/ gran vía marqués del turia, 12, valencia|valencia": null,
+ "hiro|málaga": null,
+ "c/ del bon orde 19 (al lado del mercado de abastos) extramurs, valencia|valencia": null,
+ "c/ de bonaire 32, ciutat vella, valencia|valencia": {
+  "lat": 39.4718768,
+  "lng": -0.3716957,
+  "direccion": "Calle de Bonaire, Valencia"
+ },
+ "c/ padilla 5, ciutat vella, valencia|valencia": {
+  "lat": 39.469927,
+  "lng": -0.3792135,
+  "direccion": "Calle de Padilla 5, Valencia"
+ },
+ "c/ de francesc baldomar, 40, poblats maritims|valencia": null,
+ "c/ de baix 42, ciutat vella, valencia|valencia": {
+  "lat": 39.4779779,
+  "lng": -0.3786854,
+  "direccion": "Calle Baja 42, Valencia"
+ },
+ "c/ pavia 53, poblats marítims, valencia (el cabañal)|valencia": {
+  "lat": 39.4710165,
+  "lng": -0.3247969,
+  "direccion": "Calle de José Ballester Gozalvo, Valencia"
+ },
+ "plaza de cánovas 1, valencia|valencia": {
+  "lat": 39.467913,
+  "lng": -0.3654898,
+  "direccion": "Plaza de Cánovas del Castillo, Valencia"
+ },
+ "c/ pere iii el gran, 11, valencia|valencia": null,
+ "recogida en mercado de colón|valencia": null,
+ "c/ conde altea 43, valencia|valencia": null,
+ "c/ conde salvatierra 37, valencia|valencia": {
+  "lat": 39.4691079,
+  "lng": -0.3677682,
+  "direccion": "Calle del Conde de Salvatierra de Álava, Valencia"
+ },
+ "casaraiz vlc|barcelona": null,
+ "barveni valencia|valencia": null,
+ "monpiedra|valencia": null,
+ "c/ sorní 35, valencia|valencia": {
+  "lat": 39.4703796,
+  "lng": -0.3660765,
+  "direccion": "Calle de Sorní 35, Valencia"
+ },
+ "zucca di stagione|valencia": null,
+ "lagildabar|valencia": null,
+ "calle almirante cadarso 33|valencia": null,
+ "theblackturtle es|valencia": null,
+ "pastaepassione vlc|valencia": null,
+ "munashisushi|molina de segura": null,
+ "calaventoeatingclub|alicante": null,
+ "laturra valencia|valencia": null
 }
