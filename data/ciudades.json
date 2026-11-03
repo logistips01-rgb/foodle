@@ -2,37 +2,37 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1426
+  "n": 1437
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 668
+  "n": 675
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 564
+  "n": 580
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 537
+  "n": 539
  },
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 272
+  "n": 273
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 249
+  "n": 251
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 235
+  "n": 236
  },
  {
   "nombre": "Bilbao",
@@ -52,12 +52,12 @@
  {
   "nombre": "Benidorm",
   "slug": "benidorm",
-  "n": 87
+  "n": 88
  },
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 84
+  "n": 85
  },
  {
   "nombre": "Castellón",
@@ -72,7 +72,7 @@
  {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 67
+  "n": 70
  },
  {
   "nombre": "Vitoria",
@@ -82,7 +82,7 @@
  {
   "nombre": "A Coruña",
   "slug": "a-coruna",
-  "n": 63
+  "n": 64
  },
  {
   "nombre": "Pamplona",
@@ -140,6 +140,11 @@
   "n": 29
  },
  {
+  "nombre": "Dos Hermanas",
+  "slug": "dos-hermanas",
+  "n": 24
+ },
+ {
   "nombre": "León",
   "slug": "leon",
   "n": 24
@@ -148,6 +153,16 @@
   "nombre": "Santiago de Compostela",
   "slug": "santiago-de-compostela",
   "n": 24
+ },
+ {
+  "nombre": "Ourense",
+  "slug": "ourense",
+  "n": 23
+ },
+ {
+  "nombre": "Badalona",
+  "slug": "badalona",
+  "n": 23
  },
  {
   "nombre": "Cartagena",
@@ -165,23 +180,8 @@
   "n": 23
  },
  {
-  "nombre": "Ourense",
-  "slug": "ourense",
-  "n": 22
- },
- {
   "nombre": "Almería",
   "slug": "almeria",
-  "n": 22
- },
- {
-  "nombre": "Badalona",
-  "slug": "badalona",
-  "n": 22
- },
- {
-  "nombre": "Dos Hermanas",
-  "slug": "dos-hermanas",
   "n": 22
  },
  {
@@ -220,6 +220,11 @@
   "n": 16
  },
  {
+  "nombre": "Toledo",
+  "slug": "toledo",
+  "n": 15
+ },
+ {
   "nombre": "Fuengirola",
   "slug": "fuengirola",
   "n": 15
@@ -235,9 +240,9 @@
   "n": 14
  },
  {
-  "nombre": "Toledo",
-  "slug": "toledo",
-  "n": 14
+  "nombre": "Jávea",
+  "slug": "javea",
+  "n": 13
  },
  {
   "nombre": "Oviedo",
@@ -252,11 +257,6 @@
  {
   "nombre": "Hondarribia",
   "slug": "hondarribia",
-  "n": 12
- },
- {
-  "nombre": "Jávea",
-  "slug": "javea",
   "n": 12
  },
  {

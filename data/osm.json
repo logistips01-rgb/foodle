@@ -6757,5 +6757,283 @@
  "pastaepassione vlc|valencia": null,
  "munashisushi|molina de segura": null,
  "calaventoeatingclub|alicante": null,
- "laturra valencia|valencia": null
+ "laturra valencia|valencia": null,
+ "gruponoumanolin|alicante": null,
+ "auraalicante|alicante": null,
+ "elcamellojor|alicante": null,
+ "makiravlc|valencia": null,
+ "manu valdes5|valencia": null,
+ "disidentevlc|valencia": null,
+ "therobertspark|castellón": null,
+ "somossutil|valencia": null,
+ "bissboss shawarma|valencia": null,
+ "popeyes es|valencia": {
+  "lat": 39.4581314,
+  "lng": -0.3501243,
+  "direccion": "Paseo de la Alameda 46, Valencia"
+ },
+ "cocolindavalencia|valencia": null,
+ "racodepereipepa|alicante": null,
+ "restaurante nagisushi|valencia": null,
+ "curly espana|valencia": null,
+ "pazzipizzas|madrid": null,
+ "pepa|alicante": null,
+ "trioburger|valencia": null,
+ "almadiataberna|valencia": null,
+ "albufera|valencia": {
+  "lat": 39.3054851,
+  "lng": -0.3427387,
+  "direccion": "Valencia"
+ },
+ "ca ortunyo|jávea": null,
+ "dididaodao es|valencia": null,
+ "lovemisu tiramisu|alicante": null,
+ "bonamb|jávea": null,
+ "golfdirectooficial|alicante": null,
+ "shjavea|jávea": null,
+ "puelche|jávea": null,
+ "pontsec|dénia": null,
+ "mazalbagels|madrid": null,
+ "moonsushi xativa|valencia": null,
+ "elriadhsanjuan|alicante": null,
+ "zabrozobar|valencia": null,
+ "yisushi valencia|valencia": null,
+ "samosbycabosur|valencia": null,
+ "nobarvalencia|valencia": null,
+ "casaantoniorest|valencia": null,
+ "somni|valencia": null,
+ "c/ arzobispo apaolaza, zaragoza|zaragoza": {
+  "lat": 41.6397265,
+  "lng": -0.89716,
+  "direccion": "Calle Arzobispo Apaolaza, Zaragoza"
+ },
+ "carrer major, 8, 08930 sant adrià de besòs, barcelona|barcelona": null,
+ "fundación casa de méxico|madrid": null,
+ "calle de san bernardo 86|madrid": {
+  "lat": 40.4287007,
+  "lng": -3.7059178,
+  "direccion": "Calle de San Bernardo 86, Madrid"
+ },
+ "p maría teresa|madrid": {
+  "lat": 40.4184574,
+  "lng": -3.7425157,
+  "direccion": "Paseo de María Teresa, Madrid"
+ },
+ "rodrigo|madrid": {
+  "lat": 40.4455133,
+  "lng": -3.6771757,
+  "direccion": "Madrid"
+ },
+ "fogardosantiso allariz|ourense": null,
+ "c mncll|madrid": null,
+ "lópez de hoyos|madrid": {
+  "lat": 40.4701439,
+  "lng": -3.6514269,
+  "direccion": "Calle de López de Hoyos, Madrid"
+ },
+ "carrer de la manigua, 56, barcelona|barcelona": {
+  "lat": 41.4244503,
+  "lng": 2.1797804,
+  "direccion": "Carrer de la Manigua 56, Barcelona"
+ },
+ "cuadrobcn|barcelona": null,
+ "carrer de villarroel, 101, eixample, 08011 barcelona|barcelona": {
+  "lat": 41.3850552,
+  "lng": 2.1567958,
+  "direccion": "Carrer de Villarroel 101, Barcelona"
+ },
+ "jumpyard valencia|valencia": null,
+ "caldea|barcelona": null,
+ "columpio valle de tena|huesca": null,
+ "malibú|barcelona": null,
+ "hostal dels ossos|girona": null,
+ "si estás en córdoba|córdoba": null,
+ "latabernadepenalver|madrid": null,
+ "tandoori station|madrid": {
+  "lat": 40.4298308,
+  "lng": -3.6709472,
+  "direccion": "Calle de José Ortega y Gasset, Madrid"
+ },
+ "consell eivissa|madrid": null,
+ "saks cocina mediterranea|alcalá de henares": null,
+ "zafra|madrid": {
+  "lat": 40.4261605,
+  "lng": -3.664707,
+  "direccion": "Paseo Marqués de Zafra, Madrid"
+ },
+ "casa lhardy|madrid": null,
+ "colmadocarpanta|barcelona": null,
+ "calle de cádiz, 4|madrid": {
+  "lat": 40.4157923,
+  "lng": -3.7028957,
+  "direccion": "Calle de Cádiz 4, Madrid"
+ },
+ "carrer de craywinckel, 9, sarrià-sant gervasi, 08022 barcelona|barcelona": {
+  "lat": 41.4119535,
+  "lng": 2.1394352,
+  "direccion": "Carrer de Craywinckel 9, Barcelona"
+ },
+ "pepsi es|barcelona": null,
+ "carrer de santa marcel.lina, 3 a,|barcelona": null,
+ "masil|barcelona": null,
+ "umo alexvall|barcelona": null,
+ "la santamarket|barcelona": null,
+ "pepsi es|vigo": null,
+ "okami|barcelona": null,
+ "08014, barcelona|barcelona": {
+  "lat": 41.3737529,
+  "lng": 2.138633,
+  "direccion": "Barcelona"
+ },
+ "la greca|barcelona": null,
+ "tacos muñoz|barcelona": null,
+ "toni bigoti|barcelona": {
+  "lat": 41.3898085,
+  "lng": 2.138731,
+  "direccion": "Carrer del Taquígraf Garriga 143, Barcelona"
+ },
+ "bottegabernaccabcn|barcelona": null,
+ "carrer de la boqueria, 26, ciutat vella, 08002 barcelona|barcelona": {
+  "lat": 41.3815935,
+  "lng": 2.174723,
+  "direccion": "Carrer de la Boqueria 26, Barcelona"
+ },
+ "jiribilla|barcelona": {
+  "lat": 41.3788149,
+  "lng": 2.160494,
+  "direccion": "Carrer del Comte Borrell, Barcelona"
+ },
+ "lacentral|barcelona": null,
+ "popis|barcelona": null,
+ "cervecería seis cuarenta|barcelona": null,
+ "can gallina|granollers": null,
+ "carrer del doctor dou, 19, ciutat vella 08001, barcelona|barcelona": {
+  "lat": 41.3828495,
+  "lng": 2.1684577,
+  "direccion": "Carrer del Doctor Dou 19, Barcelona"
+ },
+ "carrer de còrsega, 206, eixample, 08036, barcelona|barcelona": {
+  "lat": 41.3912968,
+  "lng": 2.1525863,
+  "direccion": "Carrer de Còrsega 206, Barcelona"
+ },
+ "08039, barcelona|barcelona": {
+  "lat": 41.3749242,
+  "lng": 2.1497796,
+  "direccion": "Plaza de España, Barcelona"
+ },
+ "carrer del pintor fortuny, 24, ciutat vella, 08001, barcelona|barcelona": {
+  "lat": 41.382637,
+  "lng": 2.1691426,
+  "direccion": "Carrer del Pintor Fortuny 24, Barcelona"
+ },
+ "capo|granollers": null,
+ "haddock barcelona|barcelona": null,
+ "carrer de calafell, 21, 08850, gavà, barcelona|barcelona": null,
+ "petit bleu|barcelona": null,
+ "tierra brava|barcelona": null,
+ "finorri|barcelona": null,
+ "c/ de muntaner, 181, eixample, 08036, barcelona|barcelona": {
+  "lat": 41.3921788,
+  "lng": 2.1518792,
+  "direccion": "Carrer de Muntaner 181, Barcelona"
+ },
+ "sandos hanaka|barcelona": null,
+ "casa inés|barcelona": {
+  "lat": 41.4049728,
+  "lng": 2.1625967,
+  "direccion": "Carrer de Ramón y Cajal 146, Barcelona"
+ },
+ "carrer de viladomat, 249, eixample, 08029, barcelona|barcelona": {
+  "lat": 41.3861473,
+  "lng": 2.1483531,
+  "direccion": "Carrer de Viladomat 247-249, Barcelona"
+ },
+ "carrer de sant pau, 27, ciutat vella, 08001, barcelona|barcelona": {
+  "lat": 41.3791985,
+  "lng": 2.1722397,
+  "direccion": "Carrer de Sant Pau 27, Barcelona"
+ },
+ "carrer major de sarrià, 49, sarrià-sant gervasi, 08017, barcelona|barcelona": {
+  "lat": 41.3975414,
+  "lng": 2.1229662,
+  "direccion": "Carrer Major de Sarrià 49, Barcelona"
+ },
+ "molino de pez|barcelona": null,
+ "mesa lobo|barcelona": null,
+ "central burg|sant cugat": null,
+ "brabo|barcelona": null,
+ "08172, sant cugat del vallés|sant cugat": {
+  "lat": 41.4722734,
+  "lng": 2.0847171,
+  "direccion": "Sant Cugat del Vallès"
+ },
+ "haddock|barcelona": null,
+ "umamiplantbased|barcelona": null,
+ "annatruyol|barcelona": null,
+ "luv studio|barcelona": null,
+ "estudio coa|barcelona": null,
+ "mamood studio|barcelona": null,
+ "luv lifestyle|barcelona": null,
+ "serboli bureau|barcelona": null,
+ "dom arquitectura|barcelona": null,
+ "almeda estudi|barcelona": null,
+ "coll estudi|barcelona": null,
+ "scantarragona|tarragona": null,
+ "cubro design|barcelona": null,
+ "camiral qdlresort|barcelona": null,
+ "quimolea studio|barcelona": null,
+ "oikos living|barcelona": null,
+ "beigott noemielias|barcelona": null,
+ "nanometro estudio|madrid": null,
+ "img tallerdearquitectura|barcelona": null,
+ "junya ishigami associates|barcelona": null,
+ "kokudev padilla|barcelona": null,
+ "sss archi|barcelona": null,
+ "santacole|barcelona": null,
+ "emmamarti arquitectura|barcelona": null,
+ "casanadia|vitoria": null,
+ "gureogia|bilbao": null,
+ "jatetxeaaiuri|vitoria": null,
+ "gasteiz 144|vitoria": {
+  "lat": 42.8465088,
+  "lng": -2.6724025,
+  "direccion": "Vitoria"
+ },
+ "luisangelperezchef|vitoria": null,
+ "puntode|vitoria": null,
+ "contraelcancer alava|vitoria": null,
+ "centro comercial zubiarte ( zubiartebilbao )|bilbao": null,
+ "cafe kupula|vitoria": {
+  "lat": 42.8439737,
+  "lng": -2.6791006,
+  "direccion": "Portal de Castilla, Vitoria"
+ },
+ "melt cakes|vitoria": null,
+ "recimto ferial de ansio|barakaldo": null,
+ "sibuya es|vitoria": null,
+ "pinsavasca|bilbao": null,
+ "calle independencia, 4, vitoria-gasteiz|vitoria": {
+  "lat": 42.8457215,
+  "lng": -2.670907,
+  "direccion": "Calle Independencia 4, Vitoria"
+ },
+ "arrepuertosherry|cádiz": null,
+ "avenida gasteiz, 89, vitoria-gasteiz|vitoria": {
+  "lat": 42.8534671,
+  "lng": -2.6807923,
+  "direccion": "Avenida de Gasteiz 89, Vitoria"
+ },
+ "puerto real|cádiz": null,
+ "aje bar|jerez": null,
+ "miranda de ebro|vitoria": {
+  "lat": 42.8471226,
+  "lng": -2.6625153,
+  "direccion": "Calle Miranda de Ebro, Vitoria"
+ },
+ "tengomono|vitoria": null,
+ "salinas de añana|vitoria": null,
+ "punkytxen|barakaldo": null,
+ "elgranerodesanfrancisco|vitoria": null,
+ "jonzo one|vitoria": null
 }
