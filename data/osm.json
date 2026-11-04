@@ -7035,5 +7035,359 @@
  "salinas de añana|vitoria": null,
  "punkytxen|barakaldo": null,
  "elgranerodesanfrancisco|vitoria": null,
- "jonzo one|vitoria": null
+ "jonzo one|vitoria": null,
+ "sandra ssa|bilbao": null,
+ "dominiodeberzal|vitoria": null,
+ "theburgercup|vitoria": null,
+ "restaurante conuco|vitoria": {
+  "lat": 42.8344984,
+  "lng": -2.6694718,
+  "direccion": "Calle Iruraiz-Gauna 1, Vitoria"
+ },
+ "zanapasta|benidorm": null,
+ "hueto arriba|vitoria": {
+  "lat": 42.8908671,
+  "lng": -2.8025087,
+  "direccion": "Vitoria"
+ },
+ "gresca|barcelona": {
+  "lat": 41.3912981,
+  "lng": 2.1571401,
+  "direccion": "Carrer de Provença, Barcelona"
+ },
+ "cancampanya|barcelona": null,
+ "pepa bar a vins|barcelona": {
+  "lat": 41.3877377,
+  "lng": 2.1600138,
+  "direccion": "Carrer d'Aribau, Barcelona"
+ },
+ "atri valls|barcelona": null,
+ "achaar bar|barcelona": {
+  "lat": 41.3985023,
+  "lng": 2.1940411,
+  "direccion": "Carrer de Pere IV, Barcelona"
+ },
+ "almarge restaurant|badalona": null,
+ "solomillo|barcelona": {
+  "lat": 41.393196,
+  "lng": 2.1614227,
+  "direccion": "Carrer de Mallorca 251, Barcelona"
+ },
+ "c/ pamplona, 33, barcelona|barcelona": {
+  "lat": 41.3935709,
+  "lng": 2.1953829,
+  "direccion": "Carrer de Pamplona 33, Barcelona"
+ },
+ "carnal steak house|barcelona": null,
+ "ali ocakbaşı|barcelona": null,
+ "yanku chifa peruano|barcelona": null,
+ "maharajá|barcelona": {
+  "lat": 41.3782928,
+  "lng": 2.1693181,
+  "direccion": "Carrer de Sant Bartomeu, Barcelona"
+ },
+ "glaciar restaurant|barcelona": {
+  "lat": 41.380221,
+  "lng": 2.1746504,
+  "direccion": "3, Barcelona"
+ },
+ "principales|barcelona": null,
+ "lupa entrepans|barcelona": null,
+ "en plena avinguda gaudí|barcelona": null,
+ "bunbo barcelona|barcelona": null,
+ "carrer d’enric granados, 110|barcelona": {
+  "lat": 41.3938141,
+  "lng": 2.1547446,
+  "direccion": "Carrer d'Enric Granados 110, Barcelona"
+ },
+ "plaça de catalunya|barcelona": {
+  "lat": 41.3877378,
+  "lng": 2.1704589,
+  "direccion": "Plaça de Catalunya, Barcelona"
+ },
+ "carrer del doctor dou, 14, barcelona|barcelona": {
+  "lat": 41.3828914,
+  "lng": 2.1686299,
+  "direccion": "Carrer del Doctor Dou 14, Barcelona"
+ },
+ "plaça de julio gonzález, 7 (poblenou)|barcelona": {
+  "lat": 41.4016351,
+  "lng": 2.2062989,
+  "direccion": "Plaça de Julio González 7, Barcelona"
+ },
+ "vivemodo|barcelona": null,
+ "o eirado da leña|pontevedra": {
+  "lat": 42.4326504,
+  "lng": -8.6432826,
+  "direccion": "Praza da Leña, Pontevedra"
+ },
+ "la blava|barcelona": null,
+ "capu|barcelona": null,
+ "picantes|barcelona": null,
+ "c/ saragossa, 29 (barcelona)|barcelona": {
+  "lat": 41.4014261,
+  "lng": 2.1498115,
+  "direccion": "Carrer de Saragossa 29, Barcelona"
+ },
+ "en pleno eixample|barcelona": null,
+ "gyoza bistro|barcelona": {
+  "lat": 41.3940771,
+  "lng": 2.1723519,
+  "direccion": "Carrer de Girona, Barcelona"
+ },
+ "calle martínez de la rosa, 27, barcelona|barcelona": {
+  "lat": 41.3996132,
+  "lng": 2.1592608,
+  "direccion": "Carrer de Martínez de la Rosa, Barcelona"
+ },
+ "c/ roselló, 152, barcelona, muy cerca de hospital clinic|barcelona": null,
+ "gracia|barcelona": {
+  "lat": 41.4065767,
+  "lng": 2.1582812,
+  "direccion": "Barcelona"
+ },
+ "louro restaurante|barcelona": {
+  "lat": 41.3791435,
+  "lng": 2.1747253,
+  "direccion": "La Rambla 35, Barcelona"
+ },
+ "melrosecafe|barcelona": null,
+ "port fòrum|barcelona": null,
+ "oferta gastronómica|barcelona": null,
+ "la terraza de anna|barcelona": null,
+ "solraig tiburon|castelldefels": null,
+ "sidrería la montera picona|gijón": null,
+ "asturias 33210|gijón": {
+  "lat": 43.535374,
+  "lng": -5.6971577,
+  "direccion": "Estacion de La Calzada, Gijón"
+ },
+ "sidrería la allandesa|gijón": null,
+ "restaurante casa sánchez el tornín|cangas de onís": null,
+ "33350|gijón": {
+  "lat": 43.4850763,
+  "lng": -5.6586411,
+  "direccion": "Gijón"
+ },
+ "nos fuimos hasta don chuletón|lugo": null,
+ "casa ezequiel|león": null,
+ "mesón sancho calle begoña|gijón": {
+  "lat": 43.5426142,
+  "lng": -5.6631302,
+  "direccion": "Calle Begoña, Gijón"
+ },
+ "33568, asturias|ribadesella": {
+  "lat": 43.4471891,
+  "lng": -5.0176619,
+  "direccion": "Ribadesella"
+ },
+ "33210 gijón, asturias|gijón": {
+  "lat": 43.5239592,
+  "lng": -5.6696126,
+  "direccion": "Gijón"
+ },
+ "la fustariega|potes": null,
+ "bulevar de la sidra, calle gascona (oviedo)|oviedo": null,
+ "los jardines de marisol|luarca": null,
+ "la terraza de laura|llanes": {
+  "lat": 43.4422524,
+  "lng": -4.9050634,
+  "direccion": "Carretera de Ribadesella a Llanes, Llanes"
+ },
+ "bixta eder jatetxea|pamplona": null,
+ "bar caravinagre|pamplona": null,
+ "ballestanea  arkolla|hondarribia": null,
+ "polígono de areta, huarte, pamplona|pamplona": null,
+ "casa juanito|pamplona": null,
+ "restaurante nuevocasino|pamplona": null,
+ "restaurante sebastian|hondarribia": null,
+ "chuleteros lezkairu|pamplona": null,
+ "mika jatetxea|hondarribia": null,
+ "perla beltza gaintxurizketa bidea|pamplona": null,
+ "c/ prim, 34, san sebastián|san sebastián": {
+  "lat": 43.3150807,
+  "lng": -1.980057,
+  "direccion": "Calle Prim, San Sebastián"
+ },
+ "calle san pedro 27, hondarribia (gipuzkoa)|hondarribia": null,
+ "coffing lezkairu|pamplona": null,
+ "posada de gerendiain|pamplona": null,
+ "restaurante casa arteta  marcaláin|pamplona": null,
+ "canelalimon nutricion|pamplona": null,
+ "calle jerónimo arbolanche , 3, pamplona|pamplona": {
+  "lat": 42.8102351,
+  "lng": -1.6651943,
+  "direccion": "Calle Jerónimo de Arbolanche 3, Pamplona"
+ },
+ "ubuntu gastronomika  peralta|pamplona": null,
+ "calle amaya 2, pamplona|pamplona": {
+  "lat": 42.8154025,
+  "lng": -1.6406271,
+  "direccion": "Calle Amaya 2, Pamplona"
+ },
+ "calle emilio arrieta, 7, pamplona|pamplona": {
+  "lat": 42.8151121,
+  "lng": -1.6390207,
+  "direccion": "Calle Emilio Arrieta 7, Pamplona"
+ },
+ "la panacea eco|pamplona": null,
+ "lasjellyscocktails|vigo": null,
+ "real bakery & coffee|vigo": null,
+ "american & european market  c.c|vigo": null,
+ "bullebakeryvigo|vigo": null,
+ "delirio  santiago de compostela|santiago de compostela": null,
+ "napolit tm|santiago de compostela": null,
+ "o berbés|vigo": {
+  "lat": 42.2374825,
+  "lng": -8.728921,
+  "direccion": "Vigo"
+ },
+ "dak burger|a coruña": null,
+ "godeo es|a coruña": null,
+ "muelle de la batería|a coruña": {
+  "lat": 43.3655348,
+  "lng": -8.4028981,
+  "direccion": "Muelle de la Batería, La Coruña"
+ },
+ "estaricoburger|a coruña": null,
+ "creisi vigo|vigo": null,
+ "estrada vella de madrid|vigo": {
+  "lat": 42.2167563,
+  "lng": -8.6953571,
+  "direccion": "Estrada Vella de Madrid, Vigo"
+ },
+ "rúa da ronda de don bosco, 64, vigo|vigo": null,
+ "burgerking es|vigo": null,
+ "madison smash|vigo": null,
+ "thechampionsburger|vigo": null,
+ "rúa de sevilla, 12|vigo": null,
+ "champions burger vigo|vigo": null,
+ "mesturas|vigo": null,
+ "efl elitefightleague|vigo": null,
+ "maisonsucree vigo|vigo": null,
+ "recuerda que estarán en sanxenxo|sanxenxo": null,
+ "costa feira|sanxenxo": {
+  "lat": 42.4343196,
+  "lng": -8.8100742,
+  "direccion": "Avenida de Europa, Sanxenxo"
+ },
+ "puedes hacerlo en santiago|a coruña": null,
+ "sicilia in bocca|a coruña": {
+  "lat": 42.8741131,
+  "lng": -8.5522708,
+  "direccion": "Avenida de Rosalía de Castro 72, Santiago de Compostela"
+ },
+ "fogar do santiso|santiago de compostela": {
+  "lat": 42.8780281,
+  "lng": -8.5454541,
+  "direccion": "Rúa do Franco 36-38, Santiago de Compostela"
+ },
+ "santiago|a coruña": {
+  "lat": 42.9189543,
+  "lng": -8.550786,
+  "direccion": "A Coruña"
+ },
+ "la burgueria|santiago de compostela": {
+  "lat": 42.870984,
+  "lng": -8.5498047,
+  "direccion": "Calle de Santiago de Chile 32, Santiago de Compostela"
+ },
+ "onde keiras|santiago de compostela": null,
+ "create spain|a coruña": null,
+ "cocinadefede|a coruña": null,
+ "café tertulia|santiago de compostela": {
+  "lat": 42.8803898,
+  "lng": -8.5497187,
+  "direccion": "Rúa do Pombal, Santiago de Compostela"
+ },
+ "entrepans palmeira|a coruña": {
+  "lat": 42.5789234,
+  "lng": -8.9592177,
+  "direccion": "Rúa da Subida ó Adro, Palmeira"
+ },
+ "la pepita|santiago de compostela": {
+  "lat": 42.8760203,
+  "lng": -8.5440814,
+  "direccion": "Calle del Hórreo, Santiago de Compostela"
+ },
+ "toshi|santiago de compostela": {
+  "lat": 42.9029607,
+  "lng": -8.5047571,
+  "direccion": "Rúa de Castela e León, Santiago de Compostela"
+ },
+ "napolit|santiago de compostela": {
+  "lat": 42.8737529,
+  "lng": -8.5499796,
+  "direccion": "Rúa de Ramón Cabanillas, Santiago de Compostela"
+ },
+ "arrocería a lanzada|o grove": {
+  "lat": 42.4583187,
+  "lng": -8.8892596,
+  "direccion": "PO-317 10B, O Grove"
+ },
+ "muerde la pasta a coruña|a coruña": {
+  "lat": 42.8889471,
+  "lng": -8.5269155,
+  "direccion": "Santiago de Compostela"
+ },
+ "fuoco|santiago de compostela": null,
+ "estrellaparkexperience coruna|a coruña": null,
+ "arsa|logroño": null,
+ "las nubes restobar|logroño": null,
+ "tartas caseras sevda|logroño": null,
+ "bar concordia|logroño": null,
+ "moms cloud miase|logroño": null,
+ "te esperan en pleno centro|logroño": null,
+ "ohana pastry logrono|logroño": null,
+ "flor y tartas|logroño": null,
+ "faakinsmash|logroño": null,
+ "thechampionsburger|logroño": null,
+ "kit|logroño": null,
+ "lugar|logroño": {
+  "lat": 42.4476342,
+  "lng": -2.4998696,
+  "direccion": "Camino de Santiago Francés, Logroño"
+ },
+ "patata del mes|logroño": null,
+ "moderna tradición c|logroño": null,
+ "el puntido|logroño": null,
+ "calle laurel 16 logroño|logroño": {
+  "lat": 42.4655117,
+  "lng": -2.4486443,
+  "direccion": "Calle de Laurel 16, Logroño"
+ },
+ "el jardin secreto de lardero|logroño": null,
+ "restaurante luma|logroño": null,
+ "lapatruque|logroño": null,
+ "laosa handmadeburgers|haro": null,
+ "cheedar|logroño": null,
+ "jisma burger|logroño": null,
+ "merakinajera|nájera": null,
+ "pasteleriaramflor|logroño": null,
+ "bar soriano|hondarribia": null,
+ "bilbao país vasco|bilbao": {
+  "lat": 43.2692319,
+  "lng": -2.9319418,
+  "direccion": "Calle La Salve, Bilbao"
+ },
+ "gijón asturias|gijón": {
+  "lat": 43.5339568,
+  "lng": -5.6935193,
+  "direccion": "Camino del Melón 1, Gijón"
+ },
+ "barcelona cataluña|barcelona": {
+  "lat": 41.3751331,
+  "lng": 2.1484772,
+  "direccion": "Plaza de España, Barcelona"
+ },
+ "san sebastián guipúzcoa país vasco|san sebastián": {
+  "lat": 43.3207692,
+  "lng": -1.9792899,
+  "direccion": "San Sebastián"
+ },
+ "logroño la rioja|logroño": {
+  "lat": 42.4588908,
+  "lng": -2.4438691,
+  "direccion": "Avenida de España, Logroño"
+ }
 }
