@@ -130,14 +130,14 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
     if (excluidos.has(String(p.creador || '').toLowerCase())) { delete posts[k]; if (textos) delete textos[k]; }
   }
 
-  // Norma de foodies (ver foodle/comprobar.js): avisa de los que han dejado de publicar con constancia.
+  // Norma de foodies (ver foodle/comprobar.js): avisa de los que llevan más de 90 días sin publicar.
   const { esConstante } = require('./comprobar');
   for (const f of foodies) {
     const u = f.usuario.replace(/^@/, '').toLowerCase();
     const fechas = Object.values(posts).filter((p) => String(p.creador || '').toLowerCase() === u).map((p) => p.fecha).filter(Boolean);
     if (fechas.length && !esConstante(fechas, fechas.length >= 30)) {
       const dias = Math.round((Date.now() - new Date(fechas.sort().pop())) / 864e5);
-      console.log(`  ⚠️  @${u}: no publica con constancia (última hace ${dias} días)`);
+      console.log(`  ⚠️  @${u}: lleva ${dias} días sin publicar (la norma pide menos de 90)`);
     }
   }
 

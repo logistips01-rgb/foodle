@@ -28,8 +28,8 @@ Actualizado: 30/10/2026.
 - [ ] **Más foodies de Alcobendas / zona norte** (pedir nombres a la familia).
 - [x] Barcelona, Valencia, Bilbao y Sevilla cargadas (30/10).
 - [ ] **Estado al parar (01/11):** fases 1-3 cargadas; fase 4 (Andalucía y Murcia) con 24 foodies añadidos y su
-      carga lanzada (si no terminó, la sigue la tarea diaria). Siguiente: fase 5, las Castillas. Pendiente de Manuel:
-      ¿@foodiesantiago como excepción (Santiago, 83 % comida, algún mes sin publicar)?
+      carga lanzada (si no terminó, la sigue la tarea diaria). Siguiente: fase 5, las Castillas.
+- [x] **Norma cambiada (05/11):** basta con haber publicado en los últimos 90 días (antes, cada mes de los últimos 3).
 - [ ] **Criterio (31/10):** primero que haya representación en todas las ciudades, fase a fase; después una pasada
       buscando foodies nuevos para completar las flojas (Sabadell, Terrassa, Lleida, Reus, Pamplona, Logroño…).
 - [ ] **Siguiente, por comunidad autónoma:** Cataluña (Girona, Tarragona, Lleida, Sitges, Reus, Sabadell, Terrassa…),
