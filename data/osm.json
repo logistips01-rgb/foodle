@@ -8409,5 +8409,363 @@
  "detroit masquedesayunos|murcia": null,
  "muerdeyviaja|murcia": null,
  "también en|murcia": null,
- "munashisushi|la manga": null
+ "munashisushi|la manga": null,
+ "dulzura|murcia": null,
+ "chiringuito las palmeras  santomera|murcia": null,
+ "gamezonemurcia|murcia": null,
+ "cabo de palos|murcia": null,
+ "paseo de playa honda|murcia": null,
+ "avvmolinosmarfagones|cartagena": null,
+ "fitness gym cartagena|cartagena": null,
+ "mimanerademirar scenic|cartagena": null,
+ "polígono industrial cabezo beaza|cartagena": {
+  "lat": 37.6246848,
+  "lng": -0.9602286,
+  "direccion": "Cartagena"
+ },
+ "clinica syel|murcia": null,
+ "pacorosapremium|murcia": null,
+ "laboutiquedesandracartagena|murcia": null,
+ "utm source|murcia": null,
+ "cyr cartagena|cartagena": null,
+ "la fundación de qart-hadast|cartagena": null,
+ "interés turístico internacional|cartagena": null,
+ "carthagineses y romanos|cartagena": {
+  "lat": 37.6110132,
+  "lng": -0.9982622,
+  "direccion": "Vía Aníbal, Cartagena"
+ },
+ "alerta naranja|la manga": null,
+ "deseo b|cartagena": null,
+ "miamitowersspain|murcia": null,
+ "cozycandles studio|cartagena": null,
+ "marianorajoy|murcia": null,
+ "perla blanca|murcia": null,
+ "pescaderia maria dolores|la manga": null,
+ "parque gonio|murcia": null,
+ "cala cortina|murcia": null,
+ "cartercashautoes|cartagena": null,
+ "la región de murcia|murcia": null,
+ "sofiacristo cristo|cartagena": null,
+ "𝐂𝐂 𝐓𝐨𝐫𝐫𝐞𝐜𝐚𝐫𝐝𝐞𝐧𝐚𝐬|almería": {
+  "lat": 36.8685739,
+  "lng": -2.3120282,
+  "direccion": "Almería"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐂𝐚𝐬𝐭𝐞𝐥𝐥𝐨|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "ledsfun|madrid": null,
+ "armilla|granada": null,
+ "𝐂𝐚𝐥𝐥𝐞 𝐃𝐢𝐞𝐠𝐨 𝐝𝐞 𝐋𝐞𝐨𝐧|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐉𝐮𝐚𝐧 𝐑𝐚𝐦𝐨𝐧 𝐉𝐢𝐦𝐞𝐧𝐞𝐳|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐌𝐚𝐧𝐮𝐞𝐥 𝐅𝐞𝐫𝐧𝐚𝐧𝐝𝐞𝐳 𝐲 𝐆𝐨𝐧𝐳𝐚𝐥𝐞𝐳|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐂𝐚𝐛𝐚𝐥𝐥𝐞𝐫𝐨 𝐝𝐞 𝐆𝐫𝐚𝐜𝐢𝐚|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "cesur formacion|madrid": {
+  "lat": 40.4443713,
+  "lng": -3.6724917,
+  "direccion": "Calle de Luis Cabrera 63, Madrid"
+ },
+ "casa habibii|madrid": null,
+ "m wok|roquetas de mar": null,
+ "eternalsunshinetour|madrid": null,
+ "la urba|roquetas de mar": null,
+ "𝐂𝐚𝐥𝐥𝐞 𝐅𝐚𝐛𝐫𝐢𝐜𝐚 𝐕𝐢𝐞𝐣𝐚|granada": {
+  "lat": 37.1734995,
+  "lng": -3.5995337,
+  "direccion": "Granada"
+ },
+ "𝐌𝐞𝐥𝐥𝐲𝐬 𝐒𝐦𝐚𝐬𝐡𝐁𝐮𝐫𝐠𝐞𝐫  𝐏𝐚𝐬𝐞𝐨 𝐝𝐞𝐥 𝐀𝐥𝐭𝐢𝐥𝐥𝐨|almuñécar": {
+  "lat": 36.7703688,
+  "lng": -3.7236281,
+  "direccion": "Almuñécar"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐌𝐚𝐫𝐜𝐨𝐬|almería": {
+  "lat": 36.8685739,
+  "lng": -2.3120282,
+  "direccion": "Almería"
+ },
+ "𝐀𝐯𝐞𝐧𝐢𝐝𝐚 𝐅𝐞𝐝𝐞𝐫𝐢𝐜𝐨 𝐆𝐚𝐫𝐜𝛊𝐚 𝐋𝐨𝐫𝐜𝐚|málaga": {
+  "lat": 36.7647913,
+  "lng": -4.4422005,
+  "direccion": "Málaga"
+ },
+ "𝐏𝐥𝐚𝐳𝐚 𝐝𝐞 𝐥𝐚 𝐒𝐨𝐥𝐢𝐝𝐚𝐫𝐢𝐝𝐚𝐝|málaga": {
+  "lat": 36.7647913,
+  "lng": -4.4422005,
+  "direccion": "Málaga"
+ },
+ "mcdonalds es|madrid": null,
+ "estaricoburger|almería": null,
+ "𝐂𝐚𝐥𝐥𝐞 𝐝𝐞 𝐥𝐚𝐬 𝐈𝐧𝐟𝐚𝐧𝐭𝐚𝐬|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐝𝐞 𝐕𝐞𝐥𝐚𝐳𝐪𝐮𝐞𝐳 𝟏𝟎𝟐|madrid": null,
+ "𝐏𝐚𝐬𝐞𝐨 𝐝𝐞𝐥 𝐀𝐥𝐭𝐢𝐥𝐥𝐨|almuñécar": {
+  "lat": 36.7703688,
+  "lng": -3.7236281,
+  "direccion": "Almuñécar"
+ },
+ "𝐂.𝐂|almería": {
+  "lat": 36.8685739,
+  "lng": -2.3120282,
+  "direccion": "Almería"
+ },
+ "𝐂𝐚𝐬𝐚 𝐂𝐮𝐞𝐯𝐚 𝐋𝐮𝐧𝐚|granada": {
+  "lat": 37.1734995,
+  "lng": -3.5995337,
+  "direccion": "Granada"
+ },
+ "𝐊𝐨𝐧𝐚𝐧 𝐁𝐁𝐐|granada": {
+  "lat": 37.1734995,
+  "lng": -3.5995337,
+  "direccion": "Granada"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐌𝐚𝐧𝐢𝐥𝐚|almuñécar": {
+  "lat": 36.7703688,
+  "lng": -3.7236281,
+  "direccion": "Almuñécar"
+ },
+ "calle de modesto lafuente, 88, chamberí, 28003 madrid|madrid": {
+  "lat": 40.4458894,
+  "lng": -3.6955555,
+  "direccion": "Calle de Modesto Lafuente 88, Madrid"
+ },
+ "calle de fernández de la hoz, 70, 28003 madrid|madrid": {
+  "lat": 40.4386931,
+  "lng": -3.6944126,
+  "direccion": "Calle de Fernández de la Hoz 70, Madrid"
+ },
+ "florencia cucina italiana|madrid": null,
+ "carrer filòleg sanchis guarner, 5, petrer, alicante|alicante": null,
+ "centro de historias zaragoza|zaragoza": {
+  "lat": 41.6508968,
+  "lng": -0.8702387,
+  "direccion": "Claustro Agustinos, Zaragoza"
+ },
+ "pignic ibérico|madrid": null,
+ "unailopez|madrid": null,
+ "marco a carpena|madrid": null,
+ "c/ marcenado, 7 (prosperidad)|madrid": {
+  "lat": 40.4455763,
+  "lng": -3.6728728,
+  "direccion": "Calle de Marcenado 7, Madrid"
+ },
+ "bbcr|madrid": {
+  "lat": 40.4559389,
+  "lng": -3.7005327,
+  "direccion": "Calle de San Enrique 16, Madrid"
+ },
+ "caracuchos furiousfood|vigo": null,
+ "lo encontrarás en westfield glòries|barcelona": null,
+ "suiza|barcelona": {
+  "lat": 41.3957462,
+  "lng": 2.1554161,
+  "direccion": "Avinguda Diagonal (lateral muntanya) 482, Barcelona"
+ },
+ "08010 barcelona|barcelona": {
+  "lat": 41.3915193,
+  "lng": 2.1746548,
+  "direccion": "Barcelona"
+ },
+ "la selva de laventura|girona": null,
+ "aldelis es|zaragoza": null,
+ "fogariz eltubo|zaragoza": null,
+ "president es|madrid": {
+  "lat": 40.429108,
+  "lng": -3.6884806,
+  "direccion": "Calle del Marqués de Villamagna 4, Madrid"
+ },
+ "suchard es|madrid": null,
+ "avda, marqués de corbera 9|madrid": null,
+ "pepe rodriguezrey|toledo": null,
+ "aumo|madrid": null,
+ "teatre laliança del poblenou|barcelona": null,
+ "plaza de sant jaume, 1|barcelona": {
+  "lat": 41.3824125,
+  "lng": 2.1773052,
+  "direccion": "Carrer de la Ciutat, Barcelona"
+ },
+ "bottega bernacca|barcelona": null,
+ "en westfield glòries westfieldglories|barcelona": null,
+ "carrer de bonavista, 10, gràcia|badalona": null,
+ "c/ valdelinares 19, campanar, valencia|valencia": {
+  "lat": 39.4809996,
+  "lng": -0.3956315,
+  "direccion": "Calle de Valdelinares 19, Valencia"
+ },
+ "46015, valencia. #valencia #restaurantesvalencia #comerenvalencia #restaurante #paella|valencia": null,
+ "c/ de gorgos, 22, algirós, 46021, valencia|valencia": null,
+ "c/ de pere iii el gran, 11, l’eixample, 46005, valencia|valencia": {
+  "lat": 39.4624613,
+  "lng": -0.3695473,
+  "direccion": "Calle Pedro III El Grande 11, Valencia"
+ },
+ "avda cortes valencianas, 33|valencia": null,
+ "hechoamedida events|a coruña": null,
+ "honest greens|valencia": {
+  "lat": 39.4692524,
+  "lng": -0.3737454,
+  "direccion": "Calle de Pascual y Genís 15, Valencia"
+ },
+ "carrer del mestre clavé, 8, ciutat vella, valencia|valencia": {
+  "lat": 39.4712286,
+  "lng": -0.3781112,
+  "direccion": "Calle del Maestro Clavé 8, Valencia"
+ },
+ "japaneseheadspa cordoba|córdoba": null,
+ "bar cervino|zaragoza": {
+  "lat": 41.6614713,
+  "lng": -0.8980996,
+  "direccion": "Calle Ainzón, Zaragoza"
+ },
+ "restaurante botin|madrid": {
+  "lat": 40.4141745,
+  "lng": -3.707981,
+  "direccion": "Calle de Cuchilleros 17, Madrid"
+ },
+ "cervecería la paloma|madrid": null,
+ "calle salamanca, 23 (madrid)|madrid": {
+  "lat": 40.4540895,
+  "lng": -3.6999593,
+  "direccion": "Calle de Salamanca 23, Madrid"
+ },
+ "carrer de les barques, 14, 43850 cambrils, tarragona|cambrils": {
+  "lat": 41.0670059,
+  "lng": 1.061333,
+  "direccion": "Carrer de les Barques, Cambrils"
+ },
+ "crema cheesecakes|madrid": null,
+ "gateofindia krakow|barcelona": null,
+ "on café|madrid": {
+  "lat": 40.4650565,
+  "lng": -3.6794203,
+  "direccion": "Paseo de La Habana, Madrid"
+ },
+ "gazteka|madrid": {
+  "lat": 40.425627,
+  "lng": -3.7074105,
+  "direccion": "Calle de Noviciado, Madrid"
+ },
+ "arzabal bernabeu|madrid": null,
+ "c/ de manuel fernández y gonzález, n-10, madrid|madrid": {
+  "lat": 40.4151498,
+  "lng": -3.6996264,
+  "direccion": "Calle de Manuel Fernández y González, Madrid"
+ },
+ "paseamadrid reservaspatrimonio|madrid": null,
+ "plaça d’emili vendrell, 1, raval, barcelona|barcelona": {
+  "lat": 41.3812476,
+  "lng": 2.1668432,
+  "direccion": "Plaça d'Emili Vendrell 1, Barcelona"
+ },
+ "carrer de ferran turné, 1–11, barcelona|barcelona": {
+  "lat": 41.424277,
+  "lng": 2.1929165,
+  "direccion": "Carrer de Ferran Turné 1-11, Barcelona"
+ },
+ "costco spain|sevilla": null,
+ "irreberente agency|dos hermanas": null,
+ "calle sinaí 29, sevilla|sevilla": {
+  "lat": 37.390412,
+  "lng": -5.9700765,
+  "direccion": "Calle Sinaí, Sevilla"
+ },
+ "buba burger|bilbao": null,
+ "dónde está|santander": null,
+ "iratxe alvarez amor|santander": null,
+ "asador taskas|bilbao": null,
+ "mr marvelous bilbao|bilbao": null,
+ "restaurante galoria|burgos": null,
+ "primera parada|barcelona": null,
+ "galparsoro okindegia|san sebastián": null,
+ "xiaolongkan|zaragoza": null,
+ "c/ eduardo torroja, 7, 28914 leganés, madrid|leganés": {
+  "lat": 40.3215745,
+  "lng": -3.7434472,
+  "direccion": "Calle de Eduardo Torroja 7, Leganés"
+ },
+ "basrestaurante|madrid": null,
+ "viñas del jaro|valladolid": null,
+ "calle eloy gonzalo, 4 (zona quevedo)|madrid": null,
+ "carrer de argentona, km 1, 3, 08349 cabrera de mar, barcelona|barcelona": null,
+ "lionna|madrid": null,
+ "fifteen|madrid": null,
+ "centro de madrid|las rozas": null,
+ "calle goya, 119, madrid|madrid": {
+  "lat": 40.42472,
+  "lng": -3.6715502,
+  "direccion": "Calle de Goya 119, Madrid"
+ },
+ "ciacho bezglutenu|barcelona": null,
+ "armaf spain|toledo": null,
+ "soraya82|madrid": null,
+ "carrer de pau claris, 153, barcelona|barcelona": {
+  "lat": 41.3945052,
+  "lng": 2.1645638,
+  "direccion": "Carrer de Pau Claris 153, Barcelona"
+ },
+ "espectáculo inaugural|barcelona": null,
+ "snack kingdom|barcelona": null,
+ "benimaclet|valencia": {
+  "lat": 39.487148,
+  "lng": -0.3566225,
+  "direccion": "Valencia"
+ },
+ "c/ de cadis, 59, l’eixample, 46004, valencia|valencia": {
+  "lat": 39.4606382,
+  "lng": -0.3726427,
+  "direccion": "Calle de Cadiz 59, Valencia"
+ },
+ "los últimos días de pompeya|valencia": null,
+ "chocolates sierra nevada|granada": null,
+ "oasissevilla|sevilla": null,
+ "monte pagasarri|bilbao": null,
+ "lùma cervecera|bilbao": null,
+ "la isleta|alicante": null,
+ "hoy visitamos fantasiespanaofficial|benidorm": null,
+ "calle limón, 1a, local bajo, orihuela|orihuela": null,
+ "trolli spain|alicante": null,
+ "rosa karaoke dance|alicante": null,
+ "imprescindibles en tu visita|zamora": null,
+ "calle hartzenbusch, 12 (madrid)|madrid": {
+  "lat": 40.4303628,
+  "lng": -3.7016438,
+  "direccion": "Calle de Hartzenbusch 12, Madrid"
+ },
+ "sushi ichi|madrid": {
+  "lat": 40.4613497,
+  "lng": -3.6865631,
+  "direccion": "Calle de Juan Ramón Jiménez, Madrid"
+ },
+ "centro comercial el faro|badajoz": {
+  "lat": 38.8848704,
+  "lng": -7.0221904,
+  "direccion": "Badajoz"
+ },
+ "av. del monasterio de silos, 22, fuencarral-el pardo, 28049 madrid|madrid": {
+  "lat": 40.5019709,
+  "lng": -3.7137396,
+  "direccion": "Avenida del Monasterio de Silos, Madrid"
+ }
 }

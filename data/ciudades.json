@@ -50,14 +50,14 @@
   "n": 92
  },
  {
-  "nombre": "Gran Canaria",
-  "slug": "gran-canaria",
+  "nombre": "Granada",
+  "slug": "granada",
   "n": 90
  },
  {
-  "nombre": "Granada",
-  "slug": "granada",
-  "n": 89
+  "nombre": "Gran Canaria",
+  "slug": "gran-canaria",
+  "n": 90
  },
  {
   "nombre": "Cádiz",
@@ -105,6 +105,11 @@
   "n": 62
  },
  {
+  "nombre": "Sabadell",
+  "slug": "sabadell",
+  "n": 56
+ },
+ {
   "nombre": "Ibiza",
   "slug": "ibiza",
   "n": 55
@@ -113,6 +118,11 @@
   "nombre": "Gijón",
   "slug": "gijon",
   "n": 50
+ },
+ {
+  "nombre": "Terrassa",
+  "slug": "terrassa",
+  "n": 47
  },
  {
   "nombre": "Girona",
@@ -127,6 +137,11 @@
  {
   "nombre": "Tarragona",
   "slug": "tarragona",
+  "n": 43
+ },
+ {
+  "nombre": "Oviedo",
+  "slug": "oviedo",
   "n": 43
  },
  {
@@ -150,18 +165,23 @@
   "n": 35
  },
  {
+  "nombre": "Mallorca",
+  "slug": "mallorca",
+  "n": 33
+ },
+ {
   "nombre": "Leganés",
   "slug": "leganes",
   "n": 31
  },
  {
-  "nombre": "Cáceres",
-  "slug": "caceres",
-  "n": 30
- },
- {
   "nombre": "Marbella",
   "slug": "marbella",
+  "n": 31
+ },
+ {
+  "nombre": "Cáceres",
+  "slug": "caceres",
   "n": 30
  },
  {
@@ -290,6 +310,11 @@
   "n": 14
  },
  {
+  "nombre": "Palma",
+  "slug": "palma",
+  "n": 14
+ },
+ {
   "nombre": "Las Rozas",
   "slug": "las-rozas",
   "n": 13
@@ -315,11 +340,6 @@
   "n": 12
  },
  {
-  "nombre": "Oviedo",
-  "slug": "oviedo",
-  "n": 12
- },
- {
   "nombre": "San Sebastián de los Reyes",
   "slug": "san-sebastian-de-los-reyes",
   "n": 12
@@ -327,11 +347,6 @@
  {
   "nombre": "Algeciras",
   "slug": "algeciras",
-  "n": 12
- },
- {
-  "nombre": "Mallorca",
-  "slug": "mallorca",
   "n": 12
  },
  {
@@ -415,11 +430,6 @@
   "n": 9
  },
  {
-  "nombre": "Sabadell",
-  "slug": "sabadell",
-  "n": 8
- },
- {
   "nombre": "Cuenca",
   "slug": "cuenca",
   "n": 8
@@ -460,13 +470,13 @@
   "n": 7
  },
  {
-  "nombre": "Terrassa",
-  "slug": "terrassa",
-  "n": 6
- },
- {
   "nombre": "Cambrils",
   "slug": "cambrils",
+  "n": 5
+ },
+ {
+  "nombre": "Castelldefels",
+  "slug": "castelldefels",
   "n": 5
  },
  {
