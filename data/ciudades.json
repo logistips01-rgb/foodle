@@ -2,17 +2,17 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1462
+  "n": 1448
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 687
+  "n": 678
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 586
+  "n": 581
  },
  {
   "nombre": "Zaragoza",
@@ -22,27 +22,27 @@
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 272
+  "n": 271
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 246
+  "n": 243
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 240
+  "n": 243
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 221
+  "n": 220
  },
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 165
+  "n": 164
  },
  {
   "nombre": "Benidorm",
@@ -50,14 +50,9 @@
   "n": 92
  },
  {
-  "nombre": "Santander",
-  "slug": "santander",
-  "n": 92
- },
- {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 86
+  "n": 85
  },
  {
   "nombre": "Castellón",
@@ -67,7 +62,12 @@
  {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
-  "n": 76
+  "n": 75
+ },
+ {
+  "nombre": "Santander",
+  "slug": "santander",
+  "n": 73
  },
  {
   "nombre": "Córdoba",
@@ -87,7 +87,7 @@
  {
   "nombre": "Vitoria",
   "slug": "vitoria",
-  "n": 61
+  "n": 62
  },
  {
   "nombre": "Cádiz",
@@ -120,6 +120,11 @@
   "n": 41
  },
  {
+  "nombre": "Guadalajara",
+  "slug": "guadalajara",
+  "n": 39
+ },
+ {
   "nombre": "Elche",
   "slug": "elche",
   "n": 35
@@ -147,12 +152,17 @@
  {
   "nombre": "Burgos",
   "slug": "burgos",
-  "n": 29
+  "n": 28
  },
  {
   "nombre": "Salamanca",
   "slug": "salamanca",
   "n": 28
+ },
+ {
+  "nombre": "Alcalá de Henares",
+  "slug": "alcala-de-henares",
+  "n": 27
  },
  {
   "nombre": "Dos Hermanas",
@@ -167,11 +177,6 @@
  {
   "nombre": "Badalona",
   "slug": "badalona",
-  "n": 23
- },
- {
-  "nombre": "Alcalá de Henares",
-  "slug": "alcala-de-henares",
   "n": 23
  },
  {
@@ -275,6 +280,11 @@
   "n": 13
  },
  {
+  "nombre": "Ibiza",
+  "slug": "ibiza",
+  "n": 13
+ },
+ {
   "nombre": "Oviedo",
   "slug": "oviedo",
   "n": 12
@@ -300,18 +310,13 @@
   "n": 11
  },
  {
-  "nombre": "Guadalajara",
-  "slug": "guadalajara",
-  "n": 11
- },
- {
   "nombre": "Pontevedra",
   "slug": "pontevedra",
   "n": 11
  },
  {
-  "nombre": "Segovia",
-  "slug": "segovia",
+  "nombre": "Santa Cruz de Tenerife",
+  "slug": "santa-cruz-de-tenerife",
   "n": 11
  },
  {
@@ -325,13 +330,28 @@
   "n": 11
  },
  {
+  "nombre": "Mallorca",
+  "slug": "mallorca",
+  "n": 11
+ },
+ {
   "nombre": "Sant Cugat",
   "slug": "sant-cugat",
   "n": 10
  },
  {
+  "nombre": "Segovia",
+  "slug": "segovia",
+  "n": 10
+ },
+ {
   "nombre": "Zamora",
   "slug": "zamora",
+  "n": 10
+ },
+ {
+  "nombre": "Torrejón",
+  "slug": "torrejon",
   "n": 10
  },
  {
@@ -345,8 +365,18 @@
   "n": 10
  },
  {
+  "nombre": "Gran Canaria",
+  "slug": "gran-canaria",
+  "n": 10
+ },
+ {
   "nombre": "Gandía",
   "slug": "gandia",
+  "n": 10
+ },
+ {
+  "nombre": "Badajoz",
+  "slug": "badajoz",
   "n": 10
  },
  {
@@ -358,11 +388,6 @@
   "nombre": "La Manga",
   "slug": "la-manga",
   "n": 9
- },
- {
-  "nombre": "Torrejón",
-  "slug": "torrejon",
-  "n": 8
  },
  {
   "nombre": "Sabadell",
@@ -425,6 +450,11 @@
   "n": 5
  },
  {
+  "nombre": "Cáceres",
+  "slug": "caceres",
+  "n": 5
+ },
+ {
   "nombre": "Alcobendas",
   "slug": "alcobendas",
   "n": 5
@@ -455,6 +485,11 @@
   "n": 5
  },
  {
+  "nombre": "Benalmádena",
+  "slug": "benalmadena",
+  "n": 5
+ },
+ {
   "nombre": "Salou",
   "slug": "salou",
   "n": 5
@@ -472,6 +507,11 @@
  {
   "nombre": "Peñíscola",
   "slug": "peniscola",
+  "n": 5
+ },
+ {
+  "nombre": "La Gomera",
+  "slug": "la-gomera",
   "n": 5
  },
  {

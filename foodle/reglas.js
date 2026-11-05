@@ -95,7 +95,6 @@ const CIUDADES = {
   Gijón: ['gijon'],
   'A Coruña': ['a coruna', 'la coruna', 'coruna'],
   Vigo: ['vigo'],
-  Palma: ['palma de mallorca'],
   Cádiz: ['cadiz'],
   Burgos: ['burgos'],
   León: ['leon'],
@@ -269,6 +268,40 @@ const CIUDADES = {
   Consuegra: ['consuegra'],
   'Hellín': ['hellin'],
   'Alcázar de San Juan': ['alcazar de san juan'],
+  // Extremadura
+  Badajoz: ['badajoz'],
+  'Cáceres': ['caceres'],
+  'Mérida': ['merida'],
+  Plasencia: ['plasencia'],
+  Trujillo: ['trujillo'],
+  Zafra: ['zafra'],
+  'Don Benito': ['don benito'],
+  // Baleares: la isla y, dentro, sus pueblos (ver PERTENECE)
+  Mallorca: ['mallorca'],
+  Palma: ['palma de mallorca', 'en palma', 'ciutat de mallorca'],
+  'Sóller': ['soller'],
+  'Pollença': ['pollenca', 'pollensa'],
+  'Alcúdia': ['alcudia'],
+  Ibiza: ['ibiza', 'eivissa'],
+  Formentera: ['formentera'],
+  Menorca: ['menorca'],
+  'Mahón': ['mahon', 'mao'],
+  Ciutadella: ['ciutadella'],
+  // Canarias
+  'Gran Canaria': ['gran canaria'],
+  'Las Palmas de Gran Canaria': ['las palmas de gran canaria', 'las palmas'],
+  Tenerife: ['tenerife'],
+  'Santa Cruz de Tenerife': ['santa cruz de tenerife'],
+  'La Laguna': ['san cristobal de la laguna', 'la laguna'],
+  'Puerto de la Cruz': ['puerto de la cruz'],
+  'Costa Adeje': ['costa adeje', 'adeje'],
+  Lanzarote: ['lanzarote'],
+  Fuerteventura: ['fuerteventura'],
+  'La Palma': ['isla de la palma', 'la isla bonita'],
+  'La Gomera': ['la gomera'],
+  // Ceuta y Melilla
+  Ceuta: ['ceuta'],
+  Melilla: ['melilla'],
 };
 
 // Municipio → ciudad grande a la que pertenece. "Restaurante en Alcobendas, Madrid" es Alcobendas.
@@ -281,7 +314,10 @@ Object.assign(PERTENECE,
   { Getxo: 'Bilbao', Barakaldo: 'Bilbao', Portugalete: 'Bilbao' },
   { 'Dos Hermanas': 'Sevilla', 'Mairena del Aljarafe': 'Sevilla', Tomares: 'Sevilla', Bormujos: 'Sevilla', 'Alcalá de Guadaíra': 'Sevilla' },
   { Burlada: 'Pamplona', Villava: 'Pamplona', 'Barañáin': 'Pamplona' },
-  { Utebo: 'Zaragoza', Cuarte: 'Zaragoza' });
+  { Utebo: 'Zaragoza', Cuarte: 'Zaragoza' },
+  { Palma: 'Mallorca', 'Sóller': 'Mallorca', 'Pollença': 'Mallorca', 'Alcúdia': 'Mallorca', 'Mahón': 'Menorca', Ciutadella: 'Menorca' },
+  { 'Las Palmas de Gran Canaria': 'Gran Canaria', 'Santa Cruz de Tenerife': 'Tenerife', 'La Laguna': 'Tenerife',
+    'Puerto de la Cruz': 'Tenerife', 'Costa Adeje': 'Tenerife' });
 
 // Barrios / zonas por ciudad. Solo se usan si la ciudad ya está decidida.
 const BARRIOS = {
