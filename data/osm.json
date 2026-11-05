@@ -7675,5 +7675,299 @@
   "lat": 36.6931967,
   "lng": -4.4492532,
   "direccion": "Málaga"
- }
+ },
+ "bar restaurante penalara|segovia": null,
+ "cafébar la revuelta|zamora": null,
+ "chillón|zamora": null,
+ "40590 rosuero, segovia|segovia": null,
+ "cívica|guadalajara": null,
+ "13003 ciudad real, cdad, real|ciudad real": null,
+ "24700 astorga, león|astorga": {
+  "lat": 42.4559368,
+  "lng": -6.058236,
+  "direccion": "Astorga"
+ },
+ "tr.ª alfonso xiii, 28, 49550 ferreruela, zamora|zamora": null,
+ "teatrolara|cuenca": null,
+ "ampudia|palencia": null,
+ "provincia de palencia|palencia": {
+  "lat": 41.9951569,
+  "lng": -4.5442676,
+  "direccion": "Palencia"
+ },
+ "catedral de san antolín|palencia": {
+  "lat": 42.0112159,
+  "lng": -4.5373527,
+  "direccion": "Plaza de la Inmaculada, Palencia"
+ },
+ "villa romana la olmeda|palencia": null,
+ "belmonte|cuenca": null,
+ "valle de altomira|cuenca": null,
+ "huete|cuenca": null,
+ "san cebrián de mudá|palencia": null,
+ "05420 sotillo de la adrada, ávila|ávila": null,
+ "casa cebreros|ávila": null,
+ "explanada del paseo del ocio|guadalajara": null,
+ "almansa|albacete": null,
+ "delfycosmetics|cuenca": null,
+ "del huerto al plato|tomelloso": null,
+ "centro de zamora|zamora": {
+  "lat": 41.5073129,
+  "lng": -5.7456007,
+  "direccion": "Calle del Palomar 7, Zamora"
+ },
+ "qué ver en albacete|albacete": null,
+ "albacete|albacete": {
+  "lat": 38.9950921,
+  "lng": -1.8559154,
+  "direccion": "Albacete"
+ },
+ "tapería ktomas|albacete": null,
+ "calle fernando poo 20, albacete (junto al carrefour)|albacete": null,
+ "nuevo cuartero|albacete": {
+  "lat": 39.0005191,
+  "lng": -1.8633032,
+  "direccion": "Calle Gracia, Albacete"
+ },
+ "la incontrastable|albacete": {
+  "lat": 38.9974489,
+  "lng": -1.8645972,
+  "direccion": "Calle Manuel Jiménez Díaz \"Chicuelo II\" 1, Albacete"
+ },
+ "calle pedro martínez gutiérrez, 9|albacete": {
+  "lat": 38.994526,
+  "lng": -1.8613375,
+  "direccion": "Calle Pedro Martínez Gutiérrez 9, Albacete"
+ },
+ "calle parra 6, albacete|albacete": {
+  "lat": 38.9912702,
+  "lng": -1.8532862,
+  "direccion": "Calle Parra 6, Albacete"
+ },
+ "paseo de la circunvalación, 91|albacete": {
+  "lat": 38.9868891,
+  "lng": -1.8659227,
+  "direccion": "Paseo Circunvalación 91, Albacete"
+ },
+ "layema|albacete": null,
+ "frómista|palencia": null,
+ "carne|ávila": null,
+ "surco|ávila": null,
+ "trioburger|albacete": null,
+ "alexcoolclub|miranda de ebro": null,
+ "casamima|miranda de ebro": null,
+ "lacheesecakefest|miranda de ebro": null,
+ "el tiemblo|ávila": null,
+ "casa de las 4 calles|ávila": null,
+ "abuelo|ávila": null,
+ "pasajedelterror|ciudad real": null,
+ "ubicados en|ciudad real": null,
+ "se encuentran ubicados en|ciudad real": null,
+ "miguelturra|ciudad real": null,
+ "pedimos|ciudad real": null,
+ "tastingspain|ciudad real": null,
+ "ciudadreal|ciudad real": null,
+ "c/ hérnan pérez del pulgar nº 2|ciudad real": {
+  "lat": 38.9834985,
+  "lng": -3.92751,
+  "direccion": "Calle Hernán Pérez del Pulgar, Ciudad Real"
+ },
+ "cupracomatur|ciudad real": null,
+ "theburgercup|puertollano": null,
+ "laser|ciudad real": null,
+ "atica clm|ciudad real": null,
+ "teilusionafestivalesmagicos|ciudad real": null,
+ "comidamexicana|ciudad real": null,
+ "29005 málaga|málaga": {
+  "lat": 36.7194085,
+  "lng": -4.4235187,
+  "direccion": "Málaga"
+ },
+ "ana paneque|málaga": null,
+ "ctra, guadalmar, 12, churriana, 29004 málaga|málaga": {
+  "lat": 36.672015,
+  "lng": -4.4744318,
+  "direccion": "Carretera Guadalmar 12, Málaga"
+ },
+ "alsape|málaga": null,
+ "29013 málaga|málaga": {
+  "lat": 36.732237,
+  "lng": -4.4159245,
+  "direccion": "Málaga"
+ },
+ "benalmadena apetece|benalmádena": null,
+ "29005 malaga|málaga": {
+  "lat": 36.7194082,
+  "lng": -4.4235186,
+  "direccion": "Málaga"
+ },
+ "proyecto|málaga": null,
+ "29016 malaga|málaga": {
+  "lat": 36.72524,
+  "lng": -4.4005679,
+  "direccion": "Málaga"
+ },
+ "29720, la cala del moral, málaga, rincón de la victoria|málaga": null,
+ "29720, la cala del moral, málaga , rincón de la victoria|málaga": null,
+ "esperanza p navarrete|málaga": null,
+ "actividades|león": null,
+ "29400 ronda|málaga": null,
+ "29010 málaga|málaga": {
+  "lat": 36.72613,
+  "lng": -4.4559834,
+  "direccion": "Málaga"
+ },
+ "dani carnero|málaga": null,
+ "dominio de arena|málaga": null,
+ "la condesa|jaén": null,
+ "29601 marbella, malaga|marbella": {
+  "lat": 36.5117447,
+  "lng": -4.8842244,
+  "direccion": "Marbella"
+ },
+ "pablo dominguez m|málaga": null,
+ "29751 vélez- málaga, málaga|málaga": {
+  "lat": 36.7518636,
+  "lng": -4.0687745,
+  "direccion": "Vélez-Málaga"
+ },
+ "29002 málaga|málaga": {
+  "lat": 36.7075184,
+  "lng": -4.4342494,
+  "direccion": "Málaga"
+ },
+ "el lagar de verum malaga|málaga": {
+  "lat": 36.7379469,
+  "lng": -4.3807385,
+  "direccion": "Calle de las Dalias, Málaga"
+ },
+ "p p|málaga": {
+  "lat": 36.7188714,
+  "lng": -4.4157034,
+  "direccion": "Paseo de España, Málaga"
+ },
+ "calle antonio soler 2, málaga|málaga": {
+  "lat": 36.7043005,
+  "lng": -4.434568,
+  "direccion": "Calle Antonio Soler 2, Málaga"
+ },
+ "restaurante bendito|málaga": null,
+ "pje begoña|málaga": null,
+ "smash hiro|málaga": null,
+ "restaurante asador loraida|málaga": null,
+ "lafavorita toledo|toledo": null,
+ "plaza mayor (justo en la plaza donde está la tienda women secret)|málaga": null,
+ "streetfood burger|málaga": null,
+ "tacobellspain|jaén": null,
+ "feliciabakery es|málaga": null,
+ "wismar food|málaga": null,
+ "urb|málaga": null,
+ "chilches|málaga": {
+  "lat": 36.7273635,
+  "lng": -4.2234935,
+  "direccion": "Vélez-Málaga"
+ },
+ "primaprix es|málaga": null,
+ "juan lareo seleccion gourmet|málaga": null,
+ "carr, de cádiz, fuengirola (dentro del hotel ipv)|cádiz": null,
+ "calle escritor alarcón bonel, 2|málaga": {
+  "lat": 36.7131815,
+  "lng": -4.3285981,
+  "direccion": "Calle Escritor Alarcón Bonel 2, Málaga"
+ },
+ "av de los guindos|málaga": {
+  "lat": 36.6918704,
+  "lng": -4.4502002,
+  "direccion": "Avenida de los Guindos, Málaga"
+ },
+ "garbestown|málaga": null,
+ "cafeterialasninas 76|málaga": null,
+ "arrozantefuengirola|málaga": null,
+ "doncarlosmarbella|marbella": null,
+ "laguna beach estepona|málaga": null,
+ "cavala malaga|málaga": null,
+ "taro|málaga": {
+  "lat": 36.7037382,
+  "lng": -4.4341009,
+  "direccion": "Calle Tomás Echeverría 15, Málaga"
+ },
+ "bárbara de braganza|madrid": {
+  "lat": 40.4251973,
+  "lng": -3.6926925,
+  "direccion": "Calle del Marqués de la Ensenada, Madrid"
+ },
+ "calle melo, 2)|málaga": null,
+ "bungalow21 byboho|marbella": null,
+ "picador restaurant|málaga": null,
+ "calle álamos apuesta por los vinos naturales y una carta atrevida, divertida y original ideada por el chef alvaro_avila_|málaga": null,
+ "trazo|málaga": null,
+ "periplo malaga|málaga": {
+  "lat": 36.7207067,
+  "lng": -4.3724893,
+  "direccion": "Paseo Marítimo El Pedregal, Málaga"
+ },
+ "casapacodecoin|málaga": null,
+ "taberna del puerto|málaga": null,
+ "ubicado|málaga": null,
+ "laguna beach estepona|estepona": {
+  "lat": 36.4383133,
+  "lng": -5.1042417,
+  "direccion": "Estepona"
+ },
+ "calle sánchez pastor, 6 para disfrutar de la cocina de álvaro ávila en su máxima expresión|ávila": null,
+ "recordad|málaga": null,
+ "javiercamposgalvez|málaga": null,
+ "mariano rs|málaga": {
+  "lat": 36.7205134,
+  "lng": -4.4177807,
+  "direccion": "Calle Císter 15, Málaga"
+ },
+ "pacodelatorrep|málaga": null,
+ "paseo cerrado de calderón, 11|málaga": {
+  "lat": 36.725669,
+  "lng": -4.381627,
+  "direccion": "Paseo Cerrado de Calderón 11, Málaga"
+ },
+ "chezmarinelli|málaga": null,
+ "academiagastronomicademalaga|málaga": null,
+ "casino torrequebrada|benalmádena": null,
+ "mochi|málaga": null,
+ "carbones13tarifa|tarifa": null,
+ "calle granada 61) orquestada por wearegoma (con asistencia de sarasxnchez_ ) para darnos a conocer la nueva propuesta de|granada": null,
+ "eltallerplayamar torremolinos|torremolinos": null,
+ "jr ruiport|málaga": null,
+ "rene mlg|málaga": {
+  "lat": 36.6980263,
+  "lng": -4.4463332,
+  "direccion": "Calle Juan René, Málaga"
+ },
+ "isarestaurantandbar|madrid": null,
+ "temple|málaga": null,
+ "ottobestue|málaga": null,
+ "ventalaspitastradicional|málaga": null,
+ "pista|málaga": null,
+ "taberna el bordón|marbella": {
+  "lat": 36.5099474,
+  "lng": -4.8854863,
+  "direccion": "Calle Pataleon 5 - 7, Marbella"
+ },
+ "xdex|marbella": null,
+ "restaurante la huerta|málaga": null,
+ "torre del mar|málaga": {
+  "lat": 36.7413845,
+  "lng": -4.0946126,
+  "direccion": "Vélez-Málaga"
+ },
+ "nitte gelato|málaga": null,
+ "rincón de la victoria|málaga": null,
+ "osuna|sevilla": null,
+ "huelin|málaga": {
+  "lat": 36.7032784,
+  "lng": -4.4366332,
+  "direccion": "Málaga"
+ },
+ "estilo miguel|málaga": null,
+ "edosushi|málaga": null,
+ "corralejo|málaga": null,
+ "lugar|málaga": null
 }

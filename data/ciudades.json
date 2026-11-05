@@ -2,12 +2,12 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1441
+  "n": 1462
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 686
+  "n": 687
  },
  {
   "nombre": "Valencia",
@@ -27,7 +27,7 @@
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 245
+  "n": 246
  },
  {
   "nombre": "Alicante",
@@ -52,7 +52,7 @@
  {
   "nombre": "Santander",
   "slug": "santander",
-  "n": 91
+  "n": 92
  },
  {
   "nombre": "Granada",
@@ -92,7 +92,7 @@
  {
   "nombre": "Cádiz",
   "slug": "cadiz",
-  "n": 55
+  "n": 57
  },
  {
   "nombre": "Gijón",
@@ -117,12 +117,17 @@
  {
   "nombre": "Vigo",
   "slug": "vigo",
-  "n": 40
+  "n": 41
  },
  {
   "nombre": "Elche",
   "slug": "elche",
   "n": 35
+ },
+ {
+  "nombre": "Valladolid",
+  "slug": "valladolid",
+  "n": 32
  },
  {
   "nombre": "Leganés",
@@ -135,8 +140,18 @@
   "n": 30
  },
  {
+  "nombre": "Ourense",
+  "slug": "ourense",
+  "n": 29
+ },
+ {
   "nombre": "Burgos",
   "slug": "burgos",
+  "n": 29
+ },
+ {
+  "nombre": "Salamanca",
+  "slug": "salamanca",
   "n": 28
  },
  {
@@ -150,18 +165,13 @@
   "n": 24
  },
  {
-  "nombre": "Valladolid",
-  "slug": "valladolid",
-  "n": 23
- },
- {
-  "nombre": "Ourense",
-  "slug": "ourense",
-  "n": 23
- },
- {
   "nombre": "Badalona",
   "slug": "badalona",
+  "n": 23
+ },
+ {
+  "nombre": "Alcalá de Henares",
+  "slug": "alcala-de-henares",
   "n": 23
  },
  {
@@ -180,6 +190,11 @@
   "n": 23
  },
  {
+  "nombre": "León",
+  "slug": "leon",
+  "n": 22
+ },
+ {
   "nombre": "Almería",
   "slug": "almeria",
   "n": 22
@@ -190,14 +205,14 @@
   "n": 22
  },
  {
-  "nombre": "Alcalá de Henares",
-  "slug": "alcala-de-henares",
-  "n": 20
- },
- {
   "nombre": "Albacete",
   "slug": "albacete",
   "n": 20
+ },
+ {
+  "nombre": "Toledo",
+  "slug": "toledo",
+  "n": 18
  },
  {
   "nombre": "Huesca",
@@ -220,9 +235,9 @@
   "n": 17
  },
  {
-  "nombre": "Toledo",
-  "slug": "toledo",
-  "n": 16
+  "nombre": "Talavera de la Reina",
+  "slug": "talavera-de-la-reina",
+  "n": 17
  },
  {
   "nombre": "Teruel",
@@ -245,24 +260,19 @@
   "n": 15
  },
  {
-  "nombre": "León",
-  "slug": "leon",
-  "n": 15
- },
- {
   "nombre": "Getafe",
   "slug": "getafe",
   "n": 14
  },
  {
-  "nombre": "Jávea",
-  "slug": "javea",
+  "nombre": "Las Rozas",
+  "slug": "las-rozas",
   "n": 13
  },
  {
-  "nombre": "Las Rozas",
-  "slug": "las-rozas",
-  "n": 12
+  "nombre": "Jávea",
+  "slug": "javea",
+  "n": 13
  },
  {
   "nombre": "Oviedo",
@@ -287,6 +297,11 @@
  {
   "nombre": "Fuenlabrada",
   "slug": "fuenlabrada",
+  "n": 11
+ },
+ {
+  "nombre": "Guadalajara",
+  "slug": "guadalajara",
   "n": 11
  },
  {
@@ -315,6 +330,11 @@
   "n": 10
  },
  {
+  "nombre": "Zamora",
+  "slug": "zamora",
+  "n": 10
+ },
+ {
   "nombre": "L'Hospitalet",
   "slug": "l-hospitalet",
   "n": 10
@@ -330,14 +350,19 @@
   "n": 10
  },
  {
+  "nombre": "Palencia",
+  "slug": "palencia",
+  "n": 10
+ },
+ {
   "nombre": "La Manga",
   "slug": "la-manga",
   "n": 9
  },
  {
-  "nombre": "Palencia",
-  "slug": "palencia",
-  "n": 9
+  "nombre": "Torrejón",
+  "slug": "torrejon",
+  "n": 8
  },
  {
   "nombre": "Sabadell",
@@ -360,11 +385,6 @@
   "n": 8
  },
  {
-  "nombre": "Zamora",
-  "slug": "zamora",
-  "n": 8
- },
- {
   "nombre": "Calpe",
   "slug": "calpe",
   "n": 8
@@ -380,18 +400,13 @@
   "n": 7
  },
  {
+  "nombre": "Soria",
+  "slug": "soria",
+  "n": 7
+ },
+ {
   "nombre": "Terrassa",
   "slug": "terrassa",
-  "n": 6
- },
- {
-  "nombre": "Torrejón",
-  "slug": "torrejon",
-  "n": 6
- },
- {
-  "nombre": "Guadalajara",
-  "slug": "guadalajara",
   "n": 6
  },
  {
@@ -420,11 +435,6 @@
   "n": 5
  },
  {
-  "nombre": "Salamanca",
-  "slug": "salamanca",
-  "n": 5
- },
- {
   "nombre": "Villajoyosa",
   "slug": "villajoyosa",
   "n": 5
@@ -432,6 +442,11 @@
  {
   "nombre": "El Puerto de Santa María",
   "slug": "el-puerto-de-santa-maria",
+  "n": 5
+ },
+ {
+  "nombre": "Lugo",
+  "slug": "lugo",
   "n": 5
  },
  {
@@ -460,8 +475,8 @@
   "n": 5
  },
  {
-  "nombre": "Soria",
-  "slug": "soria",
+  "nombre": "Ponferrada",
+  "slug": "ponferrada",
   "n": 5
  }
 ]
