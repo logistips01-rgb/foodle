@@ -72,7 +72,9 @@ async function comprobar(usuario) {
   if (media.length && recetas / media.length > NORMA.maxRecetas) return { ...res, ok: false, motivo: `publica recetas, no visita sitios (${Math.round(100 * recetas / media.length)} % recetas)` };
   if (util < NORMA.minFoodie) return { ...res, ok: false, motivo: `no parece de comida (${res.util} %)` };
   // Un restaurante o una tienda publica mucho de comida, pero no es un foodie: lo delata su biografía.
-  if (/\b(restaurante|restaurant|reservas?|delivery|a domicilio|pedidos|tiendas?|nuestra carta|nuestro local|abrimos|horario|franquicia|obrador|take ?away)\b/i.test(bd.biography || ''))
+  // Sin hashtags ("#restaurant") ni "restaurantes y tiendas", que es lo que reseña un foodie, no lo que es.
+  const bio = String(bd.biography || '').replace(/#\S+/g, ' ').replace(/restaurantes y tiendas/gi, ' ');
+  if (/\b(restaurante|restaurant|reservas?|delivery|a domicilio|pedidos|tiendas?|nuestra carta|nuestro local|abrimos|horario|franquicia|obrador|take ?away)\b/i.test(bio))
     return { ...res, ok: false, motivo: 'parece un local o un negocio, no un foodie (ver su biografía)' };
   return { ...res, ok: true, motivo: 'cumple' };
 }

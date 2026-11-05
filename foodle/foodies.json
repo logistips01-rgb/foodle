@@ -250,5 +250,11 @@
   { "usuario": "foodiemary_gc", "ciudad": "Gran Canaria", "nota": "Norma comprobada 2026-11-05 · 77 % de comida" },
   { "usuario": "ibizagastro", "ciudad": "Ibiza", "nota": "Norma comprobada 2026-11-05 · 87 % de comida" },
   { "usuario": "extremaduragastro", "ciudad": "Cáceres", "nota": "Norma comprobada 2026-11-05 · 70 % de comida · guía gastronómica de la Junta de Extremadura" },
-  { "usuario": "mistermorefood", "nota": "Norma comprobada 2026-11-05 · 83 % de comida" }
+  { "usuario": "mistermorefood", "nota": "Norma comprobada 2026-11-05 · 83 % de comida" },
+  { "usuario": "foodie.mallorca", "ciudad": "Mallorca", "nota": "Pasada de completar 05/11/2026 · 50 % de comida" },
+  { "usuario": "palma.foodguide", "ciudad": "Palma", "nota": "Pasada de completar 05/11/2026 · 52 % de comida" },
+  { "usuario": "oviedogastro", "ciudad": "Oviedo", "nota": "Pasada de completar 05/11/2026 · 67 % de comida · cuenta de Oviedo Capital de la Gastronomía" },
+  { "usuario": "comer_terrassa", "ciudad": "Terrassa", "nota": "Pasada de completar 05/11/2026 · 90 % de comida" },
+  { "usuario": "sabadellesgastronomia", "ciudad": "Sabadell", "nota": "Pasada de completar 05/11/2026 · 100 % de comida · cuenta del gremio de hostelería de Sabadell" },
+  { "usuario": "visitandoconjuan", "nota": "Pasada de completar 05/11/2026 · 57 % de comida" }
 ]
