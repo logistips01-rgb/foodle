@@ -7969,5 +7969,243 @@
  "estilo miguel|málaga": null,
  "edosushi|málaga": null,
  "corralejo|málaga": null,
- "lugar|málaga": null
+ "lugar|málaga": null,
+ "martinmartin es|mallorca": null,
+ "desayunos|mallorca": null,
+ "mallorca|mallorca": null,
+ "losconfites organicfarm|cáceres": null,
+ "kamezi restaurant|lanzarote": null,
+ "llum i sal|mallorca": null,
+ "estimarzafra|zafra": null,
+ "bar restaurante serendipity|mérida": null,
+ "glampingelregajo|plasencia": null,
+ "ibiza paradise by nacho cano|ibiza": null,
+ "lapasadilla|gran canaria": null,
+ "hotel suites moma centro|badajoz": null,
+ "plaça d’eivissa, 2, horta 💰 precio medio: 20-30 € por persona ⛱️ terraza disponible|ibiza": null,
+ "zero suite|ibiza": null,
+ "entorno del puente romano|cáceres": null,
+ "formentera|formentera": {
+  "lat": 38.7062157,
+  "lng": 1.4334101,
+  "direccion": "Formentera"
+ },
+ "calle cantabria 14, ibiza|ibiza": null,
+ "avenida islas canarias, 16, c.c, los charcos, 35509 costa teguise, lanzarote|lanzarote": null,
+ "eri gomezzz|gran canaria": null,
+ "salt apartamentos tívoli|gran canaria": null,
+ "sala scala gran canaria|gran canaria": null,
+ "chiringuito|gran canaria": null,
+ "restaurante cangatibiza|ibiza": null,
+ "07160 camp de mar, balearic islands|mallorca": null,
+ "plaça miranda des lladoners, 3, local 6, 07170 valldemossa, balearic islands|mallorca": null,
+ "carrer de migjorn, 2, 07108 port de sóller, illes balears|sóller": null,
+ "c/ de catalunya, 26, 07800 eivissa, balearic islands|ibiza": {
+  "lat": 38.9089418,
+  "lng": 1.4268467,
+  "direccion": "Carrer de Catalunya 26, Ibiza"
+ },
+ "carrer del progrés, 4, 07820 sant antoni de portmany, illes balears|ibiza": null,
+ "c/ del progrés 22, sant antoni de portmany, ibiza|ibiza": null,
+ "hermandaddelasaluddefregenal|badajoz": null,
+ "caldas da rainha|badajoz": {
+  "lat": 38.8719995,
+  "lng": -6.9899448,
+  "direccion": "Badajoz"
+ },
+ "campo maior|badajoz": null,
+ "san martín de trevejo|cáceres": null,
+ "south|gran canaria": {
+  "lat": 28.0951049,
+  "lng": -15.4144625,
+  "direccion": "Calle Córdoba 1, Las Palmas de Gran Canaria"
+ },
+ "pulperia ftv|fuerteventura": null,
+ "ibiza|ibiza": {
+  "lat": 38.9743901,
+  "lng": 1.4197463,
+  "direccion": "Ibiza"
+ },
+ "consell eivissa|ibiza": {
+  "lat": 38.9074684,
+  "lng": 1.4270752,
+  "direccion": "Vía Romana, Ibiza"
+ },
+ "luv studio|formentera": null,
+ "luv studio|ibiza": null,
+ "emmamarti arquitectura|menorca": null,
+ "emmamarti arquitectura|mahón": null,
+ "prensaiberica|las palmas de gran canaria": null,
+ "canaryfoodies|santa cruz de tenerife": null,
+ "cluboliveroficial|santa cruz de tenerife": null,
+ "afri carent|fuerteventura": null,
+ "corralejo|fuerteventura": null,
+ "casabermeja|málaga": null,
+ "calle beatas, málaga|málaga": {
+  "lat": 36.7229378,
+  "lng": -4.4194547,
+  "direccion": "Calle Beatas, Málaga"
+ },
+ "weofly outfits earbuds|málaga": null,
+ "los especiales|sevilla": {
+  "lat": 37.3872624,
+  "lng": -6.0017307,
+  "direccion": "Calle Arjona, Sevilla"
+ },
+ "cuevadenerja es|málaga": null,
+ "la mar salá|málaga": null,
+ "el pulguilla|nerja": {
+  "lat": 36.7466106,
+  "lng": -3.8755106,
+  "direccion": "Calle Almirante Ferrándiz 26, Nerja"
+ },
+ "situado en pleno centro|madrid": null,
+ "artbakery gourmet|marbella": null,
+ "c/ andalucía, san pedro de alcántara, marbella (málaga)|marbella": {
+  "lat": 36.4823045,
+  "lng": -4.9913728,
+  "direccion": "Calle Andalucía, Marbella"
+ },
+ "ibili menaje|málaga": null,
+ "mellerware es|málaga": null,
+ "gustavo valentin sushiman|málaga": null,
+ "avda, miguel cano, 1|marbella": {
+  "lat": 36.507909,
+  "lng": -4.8872343,
+  "direccion": "Avenida Antonio Belón 1, Marbella"
+ },
+ "hotel hacienda del mar|estepona": null,
+ "philadelphia es|málaga": null,
+ "recinto ferial de las lagunas|málaga": null,
+ "neguri estepona|málaga": null,
+ "diegorene|málaga": null,
+ "casafina|estepona": null,
+ "neguri estepona|estepona": null,
+ "laguna beach estepona|marbella": null,
+ "c/ el fuerte s/n, marbella|marbella": {
+  "lat": 36.5079847,
+  "lng": -4.8843432,
+  "direccion": "Calle El Fuerte, Marbella"
+ },
+ "geli artist|marbella": null,
+ "amercadoria outlet|málaga": null,
+ "avda/ puerta del mar, 7, marbella|marbella": {
+  "lat": 36.5080904,
+  "lng": -4.8851512,
+  "direccion": "Avenida de la Puerta del Mar, Marbella"
+ },
+ "tomate|málaga": null,
+ "degustamos|estepona": null,
+ "edutorres molinoroca|málaga": null,
+ "cotxino|marbella": {
+  "lat": 36.5081156,
+  "lng": -4.8877099,
+  "direccion": "Avenida Antonio Belón 8, Marbella"
+ },
+ "ruraly hoz|córdoba": null,
+ "tendencias|málaga": null,
+ "romaboost|málaga": null,
+ "wowfc|sevilla": null,
+ "dacheccoypaola28|málaga": null,
+ "bear2house fuengirola|fuengirola": null,
+ "elcuervobeachsoul|málaga": null,
+ "the champions burger mijas|málaga": null,
+ "haruki|málaga": {
+  "lat": 36.7209163,
+  "lng": -4.4069623,
+  "direccion": "Avenida de Príes 4, Málaga"
+ },
+ "sukiyaki sushi & grill|fuengirola": null,
+ "sushi nights|málaga": null,
+ "palette|málaga": null,
+ "colab|málaga": null,
+ "raquelsantiagof|málaga": null,
+ "moltex es|málaga": null,
+ "cristy estetica|málaga": null,
+ "miramar cc|málaga": {
+  "lat": 36.7258427,
+  "lng": -4.3965292,
+  "direccion": "Málaga"
+ },
+ "maresushi mijas|málaga": null,
+ "dumplinghouse eu|málaga": null,
+ "paseo por el puerto y algo de comer frente al mar|málaga": null,
+ "lasalbarizas|málaga": null,
+ "sheglam|málaga": null,
+ "bizak|málaga": null,
+ "eclicklink|málaga": null,
+ "sheglamhair|málaga": null,
+ "thekingofcontent agency|málaga": null,
+ "descorche malagadoc|málaga": null,
+ "amata pic|málaga": null,
+ "la embajada gourmet|málaga": null,
+ "hoyo fuera|málaga": null,
+ "shein spain|málaga": null,
+ "sohail beach club|fuengirola": null,
+ "abarán|murcia": null,
+ "calle antillas 5, carretera de cádiz, málaga|málaga": {
+  "lat": 36.6948772,
+  "lng": -4.4537582,
+  "direccion": "Calle Antillas 5, Málaga"
+ },
+ "magic sports|málaga": null,
+ "apivitaspain|málaga": null,
+ "museodelamiel|málaga": null,
+ "sushi koi|granada": null,
+ "don canapé|torremolinos": null,
+ "elenitav hellencita|málaga": null,
+ "salamanca iberica|salamanca": null,
+ "calle almonte, 6, málaga. sohrlin_andalucia|málaga": null,
+ "la gran plaza|málaga": null,
+ "el hotel playadulce|almería": null,
+ "minihollywoodoasys|almería": null,
+ "elcarritoderossy|marbella": null,
+ "soportújar|granada": null,
+ "laesquinitademonxi|granada": null,
+ "loli fernandez80|málaga": null,
+ "c/ luis de velázquez, 3, málaga|málaga": {
+  "lat": 36.7219389,
+  "lng": -4.4214352,
+  "direccion": "Calle Luis de Velázquez 3, Málaga"
+ },
+ "camping carlos iii|córdoba": null,
+ "c/ herrería del rey, 9 — málaga|málaga": {
+  "lat": 36.7187476,
+  "lng": -4.4237315,
+  "direccion": "Calle Herrería del Rey 9, Málaga"
+ },
+ "uma steak house|benalmádena": null,
+ "su ubicación es perfecta|cádiz": null,
+ "c/ martínez catena, 9, local 12, fuengirola, junto al paseo marítimo. 🌊|fuengirola": null,
+ "paradox parkour|málaga": null,
+ "bésame en parauta|málaga": null,
+ "la merendilla|fuengirola": null,
+ "hípica los limoneros|málaga": null,
+ "la tribu de ronda|málaga": null,
+ "jump joy mijas|málaga": null,
+ "lacasitade isabel|málaga": null,
+ "club hípico los limoneros|málaga": null,
+ "miramar cc|fuengirola": {
+  "lat": 36.5308641,
+  "lng": -4.6284206,
+  "direccion": "Avenida Miramar, Fuengirola"
+ },
+ "elmundodesylvie|málaga": null,
+ "pepe leches taberna|málaga": null,
+ "museo de la imaginación|málaga": {
+  "lat": 36.7152695,
+  "lng": -4.4235689,
+  "direccion": "Calle Martínez Campos 13, Málaga"
+ },
+ "milbby es|málaga": null,
+ "arritaskavaska|granada": null,
+ "en maría de la o|sevilla": null,
+ "granadacf|granada": null,
+ "mdevalverde chef|granada": null,
+ "linde nutricion|granada": null,
+ "alarique|granada": {
+  "lat": 37.1762418,
+  "lng": -3.5952337,
+  "direccion": "Cuesta de Gomérez 14, Granada"
+ }
 }
