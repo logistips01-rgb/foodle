@@ -161,7 +161,7 @@
   "clasif": {
    "nombre": "Bar Restaurante Penalara",
    "ig_local": "bar_restaurante_penalara",
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -661,7 +661,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -1163,7 +1163,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -28765,7 +28765,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -30442,7 +30442,7 @@
   "clasif": {
    "nombre": "CaféBar La Revuelta",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -30692,7 +30692,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -30894,7 +30894,7 @@
   "clasif": {
    "nombre": "CaféBar La Revuelta",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -30919,7 +30919,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -31450,7 +31450,7 @@
   "clasif": {
    "nombre": "Chillón",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -31475,7 +31475,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -31500,7 +31500,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -33258,7 +33258,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -35636,7 +35636,7 @@
   "clasif": {
    "nombre": "Granja El Enebral",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": "40590 Rosuero, Segovia",
    "cocina": "Brasa",
@@ -42435,7 +42435,7 @@
   "clasif": {
    "nombre": "Cívica",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -44720,7 +44720,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "20.30h",
-   "ciudad": "Madrid",
+   "ciudad": "Benavente",
    "zona": null,
    "dir_pie": "Plaza Jacinto Benavente 2",
    "cocina": "Dulce",
@@ -48286,7 +48286,7 @@
   "clasif": {
    "nombre": "Gigantes Street Food",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": "13003 Ciudad Real, Cdad, Real",
    "cocina": "Kebab",
@@ -48411,7 +48411,7 @@
   "clasif": {
    "nombre": "La Peseta",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Astorga",
    "zona": null,
    "dir_pie": "24700 Astorga, León",
    "cocina": "Tradicional",
@@ -49111,7 +49111,7 @@
   "clasif": {
    "nombre": "Casa Pepa",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": "Tr.ª Alfonso XIII, 28, 49550 Ferreruela, Zamora",
    "cocina": null,
@@ -58483,7 +58483,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": "c/ de Segovia 15 #salchipapas #colombianosenmadrid #colombianfood",
    "cocina": null,
@@ -59560,7 +59560,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -59864,7 +59864,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Burgos",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -61372,7 +61372,7 @@
   "clasif": {
    "nombre": "Teatrolara",
    "ig_local": "teatrolara",
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -63034,7 +63034,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65090,7 +65090,7 @@
   "clasif": {
    "nombre": "Ampudia",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65115,7 +65115,7 @@
   "clasif": {
    "nombre": "Provincia de Palencia",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65165,7 +65165,7 @@
   "clasif": {
    "nombre": "Catedral de San Antolín",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65190,7 +65190,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65215,7 +65215,7 @@
   "clasif": {
    "nombre": "Villa Romana La Olmeda",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65240,7 +65240,7 @@
   "clasif": {
    "nombre": "Provincia de Palencia",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65265,7 +65265,7 @@
   "clasif": {
    "nombre": "Provincia de Palencia",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65290,7 +65290,7 @@
   "clasif": {
    "nombre": "Belmonte",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65315,7 +65315,7 @@
   "clasif": {
    "nombre": "Valle de Altomira",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -65365,7 +65365,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": "Parque Nacional de Cabañeros, Castilla-La Mancha",
    "cocina": null,
@@ -65413,9 +65413,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Ciudad Real",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65490,7 +65490,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": "Parque Nacional de Cabañeros, Ciudad Real",
    "cocina": null,
@@ -65615,7 +65615,7 @@
   "clasif": {
    "nombre": "Huete",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65665,7 +65665,7 @@
   "clasif": {
    "nombre": "San Cebrián de Mudá",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -65765,7 +65765,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -67217,7 +67217,7 @@
   "clasif": {
    "nombre": "Jesus Arroyo Salamanca",
    "ig_local": "jesus_arroyo_salamanca",
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": "05420 Sotillo de la Adrada, Ávila",
    "cocina": "Dulce",
@@ -67519,7 +67519,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": "05004 Ávila",
    "cocina": "Dulce",
@@ -80557,7 +80557,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -80584,7 +80584,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -80609,9 +80609,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Segovia",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -80961,7 +80961,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -81011,7 +81011,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -81136,7 +81136,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -81163,7 +81163,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": "Calle Cabo Vicente Barderas, 8, Sotillo de la Adrada",
    "cocina": "Dulce",
@@ -81913,7 +81913,7 @@
   "clasif": {
    "nombre": "Casa Cebreros",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -82013,8 +82013,8 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
-   "zona": "Chamartín",
+   "ciudad": "Segovia",
+   "zona": null,
    "dir_pie": "Carretera de Madrid, 1",
    "cocina": "Brasa",
    "local": "Restaurante a la carta",
@@ -82063,7 +82063,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": "Avda, Príncipe de Asturias 46, Alovera (Guadalajara)",
    "cocina": "Brasa",
@@ -84600,7 +84600,7 @@
   "clasif": {
    "nombre": "Explanada del Paseo del Ocio",
    "ig_local": "oskars.fireburger",
-   "ciudad": "Madrid",
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -84800,7 +84800,7 @@
   "clasif": {
    "nombre": "Almansa",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -92813,7 +92813,7 @@
   "clasif": {
    "nombre": "Delfycosmetics",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -105402,7 +105402,7 @@
   "clasif": {
    "nombre": "Del Huerto Al Plato",
    "ig_local": null,
-   "ciudad": "Barcelona",
+   "ciudad": "Tomelloso",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pizza",
@@ -131570,7 +131570,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -132390,9 +132390,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Albacete",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Valencia",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -135871,7 +135871,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -136502,7 +136502,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -140871,7 +140871,7 @@
   "clasif": {
    "nombre": "Centro de Zamora",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Zamora",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -182414,7 +182414,7 @@
   "clasif": {
    "nombre": "Qué Ver En Albacete",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Aragonesa",
@@ -182464,9 +182464,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Alcázar de San Juan",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Alcázar de San Juan",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -182843,9 +182843,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Alcázar de San Juan",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Consuegra",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -198248,7 +198248,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Hermanos Quintero, 1 — Albacete",
    "cocina": null,
@@ -198323,7 +198323,7 @@
   "clasif": {
    "nombre": "Albacete",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Kebab",
@@ -198423,7 +198423,7 @@
   "clasif": {
    "nombre": "Tapería KTomas",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Bocadillos",
@@ -198448,7 +198448,7 @@
   "clasif": {
    "nombre": "Tapería Cojonuditos",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Fernando Poo 20, Albacete (junto al Carrefour)",
    "cocina": "Tapas",
@@ -198498,7 +198498,7 @@
   "clasif": {
    "nombre": "Nuevo Cuartero",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Pescado",
@@ -198521,9 +198521,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Albacete",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Miguel Servet 16",
    "cocina": "Bocadillos",
@@ -198548,7 +198548,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "C/ Arquitecto Vandelvira, 2, Albacete",
    "cocina": "Tradicional",
@@ -198573,7 +198573,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Baños, 1, Albacete) y la experiencia fue de 10",
    "cocina": "Pizza",
@@ -198598,7 +198598,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Zamora 4, Albacete",
    "cocina": "Pescado",
@@ -198623,7 +198623,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -198648,7 +198648,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -198673,7 +198673,7 @@
   "clasif": {
    "nombre": "La Incontrastable",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Internacional",
@@ -198698,7 +198698,7 @@
   "clasif": {
    "nombre": "La Nueva Estrella",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Pedro Martínez Gutiérrez, 9",
    "cocina": "Dulce",
@@ -198723,7 +198723,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Méndez Núñez, 8, Albacete",
    "cocina": "Torreznos",
@@ -198748,7 +198748,7 @@
   "clasif": {
    "nombre": "Xabre Sabor y Vida",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Parra 6, Albacete",
    "cocina": "Pescado",
@@ -198773,7 +198773,7 @@
   "clasif": {
    "nombre": "Khan Kebab II",
    "ig_local": null,
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Paseo de la Circunvalación, 91",
    "cocina": "Kebab",
@@ -198798,7 +198798,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "C/ Río Rosas 16",
    "cocina": null,
@@ -198823,7 +198823,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": "Calle Mayor 55, Albacete",
    "cocina": "Mexicana",
@@ -198873,7 +198873,7 @@
   "clasif": {
    "nombre": "Layema",
    "ig_local": "layema.oficial",
-   "ciudad": "Sevilla",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -209378,7 +209378,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -209403,7 +209403,7 @@
   "clasif": {
    "nombre": "Frómista",
    "ig_local": "palencia_turistica",
-   "ciudad": "Boadilla",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -214129,7 +214129,7 @@
   "clasif": {
    "nombre": "Carne",
    "ig_local": "carne",
-   "ciudad": "Granada",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -214154,7 +214154,7 @@
   "clasif": {
    "nombre": "Surco",
    "ig_local": "surco.restaurante",
-   "ciudad": "Bilbao",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -214179,7 +214179,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -239219,7 +239219,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -241864,7 +241864,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -242289,7 +242289,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Aranda de Duero",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -245893,7 +245893,7 @@
   "clasif": {
    "nombre": "Trioburger",
    "ig_local": "trioburger_",
-   "ciudad": "Valencia",
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -247028,7 +247028,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Talavera de la Reina",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -252494,9 +252494,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Miranda de Ebro",
+   "nombre": "Alexcoolclub",
    "ig_local": null,
-   "ciudad": "Vitoria",
+   "ciudad": "Miranda de Ebro",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -252873,9 +252873,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Miranda de Ebro",
+   "nombre": "Casamima",
    "ig_local": null,
-   "ciudad": "Vitoria",
+   "ciudad": "Miranda de Ebro",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -253000,9 +253000,9 @@
   "tipo": "reel",
   "origen": "api",
   "clasif": {
-   "nombre": "Miranda de Ebro",
+   "nombre": "Lacheesecakefest",
    "ig_local": null,
-   "ciudad": "Vitoria",
+   "ciudad": "Miranda de Ebro",
    "zona": null,
    "dir_pie": null,
    "cocina": "Dulce",
@@ -265945,7 +265945,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "avila_tei",
-   "ciudad": "Santander",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -266074,7 +266074,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "avila_tei",
-   "ciudad": "Santander",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Sushi y japonesa",
@@ -266199,7 +266199,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "cjbregon",
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -266224,7 +266224,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "cepa21restaurante_",
-   "ciudad": "León",
+   "ciudad": "Palencia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -268687,7 +268687,7 @@
   "clasif": {
    "nombre": "El tiemblo",
    "ig_local": "rural_las_vinas",
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -268737,7 +268737,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -268937,8 +268937,8 @@
   "clasif": {
    "nombre": "Casa de las 4 Calles",
    "ig_local": null,
-   "ciudad": "Zaragoza",
-   "zona": "Casco Histórico",
+   "ciudad": "Ávila",
+   "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
    "local": null,
@@ -269287,7 +269287,7 @@
   "clasif": {
    "nombre": "Abuelo",
    "ig_local": "rural_las_vinas",
-   "ciudad": null,
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": null,
    "cocina": "Chuletón",
@@ -271187,7 +271187,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": "P.º Pintor Martínez Vázquez, 5, Loc 2, 05400 Arenas de San Pedro, Ávila",
    "cocina": "Dulce",
@@ -271237,9 +271237,9 @@
   "tipo": "image",
   "origen": "api",
   "clasif": {
-   "nombre": "Segovia",
+   "nombre": null,
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -272928,7 +272928,7 @@
   "clasif": {
    "nombre": "Pasajedelterror",
    "ig_local": "diabelis_alegria",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273032,7 +273032,7 @@
   "clasif": {
    "nombre": "Ubicados en",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Arroces",
@@ -273059,7 +273059,7 @@
   "clasif": {
    "nombre": "Se encuentran ubicados en",
    "ig_local": "sci_filand",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273084,7 +273084,7 @@
   "clasif": {
    "nombre": "Miguelturra",
    "ig_local": "j_barrber",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273336,7 +273336,7 @@
   "clasif": {
    "nombre": "Pedimos",
    "ig_local": null,
-   "ciudad": "Soria",
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -273361,7 +273361,7 @@
   "clasif": {
    "nombre": "Tastingspain",
    "ig_local": "restaurante_la_zaranda",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -273386,7 +273386,7 @@
   "clasif": {
    "nombre": "Ciudadreal",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273488,7 +273488,7 @@
   "clasif": {
    "nombre": "Restaurante Jaguar",
    "ig_local": "restaurante.jaguar",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": "C/ Hérnan Pérez del Pulgar Nº 2",
    "cocina": "Mexicana",
@@ -273565,7 +273565,7 @@
   "clasif": {
    "nombre": "Cupracomatur",
    "ig_local": "comatur_seat",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brunch",
@@ -273590,7 +273590,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": "masajesruz_beauty",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273617,7 +273617,7 @@
   "clasif": {
    "nombre": "Theburgercup",
    "ig_local": "malabar_street_food",
-   "ciudad": null,
+   "ciudad": "Puertollano",
    "zona": null,
    "dir_pie": null,
    "cocina": "Hamburguesas",
@@ -273794,7 +273794,7 @@
   "clasif": {
    "nombre": "Laser",
    "ig_local": "elha_esp",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273819,7 +273819,7 @@
   "clasif": {
    "nombre": "Atica Clm",
    "ig_local": "miguelangel.expositogarrido",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Alta cocina",
@@ -273846,7 +273846,7 @@
   "clasif": {
    "nombre": "Teilusionafestivalesmagicos",
    "ig_local": null,
-   "ciudad": "Torrevieja",
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -273946,7 +273946,7 @@
   "clasif": {
    "nombre": "Comidamexicana",
    "ig_local": "restaurante.jaguar",
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Mexicana",
@@ -277298,7 +277298,7 @@
   "clasif": {
    "nombre": "Elnacional Malaga",
    "ig_local": "elnacional_malaga",
-   "ciudad": "Málaga",
+   "ciudad": "Ávila",
    "zona": null,
    "dir_pie": "Calle Sánchez Pastor, 6 para disfrutar de la cocina de Álvaro Ávila en su máxima expresión",
    "cocina": "Arroces",
@@ -285674,7 +285674,7 @@
   "clasif": {
    "nombre": "CastillaLa Mancha",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tradicional",
@@ -285799,7 +285799,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Albacete",
    "zona": null,
    "dir_pie": null,
    "cocina": "Tapas",
@@ -285874,7 +285874,7 @@
   "clasif": {
    "nombre": "Turismocastillalamancha",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -285899,7 +285899,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -285974,7 +285974,7 @@
   "clasif": {
    "nombre": "Turismocastillalamancha",
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Guadalajara",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -285999,7 +285999,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Ciudad Real",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -286199,7 +286199,7 @@
   "clasif": {
    "nombre": "Buendía",
    "ig_local": null,
-   "ciudad": "Madrid",
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -286376,7 +286376,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -286601,7 +286601,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": "Aragonesa",
@@ -286651,7 +286651,7 @@
   "clasif": {
    "nombre": "Paredes Es",
    "ig_local": "paredes_es",
-   "ciudad": null,
+   "ciudad": "Cuenca",
    "zona": null,
    "dir_pie": null,
    "cocina": null,
@@ -298239,7 +298239,7 @@
   "clasif": {
    "nombre": "Restaurante José María  Segovia",
    "ig_local": null,
-   "ciudad": "León",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
@@ -299164,7 +299164,7 @@
   "clasif": {
    "nombre": null,
    "ig_local": null,
-   "ciudad": "Murcia",
+   "ciudad": "Segovia",
    "zona": null,
    "dir_pie": null,
    "cocina": "Brasa",
