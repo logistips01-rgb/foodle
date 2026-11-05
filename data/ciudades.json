@@ -2,7 +2,7 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1473
+  "n": 1485
  },
  {
   "nombre": "Barcelona",
@@ -42,7 +42,7 @@
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 165
+  "n": 166
  },
  {
   "nombre": "Benidorm",
@@ -50,9 +50,14 @@
   "n": 92
  },
  {
+  "nombre": "Gran Canaria",
+  "slug": "gran-canaria",
+  "n": 90
+ },
+ {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 88
+  "n": 89
  },
  {
   "nombre": "Cádiz",
@@ -65,19 +70,19 @@
   "n": 81
  },
  {
+  "nombre": "Santander",
+  "slug": "santander",
+  "n": 76
+ },
+ {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
   "n": 75
  },
  {
-  "nombre": "Santander",
-  "slug": "santander",
-  "n": 73
- },
- {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 72
+  "n": 73
  },
  {
   "nombre": "Santiago de Compostela",
@@ -100,6 +105,11 @@
   "n": 62
  },
  {
+  "nombre": "Ibiza",
+  "slug": "ibiza",
+  "n": 55
+ },
+ {
   "nombre": "Gijón",
   "slug": "gijon",
   "n": 50
@@ -112,7 +122,7 @@
  {
   "nombre": "Logroño",
   "slug": "logrono",
-  "n": 44
+  "n": 45
  },
  {
   "nombre": "Tarragona",
@@ -145,6 +155,11 @@
   "n": 31
  },
  {
+  "nombre": "Cáceres",
+  "slug": "caceres",
+  "n": 30
+ },
+ {
   "nombre": "Marbella",
   "slug": "marbella",
   "n": 30
@@ -175,14 +190,19 @@
   "n": 26
  },
  {
-  "nombre": "Jerez",
-  "slug": "jerez",
-  "n": 24
- },
- {
   "nombre": "León",
   "slug": "leon",
-  "n": 23
+  "n": 25
+ },
+ {
+  "nombre": "Tenerife",
+  "slug": "tenerife",
+  "n": 25
+ },
+ {
+  "nombre": "Jerez",
+  "slug": "jerez",
+  "n": 25
  },
  {
   "nombre": "Badalona",
@@ -217,7 +237,7 @@
  {
   "nombre": "Toledo",
   "slug": "toledo",
-  "n": 18
+  "n": 19
  },
  {
   "nombre": "Fuengirola",
@@ -280,9 +300,19 @@
   "n": 13
  },
  {
-  "nombre": "Ibiza",
-  "slug": "ibiza",
+  "nombre": "Las Palmas de Gran Canaria",
+  "slug": "las-palmas-de-gran-canaria",
   "n": 13
+ },
+ {
+  "nombre": "Hondarribia",
+  "slug": "hondarribia",
+  "n": 13
+ },
+ {
+  "nombre": "Santa Cruz de Tenerife",
+  "slug": "santa-cruz-de-tenerife",
+  "n": 12
  },
  {
   "nombre": "Oviedo",
@@ -290,13 +320,13 @@
   "n": 12
  },
  {
-  "nombre": "Algeciras",
-  "slug": "algeciras",
+  "nombre": "San Sebastián de los Reyes",
+  "slug": "san-sebastian-de-los-reyes",
   "n": 12
  },
  {
-  "nombre": "Hondarribia",
-  "slug": "hondarribia",
+  "nombre": "Algeciras",
+  "slug": "algeciras",
   "n": 12
  },
  {
@@ -320,24 +350,24 @@
   "n": 11
  },
  {
-  "nombre": "Santa Cruz de Tenerife",
-  "slug": "santa-cruz-de-tenerife",
-  "n": 11
- },
- {
-  "nombre": "San Sebastián de los Reyes",
-  "slug": "san-sebastian-de-los-reyes",
-  "n": 11
- },
- {
   "nombre": "Getxo",
   "slug": "getxo",
+  "n": 11
+ },
+ {
+  "nombre": "Badajoz",
+  "slug": "badajoz",
   "n": 11
  },
  {
   "nombre": "Gandía",
   "slug": "gandia",
   "n": 11
+ },
+ {
+  "nombre": "Costa Adeje",
+  "slug": "costa-adeje",
+  "n": 10
  },
  {
   "nombre": "Sant Cugat",
@@ -367,16 +397,6 @@
  {
   "nombre": "Alcorcón",
   "slug": "alcorcon",
-  "n": 10
- },
- {
-  "nombre": "Gran Canaria",
-  "slug": "gran-canaria",
-  "n": 10
- },
- {
-  "nombre": "Badajoz",
-  "slug": "badajoz",
   "n": 10
  },
  {
@@ -457,11 +477,6 @@
  {
   "nombre": "Lleida",
   "slug": "lleida",
-  "n": 5
- },
- {
-  "nombre": "Cáceres",
-  "slug": "caceres",
   "n": 5
  },
  {
