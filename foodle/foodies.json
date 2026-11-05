@@ -233,5 +233,6 @@
   { "usuario": "curiosi.travel", "ciudad": "Ponferrada", "nota": "Norma comprobada 2026-11-05 · 90 % de comida" },
   { "usuario": "mariafraaile", "ciudad": "Salamanca", "nota": "Norma comprobada 2026-11-05 · 53 % de comida" },
   { "usuario": "claracollazo", "ciudad": "Talavera de la Reina", "nota": "Norma comprobada 2026-11-05 · 30 % de comida" },
-  { "usuario": "princesa_viajera", "ciudad": "León", "nota": "Norma comprobada 2026-11-05 · 43 % de comida" }
+  { "usuario": "princesa_viajera", "ciudad": "León", "nota": "Norma comprobada 2026-11-05 · 43 % de comida" },
+  { "usuario": "comiendoconvity", "ciudad": "Guadalajara", "nota": "Excepción a la norma (pidió Manuel el 05/11): 80 % de comida, 36 días sin publicar" }
 ]
