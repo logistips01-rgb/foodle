@@ -244,5 +244,11 @@
   { "usuario": "gonzalobonilla_", "ciudad": "Cádiz", "nota": "Norma de 90 días (05/11/2026) · 73 % de comida" },
   { "usuario": "foodiesantiago", "ciudad": "Santiago de Compostela", "nota": "Norma de 90 días (05/11/2026) · 83 % de comida" },
   { "usuario": "explorando.saboress", "ciudad": "Bilbao", "nota": "Norma de 90 días (05/11/2026) · 93 % de comida" },
-  { "usuario": "remithefoodie", "nota": "Norma de 90 días (05/11/2026) · 87 % de comida" }
+  { "usuario": "remithefoodie", "nota": "Norma de 90 días (05/11/2026) · 87 % de comida" },
+  { "usuario": "canaryfoodies", "ciudad": "Tenerife", "nota": "Norma comprobada 2026-11-05 · 97 % de comida" },
+  { "usuario": "grancanariafood", "ciudad": "Gran Canaria", "nota": "Norma comprobada 2026-11-05 · 97 % de comida" },
+  { "usuario": "foodiemary_gc", "ciudad": "Gran Canaria", "nota": "Norma comprobada 2026-11-05 · 77 % de comida" },
+  { "usuario": "ibizagastro", "ciudad": "Ibiza", "nota": "Norma comprobada 2026-11-05 · 87 % de comida" },
+  { "usuario": "extremaduragastro", "ciudad": "Cáceres", "nota": "Norma comprobada 2026-11-05 · 70 % de comida · guía gastronómica de la Junta de Extremadura" },
+  { "usuario": "mistermorefood", "nota": "Norma comprobada 2026-11-05 · 83 % de comida" }
 ]
