@@ -7389,5 +7389,291 @@
   "lat": 42.4588908,
   "lng": -2.4438691,
   "direccion": "Avenida de España, Logroño"
+ },
+ "santander cantabria|santander": {
+  "lat": 43.4479456,
+  "lng": -3.845434,
+  "direccion": "30, Santander"
+ },
+ "betanzos a coruña galicia|betanzos": {
+  "lat": 43.2757359,
+  "lng": -8.2326417,
+  "direccion": "Betanzos"
+ },
+ "castro urdiales cantabria|castro urdiales": {
+  "lat": 43.3691601,
+  "lng": -3.2002933,
+  "direccion": "Avenida de España, Castro-Urdiales"
+ },
+ "somo y castro urdiales cantabria|castro urdiales": null,
+ "hdhbilbao|bilbao": null,
+ "pamplonagourmets|pamplona": null,
+ "hostal etxeberri|pamplona": null,
+ "claro cafebar|pamplona": null,
+ "barrio san martín|pamplona": null,
+ "bodega katxiña|pamplona": null,
+ "plaza del castillo, pamplona|pamplona": {
+  "lat": 42.8168147,
+  "lng": -1.6427624,
+  "direccion": "Pamplona"
+ },
+ "javier|pamplona": {
+  "lat": 42.8131894,
+  "lng": -1.6360566,
+  "direccion": "Travesía de Tafalla, Pamplona"
+ },
+ "eugi|pamplona": null,
+ "soda|pamplona": null,
+ "tudelilla|pamplona": {
+  "lat": 42.8110529,
+  "lng": -1.6177175,
+  "direccion": "Calle Concejo de Sarriguren, Pamplona"
+ },
+ "ochagavía|pamplona": {
+  "lat": 42.8231141,
+  "lng": -1.6532697,
+  "direccion": "Calle Ochagavía, Pamplona"
+ },
+ "buncut|pamplona": null,
+ "hanazono pamplona|pamplona": null,
+ "recomendación|pamplona": null,
+ "hanazono bbq|pamplona": null,
+ "villamayor de monjardín|pamplona": null,
+ "potro de navarra|pamplona": {
+  "lat": 42.8186394,
+  "lng": -1.6423812,
+  "direccion": "Calle Calderería 1, Pamplona"
+ },
+ "pitimini mo|pamplona": null,
+ "ceniza urban grill|pamplona": null,
+ "calle mutilva alta 22 — soto lezkairu|pamplona": null,
+ "restaurante neli  ansoáin|pamplona": null,
+ "renault unsain|olite": null,
+ "la servicial vinícola|pamplona": null,
+ "guiapamplonagourmets com|pamplona": null,
+ "terrazasdecarmen|santander": null,
+ "kingspub santander|santander": null,
+ "enlabrasa santander|santander": null,
+ "ladehesadelospacos santander|santander": null,
+ "santander 1941|santander": {
+  "lat": 43.4433162,
+  "lng": -3.8310354,
+  "direccion": "Santander"
+ },
+ "modena|santander": {
+  "lat": 43.4627237,
+  "lng": -3.8006284,
+  "direccion": "Calle de Eduardo Benot, Santander"
+ },
+ "tascabonifaz|santander": null,
+ "restaurantelamulata santander|santander": null,
+ "vientoenpopa|santander": {
+  "lat": 43.465828,
+  "lng": -3.79657,
+  "direccion": "Calle de Amaliach 5, Santander"
+ },
+ "elperrodesanroque santander|santander": null,
+ "la vinoteca|santander": null,
+ "olivia santander|santander": null,
+ "elgallinerosantander|santander": null,
+ "nano castelar|santander": {
+  "lat": 43.4632092,
+  "lng": -3.7947386,
+  "direccion": "Calle de Castelar 13, Santander"
+ },
+ "prensaiberica|santander": null,
+ "ecoparque cant|suances": null,
+ "el wagyūco de meaters|santander": null,
+ "domonterrei|santander": null,
+ "taco de gobernador|santander": null,
+ "canaryfoodies|santander": null,
+ "lenteja casadecomidas|castro urdiales": null,
+ "el raquero|santander": null,
+ "macarfi com|madrid": null,
+ "cluboliveroficial|santander": null,
+ "hosteleriasantander|santander": null,
+ "kintiman|santander": null,
+ "the strong|santoña": null,
+ "la señorita|laredo": null,
+ "game over|alicante": null,
+ "olímpico|vitoria": null,
+ "rosalía de castro|vigo": null,
+ "hi pontevedra|pontevedra": null,
+ "irene piedras|vigo": null,
+ "calle rosalía de castro, pontevedra|pontevedra": {
+  "lat": 42.4249387,
+  "lng": -8.6522488,
+  "direccion": "Calle Rosalía de Castro, Pontevedra"
+ },
+ "sklum welovedesign|vigo": null,
+ "valderrobres|teruel": null,
+ "espaciozity|zaragoza": null,
+ "entre oliete y alloza|teruel": null,
+ "los bañales de uncastillo|zaragoza": null,
+ "paredes es|zaragoza": {
+  "lat": 41.6602264,
+  "lng": -0.9311133,
+  "direccion": "Calle de David González Paredes, Zaragoza"
+ },
+ "segura de los baños|teruel": null,
+ "miravet|tarragona": null,
+ "restaurante el disfrutón|zaragoza": {
+  "lat": 41.6550318,
+  "lng": -0.8780987,
+  "direccion": "Calle de Francisco Bayeu 4, Zaragoza"
+ },
+ "delacalle smashburger|zaragoza": null,
+ "moonlight experimental bar|zaragoza": null,
+ "comarca de sobrarbe|toledo": null,
+ "djiglobal|zaragoza": null,
+ "el tiemblo|madrid": null,
+ "paredes es|almería": null,
+ "casa de las 4 calles|zaragoza": null,
+ "trainpal es|zaragoza": null,
+ "rvpcampocarinena|zaragoza": null,
+ "catalunya turisme|tarragona": {
+  "lat": 41.1207428,
+  "lng": 1.2632449,
+  "direccion": "Carrer de Johann Sebastian Bach, Tarragona"
+ },
+ "la iglesia de san lorenzo|zaragoza": null,
+ "mirador de rachida|almería": null,
+ "el librero|sevilla": {
+  "lat": 37.3895237,
+  "lng": -5.9927038,
+  "direccion": "Calle Blanca de los Ríos 4, Sevilla"
+ },
+ "cabanasenlosarboles pais vasco|zaragoza": null,
+ "avenida portugal 51, gijón|gijón": {
+  "lat": 43.535882,
+  "lng": -5.6749215,
+  "direccion": "Avenida de Portugal 51, Gijón"
+ },
+ "situado en gijón|gijón": null,
+ "la platea|gijón": null,
+ "madalenas de colores|gijón": null,
+ "lugar|gijón": null,
+ "hola tort|gijón": null,
+ "sorteo válido para la península|gijón": null,
+ "baby becool|gijón": null,
+ "melyceras|gijón": null,
+ "thebeautycorner|gijón": {
+  "lat": 43.5343699,
+  "lng": -5.6699761,
+  "direccion": "Calle Tineo, Gijón"
+ },
+ "nubo cafe|gijón": {
+  "lat": 43.5390347,
+  "lng": -5.6616114,
+  "direccion": "Paseo de Begoña 16, Gijón"
+ },
+ "frit ravich|gijón": null,
+ "shein spain|gijón": null,
+ "tendencias|gijón": null,
+ "paseo de begoña, 16, gijón|gijón": {
+  "lat": 43.5390307,
+  "lng": -5.661617,
+  "direccion": "Paseo de Begoña 16, Gijón"
+ },
+ "xjump gijón|gijón": null,
+ "jr burger|gijón": null,
+ "la viera street food|mieres": null,
+ "funbox spain|gijón": null,
+ "sato sushi|gijón": null,
+ "andrielly arruda|gijón": null,
+ "la taberna asturiana|gijón": null,
+ "nixtli|avilés": null,
+ "tuernes el pequeño|oviedo": null,
+ "camila gastrobar|gijón": {
+  "lat": 43.5428146,
+  "lng": -5.6627089,
+  "direccion": "Calle del Instituto 21, Gijón"
+ },
+ "larosee espana|zaragoza": null,
+ "caixaforum|zaragoza": {
+  "lat": 41.6523224,
+  "lng": -0.8940986,
+  "direccion": "Avenida de José Anselmo Clavé 4, Zaragoza"
+ },
+ "miguelgonzalez|ourense": null,
+ "come pescado|madrid": null,
+ "segovia|madrid": {
+  "lat": 40.413966,
+  "lng": -3.7228566,
+  "direccion": "Puente de Segovia Norte, Madrid"
+ },
+ "norico valencia|valencia": null,
+ "panteón de ilustres|madrid": null,
+ "lolulu lab|barcelona": null,
+ "darkcity escaperoom|barcelona": null,
+ "secretos de lola blancanieves|madrid": null,
+ "casa invertida|barcelona": null,
+ "halloweencostume|barcelona": null,
+ "el artista celebraciones|córdoba": null,
+ "gta|madrid": {
+  "lat": 40.4084723,
+  "lng": -3.6922644,
+  "direccion": "Plaza del Emperador Carlos V, Madrid"
+ },
+ "recinto ferial ifema de madrid|madrid": {
+  "lat": 40.4622026,
+  "lng": -3.6160639,
+  "direccion": "Avenida de la Capital de España Madrid, Madrid"
+ },
+ "la desayuneria|málaga": {
+  "lat": 36.7180982,
+  "lng": -4.4245086,
+  "direccion": "Calle Atarazanas 10, Málaga"
+ },
+ "cadiz|cádiz": {
+  "lat": 36.5297438,
+  "lng": -6.2928976,
+  "direccion": "Cádiz"
+ },
+ "conil|conil": null,
+ "andalucia|cádiz": {
+  "lat": 36.5297438,
+  "lng": -6.2928976,
+  "direccion": "Cádiz"
+ },
+ "lagarraconil|conil": null,
+ "san fernando|cádiz": null,
+ "la torbellino|conil": null,
+ "pedimos|soria": null,
+ "apunta el dato|nerja": null,
+ "javi aguilera cadiz|cádiz": null,
+ "apunta el dato|madrid": null,
+ "humiristas|cádiz": null,
+ "teilusionafestivalesmagicos|torrevieja": null,
+ "nerja|nerja": {
+  "lat": 36.751036,
+  "lng": -3.8774883,
+  "direccion": "Avenida Ciudad de Pescia, Nerja"
+ },
+ "mexicano|madrid": {
+  "lat": 40.4101148,
+  "lng": -3.7080682,
+  "direccion": "Calle de Santa Ana 4, Madrid"
+ },
+ "balcón de europa|málaga": null,
+ "playaparaperros|málaga": null,
+ "apunta el dato|málaga": null,
+ "gastronomia|málaga": null,
+ "eme de mariano|málaga": {
+  "lat": 36.7205134,
+  "lng": -4.4177807,
+  "direccion": "Calle Císter 15, Málaga"
+ },
+ "av. del real, 0, 29620 torremolinos, málaga|málaga": null,
+ "littleitaly gastrofest|málaga": null,
+ "castillo sohail|fuengirola": {
+  "lat": 36.5253178,
+  "lng": -4.6289654,
+  "direccion": "Calle Tartesios, Fuengirola"
+ },
+ "carretera de cádiz, 29002 málaga|málaga": {
+  "lat": 36.6931967,
+  "lng": -4.4492532,
+  "direccion": "Málaga"
  }
 }

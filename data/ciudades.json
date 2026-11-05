@@ -2,22 +2,22 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1451
+  "n": 1462
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 680
+  "n": 687
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 584
+  "n": 588
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 545
+  "n": 549
  },
  {
   "nombre": "Málaga",
@@ -27,22 +27,22 @@
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 256
+  "n": 259
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 236
+  "n": 240
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 220
+  "n": 222
  },
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 165
+  "n": 166
  },
  {
   "nombre": "Santander",
@@ -52,12 +52,12 @@
  {
   "nombre": "Benidorm",
   "slug": "benidorm",
-  "n": 89
+  "n": 92
  },
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 86
+  "n": 87
  },
  {
   "nombre": "Castellón",
@@ -122,7 +122,12 @@
  {
   "nombre": "Elche",
   "slug": "elche",
-  "n": 34
+  "n": 35
+ },
+ {
+  "nombre": "Leganés",
+  "slug": "leganes",
+  "n": 31
  },
  {
   "nombre": "Burgos",
@@ -132,11 +137,6 @@
  {
   "nombre": "Marbella",
   "slug": "marbella",
-  "n": 30
- },
- {
-  "nombre": "Leganés",
-  "slug": "leganes",
   "n": 30
  },
  {
@@ -153,6 +153,11 @@
   "nombre": "Santiago de Compostela",
   "slug": "santiago-de-compostela",
   "n": 24
+ },
+ {
+  "nombre": "Valladolid",
+  "slug": "valladolid",
+  "n": 23
  },
  {
   "nombre": "Ourense",
@@ -190,11 +195,6 @@
   "n": 22
  },
  {
-  "nombre": "Valladolid",
-  "slug": "valladolid",
-  "n": 21
- },
- {
   "nombre": "Alcalá de Henares",
   "slug": "alcala-de-henares",
   "n": 20
@@ -215,23 +215,23 @@
   "n": 18
  },
  {
+  "nombre": "Orihuela",
+  "slug": "orihuela",
+  "n": 17
+ },
+ {
+  "nombre": "Toledo",
+  "slug": "toledo",
+  "n": 16
+ },
+ {
   "nombre": "Teruel",
   "slug": "teruel",
   "n": 16
  },
  {
-  "nombre": "Toledo",
-  "slug": "toledo",
-  "n": 15
- },
- {
   "nombre": "Fuengirola",
   "slug": "fuengirola",
-  "n": 15
- },
- {
-  "nombre": "Orihuela",
-  "slug": "orihuela",
   "n": 15
  },
  {
@@ -243,6 +243,11 @@
   "nombre": "Jávea",
   "slug": "javea",
   "n": 13
+ },
+ {
+  "nombre": "Las Rozas",
+  "slug": "las-rozas",
+  "n": 12
  },
  {
   "nombre": "Oviedo",
@@ -282,11 +287,6 @@
  {
   "nombre": "Getxo",
   "slug": "getxo",
-  "n": 11
- },
- {
-  "nombre": "Las Rozas",
-  "slug": "las-rozas",
   "n": 11
  },
  {
