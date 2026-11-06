@@ -8767,5 +8767,243 @@
   "lat": 40.5019709,
   "lng": -3.7137396,
   "direccion": "Avenida del Monasterio de Silos, Madrid"
- }
+ },
+ "meatpacking district|madrid": null,
+ "velada|madrid": {
+  "lat": 40.372044,
+  "lng": -3.7228165,
+  "direccion": "Calle de José Urioste y Velada, Madrid"
+ },
+ "calle de la bolsa, 12 (madrid)|madrid": {
+  "lat": 40.4150703,
+  "lng": -3.7050324,
+  "direccion": "Calle de la Bolsa 12, Madrid"
+ },
+ "ubicación exacta|toledo": null,
+ "ctra, n-502, km 93.7, velada (toledo)|toledo": null,
+ "calle de hernani, 75, madrid|madrid": {
+  "lat": 40.4481581,
+  "lng": -3.6959855,
+  "direccion": "Calle de Hernani 75, Madrid"
+ },
+ "centro comercial h2o (rivas-vaciamadrid, madrid)|rivas": {
+  "lat": 40.3367379,
+  "lng": -3.526422,
+  "direccion": "Calle de Thomas Edison, Rivas-Vaciamadrid"
+ },
+ "28016 madrid|madrid": {
+  "lat": 40.4578103,
+  "lng": -3.6746057,
+  "direccion": "Madrid"
+ },
+ "calle victoria, 2, alcalá de henares|alcalá de henares": {
+  "lat": 40.4800587,
+  "lng": -3.3699463,
+  "direccion": "Calle de la Victoria, Alcalá de Henares"
+ },
+ "fever es|guadalajara": null,
+ "brihuega es un pueblo mágico|guadalajara": null,
+ "celanova|ourense": null,
+ "faedo de ciñera|león": null,
+ "pasion por galicia|ourense": null,
+ "cueva del pájaro azul|cádiz": null,
+ "simancas|valladolid": null,
+ "terra núblar|lugo": null,
+ "san facundo|león": null,
+ "ribadavia|ourense": null,
+ "medina de rioseco|valladolid": null,
+ "arcos de la frontera|cádiz": null,
+ "isla mágica|sevilla": {
+  "lat": 37.4077506,
+  "lng": -5.9998062,
+  "direccion": "Glorieta de Isla Mágica, Sevilla"
+ },
+ "capilla de los benavente|valladolid": null,
+ "homeexchange esp|ponferrada": null,
+ "visor submarino atlántida|vigo": null,
+ "basílica de la encina|ponferrada": {
+  "lat": 42.5442259,
+  "lng": -6.5917284,
+  "direccion": "Plaza Virgen de la Encina, Ponferrada"
+ },
+ "piscinas de sobradelo de valdeorras|ourense": null,
+ "fermoselle|zamora": null,
+ "san pedro cultural|palencia": null,
+ "covarrubias|ponferrada": null,
+ "castillo o bolo|ourense": null,
+ "el burgo de osma|soria": null,
+ "entrecovas|ponferrada": null,
+ "castronuño|valladolid": null,
+ "zumaia|ponferrada": null,
+ "bodega restaurante baluarte|valladolid": null,
+ "berlanga de duero|soria": null,
+ "sahagún|león": null,
+ "sasamón|burgos": null,
+ "recomendaciones de otoño en salamanca|salamanca": null,
+ "cena en el asador contrapunto|valladolid": null,
+ "tiovivo bar|salamanca": null,
+ "salamanca ya|salamanca": {
+  "lat": 40.9651572,
+  "lng": -5.6640182,
+  "direccion": "Salamanca"
+ },
+ "fotoprix|salamanca": {
+  "lat": 40.968941,
+  "lng": -5.6600395,
+  "direccion": "Avenida de Mirat 3, Salamanca"
+ },
+ "campo de tiro|salamanca": null,
+ "clinique es|salamanca": null,
+ "primaprix es|salamanca": {
+  "lat": 40.9698868,
+  "lng": -5.6587862,
+  "direccion": "Calle de María Auxiliadora 20,22, Salamanca"
+ },
+ "ittoryu|salamanca": null,
+ "descubriendo todos los pueblos de|salamanca": null,
+ "salamanca merece muchísima atención|salamanca": null,
+ "kelly casman|salamanca": null,
+ "salamanca es increíble|salamanca": null,
+ "imperio mara|salamanca": null,
+ "los ingredientes que necesitas|salamanca": null,
+ "salvaje talavera|talavera de la reina": null,
+ "claracollazo ugc|talavera de la reina": null,
+ "tendencias|talavera de la reina": null,
+ "primark|talavera de la reina": null,
+ "app|talavera de la reina": null,
+ "clínica ocampo|talavera de la reina": null,
+ "karolinails 21|talavera de la reina": null,
+ "london|león": null,
+ "valoria la buena|valladolid": null,
+ "museo de cine colin arthur|valladolid": null,
+ "barranco de las vacas|gran canaria": {
+  "lat": 28.0628257,
+  "lng": -15.4925408,
+  "direccion": "Las Palmas de Gran Canaria"
+ },
+ "inhala hotel garden|madrid": {
+  "lat": 40.4206176,
+  "lng": -3.7084668,
+  "direccion": "Plaza de Santo Domingo 13, Madrid"
+ },
+ "puerto espacial|león": null,
+ "la vida de barrio|león": null,
+ "maspalomas|gran canaria": {
+  "lat": 28.1176573,
+  "lng": -15.4554137,
+  "direccion": "Carretera General del Cardón 52, Las Palmas de Gran Canaria"
+ },
+ "praga|león": {
+  "lat": 42.5802912,
+  "lng": -5.560979,
+  "direccion": "Calle Praga, León"
+ },
+ "c. de maría pacheco, 53, 19005 guadalajara|guadalajara": null,
+ "polarcrema|guadalajara": null,
+ "pa vé jhon|alcalá de henares": null,
+ "henares html|guadalajara": null,
+ "paseo marítimo de bruselas, 2, 29630 benalmádena, málaga|benalmádena": null,
+ "fórmula mágica|guadalajara": null,
+ "20530 leintz-gatzaga, gipuzkoa|guadalajara": null,
+ "01005 vitoria-gasteiz, araba|vitoria": {
+  "lat": 42.8432235,
+  "lng": -2.6723453,
+  "direccion": "Vitoria"
+ },
+ "sacedón|guadalajara": null,
+ "la cervecera|guadalajara": null,
+ "casa julio|alicante": null,
+ "c. de ramón y cajal, 7, 28801 alcalá de henares, madrid|alcalá de henares": {
+  "lat": 40.4824241,
+  "lng": -3.3650041,
+  "direccion": "Calle de Ramón y Cajal 7, Alcalá de Henares"
+ },
+ "carrer jaume i, 03560, alicante|alicante": null,
+ "delicias de jeny|guadalajara": null,
+ "explanada del paseo de ocio|guadalajara": null,
+ "montemar|guadalajara": {
+  "lat": 40.6314683,
+  "lng": -3.1654691,
+  "direccion": "Calle Montemar, Guadalajara"
+ },
+ "lagondolaveneciana2018|guadalajara": null,
+ "pastelería marian|guadalajara": null,
+ "el obrador by zubar|guadalajara": null,
+ "beerspaspain|madrid": null,
+ "aceites corredor|torrejón": null,
+ "alcaravea|alcalá de henares": {
+  "lat": 40.4812091,
+  "lng": -3.3965121,
+  "direccion": "Avenida Juan Carlos I 13, Alcalá de Henares"
+ },
+ "taberna primigenia|santillana del mar": null,
+ "zielo|guadalajara": null,
+ "harmony|guadalajara": null,
+ "sargantana|guadalajara": null,
+ "calas de ardoz|torrejón": null,
+ "calle 1 tr.ª sta, catalina , tórtola de henares|guadalajara": null,
+ "la mafia|guadalajara": null,
+ "summer|guadalajara": null,
+ "micorteconarte|guadalajara": null,
+ "lapastagansaguada|guadalajara": null,
+ "little india  calahonda|málaga": null,
+ "street food málaga centro|málaga": null,
+ "benditakatalina|málaga": null,
+ "mizuki torremolinos|torremolinos": {
+  "lat": 36.620832,
+  "lng": -4.499669,
+  "direccion": "Avenida Palma de Mallorca, Torremolinos"
+ },
+ "mizuki sushi cocktail|torremolinos": {
+  "lat": 36.620832,
+  "lng": -4.499669,
+  "direccion": "Avenida Palma de Mallorca, Torremolinos"
+ },
+ "elarbol arroyo|málaga": null,
+ "tutto pasta malaga|málaga": null,
+ "tutto pasta|málaga": null,
+ "fundido co|málaga": null,
+ "ubicación en huelin|málaga": null,
+ "thaiiexpress takeaway|málaga": null,
+ "kazuki teppanyaki sushi|fuengirola": null,
+ "kazuki fuengirola|málaga": null,
+ "schiacciateria y charcutería italiana|málaga": null,
+ "latascacriolla|málaga": null,
+ "laterracita burger|málaga": null,
+ "ilpanino nuevamalaga|málaga": null,
+ "italian natural food|málaga": null,
+ "lacasita33|málaga": null,
+ "la caleta|málaga": {
+  "lat": 36.7209214,
+  "lng": -4.4025683,
+  "direccion": "Málaga"
+ },
+ "moesushi malaga|málaga": null,
+ "invernaliataberna|málaga": null,
+ "ronda14|málaga": null,
+ "arolounge|málaga": null,
+ "la pepa y sus pepitos|málaga": null,
+ "lagargantahotel|málaga": null,
+ "lamasfriacerveceria|málaga": null,
+ "arrozencazuela|málaga": null,
+ "terrazacatedralmalaga|málaga": null,
+ "kalo|málaga": null,
+ "the burger cup|málaga": null,
+ "estoes jauja|málaga": null,
+ "solunasushi wok beach sea|fuengirola": null,
+ "gise cm|málaga": null,
+ "restaurante el alimentario|málaga": null,
+ "la zambra|fuengirola": null,
+ "la cala de mijas|málaga": null,
+ "elpiropo|málaga": null,
+ "no vo|málaga": null,
+ "padua|málaga": null,
+ "monin europe|torremolinos": null,
+ "gorrinos es|málaga": null,
+ "kina chocolates|málaga": null,
+ "otrorollo kebab|málaga": null,
+ "palodu|málaga": null,
+ "labernarda|málaga": null,
+ "tepito malaga|málaga": null,
+ "escuela henchidero antequera|antequera": null
 }
