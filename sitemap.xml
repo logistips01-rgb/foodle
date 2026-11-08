@@ -46,8 +46,8 @@
   <url><loc>https://foodle.es/barcelona/kebab/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/valencia/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/valencia/arroces/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/valencia/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/valencia/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/valencia/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/valencia/sushi-y-japonesa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/valencia/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/valencia/bocadillos/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -118,6 +118,23 @@
   <url><loc>https://foodle.es/sevilla/asiatica/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/sevilla/tradicional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/sevilla/brasa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/bilbao/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/sushi-y-japonesa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/brasa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/italiana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/tradicional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/pescado/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/asiatica/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/pizza/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/bocadillos/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/internacional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/marisco/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/bilbao/arroces/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/alicante/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/alicante/arroces/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/alicante/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -133,23 +150,6 @@
   <url><loc>https://foodle.es/alicante/marisco/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/alicante/asiatica/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/alicante/kebab/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://foodle.es/bilbao/sushi-y-japonesa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/brasa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/italiana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/tradicional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/pescado/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/asiatica/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/pizza/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/bocadillos/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/internacional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/marisco/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/bilbao/arroces/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/murcia/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/murcia/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/murcia/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -195,6 +195,14 @@
   <url><loc>https://foodle.es/castellon/pizza/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/castellon/brasa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/castellon/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/mexicana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/tradicional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/san-sebastian/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santander/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/santander/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santander/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -206,14 +214,6 @@
   <url><loc>https://foodle.es/cordoba/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/cordoba/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/cordoba/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/mexicana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/tradicional/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/san-sebastian/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santiago-de-compostela/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/santiago-de-compostela/pizza/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santiago-de-compostela/italiana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -221,6 +221,12 @@
   <url><loc>https://foodle.es/santiago-de-compostela/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santiago-de-compostela/sushi-y-japonesa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/santiago-de-compostela/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/vitoria/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/vitoria/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/vitoria/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/vitoria/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/vitoria/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
+  <url><loc>https://foodle.es/vitoria/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/a-coruna/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/a-coruna/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/a-coruna/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -231,12 +237,6 @@
   <url><loc>https://foodle.es/pamplona/arroces/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/pamplona/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/pamplona/marisco/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/vitoria/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://foodle.es/vitoria/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/vitoria/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/vitoria/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/vitoria/brunch/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/vitoria/alta-cocina/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/sabadell/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/sabadell/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/sabadell/pizza/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -334,11 +334,11 @@
   <url><loc>https://foodle.es/avila/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/avila/dulce/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/ciudad-real/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/javea/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/getafe/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/las-rozas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/las-rozas/hamburguesas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
   <url><loc>https://foodle.es/las-rozas/sushi-y-japonesa/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
-  <url><loc>https://foodle.es/javea/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/las-palmas-de-gran-canaria/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/hondarribia/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/hondarribia/tapas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.6</priority></url>
@@ -375,6 +375,7 @@
   <url><loc>https://foodle.es/chiclana/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/chipiona/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/soria/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/salou/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/tomares/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/cambrils/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/castelldefels/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -386,12 +387,12 @@
   <url><loc>https://foodle.es/lugo/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/pozuelo/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/benalmadena/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://foodle.es/salou/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/nerja/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/estepona/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/peniscola/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/la-gomera/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://foodle.es/ponferrada/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://foodle.es/recetas/</loc><lastmod>2026-11-08</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
   <url><loc>https://foodle.es/privacidad.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://foodle.es/aviso-legal.html</loc><lastmod>2026-11-08</lastmod><changefreq>yearly</changefreq><priority>0.1</priority></url>
 </urlset>

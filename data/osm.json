@@ -9267,5 +9267,255 @@
  "delivery|madrid": null,
  "sólo delivery|madrid": null,
  "caminho da esperança|bilbao": null,
- "sete cidades|bilbao": null
+ "sete cidades|bilbao": null,
+ "incroyable|mallorca": null,
+ "bon bar cala figuera|sóller": null,
+ "nikkei by rubengomez|granada": null,
+ "monvietbcn|barcelona": null,
+ "lesepiciersperpignan|barcelona": null,
+ "copitas bar|barcelona": null,
+ "la neura|barcelona": {
+  "lat": 41.4002093,
+  "lng": 2.1660134,
+  "direccion": "Carrer de Bailèn 159, Barcelona"
+ },
+ "georgy gtp|barcelona": null,
+ "granjapetitbo|barcelona": null,
+ "boetmiebarcelona|barcelona": null,
+ "magdalena voelk|barcelona": null,
+ "monstersushibcn|barcelona": null,
+ "borobarbcn|barcelona": null,
+ "lady dumpling|barcelona": {
+  "lat": 41.3837951,
+  "lng": 2.1799219,
+  "direccion": "Carrer Gíriti, Barcelona"
+ },
+ "la zorra sitges|sitges": {
+  "lat": 41.2338193,
+  "lng": 1.8037266,
+  "direccion": "Passeig Marítim, Sitges"
+ },
+ "canfisherbcn|barcelona": null,
+ "char fuegoybrasas|costa adeje": null,
+ "cuptural coffee|tenerife": null,
+ "las palmas de gc|las palmas de gran canaria": {
+  "lat": 28.1344745,
+  "lng": -15.4350894,
+  "direccion": "Las Palmas de Gran Canaria"
+ },
+ "dedos  las chafiras|tenerife": null,
+ "alcalá|tenerife": null,
+ "monkey beach|tenerife": null,
+ "la taberna de halma|las palmas de gran canaria": null,
+ "playa de troya|tenerife": null,
+ "el equilibrista 33|las palmas de gran canaria": null,
+ "el silbo|la laguna": null,
+ "la caleta|tenerife": null,
+ "tegueste|tenerife": null,
+ "restaurante donaire|costa adeje": null,
+ "tafira|las palmas de gran canaria": {
+  "lat": 28.0744336,
+  "lng": -15.4513642,
+  "direccion": "GC-110, Las Palmas de Gran Canaria"
+ },
+ "las aguas|tenerife": null,
+ "restaurante lasandunga|tenerife": null,
+ "donaire|costa adeje": null,
+ "playa de la arena|tenerife": null,
+ "la orotava|tenerife": null,
+ "chanito|las palmas de gran canaria": null,
+ "bizkaia|tenerife": null,
+ "arucas|gran canaria": null,
+ "santa cruz|tenerife": {
+  "lat": 28.467178,
+  "lng": -16.2507843,
+  "direccion": "Santa Cruz de Tenerife"
+ },
+ "casamimadre|tenerife": null,
+ "laia|hondarribia": null,
+ "fbox ct|tenerife": null,
+ "siglo quinto|costa adeje": null,
+ "tabaiba|las palmas de gran canaria": {
+  "lat": 28.135295,
+  "lng": -15.4397938,
+  "direccion": "Calle Portugal 79, Las Palmas de Gran Canaria"
+ },
+ "kaia kaipe|getaria": null,
+ "azurmendi atxa|tenerife": null,
+ "il vecchio|costa adeje": null,
+ "ronny reina 79|tenerife": null,
+ "bonfire|costa adeje": null,
+ "playa de las américas|tenerife": null,
+ "dorada especial|san sebastián de los reyes": null,
+ "tolosa|tenerife": {
+  "lat": 28.4689554,
+  "lng": -16.2786801,
+  "direccion": "Calle Lorenzo Tolosa, Santa Cruz de Tenerife"
+ },
+ "arona|tenerife": null,
+ "las rocas|costa adeje": null,
+ "royal hideaway corales villas|costa adeje": null,
+ "troque|tenerife": null,
+ "mare nubium by cumai|puerto de la cruz": null,
+ "margastrotasca|gran canaria": null,
+ "kafema gc|gran canaria": {
+  "lat": 28.1356038,
+  "lng": -15.4331014,
+  "direccion": "Calle Juan Manuel Durán González 20, Las Palmas de Gran Canaria"
+ },
+ "udoncanarias|gran canaria": null,
+ "lepetitemerie|gran canaria": null,
+ "mikonica lp|gran canaria": null,
+ "crujiente|león": null,
+ "vitaloficial es|gran canaria": null,
+ "el deseo|gran canaria": null,
+ "miyabi sushi 2025|gran canaria": null,
+ "avda los almedros 44, valsequillo|gran canaria": null,
+ "starbucks es|gran canaria": {
+  "lat": 28.1345441,
+  "lng": -15.431721,
+  "direccion": "Avenida José Mesa y López, Las Palmas de Gran Canaria"
+ },
+ "dominos pizza|gran canaria": null,
+ "cc los alisios|gran canaria": {
+  "lat": 28.0944966,
+  "lng": -15.4780231,
+  "direccion": "Avenida 8 de marzo, Las Palmas de Gran Canaria"
+ },
+ "labarca arinaga|gran canaria": null,
+ "llaollao|gran canaria": {
+  "lat": 28.1280181,
+  "lng": -15.4472717,
+  "direccion": "Calle del Industrial José Sánchez Peñate, Las Palmas de Gran Canaria"
+ },
+ "hygge canarias|gran canaria": {
+  "lat": 28.1388944,
+  "lng": -15.4366211,
+  "direccion": "Paseo Las Canteras 43, Las Palmas de Gran Canaria"
+ },
+ "puerto rico|gran canaria": {
+  "lat": 28.1301988,
+  "lng": -15.4410278,
+  "direccion": "Calle Puerto Rico, Las Palmas de Gran Canaria"
+ },
+ "litibu|gran canaria": null,
+ "manuela jimena bar|gran canaria": null,
+ "bachacopokebowl|gran canaria": null,
+ "masquexurros|gran canaria": null,
+ "yerayreyespasteleria|gran canaria": null,
+ "dunkin es|gran canaria": null,
+ "valsebikecafetasca|gran canaria": null,
+ "guirlachelaspalmas|gran canaria": null,
+ "telde|gran canaria": {
+  "lat": 28.150268,
+  "lng": -15.6346237,
+  "direccion": "Calle de Telde, Santa María de Guía de Gran Canaria"
+ },
+ "ruíz de alda|gran canaria": {
+  "lat": 28.1357327,
+  "lng": -15.432213,
+  "direccion": "Calle Ruiz de Alda, Las Palmas de Gran Canaria"
+ },
+ "goiko|gran canaria": null,
+ "addiomarecarrizal|gran canaria": null,
+ "indiocomido es|gran canaria": null,
+ "gallonegrotriana|gran canaria": null,
+ "mazu|gran canaria": null,
+ "laemperatrizbrunch|gran canaria": null,
+ "tomás morales|gran canaria": {
+  "lat": 28.1150221,
+  "lng": -15.425238,
+  "direccion": "Paseo de Tomás Morales, Las Palmas de Gran Canaria"
+ },
+ "sieterazonescafe|gran canaria": null,
+ "lacantinavalsequillo|gran canaria": null,
+ "cc los alisios, planta baja, pasillo central- cerca de la entrada de abajo de los recreativos ⠀|gran canaria": null,
+ "tartaruga lg|gran canaria": null,
+ "catrina telde|gran canaria": null,
+ "kbn avenue arinaga|gran canaria": null,
+ "labastarderia|gran canaria": null,
+ "pedro barfit|gran canaria": null,
+ "elchiquitojuanangel|gran canaria": null,
+ "vistas|gran canaria": {
+  "lat": 28.0437351,
+  "lng": -15.4202502,
+  "direccion": "Pasaje Las Vistas, Las Palmas de Gran Canaria"
+ },
+ "iguazulounge|gran canaria": null,
+ "geovany almanza|gran canaria": null,
+ "armenia|granada": null,
+ "moba show arq cons|las palmas de gran canaria": null,
+ "tureservaonline es|gran canaria": null,
+ "empanadas|gran canaria": {
+  "lat": 28.1343877,
+  "lng": -15.4336211,
+  "direccion": "Avenida José Mesa y López, Las Palmas de Gran Canaria"
+ },
+ "elhombrepez|madrid": null,
+ "𝕸𝖆𝖉𝖗𝖎𝖉|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "biocreperia riscocaido|gran canaria": null,
+ "justeat es|gran canaria": null,
+ "𝕿𝖊𝖓𝖊𝖗𝖎𝖋𝖊|santa cruz de tenerife": {
+  "lat": 28.467178,
+  "lng": -16.2507843,
+  "direccion": "Santa Cruz de Tenerife"
+ },
+ "vive vegueta|gran canaria": {
+  "lat": 28.0999522,
+  "lng": -15.4129069,
+  "direccion": "Calle San Augustín, Las Palmas de Gran Canaria"
+ },
+ "pollocurry|gran canaria": null,
+ "omoda9|gran canaria": null,
+ "pollo|gran canaria": {
+  "lat": 28.1388528,
+  "lng": -15.6347695,
+  "direccion": "Calle Salvador Díaz Santana \"Pollo De Anzo\", Santa María de Guía de Gran Canaria"
+ },
+ "tartista cakes|gran canaria": null,
+ "bartender canario|gran canaria": null,
+ "pistacholovers|gran canaria": null,
+ "tuktuk canarias|gran canaria": null,
+ "sandwiches|gran canaria": null,
+ "ambrosiastirma|gran canaria": null,
+ "kinder spain|gran canaria": null,
+ "singluten|gran canaria": null,
+ "aromadejazmin gc|gran canaria": null,
+ "nuevaapertura|gran canaria": null,
+ "tastykebab canarias|gran canaria": null,
+ "siete palmas  sietepalmas|gran canaria": null,
+ "imam comunicacion|ibiza": null,
+ "exclusivasmiro|ibiza": null,
+ "fluxa ibiza|ibiza": null,
+ "feria cerveza ibiza|ibiza": null,
+ "ibizkus ctra santa eulalia|ibiza": null,
+ "restaurante almudaina|ibiza": null,
+ "can terra ibiza|ibiza": {
+  "lat": 38.910261,
+  "lng": 1.4317043,
+  "direccion": "Avinguda d'Ignasi Wallis 16, Ibiza"
+ },
+ "ibizagastro|ibiza": null,
+ "parador de ibiza|ibiza": {
+  "lat": 38.906336,
+  "lng": 1.4355772,
+  "direccion": "Tunel es Soto Fosc, Ibiza"
+ },
+ "baloo ibiza|ibiza": null,
+ "slvj ibiza|ibiza": null,
+ "monkey ibiza|ibiza": null,
+ "zumaibiza|ibiza": null,
+ "en el puerto de ibiza|ibiza": null,
+ "tres|ibiza": null,
+ "fresshsushi|ibiza": null,
+ "carrer des riu, 17, santa eulalia del río|ibiza": null,
+ "c/ de miquel caietà soler, 9, ibiza|ibiza": null,
+ "wakame ibiza|ibiza": null,
+ "can secret|ibiza": null,
+ "paseo marítimo de santa eulalia , 2|ibiza": null,
+ "elysium ibiza|ibiza": null
 }
