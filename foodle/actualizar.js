@@ -47,6 +47,7 @@ const F = {
   posts: path.join(DATA, 'posts.json'),
   web: path.join(DATA, 'foodle.json'),
   pendientes: path.join(DATA, 'pendientes.json'),
+  lectura: path.join(DATA, 'lectura.json'), // dónde se paró la última lectura, para seguir desde ahí
 };
 
 const leer = (f, def) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (_) { return def; } };
@@ -119,9 +120,20 @@ function fichaReceta(k, p, r) {
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
     console.log(`\n📸 Leyendo ${foodies.length} foodies y ${cocineros.length} cocineros (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
     let leidos = 0;
-    for (const f of [...foodies, ...cocineros]) {
+    // Orden: primero los cocineros (pocos), luego los foodies empezando donde se paró la última vez,
+    // para que con el límite de tiempo no se queden siempre sin leer los últimos de la lista.
+    const desde = String(leer(F.lectura, {}).siguiente || '').toLowerCase();
+    let i0 = foodies.findIndex((f) => f.usuario.replace(/^@/, '').toLowerCase() === desde);
+    if (i0 < 0) i0 = 0;
+    const orden = [...cocineros, ...foodies.slice(i0), ...foodies.slice(0, i0)];
+    let siguiente = null;
+    for (const f of orden) {
       const u = f.usuario.replace(/^@/, '');
-      if (Date.now() - INICIO > LIMITE_MS) { console.log(`  ⏱️  Límite de tiempo: paro aquí (sigue en la próxima ejecución desde @${u})`); break; }
+      if (Date.now() - INICIO > LIMITE_MS) {
+        siguiente = esCocinero.has(u.toLowerCase()) ? foodies[i0] && foodies[i0].usuario : u;
+        console.log(`  ⏱️  Límite de tiempo: paro aquí (sigue en la próxima ejecución desde @${String(siguiente).replace(/^@/, '')})`);
+        break;
+      }
       if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
       if (SOLO_NUEVOS && conocidos.has(u.toLowerCase())) continue;
       const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
@@ -150,6 +162,7 @@ function fichaReceta(k, p, r) {
         }
       }
     }
+    escribir(F.lectura, { siguiente: siguiente ? String(siguiente).replace(/^@/, '') : null });
   } else {
     console.log('\n(Sin FB_TOKEN: no leo Instagram, solo manual.json y lo ya guardado)');
   }

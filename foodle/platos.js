@@ -256,16 +256,18 @@ function plato(txt, enPie = false) {
   for (const [nombre, cat, base] of BASES) {
     const m = new RegExp(`\\b(?:${base})\\b(?:\\s+\\w+)?\\s+(de|con|del)\\s+([^.!?¿¡\\n]{3,80})`).exec(txt);
     if (!m || (mejor && mejor.i <= m.index)) continue;
-    const ings = [];
+    const ings = [], cats = [];
     for (const trozo of m[2].split(/,|\by\b|\bcon\b|\be\b/).slice(0, 4)) {
       const i = ingDe(trozo);
       if (!i || ings.includes(i.nombre) || i.nombre === norm(nombre)) continue;
       if (i.nombre === 'arroz' && cat === 'Arroces y paellas') continue;
-      ings.push(i.nombre);
+      ings.push(i.nombre); cats.push(i.cat);
     }
     if (ings.length) {
       const lista = ings.length > 1 ? `${ings.slice(0, -1).join(', ')} y ${ings[ings.length - 1]}` : ings[0];
-      mejor = { i: m.index, plato: `${nombre} ${m[1] === 'con' ? 'con' : 'de'} ${lista}`, cat };
+      // «Crema de chocolate» es un postre, no una crema de verduras.
+      const c = cat === 'Sopas y cremas' && cats.every((x) => x === 'Postres') ? 'Postres' : cat;
+      mejor = { i: m.index, plato: `${nombre} ${m[1] === 'con' ? 'con' : 'de'} ${lista}`, cat: c };
     }
   }
   if (mejor) return { plato: mejor.plato, cat: mejor.cat };
