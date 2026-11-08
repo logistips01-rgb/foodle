@@ -13,6 +13,8 @@
  *        data/pies.enc         los textos (pies), cifrados con FB_APP_SECRET (foodle/pies.js)
  *        data/foodle.json      lo que sale en la web (con ciudad y restaurante o cocina)
  *        data/pendientes.json  lo que las reglas no han sabido clasificar, para revisar
+ *      data/recetas.json     las recetas: de los cocineros de foodle/recetas.json y las de los foodies
+ *                            hechas en casa (nombre del plato, categoría, ingredientes; sin el texto)
  *   6. Genera las páginas por ciudad y comida (/madrid/, /madrid/tapas/…) y sitemap.xml (foodle/paginas.js).
  *
  * Uso:
@@ -31,6 +33,7 @@ const { publicacionesDe, estadoToken, shortcode } = require('./instagram');
 const { enriquecer } = require('./osm');
 const { generar } = require('./paginas');
 const pies = require('./pies');
+const { clasificarReceta } = require('./platos');
 
 const RAIZ = path.join(__dirname, '..');
 const DATA = path.join(RAIZ, 'data');
@@ -39,6 +42,8 @@ const F = {
   manual: path.join(__dirname, 'manual.json'),
   correcciones: path.join(__dirname, 'correcciones.json'),
   excluidos: path.join(__dirname, 'excluidos.json'),
+  cocineros: path.join(__dirname, 'recetas.json'),
+  recetas: path.join(DATA, 'recetas.json'),
   posts: path.join(DATA, 'posts.json'),
   web: path.join(DATA, 'foodle.json'),
   pendientes: path.join(DATA, 'pendientes.json'),
@@ -62,9 +67,20 @@ const INICIO = Date.now();
 // --solo-nuevos: solo lee los foodies que aún no tienen nada guardado (para cargas por tandas).
 const SOLO_NUEVOS = args.includes('--solo-nuevos');
 
+// Lo que se publica de una receta: el plato, la categoría y los ingredientes (para buscar), nunca el texto.
+function fichaReceta(k, p, r) {
+  return {
+    id: k, url: p.url, creador: p.creador, fecha: p.fecha || null, likes: p.likes ?? null, tipo: p.tipo || null,
+    plato: r.plato, categoria: r.categoria || null, ingredientes: r.ingredientes || [], etiquetas: r.etiquetas || [],
+  };
+}
+
 (async () => {
   fs.mkdirSync(DATA, { recursive: true });
   const foodies = leer(F.foodies, []);
+  // Cuentas de recetas (sección foodle.es/recetas/): se leen igual que los foodies, pero no salen en "Dónde comer".
+  const cocineros = leer(F.cocineros, []);
+  const esCocinero = new Set(cocineros.map((c) => c.usuario.replace(/^@/, '').toLowerCase()));
   const manual = leer(F.manual, []);
   const correcciones = leer(F.correcciones, {});
   const posts = leer(F.posts, {}); // clave: shortcode. Sin los pies: van cifrados en data/pies.enc
@@ -101,9 +117,9 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
       if (dias != null && dias < 30) aviso(`Quedan ${dias} días para que Meta corte el acceso a los datos (${t.datosHasta}): renueva el token (README → Token sin caducidad).`);
     } catch (_) { /* si falla, ya lo dirá la primera llamada */ }
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
-    console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
+    console.log(`\n📸 Leyendo ${foodies.length} foodies y ${cocineros.length} cocineros (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
     let leidos = 0;
-    for (const f of foodies) {
+    for (const f of [...foodies, ...cocineros]) {
       const u = f.usuario.replace(/^@/, '');
       if (Date.now() - INICIO > LIMITE_MS) { console.log(`  ⏱️  Límite de tiempo: paro aquí (sigue en la próxima ejecución desde @${u})`); break; }
       if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
@@ -146,7 +162,7 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
 
   // Norma de foodies (ver foodle/comprobar.js): avisa de los que llevan más de 90 días sin publicar.
   const { esConstante } = require('./comprobar');
-  for (const f of foodies) {
+  for (const f of [...foodies, ...cocineros]) {
     const u = f.usuario.replace(/^@/, '').toLowerCase();
     const fechas = Object.values(posts).filter((p) => String(p.creador || '').toLowerCase() === u).map((p) => p.fecha).filter(Boolean);
     if (fechas.length && !esConstante(fechas, fechas.length >= 30)) {
@@ -164,11 +180,20 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
     posts[k] = { ...posts[k], id: k, ...sinPie, creador: (m.creador || (posts[k] && posts[k].creador) || '').replace(/^@/, ''), origen: posts[k] && posts[k].origen === 'api' ? 'api' : 'manual' };
   }
   // 3. Clasificar (con el pie si se puede descifrar; si no, la última clasificación guardada en "clasif")
-  const web = [], pendientes = [];
+  const web = [], pendientes = [], recetas = [];
   // Ciudad de cada foodie local (foodies.json → "ciudad"): se usa si el pie no dice ninguna.
   const ciudadDe = Object.fromEntries(foodies.filter((f) => f.ciudad).map((f) => [f.usuario.replace(/^@/, '').toLowerCase(), f.ciudad]));
   for (const [k, p] of Object.entries(posts)) {
     const pie = textos ? textos[k] : undefined;
+    const cocinero = esCocinero.has(String(p.creador || '').toLowerCase());
+    // Receta (nombre del plato, categoría, ingredientes): con el pie si se puede; si no, la última guardada.
+    if (pie != null) p.receta = clasificarReceta(pie, { cocinero }) || undefined;
+    if (cocinero) {
+      // Los cocineros solo salen en recetas.
+      const r = p.receta && { ...p.receta, ...(correcciones[k] || {}) };
+      if (r && !r.oculta) recetas.push(fichaReceta(k, p, r));
+      continue;
+    }
     const auto = pie != null || !p.clasif
       ? clasificar({ ...p, pie: pie || '' }, { ciudadPorDefecto: ciudadDe[String(p.creador || '').toLowerCase()] })
       : p.clasif;
@@ -192,6 +217,8 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
     if (ficha.oculta) continue;
     // Recetas y comida hecha en casa (la de la abuela…) no son un sitio al que ir: no salen en la web.
     const valida = ficha.visible === true || (!ficha.casa && ficha.ciudad && (ficha.nombre || ficha.cocina));
+    // …pero si son recetas, van a la sección de recetas.
+    if (ficha.casa && !valida && p.receta) recetas.push(fichaReceta(k, p, p.receta));
     delete ficha.casa;
     if (valida) web.push(ficha);
     else pendientes.push({ id: k, url: p.url, creador: p.creador, fecha: p.fecha, sugerido: auto });
@@ -209,6 +236,14 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
   web.sort((a, b) => String(b.fecha || '').localeCompare(String(a.fecha || '')));
   escribir(F.web, web.map(({ visible, ...f }) => f));
   escribir(F.pendientes, pendientes);
+  recetas.sort((a, b) => String(b.fecha || '').localeCompare(String(a.fecha || '')));
+  escribir(F.recetas, {
+    cocineros: cocineros.map((c) => {
+      const u = c.usuario.replace(/^@/, '');
+      return { usuario: u, destacada: !!c.destacada, recetas: recetas.filter((r) => r.creador.toLowerCase() === u.toLowerCase()).length };
+    }),
+    recetas,
+  });
 
   // 6. Páginas por ciudad y comida para buscadores (+ sitemap.xml) y lista de ciudades para la portada.
   const pags = generar(web);
@@ -217,7 +252,7 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
 
   const ciudades = {};
   web.forEach((f) => { ciudades[f.ciudad] = (ciudades[f.ciudad] || 0) + 1; });
-  console.log(`\n✅ ${Object.keys(posts).length} publicaciones guardadas · ${web.length} en la web · ${pendientes.length} pendientes de revisar`);
+  console.log(`\n✅ ${Object.keys(posts).length} publicaciones guardadas · ${web.length} en la web · ${pendientes.length} pendientes de revisar · ${recetas.length} recetas`);
   console.log('   Por ciudad:', Object.entries(ciudades).sort((a, b) => b[1] - a[1]).map(([c, n]) => `${c} ${n}`).join(' · ') || '—');
 })().catch((e) => {
   console.error('\n💥 Error:', e.message);
