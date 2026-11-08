@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  issues: write # para avisar a Manuel cuando algo falla
 
 concurrency:
   group: actualizar
@@ -34,6 +35,7 @@ jobs:
         env:
           FB_TOKEN: ${{ secrets.FB_TOKEN }}
           FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          AVISOS_FILE: ${{ runner.temp }}/avisos.md
         # --minutos 100: con muchos foodies nuevos (50 publicaciones cada uno) el límite de Meta obliga a esperar;
         # a los 100 min deja de leer, guarda y publica, y al día siguiente sigue con los que falten.
         run: node foodle/actualizar.js --minutos 100 ${{ inputs.max }}
@@ -47,3 +49,33 @@ jobs:
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "datos: actualización diaria $(date -u +%F)"
           git push
+
+      # Avisos: un issue con la etiqueta "aviso" (GitHub lo manda por correo y a la app). Si ya hay uno abierto
+      # del mismo tipo, se comenta en él en vez de abrir otro cada día. Al arreglarse, se cierra a mano.
+      - name: Avisar si ha fallado
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          titulo="Foodle: la actualización diaria ha fallado"
+          cuerpo="La tarea de hoy ($(date -u +%F)) ha fallado y la web no se ha actualizado.
+
+          Registro: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+          $(cat "${{ runner.temp }}/avisos.md" 2>/dev/null)"
+          gh label create aviso --color d42f34 --description "Avisos automáticos de Foodle" 2>/dev/null || true
+          n=$(gh issue list --label aviso --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$cuerpo"; else gh issue create --title "$titulo" --label aviso --body "$cuerpo"; fi
+
+      - name: Avisos aunque haya ido bien
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f="${{ runner.temp }}/avisos.md"
+          [ -s "$f" ] || { echo "Sin avisos"; exit 0; }
+          titulo="Foodle: hay algo que revisar"
+          gh label create aviso --color d42f34 --description "Avisos automáticos de Foodle" 2>/dev/null || true
+          n=$(gh issue list --label aviso --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          cuerpo="$(cat "$f")"
+          if [ -n "$n" ]; then gh issue comment "$n" --body "$cuerpo"; else gh issue create --title "$titulo" --label aviso --body "$cuerpo"; fi

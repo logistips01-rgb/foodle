@@ -76,6 +76,13 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
     if (p.pie != null) { if (textos && !(k in textos)) textos[k] = p.pie; delete p.pie; }
   }
 
+  // Avisos para Manuel: se muestran en el registro y, en GitHub, el flujo los convierte en un aviso (issue)
+  // que le llega por correo. AVISOS_FILE lo pone el flujo; en local no hace falta.
+  const aviso = (txt) => {
+    console.log(`   ⚠️  ${txt}`);
+    if (process.env.AVISOS_FILE) fs.appendFileSync(process.env.AVISOS_FILE, `- ${txt}\n`);
+  };
+
   // 1. Instagram
   if (process.env.FB_TOKEN) {
     // Aviso temprano: el token debe ser el de Página (no caduca) y hay que renovarlo antes de "datos hasta".
@@ -83,8 +90,8 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
       const t = await estadoToken();
       const dias = t.datosHasta ? Math.round((new Date(t.datosHasta) - Date.now()) / 864e5) : null;
       console.log(`\n🔑 Token ${t.tipo || '?'} · ${t.valido ? 'válido' : 'NO válido'} · caduca: ${t.caduca || '?'} · acceso a datos hasta ${t.datosHasta || '?'}${dias != null ? ` (${dias} días)` : ''}`);
-      if (t.tipo && t.tipo !== 'PAGE') console.log('   ⚠️  No es el token de Página: caducará pronto. Ver README → Token sin caducidad.');
-      if (dias != null && dias < 15) console.log('   ⚠️  Queda poco para que Meta corte el acceso: renueva el token (README → Token sin caducidad).');
+      if (t.tipo && t.tipo !== 'PAGE') aviso('El FB_TOKEN no es el token de Página: caducará pronto. Renuévalo (README → Token sin caducidad).');
+      if (dias != null && dias < 30) aviso(`Quedan ${dias} días para que Meta corte el acceso a los datos (${t.datosHasta}): renueva el token (README → Token sin caducidad).`);
     } catch (_) { /* si falla, ya lo dirá la primera llamada */ }
     const conocidos = new Set(Object.values(posts).map((p) => String(p.creador || '').toLowerCase()));
     console.log(`\n📸 Leyendo ${foodies.length} foodies (${MAX_FIJO ? `${MAX_FIJO} publicaciones c/u` : `${MAX_DIARIO} publicaciones c/u, ${MAX_NUEVO} si es nuevo`})…`);
