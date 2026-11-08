@@ -23,7 +23,12 @@ function clave() {
   return secreto ? crypto.createHash('sha256').update(`foodle-pies:${secreto}`).digest() : null;
 }
 
-/** Devuelve { id: pie } o null si no hay clave (o el archivo es de otra clave). */
+let ilegible = false;
+
+/**
+ * Devuelve { id: pie }, o null si no hay clave. Si el archivo existe pero no se descifra (FB_APP_SECRET
+ * equivocada), también null y ilegible() = true: así no se sobrescribe ni se reclasifica sin textos.
+ */
 function cargar() {
   const k = clave();
   if (!k) return null;
@@ -35,8 +40,9 @@ function cargar() {
     const plano = Buffer.concat([d.update(Buffer.from(sobre.datos, 'base64')), d.final()]);
     return JSON.parse(zlib.gunzipSync(plano).toString('utf8'));
   } catch (_) {
-    console.log('  ⚠️  data/pies.enc no se puede descifrar con esta FB_APP_SECRET: se empieza de cero.');
-    return {};
+    console.log('  💥 data/pies.enc no se puede descifrar con esta FB_APP_SECRET (¿clave equivocada?).');
+    ilegible = true;
+    return null;
   }
 }
 
@@ -54,4 +60,4 @@ function guardar(pies) {
   return true;
 }
 
-module.exports = { cargar, guardar };
+module.exports = { cargar, guardar, ilegible: () => ilegible };

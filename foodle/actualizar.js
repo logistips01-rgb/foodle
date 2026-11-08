@@ -71,6 +71,13 @@ const SOLO_NUEVOS = args.includes('--solo-nuevos');
   // Los textos de las publicaciones no se publican (ver foodle/pies.js). Si quedan pies antiguos en
   // posts.json, se pasan al archivo cifrado.
   const textos = pies.cargar();
+  if (pies.ilegible()) {
+    // Con una clave equivocada se perderían los textos y se reclasificaría todo sin ellos: mejor parar.
+    const txt = 'FB_APP_SECRET no descifra data/pies.enc: no es la clave de la app. Revisa el secreto en GitHub (Meta → Configuración → Básica).';
+    console.log(`   ⚠️  ${txt}`);
+    if (process.env.AVISOS_FILE) fs.appendFileSync(process.env.AVISOS_FILE, `- ${txt}\n`);
+    process.exit(1);
+  }
   if (!textos) console.log('\n(Sin FB_APP_SECRET: no puedo leer los pies cifrados; uso la última clasificación guardada)');
   for (const [k, p] of Object.entries(posts)) {
     if (p.pie != null) { if (textos && !(k in textos)) textos[k] = p.pie; delete p.pie; }

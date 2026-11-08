@@ -48,7 +48,12 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
           git commit -m "datos: actualización diaria $(date -u +%F)"
-          git push
+          # Mientras corre la tarea pueden haberse subido otros cambios a la rama: se juntan antes de subir.
+          for i in 1 2 3 4; do
+            git pull --no-rebase --no-edit origin "${{ github.ref_name }}" && git push && exit 0
+            sleep $((i * 10))
+          done
+          exit 1
 
       # Avisos: un issue con la etiqueta "aviso" (GitHub lo manda por correo y a la app). Si ya hay uno abierto
       # del mismo tipo, se comenta en él en vez de abrir otro cada día. Al arreglarse, se cierra a mano.
@@ -62,7 +67,7 @@ jobs:
 
           Registro: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
-          $(cat "${{ runner.temp }}/avisos.md" 2>/dev/null)"
+          $(cat "${{ runner.temp }}/avisos.md" 2>/dev/null || true)"
           gh label create aviso --color d42f34 --description "Avisos automáticos de Foodle" 2>/dev/null || true
           n=$(gh issue list --label aviso --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
           if [ -n "$n" ]; then gh issue comment "$n" --body "$cuerpo"; else gh issue create --title "$titulo" --label aviso --body "$cuerpo"; fi
