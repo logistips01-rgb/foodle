@@ -27,8 +27,13 @@ Actualizado: 30/10/2026.
       `foodle/correcciones.json`.
 - [ ] **Más foodies de Alcobendas / zona norte** (pedir nombres a la familia).
 - [x] Barcelona, Valencia, Bilbao y Sevilla cargadas (30/10).
-- [ ] **Estado al parar (01/11):** fases 1-3 cargadas; fase 4 (Andalucía y Murcia) con 24 foodies añadidos y su
-      carga lanzada (si no terminó, la sigue la tarea diaria). Siguiente: fase 5, las Castillas.
+- [ ] **Estado (08/11):** las 6 fases de ciudades hechas (258 foodles, ~7.400 publicaciones en la web) y primera
+      pasada de completar. Sin foodies propios aún: Lugo, Lleida, Reus, Mérida, Badajoz, Jaén, Ceuta, Melilla, Menorca
+      (@tapeandojaen y @menusofmenorca cumplen si vuelven a publicar). Siguiente: sección de recetas (maqueta aprobada).
+      El 08/11 se renovó el token (Facebook invalidó la sesión); la tarea diaria abre un issue "aviso" si falla.
+      Cómo se trabaja: cambios en las ramas claude/blissful-hawking-y438ko (Pages) y claude/lucid-volta-nd6yvj;
+      `git pull --no-rebase` antes de subir (el bot sube datos cada día). Candidatos: `node foodle/comprobar.js`;
+      cargar nuevos: `node foodle/actualizar.js --solo-nuevos --minutos 100`. Sin emojis salvo 📍; rojo #d42f34.
 - [x] **Norma cambiada (05/11):** basta con haber publicado en los últimos 90 días (antes, cada mes de los últimos 3).
 - [ ] **Criterio (31/10):** primero que haya representación en todas las ciudades, fase a fase; después una pasada
       buscando foodies nuevos para completar las flojas (Sabadell, Terrassa, Lleida, Reus, Pamplona, Logroño…).
