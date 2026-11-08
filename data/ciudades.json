@@ -2,37 +2,37 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1492
+  "n": 1514
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 701
+  "n": 719
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 670
+  "n": 678
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 551
+  "n": 554
  },
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 381
- },
- {
-  "nombre": "Alicante",
-  "slug": "alicante",
-  "n": 248
+  "n": 382
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 246
+  "n": 251
+ },
+ {
+  "nombre": "Alicante",
+  "slug": "alicante",
+  "n": 247
  },
  {
   "nombre": "Bilbao",
@@ -42,7 +42,7 @@
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 166
+  "n": 168
  },
  {
   "nombre": "Benidorm",
@@ -62,7 +62,7 @@
  {
   "nombre": "Cádiz",
   "slug": "cadiz",
-  "n": 84
+  "n": 85
  },
  {
   "nombre": "Castellón",
@@ -75,14 +75,14 @@
   "n": 76
  },
  {
-  "nombre": "San Sebastián",
-  "slug": "san-sebastian",
+  "nombre": "Córdoba",
+  "slug": "cordoba",
   "n": 75
  },
  {
-  "nombre": "Córdoba",
-  "slug": "cordoba",
-  "n": 73
+  "nombre": "San Sebastián",
+  "slug": "san-sebastian",
+  "n": 75
  },
  {
   "nombre": "Santiago de Compostela",
@@ -155,14 +155,14 @@
   "n": 39
  },
  {
-  "nombre": "Valladolid",
-  "slug": "valladolid",
+  "nombre": "Elche",
+  "slug": "elche",
   "n": 36
  },
  {
-  "nombre": "Elche",
-  "slug": "elche",
-  "n": 35
+  "nombre": "Valladolid",
+  "slug": "valladolid",
+  "n": 36
  },
  {
   "nombre": "Mallorca",
@@ -205,6 +205,11 @@
   "n": 28
  },
  {
+  "nombre": "Jerez",
+  "slug": "jerez",
+  "n": 26
+ },
+ {
   "nombre": "Dos Hermanas",
   "slug": "dos-hermanas",
   "n": 26
@@ -217,11 +222,6 @@
  {
   "nombre": "Tenerife",
   "slug": "tenerife",
-  "n": 25
- },
- {
-  "nombre": "Jerez",
-  "slug": "jerez",
   "n": 25
  },
  {
@@ -295,6 +295,11 @@
   "n": 16
  },
  {
+  "nombre": "Palma",
+  "slug": "palma",
+  "n": 15
+ },
+ {
   "nombre": "Ávila",
   "slug": "avila",
   "n": 15
@@ -307,11 +312,6 @@
  {
   "nombre": "Getafe",
   "slug": "getafe",
-  "n": 14
- },
- {
-  "nombre": "Palma",
-  "slug": "palma",
   "n": 14
  },
  {
@@ -420,6 +420,11 @@
   "n": 10
  },
  {
+  "nombre": "Sanlúcar de Barrameda",
+  "slug": "sanlucar-de-barrameda",
+  "n": 9
+ },
+ {
   "nombre": "Torremolinos",
   "slug": "torremolinos",
   "n": 9
@@ -437,11 +442,6 @@
  {
   "nombre": "Conil",
   "slug": "conil",
-  "n": 8
- },
- {
-  "nombre": "Sanlúcar de Barrameda",
-  "slug": "sanlucar-de-barrameda",
   "n": 8
  },
  {
@@ -468,6 +468,11 @@
   "nombre": "Soria",
   "slug": "soria",
   "n": 7
+ },
+ {
+  "nombre": "Tomares",
+  "slug": "tomares",
+  "n": 5
  },
  {
   "nombre": "Cambrils",

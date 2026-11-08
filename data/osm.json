@@ -9005,5 +9005,267 @@
  "palodu|málaga": null,
  "labernarda|málaga": null,
  "tepito malaga|málaga": null,
- "escuela henchidero antequera|antequera": null
+ "escuela henchidero antequera|antequera": null,
+ "canitas malaga|málaga": {
+  "lat": 36.7260971,
+  "lng": -4.4254407,
+  "direccion": "Avenida de la Rosaleda 26, Málaga"
+ },
+ "casa festin|málaga": {
+  "lat": 36.7274762,
+  "lng": -4.4137436,
+  "direccion": "Calle Compás de la Victoria 3, Málaga"
+ },
+ "producto local|málaga": null,
+ "labohemia chilches|málaga": null,
+ "calle gerona, cerca del edificio negro/blanco|málaga": null,
+ "arkynicecream|málaga": null,
+ "restaurante la parada|málaga": {
+  "lat": 36.7124556,
+  "lng": -4.4306483,
+  "direccion": "Calle Explanada de la Estación 4, Málaga"
+ },
+ "mimo vegan|málaga": null,
+ "civitatis|málaga": null,
+ "regalo|málaga": null,
+ "frigiliana|málaga": null,
+ "estadio santiago bernabeu|madrid": {
+  "lat": 40.4530437,
+  "lng": -3.688197,
+  "direccion": "Calle del Padre Damián, Madrid"
+ },
+ "calle de la victoria, 14, madrid|madrid": {
+  "lat": 40.4161684,
+  "lng": -3.701675,
+  "direccion": "Calle de la Victoria, Madrid"
+ },
+ "elateneo|málaga": null,
+ "riverplate|málaga": null,
+ "comerviajarymas|málaga": null,
+ "j chicken|málaga": null,
+ "peluqueriaenmalaga|málaga": null,
+ "alhambra|granada": null,
+ "gustoargentino|málaga": null,
+ "avenida camarón de la isla 2, málaga este|málaga": {
+  "lat": 36.7359563,
+  "lng": -4.404707,
+  "direccion": "Avenida Camarón de la Isla 2, Málaga"
+ },
+ "lamafiarestaurantes|córdoba": null,
+ "córdoba españa|córdoba": {
+  "lat": 38.3228339,
+  "lng": -4.6284811,
+  "direccion": "Villanueva de Córdoba"
+ },
+ "emprendimientosargentinos|málaga": null,
+ "gourmetdelights|málaga": null,
+ "calle caldería, distrito centro, málaga|málaga": null,
+ "calle compañía 10, málaga|málaga": {
+  "lat": 36.7215964,
+  "lng": -4.4228895,
+  "direccion": "Calle Compañía 10, Málaga"
+ },
+ "alcazaba de málaga|málaga": {
+  "lat": 36.721008,
+  "lng": -4.415918,
+  "direccion": "Calle Alcalde Pedro Luis Alonso, Málaga"
+ },
+ "calle martinez campos, 13|málaga": {
+  "lat": 36.7153205,
+  "lng": -4.4236088,
+  "direccion": "Calle Martínez Campos 13, Málaga"
+ },
+ "esim|málaga": null,
+ "días bonitos|málaga": null,
+ "recap2025|málaga": null,
+ "navidadenmalaga|málaga": null,
+ "celona|barcelona": {
+  "lat": 41.4199095,
+  "lng": 2.173087,
+  "direccion": "Avinguda de la Mare de Déu de Montserrat 186, Barcelona"
+ },
+ "el ganador|málaga": null,
+ "palermobuenosaires|málaga": null,
+ "asistenciadeviaje|málaga": null,
+ "miami|málaga": null,
+ "mrsplendinishow|málaga": null,
+ "americo ricaldoni 11600, montevideo uruguay|málaga": null,
+ "donbigote|málaga": null,
+ "dutyfree|málaga": null,
+ "av. de luis aragonés, 4, san blas-canillejas, madrid, españa|madrid": {
+  "lat": 40.4483577,
+  "lng": -3.7127513,
+  "direccion": "Calle Aravaca, Madrid"
+ },
+ "relleno eu|valencia": null,
+ "el panquemao|valencia": null,
+ "delirium smokegrill|valencia": null,
+ "bodegas campanar|valencia": {
+  "lat": 39.4807129,
+  "lng": -0.4021991,
+  "direccion": "Calle de Jorge Comín, Valencia"
+ },
+ "dcow|valencia": null,
+ "la gallega|valencia": null,
+ "pablopla14|valencia": null,
+ "bunsik uk|valencia": null,
+ "brutal soul|valencia": null,
+ "labellasushi gandia|gandía": null,
+ "comemosen|valencia": null,
+ "medusa festival|valencia": null,
+ "albaida|valencia": null,
+ "doritos es|valencia": null,
+ "kamado|valencia": {
+  "lat": 39.4533855,
+  "lng": -0.3536516,
+  "direccion": "Avenida de Antonio Ferrandis (Actor), Valencia"
+ },
+ "canibal burguer|valencia": null,
+ "panmartins spain|valencia": null,
+ "especiada|valencia": null,
+ "loves united parma|valencia": null,
+ "laoficinabrasas|valencia": null,
+ "aticvalencia|valencia": null,
+ "smashyclub|valencia": null,
+ "restaurante karak|valencia": {
+  "lat": 39.4721245,
+  "lng": -0.3780846,
+  "direccion": "Calle del Músico Peydró, Valencia"
+ },
+ "barbaric ptx|valencia": null,
+ "quesartebynestor|valencia": null,
+ "chezfilete|valencia": null,
+ "pizcueta14|valencia": null,
+ "saladedespiece|madrid": null,
+ "caseificio sociale coduro|valencia": null,
+ "adictoyadicta|valencia": null,
+ "ilmercatodellapasta|valencia": null,
+ "feria gastronoma|valencia": null,
+ "bodegaselpoblet|valencia": null,
+ "mastika lhorta|valencia": null,
+ "venenoconcept|valencia": null,
+ "mcdonalds es|valencia": null,
+ "plaza de cánovas del castillo, 12|valencia": {
+  "lat": 39.4688688,
+  "lng": -0.3659058,
+  "direccion": "Plaza de Cánovas del Castillo 12, Valencia"
+ },
+ "tiu aperitiu|valencia": null,
+ "casero h|madrid": {
+  "lat": 40.4193352,
+  "lng": -3.6654843,
+  "direccion": "Calle de Antonio Casero, Madrid"
+ },
+ "salpicabarra|a coruña": null,
+ "nozomisushibar|bilbao": null,
+ "larubia posada|pamplona": null,
+ "eternomurcia|murcia": null,
+ "kamon valencia|valencia": {
+  "lat": 39.4669211,
+  "lng": -0.3656221,
+  "direccion": "Calle del Conde de Altea 42, Valencia"
+ },
+ "tastysouls vlc|valencia": null,
+ "kaidosushi valencia|valencia": null,
+ "denise coppola bar|valencia": null,
+ "somos echaurren|valencia": null,
+ "peztortilla valencia|valencia": null,
+ "favcoffee vlc|valencia": null,
+ "sato kaeru valencia|barcelona": null,
+ "cuki sg|valencia": null,
+ "arrels|valencia": null,
+ "sato kaeru valencia|valencia": null,
+ "valenciapremium|valencia": null,
+ "asgarzas|valencia": null,
+ "si eres amante del sushi|cádiz": null,
+ "chiclana de la frontera|chiclana": {
+  "lat": 36.4423447,
+  "lng": -6.0814863,
+  "direccion": "Chiclana de la Frontera"
+ },
+ "beatriz prozis|cádiz": null,
+ "gn nutrition es|cádiz": null,
+ "sushipanda es|cádiz": null,
+ "lacookiteria sfdo|cádiz": null,
+ "abaceria ohana|cádiz": null,
+ "venta rodeo|cádiz": null,
+ "plaza helios, cádiz|cádiz": null,
+ "la komuna|chiclana": {
+  "lat": 36.4184402,
+  "lng": -6.1553052,
+  "direccion": "Calle Doctor Pedro Vélez, Chiclana de la Frontera"
+ },
+ "elrincon dehelen|chiclana": null,
+ "vicenzo cucina|santiago de compostela": null,
+ "lachocolatine cl|santiago de compostela": null,
+ "elrey cl|santiago de compostela": null,
+ "melimelo|santiago de compostela": null,
+ "poutineburger cl|santiago de compostela": null,
+ "dejamos|santiago de compostela": null,
+ "nacional|santiago de compostela": {
+  "lat": 42.8864622,
+  "lng": -8.5111029,
+  "direccion": "Carretera Nacional San Sebastián a Santiago de Compostela, Santiago de Compostela"
+ },
+ "zanzibar cl|santiago de compostela": null,
+ "shinsei cl|santiago de compostela": null,
+ "tinytastingscl|santiago de compostela": null,
+ "labottega gandolini|santiago de compostela": null,
+ "casaregina tacosycomedor|santiago de compostela": null,
+ "mercadocoloresdeyungay|santiago de compostela": null,
+ "lola bar cl|santiago de compostela": null,
+ "aligot cl|santiago de compostela": null,
+ "peglicl|santiago de compostela": null,
+ "berenjena|santiago de compostela": null,
+ "pizzeria tiramisu|santiago de compostela": null,
+ "lachupilca cl|santiago de compostela": null,
+ "chang cheng restaurant|santiago de compostela": null,
+ "semsem restaurant|santiago de compostela": null,
+ "laalacenatrattoria|santiago de compostela": null,
+ "albba trattoria|santiago de compostela": null,
+ "doblezeta cafeteria|santiago de compostela": null,
+ "kobo cl|santiago de compostela": null,
+ "heliodoro de la torre|bilbao": {
+  "lat": 43.2706534,
+  "lng": -2.9441308,
+  "direccion": "Calle Heliodoro de la Torre, Bilbao"
+ },
+ "colón de larreátegui|bilbao": {
+  "lat": 43.2630569,
+  "lng": -2.9302262,
+  "direccion": "Calle Colón de Larreátegui, Bilbao"
+ },
+ "licenciado poza|bilbao": {
+  "lat": 43.261801,
+  "lng": -2.9396203,
+  "direccion": "Calle Licenciado Poza, Bilbao"
+ },
+ "urkixo zumarkalea|bilbao": {
+  "lat": 43.2616091,
+  "lng": -2.9432753,
+  "direccion": "Alameda Urquijo, Bilbao"
+ },
+ "alameda san mamés|bilbao": {
+  "lat": 43.2592017,
+  "lng": -2.9377117,
+  "direccion": "Alameda San Mamés, Bilbao"
+ },
+ "solo take away & delivery|bilbao": null,
+ "calle juan de ajuriaguerra, 16 — bilbao|bilbao": {
+  "lat": 43.2657561,
+  "lng": -2.9328658,
+  "direccion": "Calle Juan Ajuriaguerra 16, Bilbao"
+ },
+ "ibáñez de bilbao kalea|bilbao": {
+  "lat": 43.2628827,
+  "lng": -2.92673,
+  "direccion": "Calle Ibáñez de Bilbao, Bilbao"
+ },
+ "principales|león": null,
+ "delivery|bilbao": null,
+ "varias localizaciones|madrid": null,
+ "delivery|madrid": null,
+ "sólo delivery|madrid": null,
+ "caminho da esperança|bilbao": null,
+ "sete cidades|bilbao": null
 }
