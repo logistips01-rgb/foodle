@@ -23,7 +23,7 @@ const MIN_CIUDAD = 5;   // recomendaciones mínimas para tener página de ciudad
 const MIN_COCINA = 4;   // … y de ciudad × comida
 const MAX_FICHAS = 80;  // fichas por página (las mejor valoradas)
 // Carpetas del repo que nunca se pueden pisar.
-const RESERVADAS = new Set(['data', 'foodle', 'img', '.github', 'node_modules']);
+const RESERVADAS = new Set(['data', 'foodle', 'img', '.github', 'node_modules', 'recetas', 'fuentes']);
 
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -186,6 +186,7 @@ function generar(web) {
       urls.push({ loc: `${DOMINIO}/${sc}/${slug(k)}/`, freq: 'daily', prio: '0.6' });
     }
   }
+  urls.push({ loc: `${DOMINIO}/recetas/`, freq: 'daily', prio: '0.9' });
   urls.push({ loc: `${DOMINIO}/privacidad.html`, freq: 'yearly', prio: '0.2' });
   urls.push({ loc: `${DOMINIO}/aviso-legal.html`, freq: 'yearly', prio: '0.1' });
 

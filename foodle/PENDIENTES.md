@@ -1,6 +1,6 @@
 # Foodle · pendientes
 
-Actualizado: 30/10/2026.
+Actualizado: 08/11/2026.
 
 ## Tuyo (antes de pedir la aprobación de Meta y de mover la web)
 
@@ -50,6 +50,15 @@ Actualizado: 30/10/2026.
 - [ ] **Luego:** Extremadura (Badajoz, Cáceres, Mérida, Plasencia…), las islas (Baleares: Palma, Ibiza, Menorca;
       Canarias: Las Palmas, Santa Cruz de Tenerife, Lanzarote, Fuerteventura…) y Ceuta y Melilla.
 - [ ] **Famosos y recomendaciones** (más adelante).
+- [x] **Recetas, primera versión (08/11):** pestaña «Dónde comer | Recetas» en la portada y foodle.es/recetas/ con
+      buscador propio, las 9 categorías, etiquetas y @arrocesdebandera destacada como cuenta del creador.
+      Cuentas en `foodle/recetas.json` (las 18 que estaban en `excluidos.json` + @arrocesdebandera); `excluidos.json`
+      vuelve a ser solo para quien pide salir. `foodle/platos.js` saca plato, categoría e ingredientes con su
+      vocabulario (no copia el pie). Pendiente: ampliar el vocabulario de platos según lo que salga, buscar más
+      cocineros constantes y revisar a mano las recetas «Receta con…» (sin plato reconocido).
+- [x] **Token (08/11):** la FB_APP_SECRET de GitHub y del entorno no era la de la app; puesta la buena y el token de
+      Página nuevo (caduca: nunca; acceso a datos hasta 06/02/2027: **renovar antes**, README → Token sin caducidad).
+      La tarea diaria ahora para si la clave no descifra `pies.enc`, junta los cambios antes de subir y abre el aviso.
 - [ ] **Sección de recetas** (decidido el 30/10). Separada de los sitios, con su propio buscador:
       «merluza a la vasca» → las publicaciones de los foodies que la han cocinado (vídeo con la inserción oficial).
       - Categorías: Postres, Arroces y paellas, Asados y carnes, Pescados y mariscos, Guisos y legumbres, Pasta,

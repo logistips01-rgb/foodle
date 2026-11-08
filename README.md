@@ -72,6 +72,7 @@ pista para los pies que no dicen ninguna. Se comprueba con `node foodle/comproba
 |---|---|
 | `foodle/foodies.json` | Lista de foodies: `[{ "usuario": "comerenzgz", "ciudad": "Zaragoza", "nota": "…" }]`. `ciudad` solo para los locales: se usa cuando el pie no dice ninguna (y no parece un viaje) |
 | `foodle/manual.json` | Publicaciones sueltas: `[{ "url": "https://www.instagram.com/p/…/", "creador": "…", "nombre": "…", "ciudad": "Zaragoza" }]` (los campos que pongas mandan sobre las reglas) |
+| `foodle/recetas.json` | Cuentas de recetas (sección foodle.es/recetas/): `[{ "usuario": "arrocesdebandera", "destacada": true }]`. Se leen como los foodies, pero solo salen en recetas. `destacada` = la cuenta del creador. Las recetas sueltas de los foodies (comida hecha en casa) también van a recetas. Plato, categoría e ingredientes los saca `foodle/platos.js`; se corrigen en `correcciones.json` (`{ "ABC": { "plato": "Merluza a la vasca", "categoria": "Pescados y mariscos" } }`) |
 | `foodle/excluidos.json` | Creadores que han pedido salir: `["usuario"]`. Se borra todo lo suyo de `data/` en la siguiente actualización y no se vuelve a leer |
 | `foodle/correcciones.json` | Arreglos por publicación (clave = código del enlace): `{ "ABC123": { "nombre": "Casa Pedro", "ciudad": "Zaragoza" }, "XYZ": { "oculta": true }, "QWE": { "visible": true } }` |
 

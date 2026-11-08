@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recetas de los foodies | Foodle</title>
+    <meta name="description" content="Recetas de los foodies de Instagram en un buscador: busca un plato, como merluza a la vasca o arroz al horno, y mira quién lo ha cocinado. Postres, arroces, guisos, pasta y más." />
+    <link rel="canonical" href="https://foodle.es/recetas/" />
+    <link rel="icon" href="/img/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/img/icono-180.png" />
+    <meta name="theme-color" content="#d42f34" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Foodle" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:url" content="https://foodle.es/recetas/" />
+    <meta property="og:title" content="Recetas de los foodies | Foodle" />
+    <meta property="og:description" content="Busca un plato y mira qué foodies de Instagram lo han cocinado." />
+    <meta property="og:image" content="https://foodle.es/img/compartir.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link href="/fuentes/inter.css" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #f4f3f1; --bg-soft: #ffffff; --bg-card: #ffffff; --bg-elev: #faf9f8;
+        --border: #e2dfdb; --border-soft: #ebe8e4;
+        --text: #141414; --text-dim: #5f5b57; --text-faint: #8d8883;
+        --accent: #d42f34; --accent-hover: #b8242a; --accent-soft: rgba(212,47,52,0.10);
+        --gold: #f2b705; --radius: 16px; --radius-sm: 10px;
+        --shadow: 0 6px 22px rgba(20,20,20,0.08); --maxw: 1200px;
+        --body: "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--body); font-size: 15px; line-height: 1.5; -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
+      a { color: inherit; text-decoration: none; }
+      button { font-family: inherit; cursor: pointer; }
+      [hidden] { display: none !important; }
+      :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+      .brand { display: inline-flex; align-items: center; gap: .32em; line-height: 1; user-select: none; }
+      .brand .ico { width: 1.08em; height: 1.08em; border-radius: 22%; flex-shrink: 0; }
+      .brand .word { position: relative; font-weight: 900; letter-spacing: -0.055em; color: var(--text); }
+      .brand .word .l { position: relative; display: inline-block; }
+      .brand .word .l::before { content: ""; position: absolute; left: 50%; top: -.40em; width: .30em; height: .40em; transform: translateX(-50%) rotate(-12deg); background: url(/img/pin.svg) center/contain no-repeat; }
+
+      .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 22px clamp(16px,3vw,42px); flex-wrap: wrap; }
+      .stats { display: flex; gap: 8px; flex-wrap: wrap; }
+      .stat { padding: 8px 14px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; color: var(--text-dim); font-size: 15px; white-space: nowrap; }
+      .stat b { color: var(--text); font-weight: 800; }
+      .hero { display: flex; flex-direction: column; align-items: center; text-align: center; padding: clamp(18px,4vh,40px) 16px 26px; }
+      .hero .brand { font-size: clamp(54px,11vw,96px); margin-bottom: 16px; }
+      .hero h1 { margin: 0; font-size: clamp(26px,4.4vw,36px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; }
+      .hero h1 em { font-style: normal; color: var(--accent); }
+      .hero .sub { margin: 10px 0 24px; color: var(--text-dim); font-size: clamp(15px,2vw,18px); }
+
+      /* Pestañas «Dónde comer | Recetas» (también en la portada). */
+      .tabs { display: inline-flex; gap: 4px; padding: 4px; margin-top: 18px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; }
+      .tabs a { padding: 8px 20px; border-radius: 999px; font-size: 15px; font-weight: 600; color: var(--text-dim); }
+      .tabs a:hover { color: var(--text); }
+      .tabs a.on { background: var(--accent); color: #fff; }
+
+      .search { display: flex; align-items: center; width: 100%; max-width: 800px; background: var(--bg-elev); border: 1px solid var(--border); border-radius: 999px; padding: 6px 6px 6px 26px; transition: border-color .15s, box-shadow .15s; }
+      .search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+      .search input { flex: 1; min-width: 0; border: none; background: transparent; outline: none; font: inherit; font-size: clamp(16px,2vw,20px); color: var(--text); padding: 12px 0; }
+      .search input::placeholder { color: var(--text-faint); }
+      .btn { flex-shrink: 0; padding: 15px 26px; border: none; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; font-size: 17px; }
+      .btn:hover { background: var(--accent-hover); }
+      .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 18px; max-width: 860px; }
+      .chip { padding: 7px 15px; font-size: 14px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); font-weight: 600; transition: all .14s; }
+      .chip:hover { color: var(--accent); border-color: var(--accent); }
+      .chip.on { color: #fff; background: var(--accent); border-color: var(--accent); }
+      .chips.tags .chip { font-weight: 500; color: var(--text-dim); font-size: 13px; padding: 5px 12px; }
+      .chips.tags .chip.on { color: #fff; }
+
+      .section { width: 100%; max-width: calc(var(--maxw) + 84px); margin: 0 auto; padding: 10px clamp(16px,3vw,42px) 34px; }
+      .section .head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+      .section h2 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.02em; }
+      .section .more { white-space: nowrap; color: var(--accent); font-size: 16px; background: none; border: none; padding: 0; }
+      .section .more:hover { text-decoration: underline; }
+
+      /* Cuenta del creador, destacada. */
+      .creador { display: flex; align-items: center; gap: 14px; padding: 16px 18px; margin-bottom: 14px; border: 1px solid #f1d9b0; border-radius: var(--radius); background: linear-gradient(180deg, #fff8ec, #ffffff 70%); flex-wrap: wrap; }
+      .creador .av { width: 46px; height: 46px; border-radius: 50%; background: linear-gradient(135deg,var(--accent),var(--gold)); flex-shrink: 0; }
+      .creador .txt { flex: 1; min-width: 200px; }
+      .creador .txt b { font-size: 17px; }
+      .creador .txt .desc { display: block; color: var(--text-dim); font-size: 14px; }
+      .marca { display: inline-block; margin-left: 6px; padding: 2px 9px; border-radius: 999px; background: var(--accent); color: #fff; font-size: 11.5px; font-weight: 700; vertical-align: 2px; }
+      .creador a.ver { color: var(--accent); font-weight: 600; font-size: 14px; }
+
+      .count { font-size: 14px; color: var(--text-dim); }
+      .count strong { color: var(--text); }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px,100%),1fr)); gap: 16px; align-items: start; }
+      .card { min-width: 0; background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: border-color .12s, box-shadow .12s; }
+      .card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+      .card.dest { border-color: #f1d9b0; }
+      .card .body { padding: 15px 16px 14px; display: flex; flex-direction: column; gap: 8px; }
+      .card .cat { font-size: 12.5px; color: var(--text-faint); display: flex; justify-content: space-between; gap: 8px; }
+      .card .name { font-size: 17px; font-weight: 700; line-height: 1.25; }
+      .card .name a:hover { color: var(--accent); }
+      .card .ing { font-size: 13px; color: var(--text-dim); }
+      .card .row { display: flex; flex-wrap: wrap; gap: 6px; }
+      .tag { font-size: 11px; padding: 3px 8px; border-radius: 999px; background: var(--bg-elev); border: 1px solid var(--border); color: var(--text-dim); }
+      .tag.good { color: #2b7a2e; border-color: rgba(76,175,80,.35); }
+      .card .foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12.5px; color: var(--text-faint); }
+      .card .foot .by { color: var(--accent); font-weight: 600; }
+      .card .embed { padding: 0 10px 12px; overflow: hidden; }
+      .card .embed .instagram-media, .card .embed iframe { margin: 0 auto !important; min-width: 0 !important; max-width: 100% !important; width: 100% !important; }
+      .ig-permiso { text-align: center; padding: 12px; border: 1px dashed var(--border); border-radius: var(--radius-sm); background: var(--bg-elev); }
+      .ig-permiso p { margin: 8px 0 0; font-size: 12px; color: var(--text-faint); }
+      .ig-permiso a { color: var(--accent); }
+      .ig-cargar { padding: 9px 18px; border: none; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 700; font-size: 14px; }
+      .ig-cargar:hover { background: var(--accent-hover); }
+      .card .embed .ig-link { display: block; text-align: center; padding: 12px; border: 1px dashed var(--border); border-radius: var(--radius-sm); color: var(--accent); font-size: 13px; font-weight: 600; }
+      .parecidas { margin: 26px 0 12px; font-size: 15px; color: var(--text-dim); }
+      .state { text-align: center; padding: 50px 20px; color: var(--text-dim); }
+      .state h3 { color: var(--text); font-size: 19px; margin: 0 0 8px; }
+      .state p { margin: 0 auto; max-width: 460px; font-size: 14px; color: var(--text-faint); }
+      .more-wrap { display: flex; justify-content: center; margin-top: 26px; }
+
+      footer { margin-top: auto; text-align: center; padding: 26px 20px; color: var(--text-faint); font-size: 12.5px; border-top: 1px solid var(--border-soft); }
+      footer p { margin: 4px auto; max-width: 640px; }
+      footer a { color: var(--accent); }
+
+      @media (max-width: 560px) {
+        .top { justify-content: center; padding-top: 14px; padding-bottom: 6px; }
+        .stats { width: 100%; justify-content: center; gap: 0; }
+        .stat { font-size: 12.5px; padding: 0; border: none; background: none; color: var(--text-faint); }
+        .stat + .stat::before { content: "·"; margin: 0 7px; }
+        .chips { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; width: calc(100% + 32px); margin-left: -16px; margin-right: -16px; padding: 0 16px 4px; scrollbar-width: none; }
+        .chips::-webkit-scrollbar { display: none; }
+        .chip { flex-shrink: 0; }
+        .btn { padding: 12px 18px; font-size: 15px; }
+        .search { padding-left: 18px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="stats">
+        <span class="stat"><b id="st-recetas">—</b> recetas</span>
+        <span class="stat"><b id="st-cocineros">—</b> cocineros</span>
+      </div>
+    </div>
+    <div class="hero">
+      <a class="brand" href="/" title="Inicio"><img class="ico" src="/img/logo.svg" alt="" /><span class="word">food<span class="l">l</span>e</span></a>
+      <h1>Recetas, <em>según los foodies</em></h1>
+      <nav class="tabs" aria-label="Secciones"><a href="/">Dónde comer</a><a class="on" href="/recetas/" aria-current="page">Recetas</a></nav>
+      <p class="sub">Busca un plato y mira qué foodies de Instagram lo han cocinado</p>
+      <form class="search" id="form" autocomplete="off" role="search">
+        <input id="q" type="search" placeholder="Busca: merluza a la vasca, arroz al horno, lentejas…" aria-label="Buscar recetas" />
+        <button class="btn" type="submit">Buscar</button>
+      </form>
+      <div class="chips" id="cats"></div>
+      <div class="chips tags" id="tags"></div>
+    </div>
+
+    <section class="section" id="sec-creador" hidden>
+      <div class="creador">
+        <span class="av"></span>
+        <div class="txt"><b>@arrocesdebandera</b><span class="marca">Cuenta del creador</span><span class="desc">Arroces y paellas de la cuenta de quien hace Foodle.</span></div>
+        <a class="ver" id="ver-creador" href="#resultados">Ver todas sus recetas →</a>
+      </div>
+      <div class="grid" id="grid-creador"></div>
+    </section>
+
+    <section class="section" id="resultados">
+      <div class="head"><h2 id="titulo">Lo último</h2><span class="count" id="count"></span></div>
+      <div class="grid" id="grid"></div>
+      <div id="estado"></div>
+      <div class="more-wrap" id="more-wrap" hidden><button class="btn" id="more">Cargar más</button></div>
+    </section>
+
+    <footer>
+      <p>Foodle reúne recetas públicas de foodies de Instagram. Aquí solo se muestra el nombre del plato: la receta completa está en la publicación original, que se ve con el sistema oficial de inserción de Instagram.</p>
+      <p>¿Eres creador y quieres aparecer, corregir algo o que retiremos tu contenido? <a href="mailto:foodle@guitle.com">Escríbenos</a>. · <a href="/privacidad.html">Privacidad y borrado de datos</a> · <a href="/aviso-legal.html">Aviso legal</a></p>
+      <p id="ig-retirar" hidden><a href="#" onclick="try{localStorage.removeItem('foodle_ig')}catch(_){};location.reload();return false;">Dejar de cargar publicaciones de Instagram</a></p>
+    </footer>
+
+    <script type="module">
+      /* Los datos los genera foodle/actualizar.js en data/recetas.json (sin los textos de los foodies). */
+      const CATEGORIAS = ["Postres", "Arroces y paellas", "Asados y carnes", "Pescados y mariscos", "Guisos y legumbres", "Pasta", "Verduras y ensaladas", "Sopas y cremas", "Panes y masas"];
+      const ETIQUETAS = ["Saludable", "Sin gluten", "Keto", "Rápida"];
+      const PAGINA = 12;
+      // Palabras que no cuentan al buscar («merluza a la vasca» → merluza, vasca).
+      const VACIAS = new Set(["a", "al", "la", "las", "el", "los", "de", "del", "con", "en", "y", "e", "o", "u", "un", "una", "para", "receta", "recetas", "casera", "casero"]);
+
+      const $ = (id) => document.getElementById(id);
+      const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+      const norm = (t) => String(t || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+      // Singular aproximado, para que «lenteja» encuentre «lentejas» y al revés.
+      const raiz = (w) => w.length > 4 ? w.replace(/(es|s)$/, "") : w;
+      const fecha = (f) => f ? new Date(f + "T12:00:00").toLocaleDateString("es-ES", { day: "numeric", month: "short", year: "numeric" }) : "";
+
+      let TODAS = [], DESTACADA = null, lista = [], parecidas = [], visibles = PAGINA;
+      let cat = "", tag = "", soloCreador = false;
+
+      /* ── Publicaciones de Instagram: solo con permiso (igual que en la portada) ── */
+      const conPermisoIG = () => { try { return localStorage.getItem("foodle_ig") === "si"; } catch (_) { return false; } };
+      let embedJs = null;
+      function procesarEmbeds() {
+        if (!conPermisoIG() || !document.querySelector("blockquote.instagram-media")) return;
+        embedJs = embedJs || new Promise((ok) => { const s = document.createElement("script"); s.async = true; s.src = "https://www.instagram.com/embed.js"; s.onload = ok; document.body.appendChild(s); });
+        embedJs.then(() => window.instgrm && window.instgrm.Embeds.process());
+      }
+      const bloqueIG = (url, creador) => `<blockquote class="instagram-media" data-instgrm-permalink="${url}" data-instgrm-version="14"><a class="ig-link" href="${url}" target="_blank" rel="noopener noreferrer">Ver la receta de @${creador} en Instagram</a></blockquote>`;
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".ig-cargar")) return;
+        try { localStorage.setItem("foodle_ig", "si"); } catch (_) {}
+        document.querySelectorAll(".ig-permiso").forEach((d) => { d.outerHTML = bloqueIG(d.dataset.url, d.dataset.creador); });
+        procesarEmbeds();
+        $("ig-retirar").hidden = false;
+      });
+
+      function card(r) {
+        const url = esc(r.url), cr = esc(r.creador);
+        const dest = DESTACADA && r.creador.toLowerCase() === DESTACADA;
+        const tags = (r.etiquetas || []).map((t) => `<span class="tag good">${esc(t)}</span>`).join("");
+        const ing = (r.ingredientes || []).filter((i) => !norm(r.plato).includes(norm(i))).slice(0, 6);
+        return `<article class="card${dest ? " dest" : ""}">
+          <div class="body">
+            <div class="cat"><span>${esc(r.categoria || "Receta")}</span><span>${esc(fecha(r.fecha))}</span></div>
+            <div class="name"><a href="${url}" target="_blank" rel="noopener noreferrer">${esc(r.plato)}</a></div>
+            ${ing.length ? `<div class="ing">Con ${ing.map(esc).join(", ")}</div>` : ""}
+            ${tags ? `<div class="row">${tags}</div>` : ""}
+            <div class="foot"><span class="by">@${cr}${dest ? ' <span class="marca">Creador</span>' : ""}</span><span>${r.likes != null ? `${Number(r.likes).toLocaleString("es-ES")} me gusta` : ""}</span></div>
+          </div>
+          <div class="embed">${conPermisoIG() ? bloqueIG(url, cr) : `<div class="ig-permiso" data-url="${url}" data-creador="${cr}">
+            <button class="ig-cargar" type="button">Ver la receta</button>
+            <p>Se carga desde Instagram (Meta), que puede usar cookies. <a href="${url}" target="_blank" rel="noopener noreferrer">Abrir en Instagram</a></p>
+          </div>`}</div>
+        </article>`;
+      }
+
+      // Puntuación de una receta para una búsqueda: el plato pesa más que los ingredientes.
+      function puntos(r, frase, palabras) {
+        const plato = norm(r.plato), todo = norm([r.plato, r.categoria, (r.ingredientes || []).join(" "), (r.etiquetas || []).join(" "), r.creador].join(" "));
+        const pal = new Set(todo.split(/[^a-z0-9ñ]+/).map(raiz));
+        let p = 0, hay = 0;
+        for (const w of palabras) if (pal.has(w) || todo.includes(w)) { hay++; p += plato.includes(w) ? 3 : 1; }
+        if (frase && plato.includes(frase)) p += 20;
+        return { p, todas: hay === palabras.length, alguna: hay > 0 };
+      }
+
+      function aplicar(desdeUrl) {
+        const q = $("q").value.trim();
+        const frase = norm(q);
+        const palabras = frase.split(/[^a-z0-9ñ]+/).filter((w) => w && !VACIAS.has(w)).map(raiz);
+        let base = TODAS.filter((r) => (!cat || r.categoria === cat) && (!tag || (r.etiquetas || []).includes(tag)) && (!soloCreador || r.creador.toLowerCase() === DESTACADA));
+        parecidas = [];
+        if (palabras.length) {
+          const conP = base.map((r) => ({ r, ...puntos(r, frase, palabras) }));
+          const orden = (a, b) => b.p - a.p || (b.r.likes || 0) - (a.r.likes || 0);
+          lista = conP.filter((x) => x.todas).sort(orden).map((x) => x.r);
+          // Si falta alguna palabra («merluza a la vasca» y nadie la ha hecho así): las que se parecen.
+          if (palabras.length > 1) parecidas = conP.filter((x) => !x.todas && x.alguna && x.p >= 3).sort(orden).slice(0, 12).map((x) => x.r);
+        } else {
+          lista = base;
+        }
+        visibles = PAGINA;
+        $("titulo").textContent = q ? `Recetas de «${q}»` : soloCreador ? "Recetas de @arrocesdebandera" : cat || tag || "Lo último";
+        $("sec-creador").hidden = !!(q || cat || tag || soloCreador) || !DESTACADA;
+        document.querySelectorAll("#cats .chip").forEach((b) => b.classList.toggle("on", b.dataset.v === cat));
+        document.querySelectorAll("#tags .chip").forEach((b) => b.classList.toggle("on", b.dataset.v === tag));
+        if (!desdeUrl) {
+          const u = new URL(location.href);
+          for (const [k, v] of [["q", q], ["cat", cat], ["tag", tag]]) v ? u.searchParams.set(k, v) : u.searchParams.delete(k);
+          history.replaceState(null, "", u);
+        }
+        pintar();
+      }
+
+      function pintar() {
+        const n = lista.length;
+        $("count").innerHTML = n ? `<strong>${n.toLocaleString("es-ES")}</strong> ${n === 1 ? "receta" : "recetas"}` : "";
+        $("grid").innerHTML = lista.slice(0, visibles).map(card).join("");
+        $("more-wrap").hidden = visibles >= n;
+        let est = "";
+        if (!n) est = `<div class="state"><h3>Aún no hay recetas así</h3><p>Prueba con otro plato o con un ingrediente («merluza», «garbanzos»), o quita los filtros.</p></div>`;
+        if (parecidas.length) est += `<p class="parecidas">${n ? "También se parecen:" : "Las que más se parecen:"}</p><div class="grid">${parecidas.map(card).join("")}</div>`;
+        $("estado").innerHTML = est;
+        procesarEmbeds();
+      }
+
+      $("form").addEventListener("submit", (e) => { e.preventDefault(); soloCreador = false; aplicar(); $("resultados").scrollIntoView({ behavior: "smooth" }); });
+      $("more").addEventListener("click", () => { visibles += PAGINA; pintar(); });
+      $("ver-creador").addEventListener("click", (e) => { e.preventDefault(); soloCreador = true; cat = ""; tag = ""; $("q").value = ""; aplicar(); $("resultados").scrollIntoView({ behavior: "smooth" }); });
+
+      (async () => {
+        let datos = { recetas: [], cocineros: [] };
+        try {
+          const r = await fetch("/data/recetas.json", { cache: "no-cache" });
+          if (r.ok) datos = await r.json();
+        } catch (_) { /* sin datos: se ve el aviso */ }
+        TODAS = (datos.recetas || []).slice().sort((a, b) => String(b.fecha || "").localeCompare(String(a.fecha || "")));
+        const d = (datos.cocineros || []).find((c) => c.destacada);
+        DESTACADA = d ? d.usuario.toLowerCase() : null;
+        $("st-recetas").textContent = TODAS.length.toLocaleString("es-ES");
+        $("st-cocineros").textContent = new Set(TODAS.map((r) => r.creador.toLowerCase())).size.toLocaleString("es-ES");
+
+        const hayCat = new Set(TODAS.map((r) => r.categoria)), hayTag = new Set(TODAS.flatMap((r) => r.etiquetas || []));
+        $("cats").innerHTML = CATEGORIAS.filter((c) => hayCat.has(c)).map((c) => `<button class="chip" type="button" data-v="${esc(c)}">${esc(c)}</button>`).join("");
+        $("tags").innerHTML = ETIQUETAS.filter((t) => hayTag.has(t)).map((t) => `<button class="chip" type="button" data-v="${esc(t)}">${esc(t)}</button>`).join("");
+        $("cats").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; cat = cat === b.dataset.v ? "" : b.dataset.v; soloCreador = false; aplicar(); });
+        $("tags").addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (!b) return; tag = tag === b.dataset.v ? "" : b.dataset.v; aplicar(); });
+
+        if (DESTACADA) {
+          const suyas = TODAS.filter((r) => r.creador.toLowerCase() === DESTACADA).slice(0, 3);
+          $("grid-creador").innerHTML = suyas.map(card).join("");
+        }
+        const u = new URL(location.href);
+        $("q").value = u.searchParams.get("q") || "";
+        cat = CATEGORIAS.includes(u.searchParams.get("cat")) ? u.searchParams.get("cat") : "";
+        tag = ETIQUETAS.includes(u.searchParams.get("tag")) ? u.searchParams.get("tag") : "";
+        if (conPermisoIG()) $("ig-retirar").hidden = false;
+        if (!TODAS.length) {
+          $("estado").innerHTML = `<div class="state"><h3>Las recetas están llegando</h3><p>Foodle está leyendo las cuentas de recetas. Vuelve en un rato.</p></div>`;
+          return;
+        }
+        aplicar(true);
+      })();
+    </script>
+  </body>
+</html>

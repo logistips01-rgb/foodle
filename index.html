@@ -77,6 +77,11 @@
       .hero .brand { font-size: clamp(64px,13vw,118px); margin-bottom: 18px; }
       .hero h1 { margin: 0; font-size: clamp(26px,4.4vw,36px); font-weight: 800; letter-spacing: -0.03em; line-height: 1.15; }
       .hero h1 em { font-style: normal; color: var(--accent); }
+      /* Pestañas «Dónde comer | Recetas» bajo el titular. */
+      .tabs { display: inline-flex; gap: 4px; padding: 4px; margin-top: 18px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; }
+      .tabs a { padding: 8px 20px; border-radius: 999px; font-size: 15px; font-weight: 600; color: var(--text-dim); }
+      .tabs a:hover { color: var(--text); }
+      .tabs a.on { background: var(--accent); color: #fff; }
       .hero .sub { margin: 10px 0 30px; color: var(--text-dim); font-size: clamp(15px,2vw,18px); }
       .home-search { display: flex; align-items: center; width: 100%; max-width: 800px; background: var(--bg-elev); border: 1px solid var(--border); border-radius: 999px; padding: 6px 6px 6px 26px; transition: border-color .15s, box-shadow .15s; }
       .home-search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
@@ -254,6 +259,7 @@
       <div class="hero">
         <span class="brand" id="logo-hero" title="Inicio"><img class="ico" src="img/logo.svg" alt="" /><span class="word">food<span class="l">l</span>e</span></span>
         <h1>Dónde comer, <em>según los foodies</em></h1>
+        <nav class="tabs" aria-label="Secciones"><a class="on" href="/" aria-current="page">Dónde comer</a><a href="/recetas/">Recetas</a></nav>
         <p class="sub">Buscador de recomendaciones de foodies de Instagram</p>
         <form class="home-search" id="home-form" autocomplete="off" role="search">
           <input id="q-home" type="text" placeholder="Busca: arroces, hamburguesas, el tubo, japonesa…" aria-label="Buscar" />

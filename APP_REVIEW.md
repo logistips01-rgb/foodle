@@ -25,6 +25,11 @@ Texto para pegar en cada permiso (en inglés también, Meta lo acepta en ambos i
 > comentarios) de una lista cerrada de cuentas profesionales de creadores gastronómicos. Con el pie deducimos
 > la ciudad, el restaurante y el tipo de cocina, y mostramos cada publicación con el embed oficial de Instagram
 > y un enlace a la original. No descargamos ni volvemos a publicar fotos ni vídeos.
+>
+> Segundo caso de uso, la sección de recetas (foodle.es/recetas/): con el mismo método leemos las publicaciones
+> públicas de una lista cerrada de cuentas profesionales de cocina. Del pie sacamos solo el nombre del plato, la
+> categoría y los ingredientes para que se pueda buscar («merluza a la vasca»). El texto no se publica: la receta
+> se ve en la publicación original, con el embed oficial de Instagram.
 
 **instagram_manage_insights**
 > Business Discovery requiere este permiso. Solo leemos los recuentos públicos de me gusta y comentarios de
@@ -43,11 +48,12 @@ Texto para pegar en cada permiso (en inglés también, Meta lo acepta en ambos i
    y su respuesta.
 2. Abrir `https://foodle.es`, buscar «arroces» o pulsar el botón Pizza.
 3. Enseñar una tarjeta: el embed oficial de Instagram y el enlace «Ver la publicación… en Instagram».
-4. Bajar al pie de la web y abrir «Privacidad y borrado de datos».
+4. Pulsar la pestaña «Recetas», buscar «tarta de queso» y abrir una receta con el embed oficial.
+5. Bajar al pie de la web y abrir «Privacidad y borrado de datos».
 
 ## A tener en cuenta
 
 - La app funciona hoy en **modo desarrollo** porque solo la usa su administrador. Para abrir la web al público
   con estos datos, Meta pide **acceso avanzado** a los permisos de arriba (revisión + verificación del negocio).
-- Si un creador pide salir: añadirlo a `foodle/excluidos.json`. En la siguiente actualización se borra todo lo
+- Si un creador pide salir: añadirlo a `foodle/excluidos.json` (y quitarlo de `foodies.json` o `recetas.json`). En la siguiente actualización se borra todo lo
   suyo y no se vuelve a leer.
