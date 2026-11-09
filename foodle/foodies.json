@@ -256,5 +256,10 @@
   { "usuario": "oviedogastro", "ciudad": "Oviedo", "nota": "Pasada de completar 05/11/2026 · 67 % de comida · cuenta de Oviedo Capital de la Gastronomía" },
   { "usuario": "comer_terrassa", "ciudad": "Terrassa", "nota": "Pasada de completar 05/11/2026 · 90 % de comida" },
   { "usuario": "sabadellesgastronomia", "ciudad": "Sabadell", "nota": "Pasada de completar 05/11/2026 · 100 % de comida · cuenta del gremio de hostelería de Sabadell" },
-  { "usuario": "visitandoconjuan", "nota": "Pasada de completar 05/11/2026 · 57 % de comida" }
+  { "usuario": "visitandoconjuan", "nota": "Pasada de completar 05/11/2026 · 57 % de comida" },
+  { "usuario": "zaragozemos", "ciudad": "Zaragoza", "nota": "Zaragoza; lugares, planes y restaurantes (comprobado 09/11/2026; ya tenía publicaciones de la carga inicial)" },
+  { "usuario": "conlaszarpas", "ciudad": "Zaragoza", "nota": "Zaragoza; foodblogger, 93 % comida (comprobado 09/11/2026; ya tenía publicaciones de la carga inicial)" },
+  { "usuario": "gina.ginger", "ciudad": "Zaragoza", "nota": "Zaragoza; música y comida (comprobado 09/11/2026)" },
+  { "usuario": "enjoyzaragoza", "ciudad": "Zaragoza", "nota": "Zaragoza y Aragón; medio de ocio con gastronomía (comprobado 09/11/2026)" },
+  { "usuario": "etxando.panza", "ciudad": "Huesca", "nota": "Huesca y Zaragoza (comprobado 09/11/2026)" }
 ]
