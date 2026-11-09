@@ -9517,5 +9517,291 @@
  "wakame ibiza|ibiza": null,
  "can secret|ibiza": null,
  "paseo marítimo de santa eulalia , 2|ibiza": null,
- "elysium ibiza|ibiza": null
+ "elysium ibiza|ibiza": null,
+ "madunia|ibiza": null,
+ "kome kanallaibiza|ibiza": null,
+ "lugar|ibiza": null,
+ "ibizasabors|ibiza": null,
+ "ildekibiza|ibiza": null,
+ "recinto ferial de ibiza|ibiza": {
+  "lat": 38.9185116,
+  "lng": 1.4267659,
+  "direccion": "Avinguda de Sant Antoni de Portmany, Ibiza"
+ },
+ "bonabrasaibiza|ibiza": null,
+ "arizar selecto|cáceres": null,
+ "feria espiga|cáceres": null,
+ "fincahotel|cáceres": null,
+ "drómo|badajoz": null,
+ "hasta este domingo|cáceres": null,
+ "origen extremadura|cáceres": null,
+ "casar de cáceres|cáceres": {
+  "lat": 39.5614765,
+  "lng": -6.4171236,
+  "direccion": "Casar de Cáceres"
+ },
+ "habitat ciguenanegra|cáceres": null,
+ "sabor a montanchez|cáceres": null,
+ "regadhigos|cáceres": null,
+ "aytovvaserena|cáceres": null,
+ "extremadura tur|cáceres": null,
+ "gastronomia y moda|cáceres": null,
+ "rest cometelo|córdoba": null,
+ "www jamondemonesterio com|cáceres": null,
+ "cremositos|cáceres": null,
+ "pimentondelaveradop|cáceres": null,
+ "atrio caceres|cáceres": {
+  "lat": 39.473052,
+  "lng": -6.3713905,
+  "direccion": "Plaza de San Mateo 1, Cáceres"
+ },
+ "cerezas html|cáceres": null,
+ "planve guia de ocio|cáceres": null,
+ "senoriodemontanera|cáceres": null,
+ "chefpablomorales|madrid": null,
+ "c/ferrer del río , 1, metro, diego de león|león": null,
+ "cerveceria cervantes|madrid": null,
+ "c/lope de rueda 41, metro, goya|madrid": null,
+ "bodega montaña|santander": {
+  "lat": 43.4602195,
+  "lng": -3.8208208,
+  "direccion": "Calle de San Fernando 28, Santander"
+ },
+ "bar el sol calle sta|santander": {
+  "lat": 43.4643169,
+  "lng": -3.7994429,
+  "direccion": "Calle de Santa Lucía, Santander"
+ },
+ "c/ gómez oreña, 15 (plaza cañadío)|santander": null,
+ "la trainera|madrid": {
+  "lat": 40.4271453,
+  "lng": -3.6850632,
+  "direccion": "Calle de Lagasca, Madrid"
+ },
+ "c. 11, 03, 11591 jerez de la frontera, cádiz|jerez": {
+  "lat": 36.7084932,
+  "lng": -6.0870708,
+  "direccion": "Calle Colonia de Caulina, Jerez de la Frontera"
+ },
+ "restaurante ancla|tarifa": {
+  "lat": 36.0099494,
+  "lng": -5.60625,
+  "direccion": "Avenida de las Fuerzas Armadas 15, Tarifa"
+ },
+ "ctra. de la puebla de montalbán, s/n (toledo)|toledo": {
+  "lat": 39.8616831,
+  "lng": -4.0459527,
+  "direccion": "Callejón Angel, Toledo"
+ },
+ "c/san vicente ferrer, 51 🚇 san bernardo|madrid": null,
+ "c/humilladero, 5, metro 🚇 latina|madrid": {
+  "lat": 40.4104042,
+  "lng": -3.7102388,
+  "direccion": "Calle del Humilladero 5, Madrid"
+ },
+ "dantte|madrid": null,
+ "mer cedes bah|logroño": null,
+ "gilda|mallorca": null,
+ "coloma palma|mallorca": null,
+ "mushroom toastie|mallorca": null,
+ "son mico|sóller": {
+  "lat": 39.7714927,
+  "lng": 2.6762135,
+  "direccion": "Camí de Castelló (GR-221), Sóller"
+ },
+ "bahia mediterraneo|mallorca": null,
+ "bollo de canela|mallorca": null,
+ "lucywang portals|mallorca": null,
+ "carrer arxiduc lluis salvador 7, 07004 palma|palma": {
+  "lat": 39.5780687,
+  "lng": 2.653228,
+  "direccion": "Carrer de l'Arxiduc Lluís Salvador 7, Palma"
+ },
+ "calle navegacio 17b,|palma": null,
+ "bisbe campins|palma": {
+  "lat": 39.5751784,
+  "lng": 2.6465858,
+  "direccion": "Carrer del Bisbe Campins, Palma"
+ },
+ "santa catalina|palma": {
+  "lat": 39.5713703,
+  "lng": 2.6374913,
+  "direccion": "Palma"
+ },
+ "book your table now  palmafoodguidepalmahotspotssantacatalinaspotmallorcaspotsantacatalinapalmademallorcapalmapalmafoodpalmadinnermallorcafoodguidemallorcafood|palma": null,
+ "palmafoodguidevagabundospalmapalmademallorcapalmafoodsantacatalinapalmadinner|palma": null,
+ "palma santina|palma": null,
+ "palmafoodguidecapuccinograndcafecappuccinomallorcacapuccinopalmapalmafemallorcapalmafoodpalmacoffeecoffeelovers|palma": null,
+ "mepiachi oviedo|oviedo": {
+  "lat": 43.3651028,
+  "lng": -5.8487092,
+  "direccion": "Calle Caveda 16, Oviedo"
+ },
+ "y el desarme se saborea|oviedo": null,
+ "el desarme|oviedo": null,
+ "centro social villa magdalena|oviedo": null,
+ "oviedo turismo|oviedo": null,
+ "campo san francisco|oviedo": {
+  "lat": 43.3611722,
+  "lng": -5.8506779,
+  "direccion": "Oviedo"
+ },
+ "menudelindiano com|oviedo": null,
+ "nachomanzano casamarcial|oviedo": null,
+ "plaza porlier|oviedo": {
+  "lat": 43.3625556,
+  "lng": -5.8456666,
+  "direccion": "Plaza Porlier, Oviedo"
+ },
+ "cafetería restaurante|terrassa": null,
+ "bar el gat negre|terrassa": null,
+ "nrcoffeetea|terrassa": null,
+ "negocios participantes|terrassa": null,
+ "piquillas cat|terrassa": null,
+ "pizzería|terrassa": {
+  "lat": 41.5696427,
+  "lng": 2.0189157,
+  "direccion": "Placeta de la Creu 15, Terrassa"
+ },
+ "somfoc|terrassa": {
+  "lat": 41.5625165,
+  "lng": 2.0100541,
+  "direccion": "Carrer de Joan Coromines 4, Terrassa"
+ },
+ "baransu restaurant|terrassa": {
+  "lat": 41.5607226,
+  "lng": 2.0133253,
+  "direccion": "Passeig del Vapor Gran 23, Terrassa"
+ },
+ "mala rrassa|terrassa": null,
+ "chairestaurants|terrassa": null,
+ "ebg1952 menjars|terrassa": null,
+ "espaijordicuina|terrassa": null,
+ "syrahterrassa|terrassa": null,
+ "oliveraegara|terrassa": null,
+ "protacos es|terrassa": null,
+ "miamiterrassa|terrassa": null,
+ "cafetería|terrassa": {
+  "lat": 41.5695531,
+  "lng": 2.0196133,
+  "direccion": "Passeig del Vint-i-dos de Juliol, Terrassa"
+ },
+ "restaurante cocina creativa|terrassa": null,
+ "sushihand terrassa|terrassa": null,
+ "calmista|terrassa": null,
+ "paupiettes|terrassa": null,
+ "panadería|terrassa": null,
+ "syrahgastroshop|terrassa": null,
+ "mediterráneo|terrassa": null,
+ "italiano|terrassa": null,
+ "arturmartinez aurt|terrassa": null,
+ "plusfrescsupermercats|terrassa": null,
+ "frankfurt|terrassa": {
+  "lat": 41.5575544,
+  "lng": 2.0152625,
+  "direccion": "Carretera de Montcada 230, Terrassa"
+ },
+ "katan|terrassa": {
+  "lat": 41.5581351,
+  "lng": 2.0131331,
+  "direccion": "Carrer de Sant Francesc 62, Terrassa"
+ },
+ "tailandés|terrassa": null,
+ "salutataula|sabadell": null,
+ "sabadellesgastronomia|sabadell": null,
+ "lasalutataula|sabadell": null,
+ "lasalutatuala|sabadell": null,
+ "i3pt parctauli|sabadell": null,
+ "atipat sbd|sabadell": null,
+ "c de|sabadell": {
+  "lat": 41.5670283,
+  "lng": 2.1212423,
+  "direccion": "Carretera de Molins de Rei a Sabadell, Sabadell"
+ },
+ "salut a taula|sabadell": null,
+ "bon veïnatge|sabadell": null,
+ "exit|sabadell": null,
+ "cocacola|sabadell": null,
+ "gremihostaleriasabadell|castelldefels": null,
+ "establiment|sabadell": null,
+ "firasabadell|sabadell": null,
+ "sdesempre|sabadell": null,
+ "catalunyacuina|sabadell": null,
+ "tapes|sabadell": {
+  "lat": 41.5301665,
+  "lng": 2.1210931,
+  "direccion": "Carrer de París, Sabadell"
+ },
+ "pernil|sabadell": null,
+ "fihr|sabadell": null,
+ "hamburguesa|sabadell": null,
+ "cipo|sabadell": {
+  "lat": 41.5730781,
+  "lng": 2.0871835,
+  "direccion": "Carrer de l'Himàlaia 41, Sabadell"
+ },
+ "castanyada|sabadell": null,
+ "diamundialdelou|sabadell": null,
+ "cuinacatalana|sabadell": null,
+ "rauxabodega|sabadell": null,
+ "lespostres|sabadell": null,
+ "sambhistoria|sabadell": null,
+ "gastronomia|sabadell": null,
+ "ciudad jardín y granada|granada": {
+  "lat": 37.1633095,
+  "lng": -3.5928365,
+  "direccion": "Granada"
+ },
+ "club deportivo el olivar|zaragoza": null,
+ "mesonlarevolcona|madrid": null,
+ "the beauty district|madrid": null,
+ "plaza de los mostenses 11|madrid": {
+  "lat": 40.4231152,
+  "lng": -3.7087327,
+  "direccion": "Plaza de los Mostenses 11, Madrid"
+ },
+ "rinconsiciliano|santiago de compostela": null,
+ "cc xmadrid, alcorcón|alcorcón": null,
+ "caixaforum madrid|madrid": {
+  "lat": 40.4111396,
+  "lng": -3.6935679,
+  "direccion": "Paseo del Prado 36, Madrid"
+ },
+ "ideal centre darts digitals|barcelona": null,
+ "avinguda gaudí|barcelona": {
+  "lat": 41.4329139,
+  "lng": 2.1901585,
+  "direccion": "Carrer de Sant Adrià 20, Barcelona"
+ },
+ "hotel el palace barcelona|barcelona": {
+  "lat": 41.3890696,
+  "lng": 2.1671823,
+  "direccion": "Gran Via de les Corts Catalanes, Barcelona"
+ },
+ "hotel vall amagada del molí|girona": null,
+ "c/ juan pablo ii, 25, 46940, manises, valencia|valencia": null,
+ "bergamonte|valencia": null,
+ "allegrakfashion|alicante": null,
+ "barrio de chamberí|madrid": {
+  "lat": 40.4385395,
+  "lng": -3.7081749,
+  "direccion": "Calle de Vallehermoso 90, Madrid"
+ },
+ "cafedeparis lentrecote|madrid": null,
+ "alehop|madrid": {
+  "lat": 40.4845871,
+  "lng": -3.7002839,
+  "direccion": "Calle de Santiago de Compostela 24, Madrid"
+ },
+ "carrer de valència, 246, eixample, 08007 barcelona|barcelona": {
+  "lat": 41.3910209,
+  "lng": 2.1612715,
+  "direccion": "Carrer de València 246, Barcelona"
+ },
+ "javuchini|madrid": null,
+ "granteatrocaixabankprincipepio|madrid": null,
+ "el albino|madrid": null,
+ "elclavao|madrid": null,
+ "playa la fontanilla|cádiz": null,
+ "emma|barcelona": null
 }
