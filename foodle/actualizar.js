@@ -59,6 +59,9 @@ const args = process.argv.slice(2);
 // Un número suelto = publicaciones por foodie (el que va detrás de --minutos no cuenta).
 const MAX_FIJO = args.find((a, i) => /^\d+$/.test(a) && args[i - 1] !== '--minutos');
 const MAX_DIARIO = 15, MAX_NUEVO = 50;
+// Foodies «historico» (foodies.json): ya no publican, pero sus recomendaciones valen. Se leen una vez (hasta 150)
+// y no se vuelven a pedir ni avisan de que llevan más de 90 días sin publicar.
+const MAX_HISTORICO = 150;
 const sinOsm = args.includes('--sin-osm');
 // --minutos N: deja de leer Instagram a los N minutos y termina normal (clasifica, guarda y genera páginas).
 // Para cargas grandes por tandas: la siguiente ejecución sigue con los foodies que falten.
@@ -136,7 +139,8 @@ function fichaReceta(k, p, r) {
       }
       if (leer(F.excluidos, []).some((x) => String(x).replace(/^@/, '').toLowerCase() === u.toLowerCase())) continue;
       if (SOLO_NUEVOS && conocidos.has(u.toLowerCase())) continue;
-      const max = MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
+      if (f.historico && conocidos.has(u.toLowerCase())) continue;
+      const max = f.historico ? MAX_HISTORICO : MAX_FIJO ? parseInt(MAX_FIJO, 10) : (conocidos.has(u.toLowerCase()) ? MAX_DIARIO : MAX_NUEVO);
       try {
         const res = await publicacionesDe(u, max);
         if (!res) { console.log(`  ⚠️  @${u}: no existe o no es cuenta profesional — lo salto`); continue; }
@@ -176,6 +180,7 @@ function fichaReceta(k, p, r) {
   // Norma de foodies (ver foodle/comprobar.js): avisa de los que llevan más de 90 días sin publicar.
   const { esConstante } = require('./comprobar');
   for (const f of [...foodies, ...cocineros]) {
+    if (f.historico) continue;
     const u = f.usuario.replace(/^@/, '').toLowerCase();
     const fechas = Object.values(posts).filter((p) => String(p.creador || '').toLowerCase() === u).map((p) => p.fecha).filter(Boolean);
     if (fechas.length && !esConstante(fechas, fechas.length >= 30)) {
