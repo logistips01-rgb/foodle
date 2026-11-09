@@ -19,8 +19,8 @@ const path = require('path');
 
 const RAIZ = path.join(__dirname, '..');
 const DOMINIO = 'https://foodle.es';
-const MIN_CIUDAD = 5;   // recomendaciones mínimas para tener página de ciudad
-const MIN_COCINA = 4;   // … y de ciudad × comida
+const MIN_CIUDAD = 10;  // recomendaciones mínimas para tener página de ciudad (menos: página pobre que Google no indexa)
+const MIN_COCINA = 8;   // … y de ciudad × comida
 const MAX_FICHAS = 80;  // fichas por página (las mejor valoradas)
 // Carpetas del repo que nunca se pueden pisar.
 const RESERVADAS = new Set(['data', 'foodle', 'img', '.github', 'node_modules', 'recetas', 'fuentes']);
