@@ -264,8 +264,5 @@
   { "usuario": "etxando.panza", "ciudad": "Huesca", "nota": "Huesca y Zaragoza (comprobado 09/11/2026)" },
   { "usuario": "zaragozandfood", "ciudad": "Zaragoza", "historico": true, "nota": "Histórico (se lee una vez): street food y hamburguesas; no publica desde 31/03/2026" },
   { "usuario": "zaragozaburgers", "ciudad": "Zaragoza", "historico": true, "nota": "Histórico (se lee una vez): hamburgueserías; no publica desde 13/01/2026" },
-  { "usuario": "devoratezaragoza", "ciudad": "Zaragoza", "historico": true, "nota": "Histórico (se lee una vez): guía foodie y gastromapa; no publica desde 22/09/2024" },
-  { "usuario": "zaragozafoodies", "ciudad": "Zaragoza", "historico": true, "nota": "Histórico (se lee una vez): reseñas de restaurantes; no publica desde 04/07/2024" },
-  { "usuario": "irdepropio", "ciudad": "Zaragoza", "historico": true, "nota": "Histórico (se lee una vez): no publica desde 05/11/2020: comprobar que los sitios siguen abiertos" },
   { "usuario": "duomichelin", "ciudad": "Pamplona", "historico": true, "nota": "Histórico (se lee una vez): restaurantes y bares; no publica desde 29/04/2026" }
 ]
