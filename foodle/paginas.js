@@ -10,7 +10,7 @@
  *   /madrid/tapas/        "Tapas en Madrid según los foodies"
  *
  * Se regeneran en cada actualización (foodle/actualizar.js) junto con sitemap.xml. Las carpetas que se
- * generaron la vez anterior y ya no tocan (p. ej. una ciudad que se queda sin recomendaciones) se borran:
+ * generaron la vez anterior y ya no tocan (p. ej. una ciudad que se queda sin recomendaciones) pasan a redirigir:
  * la lista está en data/paginas.json.
  */
 
@@ -194,10 +194,17 @@ function generar(web) {
   const listaF = path.join(RAIZ, 'data', 'paginas.json');
   let antes = [];
   try { antes = JSON.parse(fs.readFileSync(listaF, 'utf8')); } catch (_) { /* primera vez */ }
+  // No se borran (Google ya las conoce y daría «No encontrada (404)»): se dejan como redirección a la página
+  // de la ciudad, o a la portada si la ciudad también se ha ido. No van al sitemap.
   for (const r of antes) {
     if (!rutas.includes(r) && !RESERVADAS.has(r.split('/')[0])) {
-      fs.rmSync(path.join(RAIZ, r, 'index.html'), { force: true });
-      try { fs.rmdirSync(path.join(RAIZ, r)); } catch (_) { /* tiene subcarpetas vivas */ }
+      const padre = r.includes('/') && rutas.includes(r.split('/')[0]) ? `/${r.split('/')[0]}/` : '/';
+      fs.writeFileSync(path.join(RAIZ, r, 'index.html'), `<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Foodle</title>
+<meta name="robots" content="noindex"><link rel="canonical" href="${DOMINIO}${padre}">
+<meta http-equiv="refresh" content="0; url=${padre}"></head>
+<body><p><a href="${padre}">Ir a Foodle</a></p></body></html>
+`);
     }
   }
   fs.writeFileSync(listaF, JSON.stringify(rutas.sort(), null, 1) + '\n');
