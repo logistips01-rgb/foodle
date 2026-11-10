@@ -2,32 +2,32 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1523
+  "n": 1544
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 728
+  "n": 731
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 685
+  "n": 692
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 555
+  "n": 596
  },
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 392
+  "n": 393
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 255
+  "n": 257
  },
  {
   "nombre": "Sevilla",
@@ -82,7 +82,7 @@
  {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 76
+  "n": 77
  },
  {
   "nombre": "Vitoria",
@@ -120,13 +120,13 @@
   "n": 55
  },
  {
-  "nombre": "Girona",
-  "slug": "girona",
-  "n": 48
- },
- {
   "nombre": "Terrassa",
   "slug": "terrassa",
+  "n": 49
+ },
+ {
+  "nombre": "Girona",
+  "slug": "girona",
   "n": 48
  },
  {
@@ -170,6 +170,11 @@
   "n": 33
  },
  {
+  "nombre": "Leganés",
+  "slug": "leganes",
+  "n": 32
+ },
+ {
   "nombre": "Marbella",
   "slug": "marbella",
   "n": 32
@@ -177,11 +182,6 @@
  {
   "nombre": "Cáceres",
   "slug": "caceres",
-  "n": 31
- },
- {
-  "nombre": "Leganés",
-  "slug": "leganes",
   "n": 31
  },
  {
@@ -205,6 +205,11 @@
   "n": 28
  },
  {
+  "nombre": "Tenerife",
+  "slug": "tenerife",
+  "n": 27
+ },
+ {
   "nombre": "León",
   "slug": "leon",
   "n": 27
@@ -222,11 +227,6 @@
  {
   "nombre": "Dos Hermanas",
   "slug": "dos-hermanas",
-  "n": 26
- },
- {
-  "nombre": "Tenerife",
-  "slug": "tenerife",
   "n": 26
  },
  {
@@ -290,14 +290,14 @@
   "n": 18
  },
  {
-  "nombre": "Talavera de la Reina",
-  "slug": "talavera-de-la-reina",
+  "nombre": "Teruel",
+  "slug": "teruel",
   "n": 17
  },
  {
-  "nombre": "Teruel",
-  "slug": "teruel",
-  "n": 16
+  "nombre": "Talavera de la Reina",
+  "slug": "talavera-de-la-reina",
+  "n": 17
  },
  {
   "nombre": "Palma",
@@ -423,135 +423,5 @@
   "nombre": "Palencia",
   "slug": "palencia",
   "n": 10
- },
- {
-  "nombre": "Sanlúcar de Barrameda",
-  "slug": "sanlucar-de-barrameda",
-  "n": 9
- },
- {
-  "nombre": "La Manga",
-  "slug": "la-manga",
-  "n": 9
- },
- {
-  "nombre": "Cuenca",
-  "slug": "cuenca",
-  "n": 8
- },
- {
-  "nombre": "Conil",
-  "slug": "conil",
-  "n": 8
- },
- {
-  "nombre": "Calpe",
-  "slug": "calpe",
-  "n": 8
- },
- {
-  "nombre": "Molina de Segura",
-  "slug": "molina-de-segura",
-  "n": 7
- },
- {
-  "nombre": "Chiclana",
-  "slug": "chiclana",
-  "n": 7
- },
- {
-  "nombre": "Chipiona",
-  "slug": "chipiona",
-  "n": 7
- },
- {
-  "nombre": "Soria",
-  "slug": "soria",
-  "n": 7
- },
- {
-  "nombre": "Salou",
-  "slug": "salou",
-  "n": 6
- },
- {
-  "nombre": "Estepona",
-  "slug": "estepona",
-  "n": 6
- },
- {
-  "nombre": "Tomares",
-  "slug": "tomares",
-  "n": 5
- },
- {
-  "nombre": "Cambrils",
-  "slug": "cambrils",
-  "n": 5
- },
- {
-  "nombre": "Castelldefels",
-  "slug": "castelldefels",
-  "n": 5
- },
- {
-  "nombre": "Portugalete",
-  "slug": "portugalete",
-  "n": 5
- },
- {
-  "nombre": "Lleida",
-  "slug": "lleida",
-  "n": 5
- },
- {
-  "nombre": "Alcobendas",
-  "slug": "alcobendas",
-  "n": 5
- },
- {
-  "nombre": "Villajoyosa",
-  "slug": "villajoyosa",
-  "n": 5
- },
- {
-  "nombre": "El Puerto de Santa María",
-  "slug": "el-puerto-de-santa-maria",
-  "n": 5
- },
- {
-  "nombre": "Lugo",
-  "slug": "lugo",
-  "n": 5
- },
- {
-  "nombre": "Pozuelo",
-  "slug": "pozuelo",
-  "n": 5
- },
- {
-  "nombre": "Benalmádena",
-  "slug": "benalmadena",
-  "n": 5
- },
- {
-  "nombre": "Nerja",
-  "slug": "nerja",
-  "n": 5
- },
- {
-  "nombre": "Peñíscola",
-  "slug": "peniscola",
-  "n": 5
- },
- {
-  "nombre": "La Gomera",
-  "slug": "la-gomera",
-  "n": 5
- },
- {
-  "nombre": "Ponferrada",
-  "slug": "ponferrada",
-  "n": 5
  }
 ]

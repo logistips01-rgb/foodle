@@ -9803,5 +9803,323 @@
  "el albino|madrid": null,
  "elclavao|madrid": null,
  "playa la fontanilla|cádiz": null,
- "emma|barcelona": null
+ "emma|barcelona": null,
+ "ensalada|zaragoza": null,
+ "festivaldelvinodelsomontano|zaragoza": null,
+ "tzatiki|zaragoza": null,
+ "picodegallo|zaragoza": null,
+ "conlaszarpasenlamasa|zaragoza": null,
+ "pannitelli|zaragoza": {
+  "lat": 41.65233,
+  "lng": -0.8797369,
+  "direccion": "Calle de Don Jaime I, Zaragoza"
+ },
+ "gastrotapas|zaragoza": null,
+ "paquitodecordero|zaragoza": null,
+ "mycookeando|zaragoza": null,
+ "pistachocookies|zaragoza": null,
+ "cookies|zaragoza": {
+  "lat": 41.6451458,
+  "lng": -0.8913748,
+  "direccion": "Calle de Marcial, Zaragoza"
+ },
+ "turron|zaragoza": null,
+ "ramen|zaragoza": {
+  "lat": 41.6511824,
+  "lng": -0.8810249,
+  "direccion": "Calle de San Miguel 5, Zaragoza"
+ },
+ "focaccia|zaragoza": null,
+ "recetaexpress|zaragoza": null,
+ "kebabdeternasco|zaragoza": null,
+ "ebrofoodtrucks|zaragoza": null,
+ "minicroissant|zaragoza": null,
+ "cheesecake|zaragoza": {
+  "lat": 41.6556157,
+  "lng": -0.8797141,
+  "direccion": "Calle de Alfonso I, Zaragoza"
+ },
+ "fartons|zaragoza": null,
+ "arrozconleche|zaragoza": null,
+ "palomitasdepollo|zaragoza": null,
+ "tabule|zaragoza": null,
+ "galletas|zaragoza": null,
+ "elfederalcocktailbar|zaragoza": null,
+ "colonialbuffet reus|reus": null,
+ "berrybrunch|barcelona": null,
+ "la algameca chica|murcia": null,
+ "podréis disfrutar de tapas|barcelona": null,
+ "carrer de ferran turné, 1-11, barcelona|barcelona": {
+  "lat": 41.424277,
+  "lng": 2.1929165,
+  "direccion": "Carrer de Ferran Turné 1-11, Barcelona"
+ },
+ "carrer de valència, 28, barcelona|barcelona": {
+  "lat": 41.3799073,
+  "lng": 2.1467334,
+  "direccion": "Carrer de València 28, Barcelona"
+ },
+ "maremagnum|barcelona": {
+  "lat": 41.3751683,
+  "lng": 2.1828268,
+  "direccion": "Passeig d'Ítaca, Barcelona"
+ },
+ "winterland xmas park|barcelona": null,
+ "shanghái|barcelona": {
+  "lat": 41.4300173,
+  "lng": 2.186143,
+  "direccion": "Rambla de Fabra i Puig 49, Barcelona"
+ },
+ "gastronomicfbcn|barcelona": null,
+ "techno flamenco|barcelona": null,
+ "carrer de la carabassa, 10 (barri gòtic)|barcelona": null,
+ "hoteles participantes|barcelona": null,
+ "av. de les corts valencianes, 26, benicalap, 46015, valencia|valencia": {
+  "lat": 39.4922567,
+  "lng": -0.3999969,
+  "direccion": "Avenida de las Cortes Valencianas 26, Valencia"
+ },
+ "plaza pintor segrelles, 7|valencia": null,
+ "zorbas|valencia": null,
+ "alfa coffee & bakery|valencia": null,
+ "forja restaurante|valencia": null,
+ "yesstyle es|murcia": null,
+ "carrer del comte de salvatierra, 9, l’eixample, 46004, valencia|valencia": {
+  "lat": 39.4706836,
+  "lng": -0.3687358,
+  "direccion": "Calle del Conde de Salvatierra de Álava 9, Valencia"
+ },
+ "entre copas|valencia": {
+  "lat": 39.4730745,
+  "lng": -0.4008058,
+  "direccion": "Calle de la Democracia 25, Valencia"
+ },
+ "descuento|zaragoza": null,
+ "shivan moda|córdoba": null,
+ "tekila tomares|tomares": {
+  "lat": 37.3718738,
+  "lng": -6.0548767,
+  "direccion": "Calle Pastora Imperio 33, Tomares"
+ },
+ "bacon|sevilla": null,
+ "xerez|jerez": {
+  "lat": 36.6882636,
+  "lng": -6.1216642,
+  "direccion": "Jerez de la Frontera"
+ },
+ "croissant|sevilla": {
+  "lat": 37.3856629,
+  "lng": -5.9941316,
+  "direccion": "24, Sevilla"
+ },
+ "steakhouse|sevilla": null,
+ "kiwiswap|málaga": null,
+ "bar jema|madrid": {
+  "lat": 40.4070526,
+  "lng": -3.741882,
+  "direccion": "Calle de Barrionuevo, Madrid"
+ },
+ "c/ de toledo, n-10, centro de madrid|madrid": {
+  "lat": 40.4139915,
+  "lng": -3.7075572,
+  "direccion": "Calle de Toledo, Madrid"
+ },
+ "masiaconsentido|barcelona": null,
+ "pl. del baró de cortés, ensanche, 46006, valencia|valencia": {
+  "lat": 39.4616711,
+  "lng": -0.3711115,
+  "direccion": "Plaza del Barón de Cortes, Valencia"
+ },
+ "datos de la ruta|bilbao": null,
+ "biseriesland|bilbao": null,
+ "se encuentra en sopelana|bilbao": null,
+ "nosotros|bilbao": null,
+ "krups es|bilbao": null,
+ "olistic science|santander": null,
+ "darwin|san sebastián": {
+  "lat": 43.3236674,
+  "lng": -1.9878143,
+  "direccion": "Paseo del Muelle 1, San Sebastián"
+ },
+ "guanciale|san sebastián": null,
+ "auditorio la lonja|orihuela": {
+  "lat": 38.0818272,
+  "lng": -0.9472869,
+  "direccion": "Plaza de San Sebastián, Orihuela"
+ },
+ "parcela rural la monsina|alicante": null,
+ "tremendaruizbrothers|alicante": null,
+ "gohan gohangastro|alicante": null,
+ "carrer arquitecto morell, 16, 03003 alicante|alicante": {
+  "lat": 38.3421353,
+  "lng": -0.4924288,
+  "direccion": "Calle Arquitecto Morell, Alicante"
+ },
+ "mumu brasa|castellón": null,
+ "sidrería presta arganzuela|madrid": null,
+ "carrer de sant domènec, 2 castellón de la plana (entre la plaza borrull y la plaza fadrell)|castellón": null,
+ "pl. del corrillo, 20, bajo, 37002 salamanca|salamanca": null,
+ "qomrestaurantebenimaclet|valencia": null,
+ "forja|valencia": null,
+ "frasesrest|murcia": null,
+ "damura ramen bar|valencia": null,
+ "streetfood burger|huelva": null,
+ "08224 terrassa, barcelona|barcelona": null,
+ "pepsi es|vitoria": null,
+ "kromatiko|vitoria": {
+  "lat": 42.8493446,
+  "lng": -2.6756798,
+  "direccion": "Calle Beato Tomás de Zumárraga 2, Vitoria"
+ },
+ "xkeno arkaiate|vitoria": {
+  "lat": 42.8459075,
+  "lng": -2.637916,
+  "direccion": "Paseo de la Ilíada 26, Vitoria"
+ },
+ "iradier arena|vitoria": {
+  "lat": 42.8409934,
+  "lng": -2.6645219,
+  "direccion": "Plaza del Renacimiento 6, Vitoria"
+ },
+ "paseo de la senda, 1|vitoria": {
+  "lat": 42.8430522,
+  "lng": -2.6761247,
+  "direccion": "Paseo de la Senda 1, Vitoria"
+ },
+ "cafetaza specialty coffee|vitoria": null,
+ "popeye restaurante|barcelona": {
+  "lat": 41.3853773,
+  "lng": 2.1308973,
+  "direccion": "Carrer del Taquígraf Martí, Barcelona"
+ },
+ "suscribirte|barcelona": null,
+ "arroz|barcelona": null,
+ "zonas y direcciones|barcelona": null,
+ "incluye|barcelona": null,
+ "masia can tomàs|sant cugat": null,
+ "nos vamos hasta oviedo|oviedo": null,
+ "el petit|pamplona": null,
+ "spark81|a coruña": null,
+ "hotel tres reyes|pamplona": {
+  "lat": 42.8159793,
+  "lng": -1.6490289,
+  "direccion": "Calle de la Taconera, Pamplona"
+ },
+ "ho santander|santander": {
+  "lat": 43.4635961,
+  "lng": -3.7978844,
+  "direccion": "Calle de Peña Herbosa, Santander"
+ },
+ "indianosantander|santander": null,
+ "avenida do conde de bugallal (pontevedra)|pontevedra": {
+  "lat": 42.4214861,
+  "lng": -8.6327975,
+  "direccion": "Avenida del Conde de Bugallal, Pontevedra"
+ },
+ "di manuella|gijón": {
+  "lat": 43.5260265,
+  "lng": -5.6670596,
+  "direccion": "Avenida Gaspar García Laviana, Gijón"
+ },
+ "domingo brunch|gijón": null,
+ "se encuentran en c|ciudad real": null,
+ "o bien recogerla físicamente en|ciudad real": null,
+ "screampark|puertollano": null,
+ "footspa|ciudad real": null,
+ "estamos en algranocafeteriachurreria|ciudad real": null,
+ "cmo del pinillo|torremolinos": null,
+ "aldi espana|málaga": null,
+ "plaza antonio banderas, puerto banús (marbella)|marbella": null,
+ "letizia vivaldi fotografia|málaga": null,
+ "umami del sol|estepona": null,
+ "animaciones sportislive|málaga": null,
+ "bodega el genovés|granada": null,
+ "rufino 1949|granada": null,
+ "sabor a córdoba|córdoba": null,
+ "gnomo pizza|granada": null,
+ "11160 barbate (cádiz)|cádiz": null,
+ "centro comercial lagoh, sevilla|sevilla": {
+  "lat": 37.3425123,
+  "lng": -5.9881611,
+  "direccion": "Avenida de Palmas Altas, Sevilla"
+ },
+ "asador estebenea|murcia": null,
+ "cafebohemiosf|murcia": null,
+ "dia plazasanfrancisco ct|cartagena": null,
+ "𝐏𝐮𝐞𝐫𝐭𝐨 𝐃𝐞𝐩𝐨𝐫𝐭𝐢𝐯𝐨 𝐝𝐞 𝐀𝐠𝐮𝐚𝐝𝐮𝐥𝐜𝐞|almería": {
+  "lat": 36.8685739,
+  "lng": -2.3120282,
+  "direccion": "Almería"
+ },
+ "muros|a coruña": null,
+ "desierto de merzouga|león": null,
+ "casa martín|costa adeje": null,
+ "chamaquito|puerto de la cruz": null,
+ "tapeo mediterráneo|terrassa": null,
+ "c/ arzobispo apaolaza, 6, junto a la plaza san francisco|zaragoza": null,
+ "50001 zaragoza#|zaragoza": {
+  "lat": 41.651531,
+  "lng": -0.8770546,
+  "direccion": "Zaragoza"
+ },
+ "urban smash taco|zaragoza": null,
+ "espacio joven fundación ibercaja|zaragoza": null,
+ "taberna postigo|madrid": {
+  "lat": 40.4190346,
+  "lng": -3.7063312,
+  "direccion": "Calle del Postigo de San Martín 5, Madrid"
+ },
+ "plaza del perú|madrid": {
+  "lat": 40.4605216,
+  "lng": -3.6767123,
+  "direccion": "Plaza del Perú, Madrid"
+ },
+ "smashburgers|madrid": null,
+ "inmi photo|madrid": null,
+ "c. de eduardo torroja, 7, 28914 leganés, madrid|leganés": {
+  "lat": 40.3215745,
+  "lng": -3.7434472,
+  "direccion": "Calle de Eduardo Torroja 7, Leganés"
+ },
+ "movistar arena|madrid": {
+  "lat": 40.4238624,
+  "lng": -3.6717885,
+  "direccion": "Calle de Jorge Juan, Madrid"
+ },
+ "salabululu|madrid": null,
+ "lamaruca|madrid": null,
+ "maninos|madrid": null,
+ "mariamandiles|valencia": null,
+ "c/ san joaquín, 16 (malasaña, madrid)|madrid": {
+  "lat": 40.4244379,
+  "lng": -3.7017579,
+  "direccion": "Calle de San Joaquín 16, Madrid"
+ },
+ "gianna ristorante|madrid": {
+  "lat": 40.4292633,
+  "lng": -3.7006663,
+  "direccion": "Calle de Eguilaz 7, Madrid"
+ },
+ "meller|barcelona": {
+  "lat": 41.3751734,
+  "lng": 2.1699894,
+  "direccion": "Barcelona"
+ },
+ "carrer de navas de tolosa, 159, 08224 terrassa (barcelona)|terrassa": {
+  "lat": 41.5528297,
+  "lng": 2.0070775,
+  "direccion": "Carrer de les Navas de Tolosa, Terrassa"
+ },
+ "manifestaciones|barcelona": null,
+ "avenida salvador allende, 340, málaga|málaga": {
+  "lat": 36.7168885,
+  "lng": -4.3480936,
+  "direccion": "Avenida Salvador Allende 340, Málaga"
+ },
+ "c/ de la llanterna, 11, ciutat vella, 46001, valencia|valencia": {
+  "lat": 39.4718957,
+  "lng": -0.3776887,
+  "direccion": "Calle de la Linterna, Valencia"
+ },
+ "avenida amado granell mesado, junto al centro comercial saler, valencia|valencia": null
 }
