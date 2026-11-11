@@ -10121,5 +10121,88 @@
   "lng": -0.3776887,
   "direccion": "Calle de la Linterna, Valencia"
  },
- "avenida amado granell mesado, junto al centro comercial saler, valencia|valencia": null
+ "avenida amado granell mesado, junto al centro comercial saler, valencia|valencia": null,
+ "zuru toys|sevilla": null,
+ "sopelana|bilbao": null,
+ "garnier es|alicante": null,
+ "sushi yoki|valencia": null,
+ "paseo marítimo, 14, poblados marítimos, valència|valencia": {
+  "lat": 39.473823,
+  "lng": -0.3244498,
+  "direccion": "Paseo Marítimo 14, Valencia"
+ },
+ "trnd es|córdoba": null,
+ "activate agencia|sevilla": null,
+ "libérate|bilbao": null,
+ "además|barakaldo": null,
+ "su nombre es carafelbenimantell|bilbao": null,
+ "edificio el prado|benidorm": null,
+ "la oveja square street food|alicante": null,
+ "salinas de la mata|torrevieja": {
+  "lat": 38.0265982,
+  "lng": -0.6607556,
+  "direccion": "Torrevieja"
+ },
+ "thespanishalchemistofficial|alicante": null,
+ "polígono industria torrellano|alicante": {
+  "lat": 38.3532458,
+  "lng": -0.4862085,
+  "direccion": "Paseo de Campoamor, Alicante"
+ },
+ "creativa catering|alicante": null,
+ "lafuentonadesantillana com|santillana del mar": null,
+ "lachataultramarinos|valencia": null,
+ "cajadehuevos|madrid": null,
+ "los33madrid|madrid": null,
+ "triflex sl|barcelona": null,
+ "dinamitasanchez|vitoria": null,
+ "crestacoloradabcn|barcelona": null,
+ "casablava restaurant|barcelona": null,
+ "suru barcelona|barcelona": null,
+ "rim vinyesemporda|barcelona": null,
+ "la casa de las tortillas|a coruña": {
+  "lat": 43.3721181,
+  "lng": -8.3999075,
+  "direccion": "Calle Orzán, La Coruña"
+ },
+ "gastronomiacinegetica|almagro": null,
+ "paseo marítimo levante 10|málaga": {
+  "lat": 36.7454321,
+  "lng": -4.0848689,
+  "direccion": "Paseo Marítimo de Levante 10, Vélez-Málaga"
+ },
+ "boze ramen|málaga": {
+  "lat": 36.7207283,
+  "lng": -4.3575785,
+  "direccion": "Calle Almería 30, Málaga"
+ },
+ "el seviletano|sevilla": null,
+ "san esteban de gormaz|soria": null,
+ "los cristianos|tenerife": null,
+ "lena restaurants|zaragoza": null,
+ "ziro|zaragoza": null,
+ "sonoramaribera|zaragoza": null,
+ "quique velco|zaragoza": null,
+ "carolaine 1490|zaragoza": null,
+ "outworld ofc|zaragoza": null,
+ "airinuxi|zaragoza": null,
+ "borda berri|san sebastián": {
+  "lat": 43.2945896,
+  "lng": -1.9669562,
+  "direccion": "Paseo del Doctor Beguiristáin 90, San Sebastián"
+ },
+ "laus & setas|zaragoza": null,
+ "enjoy|zaragoza": {
+  "lat": 41.657984,
+  "lng": -0.8686764,
+  "direccion": "Avenida Puente del Pilar 14, Zaragoza"
+ },
+ "juntos brillamos más|zaragoza": null,
+ "aldi espana|zaragoza": null,
+ "la rajola escola|huesca": null,
+ "micologia|huesca": null,
+ "alexmiguel freeski|huesca": null,
+ "conservaselagricultor|huesca": null,
+ "fishing rules98|huesca": null,
+ "cojones|huesca": null
 }
