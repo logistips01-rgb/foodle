@@ -2,22 +2,22 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1547
+  "n": 1580
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 736
- },
- {
-  "nombre": "Valencia",
-  "slug": "valencia",
-  "n": 694
+  "n": 743
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 625
+  "n": 721
+ },
+ {
+  "nombre": "Valencia",
+  "slug": "valencia",
+  "n": 695
  },
  {
   "nombre": "Málaga",
@@ -37,7 +37,7 @@
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 253
+  "n": 254
  },
  {
   "nombre": "Murcia",
@@ -45,9 +45,14 @@
   "n": 181
  },
  {
+  "nombre": "Pamplona",
+  "slug": "pamplona",
+  "n": 101
+ },
+ {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 95
+  "n": 96
  },
  {
   "nombre": "Benidorm",
@@ -75,13 +80,13 @@
   "n": 83
  },
  {
-  "nombre": "Córdoba",
-  "slug": "cordoba",
-  "n": 80
- },
- {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
+  "n": 81
+ },
+ {
+  "nombre": "Córdoba",
+  "slug": "cordoba",
   "n": 80
  },
  {
@@ -93,11 +98,6 @@
   "nombre": "A Coruña",
   "slug": "a-coruna",
   "n": 68
- },
- {
-  "nombre": "Pamplona",
-  "slug": "pamplona",
-  "n": 67
  },
  {
   "nombre": "Santiago de Compostela",
@@ -132,7 +132,7 @@
  {
   "nombre": "Logroño",
   "slug": "logrono",
-  "n": 46
+  "n": 48
  },
  {
   "nombre": "Vigo",
@@ -170,6 +170,11 @@
   "n": 36
  },
  {
+  "nombre": "Marbella",
+  "slug": "marbella",
+  "n": 33
+ },
+ {
   "nombre": "Mallorca",
   "slug": "mallorca",
   "n": 33
@@ -180,14 +185,14 @@
   "n": 32
  },
  {
-  "nombre": "Marbella",
-  "slug": "marbella",
-  "n": 32
- },
- {
   "nombre": "Cáceres",
   "slug": "caceres",
   "n": 31
+ },
+ {
+  "nombre": "Tenerife",
+  "slug": "tenerife",
+  "n": 29
  },
  {
   "nombre": "Salamanca",
@@ -198,11 +203,6 @@
   "nombre": "Ourense",
   "slug": "ourense",
   "n": 29
- },
- {
-  "nombre": "Tenerife",
-  "slug": "tenerife",
-  "n": 28
  },
  {
   "nombre": "Alcalá de Henares",
@@ -365,6 +365,11 @@
   "n": 12
  },
  {
+  "nombre": "L'Hospitalet",
+  "slug": "l-hospitalet",
+  "n": 11
+ },
+ {
   "nombre": "Costa Adeje",
   "slug": "costa-adeje",
   "n": 11
@@ -412,11 +417,6 @@
  {
   "nombre": "Torrejón",
   "slug": "torrejon",
-  "n": 10
- },
- {
-  "nombre": "L'Hospitalet",
-  "slug": "l-hospitalet",
   "n": 10
  },
  {

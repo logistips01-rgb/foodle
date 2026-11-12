@@ -10204,5 +10204,166 @@
  "alexmiguel freeski|huesca": null,
  "conservaselagricultor|huesca": null,
  "fishing rules98|huesca": null,
- "cojones|huesca": null
+ "cojones|huesca": null,
+ "parque fluvial (zona expo)|zaragoza": null,
+ "la ganadora|zaragoza": null,
+ "francesas|zaragoza": null,
+ "vice|zaragoza": null,
+ "rodeo texas style|zaragoza": null,
+ "gifted|zaragoza": null,
+ "rico burguer|zaragoza": null,
+ "la nonna|zaragoza": null,
+ "saladboutique|zaragoza": null,
+ "elmaestro delsushi|zaragoza": null,
+ "sansiro|zaragoza": null,
+ "santa catalina|zaragoza": null,
+ "c/ baltasar gracián, 1 (zona universidad)|zaragoza": null,
+ "sgztaberna|zaragoza": null,
+ "escanilla|zaragoza": null,
+ "illueca|zaragoza": null,
+ "lapiedra64 bocateria|zaragoza": null,
+ "modorro taberna|zaragoza": null,
+ "restaurante marengo|zaragoza": null,
+ "calle san miguel, 43|zaragoza": {
+  "lat": 41.720125,
+  "lng": -1.025539,
+  "direccion": "Calle San Miguel 43, Zaragoza"
+ },
+ "elbarcococinadelpirata|zaragoza": null,
+ "leiremo|zaragoza": null,
+ "foodcash|zaragoza": null,
+ "eat jenkins|zaragoza": null,
+ "streetfood burger|zaragoza": null,
+ "rombo zentral|zaragoza": null,
+ "gravitar estudio|zaragoza": null,
+ "31007 pamplona, navarra|pamplona": {
+  "lat": 42.8074113,
+  "lng": -1.6522289,
+  "direccion": "Pamplona"
+ },
+ "restaurante koku|pamplona": null,
+ "chuleteros|pamplona": null,
+ "viena|pamplona": {
+  "lat": 42.8013186,
+  "lng": -1.6446796,
+  "direccion": "Calle Miguel Astráin, Pamplona"
+ },
+ "gonzalo celayeta wines|pamplona": null,
+ "promotty app|pamplona": null,
+ "la growleria|pamplona": {
+  "lat": 42.8085864,
+  "lng": -1.6364918,
+  "direccion": "Calle Aoiz 20, Pamplona"
+ },
+ "rodero|pamplona": {
+  "lat": 42.815885,
+  "lng": -1.6373232,
+  "direccion": "Calle Emilio Arrieta 3, Pamplona"
+ },
+ "melt cakes|pamplona": null,
+ "santa mariana|mahón": null,
+ "alabardero beach club|marbella": null,
+ "hambueyesería amaren|bilbao": null,
+ "huracán daniela|pamplona": null,
+ "lacucharademartin|pamplona": null,
+ "efimeropamplona|pamplona": null,
+ "monasterio gastroteca|pamplona": null,
+ "la olla|pamplona": {
+  "lat": 42.8153099,
+  "lng": -1.6406739,
+  "direccion": "Avenida Roncesvalles, Pamplona"
+ },
+ "zuritabarraymantel|pamplona": null,
+ "bertys|pamplona": null,
+ "restaurante les amis|pamplona": null,
+ "calle íñigo arista 9, pamplona mannekenbeer|pamplona": {
+  "lat": 42.806974,
+  "lng": -1.6535343,
+  "direccion": "Calle Íñigo Arista 9, Pamplona"
+ },
+ "calle castillo de maya 25, pamplona la.bankada|pamplona": {
+  "lat": 42.8120685,
+  "lng": -1.6340047,
+  "direccion": "Calle Castillo de Maya 25, Pamplona"
+ },
+ "c/ tafalla, 7|pamplona": {
+  "lat": 42.8126965,
+  "lng": -1.6363551,
+  "direccion": "Calle Tafalla 7, Pamplona"
+ },
+ "calle monasterio de urdax, 34 (pamplona)|pamplona": {
+  "lat": 42.8163273,
+  "lng": -1.6578617,
+  "direccion": "Calle Monasterio de Urdax 34, Pamplona"
+ },
+ "gosaria gosariapamplona|pamplona": null,
+ "restaurante alameda|logroño": null,
+ "la zarola|zaragoza": {
+  "lat": 41.6502103,
+  "lng": -0.8781282,
+  "direccion": "Calle de San Miguel, Zaragoza"
+ },
+ "maréngo|zaragoza": {
+  "lat": 41.6497667,
+  "lng": -0.8817068,
+  "direccion": "Calle de Felipe Sanclemente, Zaragoza"
+ },
+ "50001 zaragoza|zaragoza": {
+  "lat": 41.6515334,
+  "lng": -0.8770556,
+  "direccion": "Zaragoza"
+ },
+ "calle arzobispo apaolaza, 6|zaragoza": {
+  "lat": 41.6405113,
+  "lng": -0.8965656,
+  "direccion": "Calle Arzobispo Apaolaza 6, Zaragoza"
+ },
+ "calle de la libertad|zaragoza": {
+  "lat": 41.6532785,
+  "lng": -0.880372,
+  "direccion": "Calle de la Libertad, Zaragoza"
+ },
+ "zhen|madrid": {
+  "lat": 40.4631049,
+  "lng": -3.6901701,
+  "direccion": "Paseo de la Castellana, Madrid"
+ },
+ "ribeira do mino|madrid": null,
+ "casamarcelosantiago|madrid": null,
+ "escenario puerta del ángel|madrid": {
+  "lat": 40.4165419,
+  "lng": -3.7278126,
+  "direccion": "Calle Herradura, Madrid"
+ },
+ "masala indian restaurant|madrid": null,
+ "nuevos ministerios|madrid": {
+  "lat": 40.4458416,
+  "lng": -3.6916991,
+  "direccion": "Paseo de la Castellana, Madrid"
+ },
+ "sala la usina|madrid": null,
+ "il gioviale|madrid": null,
+ "cc xanadú (madrid)|madrid": null,
+ "hotelregina|madrid": null,
+ "plaza de colón, 4|madrid": null,
+ "calle marcenado, 7 (prosperidad, madrid)|madrid": {
+  "lat": 40.4455763,
+  "lng": -3.6728728,
+  "direccion": "Calle de Marcenado 7, Madrid"
+ },
+ "karmacoffeeroastery|barcelona": null,
+ "calle juan de olias 28, madrid|madrid": {
+  "lat": 40.4530988,
+  "lng": -3.69997,
+  "direccion": "Calle de Juan de Olías 28, Madrid"
+ },
+ "foodie black week|l'hospitalet": null,
+ "aliocakbasi barcelona|barcelona": null,
+ "está en north bund|barcelona": null,
+ "barcelona christmas tour|barcelona": null,
+ "china|barcelona": {
+  "lat": 41.3961144,
+  "lng": 2.1521222,
+  "direccion": "Carrer de Tuset 20-24, 4º, Barcelona"
+ }
 }
