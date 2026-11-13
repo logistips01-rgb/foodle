@@ -10365,5 +10365,89 @@
   "lat": 41.3961144,
   "lng": 2.1521222,
   "direccion": "Carrer de Tuset 20-24, 4º, Barcelona"
- }
+ },
+ "empoderandomeamis40|barcelona": null,
+ "aires argentina|barcelona": null,
+ "mana75barcelona|barcelona": null,
+ "pobla de vallbona|valencia": null,
+ "burgerking es|valencia": null,
+ "46823, navarrés, valencia|valencia": null,
+ "46133, valencia (meliana). #valencia #paella #barraca #restaurantesvalencia #comerenvalencia|valencia": null,
+ "46012 el palmar, valencia), abren cocina todo el día. #valencia #paella #albufera #restaurantesvalencia #reyes|valencia": {
+  "lat": 39.310334,
+  "lng": -0.3176079,
+  "direccion": "Plaza de la Sequiota 5, Valencia"
+ },
+ "c/ olocau, 10, 46183, l’eliana, valencia|valencia": null,
+ "46980, paterna, valencia). #valencia #paterna #kebab #dürüm #jamon|valencia": null,
+ "la iglesuela del cid|teruel": null,
+ "c/ciscar, 22|valencia": null,
+ "lopesanbaobab|gran canaria": null,
+ "pura vida açai puravidacai|valencia": null,
+ "carrer de creta, 03130, gran alacant (alicante)|alicante": null,
+ "ferrolterra produto e territorio|ferrol": null,
+ "dorelion co|valencia": null,
+ "spontex es|valencia": null,
+ "aussie es|valencia": null,
+ "c/ vicent andrés estellés, alaquàs (valencia)|valencia": null,
+ "sib café|valencia": {
+  "lat": 39.4726409,
+  "lng": -0.3480988,
+  "direccion": "Calle del Doctor Manuel Candela 72, Valencia"
+ },
+ "46900 torrent, valencia) lafontdesantlluis|valencia": {
+  "lat": 39.4444069,
+  "lng": -0.3661021,
+  "direccion": "Calle Músico Chapí, Valencia"
+ },
+ "zuru toys|madrid": null,
+ "tymobeauty|madrid": null,
+ "cuenta|sevilla": null,
+ "koisushisevilla|sevilla": null,
+ "pau masacre bilbao|vitoria": null,
+ "kim txu|bilbao": null,
+ "elba saavedra|bilbao": null,
+ "crisocejo5257|santander": null,
+ "primaprix es|san sebastián": {
+  "lat": 43.3191612,
+  "lng": -1.9804619,
+  "direccion": "Calle Vergara 12, San Sebastián"
+ },
+ "fusioncafe sansebastian|san sebastián": null,
+ "los tres sitios|benidorm": null,
+ "masala cantina|alicante": null,
+ "tefal es|alicante": null,
+ "lulabyauroratorres|alicante": null,
+ "bodega airen|alicante": null,
+ "legami milano|alicante": null,
+ "almarestaurante es|almería": null,
+ "centro comercial el boulevard|vitoria": {
+  "lat": 42.8620488,
+  "lng": -2.6681855,
+  "direccion": "Calle Zaramaga 1, Vitoria"
+ },
+ "𝗧𝗥𝗢𝗧𝗔|santillana del mar": {
+  "lat": 43.3906511,
+  "lng": -4.108048,
+  "direccion": "Santillana del Mar"
+ },
+ "beautique center|pontevedra": null,
+ "retirodelmaestre hotelalmagro|ciudad real": null,
+ "tonysbeach|marbella": null,
+ "tony potter cerámica|granada": null,
+ "llamapizzapg|córdoba": null,
+ "la casa de las tartas|chiclana": null,
+ "región de murcia|murcia": {
+  "lat": 38.0646533,
+  "lng": -1.6721805,
+  "direccion": "Murcia"
+ },
+ "misercua|cartagena": null,
+ "pues tuveras|talavera de la reina": null,
+ "acueducto de segovia|segovia": {
+  "lat": 40.943613,
+  "lng": -4.1093039,
+  "direccion": "Calle Jardín Botánico, Segovia"
+ },
+ "guía de isora|tenerife": null
 }
