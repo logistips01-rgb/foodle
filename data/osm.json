@@ -10449,5 +10449,54 @@
   "lng": -4.1093039,
   "direccion": "Calle Jardín Botánico, Segovia"
  },
- "guía de isora|tenerife": null
+ "guía de isora|tenerife": null,
+ "banderas|oviedo": null,
+ "mono|zaragoza": null,
+ "c/ de don ramon de la cruz, 49,|madrid": {
+  "lat": 40.4289843,
+  "lng": -3.6791,
+  "direccion": "Calle de Don Ramón de la Cruz 49, Madrid"
+ },
+ "ruda|madrid": {
+  "lat": 40.4105908,
+  "lng": -3.7083275,
+  "direccion": "Calle de la Ruda, Madrid"
+ },
+ "28053 madrid|madrid": {
+  "lat": 40.382105,
+  "lng": -3.6680439,
+  "direccion": "Madrid"
+ },
+ "kukariku|madrid": null,
+ "mapeat app|madrid": null,
+ "calle eduardo torrijos 7|leganés": null,
+ "calle almendros 7, coslada|madrid": null,
+ "carrer doctor trueta, 196-198, barcelona|barcelona": null,
+ "carrer del rosselló, 136, eixample (barcelona), junto al hospital clínic|barcelona": null,
+ "el restaurante chino más mítico|madrid": null,
+ "glorieta de bilbao, 3, 28004 madrid|madrid": {
+  "lat": 40.4293811,
+  "lng": -3.702145,
+  "direccion": "Glorieta de Bilbao 3, Madrid"
+ },
+ "dicen|barcelona": null,
+ "plaza holanda, 1|valencia": {
+  "lat": 39.4481534,
+  "lng": -0.3882058,
+  "direccion": "Plaza de Holanda 1, Valencia"
+ },
+ "aleira116|lugo": null,
+ "calle burriana, 30 • valencia|valencia": {
+  "lat": 39.465446,
+  "lng": -0.3657694,
+  "direccion": "Calle Burriana 30, Valencia"
+ },
+ "café fleur|alicante": null,
+ "carrer del comte de salvatierra, 29, l’eixample, 46004 valència|valencia": {
+  "lat": 39.4707267,
+  "lng": -0.3689192,
+  "direccion": "Calle del Conde de Salvatierra de Álava, Valencia"
+ },
+ "navilia light park santander|santander": null,
+ "la casona|murcia": null
 }

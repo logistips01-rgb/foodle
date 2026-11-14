@@ -2,22 +2,22 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1584
+  "n": 1601
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 749
+  "n": 754
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 721
+  "n": 726
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 717
+  "n": 720
  },
  {
   "nombre": "Málaga",
@@ -27,7 +27,7 @@
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 269
+  "n": 270
  },
  {
   "nombre": "Sevilla",
@@ -37,12 +37,12 @@
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 256
+  "n": 257
  },
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 182
+  "n": 183
  },
  {
   "nombre": "Pamplona",
@@ -72,7 +72,7 @@
  {
   "nombre": "Santander",
   "slug": "santander",
-  "n": 84
+  "n": 85
  },
  {
   "nombre": "San Sebastián",
@@ -92,7 +92,7 @@
  {
   "nombre": "Vitoria",
   "slug": "vitoria",
-  "n": 79
+  "n": 80
  },
  {
   "nombre": "A Coruña",
@@ -135,19 +135,19 @@
   "n": 48
  },
  {
+  "nombre": "Oviedo",
+  "slug": "oviedo",
+  "n": 45
+ },
+ {
   "nombre": "Vigo",
   "slug": "vigo",
   "n": 45
  },
  {
-  "nombre": "Oviedo",
-  "slug": "oviedo",
-  "n": 44
- },
- {
   "nombre": "Tarragona",
   "slug": "tarragona",
-  "n": 43
+  "n": 44
  },
  {
   "nombre": "Huesca",
@@ -175,14 +175,14 @@
   "n": 34
  },
  {
-  "nombre": "Mallorca",
-  "slug": "mallorca",
+  "nombre": "Leganés",
+  "slug": "leganes",
   "n": 33
  },
  {
-  "nombre": "Leganés",
-  "slug": "leganes",
-  "n": 32
+  "nombre": "Mallorca",
+  "slug": "mallorca",
+  "n": 33
  },
  {
   "nombre": "Cáceres",
