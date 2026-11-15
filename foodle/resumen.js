@@ -29,6 +29,8 @@ function sitemap(txt) { return (String(txt || '').match(/<loc>/g) || []).length;
 function sitemapAntes() { try { return sitemap(execFileSync('git', ['show', `${REF}:sitemap.xml`], { cwd: RAIZ }).toString()); } catch (_) { return 0; } }
 function sitemapAhora() { try { return sitemap(fs.readFileSync(path.join(RAIZ, 'sitemap.xml'), 'utf8')); } catch (_) { return 0; } }
 
+// En GitHub, «@usuario» avisa a la cuenta de GitHub con ese nombre: los usuarios de Instagram van entre comillas de código.
+const at = (u) => `\`@${u}\``;
 const n = (x) => Number(x || 0).toLocaleString('es-ES');
 const dif = (a, b) => { const d = b - a; return d === 0 ? '=' : `${d > 0 ? '+' : '−'}${n(Math.abs(d))}`; };
 const contar = (lista, clave) => lista.reduce((m, x) => { const k = clave(x); if (k) m[k] = (m[k] || 0) + 1; return m; }, {});
@@ -85,11 +87,11 @@ out.push(`### 🆕 ${n(nuevas.length)} recomendaciones nuevas${fuera ? ` · ${n(
 out.push('');
 if (nuevas.length) {
   const porFoodie = Object.entries(contar(nuevas, (f) => f.creador)).sort((a, b) => b[1] - a[1]).slice(0, 8);
-  out.push(`Quién más aporta: ${porFoodie.map(([u, k]) => `@${u} (${k})`).join(' · ')}`);
+  out.push(`Quién más aporta: ${porFoodie.map(([u, k]) => `${at(u)} (${k})`).join(' · ')}`);
   out.push('');
   for (const f of nuevas.slice(0, 12)) {
-    const nombre = f.nombre || (f.ig_local ? `@${f.ig_local}` : f.cocina) || 'Sitio';
-    out.push(`- [${nombre}](${f.url}) · ${f.ciudad}${f.cocina ? ` · ${f.cocina}` : ''} · @${f.creador}`);
+    const nombre = f.nombre || (f.ig_local ? `\`@${f.ig_local}\`` : f.cocina) || 'Sitio';
+    out.push(`- [${nombre}](${f.url}) · ${f.ciudad}${f.cocina ? ` · ${f.cocina}` : ''} · ${at(f.creador)}`);
   }
   if (nuevas.length > 12) out.push(`- … y ${n(nuevas.length - 12)} más`);
   out.push('');
@@ -98,12 +100,12 @@ if (nuevas.length) {
 if (recNuevas.length) {
   out.push(`### 🍳 ${n(recNuevas.length)} recetas nuevas`);
   out.push('');
-  for (const r of recNuevas.slice(0, 8)) out.push(`- [${r.plato}](${r.url}) · ${r.categoria || '—'} · @${r.creador}`);
+  for (const r of recNuevas.slice(0, 8)) out.push(`- [${r.plato}](${r.url}) · ${r.categoria || '—'} · ${at(r.creador)}`);
   if (recNuevas.length > 8) out.push(`- … y ${n(recNuevas.length - 8)} más`);
   out.push('');
 }
 
 const sig = ahora('data/lectura.json', {}).siguiente;
-out.push(sig ? `_La lectura de mañana empieza por @${sig} (hoy no dio tiempo a leer a todos)._` : '_Hoy se ha leído a todos los foodies._');
+out.push(sig ? `_La lectura de mañana empieza por ${at(sig)} (hoy no dio tiempo a leer a todos)._` : '_Hoy se ha leído a todos los foodies._');
 
 process.stdout.write(out.join('\n') + '\n');
