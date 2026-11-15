@@ -10498,5 +10498,47 @@
   "direccion": "Calle del Conde de Salvatierra de Álava, Valencia"
  },
  "navilia light park santander|santander": null,
- "la casona|murcia": null
+ "la casona|murcia": null,
+ "avenida del naviero s/n (marbella)|marbella": {
+  "lat": 36.4910954,
+  "lng": -4.7736209,
+  "direccion": "Avenida del Naviero, Marbella"
+ },
+ "larojapasteleria|alicante": null,
+ "pinoso|alicante": null,
+ "datos de la ruta|barcelona": null,
+ "infinito|vitoria": null,
+ "pasaxe de san bartolomeu|pontevedra": {
+  "lat": 42.4331968,
+  "lng": -8.6483562,
+  "direccion": "Pasaxe de San Bartolomeu, Pontevedra"
+ },
+ "cariñena|zaragoza": null,
+ "asiccaza|almagro": null,
+ "taura cafe|santiago de compostela": null,
+ "hotel taoro|puerto de la cruz": {
+  "lat": 28.4123242,
+  "lng": -16.5485995,
+  "direccion": "Carretera Taoro 2, Puerto de la Cruz"
+ },
+ "venturehospitality group|tenerife": null,
+ "dalecanya51|terrassa": null,
+ "fashion art by manuel fernández|zaragoza": null,
+ "laporcion pizzeria|utebo": null,
+ "taberna gandarias|san sebastián": {
+  "lat": 43.3239943,
+  "lng": -1.9857674,
+  "direccion": "Calle 31 de Agosto 23, San Sebastián"
+ },
+ "rodríguez san pedro|madrid": {
+  "lat": 40.3832486,
+  "lng": -3.669879,
+  "direccion": "Calle del Conde Rodríguez San Pedro, Madrid"
+ },
+ "16002 cuenca|cuenca": {
+  "lat": 40.0743998,
+  "lng": -2.1398521,
+  "direccion": "Cuenca"
+ },
+ "mojitos cocktail bar|madrid": null
 }
