@@ -40,6 +40,11 @@ jobs:
         # a los 100 min deja de leer, guarda y publica, y al día siguiente sigue con los que falten.
         run: node foodle/actualizar.js --minutos 100 ${{ inputs.max }}
 
+      # Antes de guardar: compara con lo último que hay en git (el antes) y lo que se acaba de generar (el después).
+      - name: Resumen del día
+        continue-on-error: true # si falla el resumen, los datos se guardan igual
+        run: node foodle/resumen.js > "${{ runner.temp }}/resumen.md" && cat "${{ runner.temp }}/resumen.md"
+
       - name: Guardar datos
         run: |
           git config user.name "foodle-bot"
@@ -71,6 +76,23 @@ jobs:
           gh label create aviso --color d42f34 --description "Avisos automáticos de Foodle" 2>/dev/null || true
           n=$(gh issue list --label aviso --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
           if [ -n "$n" ]; then gh issue comment "$n" --body "$cuerpo"; else gh issue create --title "$titulo" --label aviso --body "$cuerpo"; fi
+
+      # Resumen diario: un comentario cada día en el issue «Foodle: resumen diario» (GitHub lo manda por correo y a la app).
+      - name: Mandar el resumen
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f="${{ runner.temp }}/resumen.md"
+          [ -s "$f" ] || { echo "Sin resumen"; exit 0; }
+          titulo="Foodle: resumen diario"
+          gh label create resumen --color d42f34 --description "Resumen diario de Foodle" 2>/dev/null || true
+          n=$(gh issue list --label resumen --state open --search "in:title \"$titulo\"" --json number --jq '.[0].number')
+          if [ -n "$n" ]; then gh issue comment "$n" --body-file "$f"
+          else
+            url=$(gh issue create --title "$titulo" --label resumen --body "Cada día, al terminar la actualización, se añade aquí un comentario con el antes y el después.")
+            gh issue comment "$url" --body-file "$f"
+          fi
 
       - name: Avisos aunque haya ido bien
         if: success()

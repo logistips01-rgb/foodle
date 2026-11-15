@@ -75,6 +75,7 @@ pista para los pies que no dicen ninguna. Se comprueba con `node foodle/comproba
 | `foodle/recetas.json` | Cuentas de recetas (sección foodle.es/recetas/): `[{ "usuario": "arrocesdebandera", "destacada": true }]`. Se leen como los foodies, pero solo salen en recetas. `destacada` = la cuenta del creador. Las recetas sueltas de los foodies (comida hecha en casa) también van a recetas. Plato, categoría e ingredientes los saca `foodle/platos.js`; se corrigen en `correcciones.json` (`{ "ABC": { "plato": "Merluza a la vasca", "categoria": "Pescados y mariscos" } }`) |
 | `foodle/excluidos.json` | Creadores que han pedido salir: `["usuario"]`. Se borra todo lo suyo de `data/` en la siguiente actualización y no se vuelve a leer |
 | `foodle/correcciones.json` | Arreglos por publicación (clave = código del enlace): `{ "ABC123": { "nombre": "Casa Pedro", "ciudad": "Zaragoza" }, "XYZ": { "oculta": true }, "QWE": { "visible": true } }` |
+| `foodle/resumen.js` | Resumen diario con el antes y el después (recomendaciones, recetas, ciudades, páginas, recomendaciones y recetas nuevas). El flujo lo publica cada día como comentario en el issue «Foodle: resumen diario». En local: `node foodle/resumen.js` |
 
 Si un fallo de las reglas se repite, se arregla en `foodle/reglas.js` en vez de
 llenar las correcciones.
