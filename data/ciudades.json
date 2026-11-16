@@ -2,12 +2,12 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1608
+  "n": 1610
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 755
+  "n": 765
  },
  {
   "nombre": "Zaragoza",
@@ -17,7 +17,7 @@
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 721
+  "n": 728
  },
  {
   "nombre": "Málaga",
@@ -27,17 +27,17 @@
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 272
+  "n": 273
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 265
+  "n": 269
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 257
+  "n": 262
  },
  {
   "nombre": "Murcia",
@@ -57,7 +57,7 @@
  {
   "nombre": "Benidorm",
   "slug": "benidorm",
-  "n": 95
+  "n": 96
  },
  {
   "nombre": "Gran Canaria",
@@ -77,22 +77,22 @@
  {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
-  "n": 84
+  "n": 85
  },
  {
-  "nombre": "Castellón",
-  "slug": "castellon",
+  "nombre": "Córdoba",
+  "slug": "cordoba",
   "n": 83
  },
  {
   "nombre": "Vitoria",
   "slug": "vitoria",
-  "n": 81
+  "n": 83
  },
  {
-  "nombre": "Córdoba",
-  "slug": "cordoba",
-  "n": 81
+  "nombre": "Castellón",
+  "slug": "castellon",
+  "n": 83
  },
  {
   "nombre": "Santiago de Compostela",
@@ -195,6 +195,11 @@
   "n": 31
  },
  {
+  "nombre": "Alcalá de Henares",
+  "slug": "alcala-de-henares",
+  "n": 29
+ },
+ {
   "nombre": "Salamanca",
   "slug": "salamanca",
   "n": 29
@@ -210,14 +215,14 @@
   "n": 28
  },
  {
-  "nombre": "Alcalá de Henares",
-  "slug": "alcala-de-henares",
-  "n": 28
- },
- {
   "nombre": "Burgos",
   "slug": "burgos",
   "n": 28
+ },
+ {
+  "nombre": "Dos Hermanas",
+  "slug": "dos-hermanas",
+  "n": 27
  },
  {
   "nombre": "León",
@@ -227,11 +232,6 @@
  {
   "nombre": "Jerez",
   "slug": "jerez",
-  "n": 26
- },
- {
-  "nombre": "Dos Hermanas",
-  "slug": "dos-hermanas",
   "n": 26
  },
  {
@@ -315,6 +315,11 @@
   "n": 15
  },
  {
+  "nombre": "Fuenlabrada",
+  "slug": "fuenlabrada",
+  "n": 14
+ },
+ {
   "nombre": "Jávea",
   "slug": "javea",
   "n": 14
@@ -338,11 +343,6 @@
   "nombre": "Hondarribia",
   "slug": "hondarribia",
   "n": 13
- },
- {
-  "nombre": "Fuenlabrada",
-  "slug": "fuenlabrada",
-  "n": 12
  },
  {
   "nombre": "Santa Cruz de Tenerife",

@@ -10540,5 +10540,57 @@
   "lng": -2.1398521,
   "direccion": "Cuenca"
  },
- "mojitos cocktail bar|madrid": null
+ "mojitos cocktail bar|madrid": null,
+ "irene lasheras|bilbao": null,
+ "buhaira|sevilla": {
+  "lat": 37.3825503,
+  "lng": -5.9752402,
+  "direccion": "Sevilla"
+ },
+ "plaza de los mostenses, madrid|madrid": {
+  "lat": 40.4235214,
+  "lng": -3.708837,
+  "direccion": "Plaza de los Mostenses, Madrid"
+ },
+ "sagradafamilia h83 buffet|barcelona": null,
+ "carrer d’aribau, 150, barcelona|barcelona": {
+  "lat": 41.392084,
+  "lng": 2.1546886,
+  "direccion": "Carrer d'Aribau 150, Barcelona"
+ },
+ "calle de la constitución, 64a, 28946 fuenlabrada, madrid|fuenlabrada": {
+  "lat": 40.2797868,
+  "lng": -3.7721484,
+  "direccion": "Calle de la Constitución, Fuenlabrada"
+ },
+ "carrer sant pere, 7, 08105 sant fost de campsentelles (barcelona)|barcelona": null,
+ "estación de liziba|barcelona": null,
+ "spacelab|barcelona": null,
+ "casa rius|barcelona": {
+  "lat": 41.3689736,
+  "lng": 2.147605,
+  "direccion": "Carrer Rius i Taulet, Barcelona"
+ },
+ "sonriehastaquesanes|barcelona": null,
+ "oci113lauravplifestyle4973|valencia": null,
+ "avinguda de la constitució, 6, la saïdia, 46009, valencia|valencia": {
+  "lat": 39.483612,
+  "lng": -0.3787707,
+  "direccion": "Avenida de la Constitución 6, Valencia"
+ },
+ "restaurante l alter|valencia": null,
+ "godeo es|córdoba": {
+  "lat": 37.8861486,
+  "lng": -4.8068464,
+  "direccion": "Calle Isla de Fuerteventura 62, Córdoba"
+ },
+ "tiffin|alicante": null,
+ "c/ vicent andrés estellés, alaquàs (valencia) laculleradadolca_alaquas|valencia": null,
+ "c a puebla|sevilla": null,
+ "mundo loco escape room|bilbao": null,
+ "theartistbilbao|bilbao": null,
+ "martxobilbao|bilbao": null,
+ "errioguardaenea|san sebastián": null,
+ "elnino|benidorm": null,
+ "paradiso valencia|valencia": null
 }
