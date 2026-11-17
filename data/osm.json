@@ -10592,5 +10592,40 @@
  "martxobilbao|bilbao": null,
  "errioguardaenea|san sebastián": null,
  "elnino|benidorm": null,
- "paradiso valencia|valencia": null
+ "paradiso valencia|valencia": null,
+ "crousty lyon|castellón": null,
+ "carretera onda-vila-real, cv-20, onda (castellón)|castellón": null,
+ "c/ de muntaner, 32, eixample, 08011 barcelona|barcelona": {
+  "lat": 41.3854895,
+  "lng": 2.1610991,
+  "direccion": "Carrer de Muntaner 32, Barcelona"
+ },
+ "ámbito del sorteo|vigo": null,
+ "la garita|santiago de compostela": {
+  "lat": 42.8797808,
+  "lng": -8.5419357,
+  "direccion": "Rúa de Altamira, Santiago de Compostela"
+ },
+ "ibsencafeteria|almagro": null,
+ "elplatodemalaga|málaga": null,
+ "calle reding, 23, la malagueta, málaga|málaga": {
+  "lat": 36.7171498,
+  "lng": -4.4116108,
+  "direccion": "Calle Reding 23, Málaga"
+ },
+ "polígono casería del rey, salida 138 de la a-92, mollina (málaga)|málaga": null,
+ "garden plaza bar|granada": null,
+ "planet jump cartagena|cartagena": null,
+ "por fin|estepona": null,
+ "extremadura tur|málaga": null,
+ "salarever|logroño": null,
+ "qk cuca|zaragoza": null,
+ "shohai real|zaragoza": null,
+ "maje sandwitxclub|zaragoza": null,
+ "palomeque|zaragoza": {
+  "lat": 41.6534349,
+  "lng": -0.8835845,
+  "direccion": "Calle Palomeque, Zaragoza"
+ },
+ "carretera de benasque, 22430 graus, huesca|huesca": null
 }

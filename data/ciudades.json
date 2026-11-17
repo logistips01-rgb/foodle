@@ -7,12 +7,12 @@
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 765
+  "n": 768
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 730
+  "n": 738
  },
  {
   "nombre": "Valencia",
@@ -22,12 +22,12 @@
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 399
+  "n": 407
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 273
+  "n": 274
  },
  {
   "nombre": "Sevilla",
@@ -42,17 +42,17 @@
  {
   "nombre": "Murcia",
   "slug": "murcia",
-  "n": 184
+  "n": 185
  },
  {
   "nombre": "Pamplona",
   "slug": "pamplona",
-  "n": 102
+  "n": 105
  },
  {
   "nombre": "Granada",
   "slug": "granada",
-  "n": 97
+  "n": 99
  },
  {
   "nombre": "Benidorm",
@@ -65,14 +65,19 @@
   "n": 91
  },
  {
+  "nombre": "Santander",
+  "slug": "santander",
+  "n": 87
+ },
+ {
   "nombre": "Cádiz",
   "slug": "cadiz",
   "n": 87
  },
  {
-  "nombre": "Santander",
-  "slug": "santander",
-  "n": 86
+  "nombre": "Castellón",
+  "slug": "castellon",
+  "n": 85
  },
  {
   "nombre": "San Sebastián",
@@ -82,7 +87,7 @@
  {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 83
+  "n": 84
  },
  {
   "nombre": "Vitoria",
@@ -90,14 +95,9 @@
   "n": 83
  },
  {
-  "nombre": "Castellón",
-  "slug": "castellon",
-  "n": 83
- },
- {
   "nombre": "Santiago de Compostela",
   "slug": "santiago-de-compostela",
-  "n": 68
+  "n": 69
  },
  {
   "nombre": "A Coruña",
@@ -125,24 +125,24 @@
   "n": 50
  },
  {
+  "nombre": "Logroño",
+  "slug": "logrono",
+  "n": 49
+ },
+ {
   "nombre": "Girona",
   "slug": "girona",
   "n": 49
  },
  {
-  "nombre": "Logroño",
-  "slug": "logrono",
-  "n": 48
+  "nombre": "Vigo",
+  "slug": "vigo",
+  "n": 46
  },
  {
   "nombre": "Oviedo",
   "slug": "oviedo",
-  "n": 45
- },
- {
-  "nombre": "Vigo",
-  "slug": "vigo",
-  "n": 45
+  "n": 46
  },
  {
   "nombre": "Tarragona",
@@ -152,7 +152,7 @@
  {
   "nombre": "Huesca",
   "slug": "huesca",
-  "n": 39
+  "n": 40
  },
  {
   "nombre": "Guadalajara",
@@ -172,7 +172,7 @@
  {
   "nombre": "Marbella",
   "slug": "marbella",
-  "n": 34
+  "n": 35
  },
  {
   "nombre": "Leganés",
@@ -195,6 +195,11 @@
   "n": 31
  },
  {
+  "nombre": "Cartagena",
+  "slug": "cartagena",
+  "n": 30
+ },
+ {
   "nombre": "Alcalá de Henares",
   "slug": "alcala-de-henares",
   "n": 29
@@ -208,11 +213,6 @@
   "nombre": "Ourense",
   "slug": "ourense",
   "n": 29
- },
- {
-  "nombre": "Cartagena",
-  "slug": "cartagena",
-  "n": 28
  },
  {
   "nombre": "Burgos",
@@ -255,14 +255,14 @@
   "n": 23
  },
  {
-  "nombre": "Albacete",
-  "slug": "albacete",
+  "nombre": "Ciudad Real",
+  "slug": "ciudad-real",
   "n": 21
  },
  {
-  "nombre": "Ciudad Real",
-  "slug": "ciudad-real",
-  "n": 20
+  "nombre": "Albacete",
+  "slug": "albacete",
+  "n": 21
  },
  {
   "nombre": "Teruel",
