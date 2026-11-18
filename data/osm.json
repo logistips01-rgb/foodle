@@ -10627,5 +10627,74 @@
   "lng": -0.8835845,
   "direccion": "Calle Palomeque, Zaragoza"
  },
- "carretera de benasque, 22430 graus, huesca|huesca": null
+ "carretera de benasque, 22430 graus, huesca|huesca": null,
+ "c/ avicena, 1, 28903 getafe, madrid|getafe": {
+  "lat": 40.3160374,
+  "lng": -3.7129019,
+  "direccion": "Calle Avicena 1, Getafe"
+ },
+ "molinodealcuneza|madrid": null,
+ "museo america|madrid": {
+  "lat": 40.4382869,
+  "lng": -3.7215833,
+  "direccion": "Avenida de los Reyes Católicos 6, Madrid"
+ },
+ "calle juan de olías, 28, tetuán, madrid|madrid": {
+  "lat": 40.4530988,
+  "lng": -3.69997,
+  "direccion": "Calle de Juan de Olías 28, Madrid"
+ },
+ "bascoat|madrid": null,
+ "materia gris|alcorcón": null,
+ "amanda digon mata|madrid": null,
+ "bangsean tc|madrid": null,
+ "calle de castelló 14, salamanca|salamanca": null,
+ "besbello|lugo": null,
+ "island poke|vigo": null,
+ "c/ ayalá, 81|madrid": {
+  "lat": 40.4273322,
+  "lng": -3.6746686,
+  "direccion": "Calle de Ayala 81, Madrid"
+ },
+ "esto|barcelona": null,
+ "san taco|barcelona": null,
+ "planes en familia|badalona": null,
+ "ventigrani|barcelona": null,
+ "hazuki|barcelona": null,
+ "parc de la torre lluc|barcelona": null,
+ "c/reina mercedes 22 madrid|madrid": {
+  "lat": 40.4507394,
+  "lng": -3.6969142,
+  "direccion": "Calle de la Reina Mercedes, Madrid"
+ },
+ "deliri|barcelona": null,
+ "roig arena|valencia": {
+  "lat": 39.4491041,
+  "lng": -0.3643501,
+  "direccion": "Calle del Bombero Ramón Duart 12, Valencia"
+ },
+ "c/ de ciscar, 26, l’eixample, 46005, valencia|valencia": {
+  "lat": 39.4660468,
+  "lng": -0.3657462,
+  "direccion": "Calle de Císcar 26, Valencia"
+ },
+ "c/ del doctor vicent zaragoza, 28, benimaclet, 46020, valencia|valencia": {
+  "lat": 39.4843534,
+  "lng": -0.3612713,
+  "direccion": "Calle del Doctor Vicente Zaragozá 28, Valencia"
+ },
+ "la tierruca|valencia": null,
+ "palacio de las dueñas|sevilla": {
+  "lat": 37.3953811,
+  "lng": -5.9894122,
+  "direccion": "Calle Dueñas 5, Sevilla"
+ },
+ "sheglam|alicante": null,
+ "soloptical benidorm|benidorm": null,
+ "c/ del comte salvatierra 39, valencia|valencia": {
+  "lat": 39.4777554,
+  "lng": -0.3465062,
+  "direccion": "Calle de Ramon Llull, Valencia"
+ },
+ "vacagallega bueygallego|león": null
 }
