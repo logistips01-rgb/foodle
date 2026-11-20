@@ -10770,5 +10770,128 @@
  "dónde estamos|málaga": null,
  "shein spain|talavera de la reina": null,
  "ivess|málaga": null,
- "tortillafactory cl|santiago de compostela": null
+ "tortillafactory cl|santiago de compostela": null,
+ "tenda grup|zaragoza": null,
+ "reynol osorio mojica|albarracín": null,
+ "galletti luciano|zaragoza": null,
+ "nanyland ei|zaragoza": null,
+ "zamasmercados|zaragoza": null,
+ "parque la esperanza, 2, 50014 zaragoza|zaragoza": {
+  "lat": 41.661325,
+  "lng": -0.865919,
+  "direccion": "Parque de la Esperanza 2, Zaragoza"
+ },
+ "22300 barbastro, huesca|barbastro": {
+  "lat": 42.0356119,
+  "lng": 0.1260163,
+  "direccion": "Barbastro"
+ },
+ "druni perfumerias|zaragoza": null,
+ "doritosloadedlabatalla es|madrid": null,
+ "peninsular restobar|melilla": null,
+ "carrer de valència, 438, eixample, 08013 barcelona|barcelona": {
+  "lat": 41.4022796,
+  "lng": 2.1762391,
+  "direccion": "Carrer de València 438, Barcelona"
+ },
+ "avenida de los reyes católicos, 6, madrid|madrid": {
+  "lat": 40.4382869,
+  "lng": -3.7215833,
+  "direccion": "Avenida de los Reyes Católicos 6, Madrid"
+ },
+ "calle claudio coello, 67, madrid|madrid": {
+  "lat": 40.4285589,
+  "lng": -3.6862047,
+  "direccion": "Calle de Claudio Coello 67, Madrid"
+ },
+ "samba açaí|madrid": {
+  "lat": 40.4261418,
+  "lng": -3.7071112,
+  "direccion": "Calle de San Vicente Ferrer, Madrid"
+ },
+ "espoz y mina|madrid": {
+  "lat": 40.4159347,
+  "lng": -3.7023118,
+  "direccion": "Calle de Espoz y Mina, Madrid"
+ },
+ "el espigón|madrid": {
+  "lat": 40.462889,
+  "lng": -3.6914668,
+  "direccion": "Calle del Poeta Joan Maragall 58, Madrid"
+ },
+ "braxa|madrid": null,
+ "museo de américa|madrid": {
+  "lat": 40.4382869,
+  "lng": -3.7215833,
+  "direccion": "Avenida de los Reyes Católicos 6, Madrid"
+ },
+ "doritos chicharrón crunch|madrid": null,
+ "glovo es|madrid": null,
+ "elcampamentdelnadal alamolina|barcelona": null,
+ "barcelona ciudad|barcelona": {
+  "lat": 41.4404269,
+  "lng": 2.1733598,
+  "direccion": "Carrer de l'Artesania, Barcelona"
+ },
+ "info pnportsterraalta|barcelona": null,
+ "carrer de sardenya, 29, barcelona|barcelona": {
+  "lat": 41.3906569,
+  "lng": 2.189988,
+  "direccion": "Carrer de Sardenya 29, Barcelona"
+ },
+ "els llums de sant pau|barcelona": null,
+ "carrer de casteràs, 44, sants, barcelona|barcelona": {
+  "lat": 41.3738765,
+  "lng": 2.1290555,
+  "direccion": "Carrer de Casteràs 44, Barcelona"
+ },
+ "camaraitalianabarcelona|barcelona": null,
+ "ateliermeravelles|barcelona": null,
+ "c/ major, 4, 46717, la font d’en carròs, valencia|valencia": null,
+ "casa anselmo|valencia": null,
+ "av. de l’oest, 53, ciutat vella, 46001, valencia|valencia": {
+  "lat": 39.4722766,
+  "lng": -0.3797437,
+  "direccion": "Avenida del Oeste, Valencia"
+ },
+ "ochayaki  ochayakivlc alfafar|valencia": null,
+ "46005 valencia)|valencia": {
+  "lat": 39.4643609,
+  "lng": -0.3671925,
+  "direccion": "Valencia"
+ },
+ "elalmadedonjoselon|dos hermanas": null,
+ "jaimealpresa|sevilla": null,
+ "solagüen|bilbao": null,
+ "lenteja casadecomidas|bilbao": null,
+ "peter|benidorm": {
+  "lat": 38.5384542,
+  "lng": -0.1150451,
+  "direccion": "Calle de Lepanto, Benidorm"
+ },
+ "antoniom r 24|orihuela": null,
+ "avda de novelda 3, carrús|elche": {
+  "lat": 38.2829058,
+  "lng": -0.7211304,
+  "direccion": "Avinguda de Novelda 182-3, Elche"
+ },
+ "crushplayasanjuan|alicante": null,
+ "carrer pere gil, 11, vila-real (castellón)|castellón": null,
+ "dónde dormir|castellón": null,
+ "el beato|soria": null,
+ "ilghiottonenapoletano|valencia": null,
+ "sanpellegrino es|barcelona": null,
+ "sorimba en la habana|la laguna": null,
+ "formia pontevedra|pontevedra": null,
+ "c/ almonte nº 6|málaga": {
+  "lat": 36.6880958,
+  "lng": -4.4456417,
+  "direccion": "Calle Almonte, Málaga"
+ },
+ "milk bar gelato|fuengirola": null,
+ "calle francisco de rojas, 2, chamberí, madrid|madrid": {
+  "lat": 40.4286402,
+  "lng": -3.6992458,
+  "direccion": "Calle de Francisco de Rojas 2, Madrid"
+ }
 }
