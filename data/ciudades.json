@@ -2,22 +2,22 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1656
+  "n": 1667
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 791
+  "n": 799
  },
  {
   "nombre": "Zaragoza",
   "slug": "zaragoza",
-  "n": 754
+  "n": 756
  },
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 747
+  "n": 748
  },
  {
   "nombre": "Málaga",
@@ -102,7 +102,7 @@
  {
   "nombre": "A Coruña",
   "slug": "a-coruna",
-  "n": 68
+  "n": 69
  },
  {
   "nombre": "Gijón",
@@ -235,14 +235,14 @@
   "n": 26
  },
  {
-  "nombre": "Almería",
-  "slug": "almeria",
+  "nombre": "Badalona",
+  "slug": "badalona",
   "n": 25
  },
  {
-  "nombre": "Badalona",
-  "slug": "badalona",
-  "n": 24
+  "nombre": "Almería",
+  "slug": "almeria",
+  "n": 25
  },
  {
   "nombre": "Barakaldo",
@@ -270,6 +270,11 @@
   "n": 20
  },
  {
+  "nombre": "Talavera de la Reina",
+  "slug": "talavera-de-la-reina",
+  "n": 20
+ },
+ {
   "nombre": "Teruel",
   "slug": "teruel",
   "n": 20
@@ -282,11 +287,6 @@
  {
   "nombre": "Orihuela",
   "slug": "orihuela",
-  "n": 19
- },
- {
-  "nombre": "Talavera de la Reina",
-  "slug": "talavera-de-la-reina",
   "n": 19
  },
  {
@@ -343,6 +343,11 @@
   "nombre": "Hondarribia",
   "slug": "hondarribia",
   "n": 13
+ },
+ {
+  "nombre": "Torrejón",
+  "slug": "torrejon",
+  "n": 12
  },
  {
   "nombre": "Alcorcón",
@@ -405,6 +410,11 @@
   "n": 11
  },
  {
+  "nombre": "Cuenca",
+  "slug": "cuenca",
+  "n": 10
+ },
+ {
   "nombre": "La Manga",
   "slug": "la-manga",
   "n": 10
@@ -417,11 +427,6 @@
  {
   "nombre": "Zamora",
   "slug": "zamora",
-  "n": 10
- },
- {
-  "nombre": "Torrejón",
-  "slug": "torrejon",
   "n": 10
  },
  {

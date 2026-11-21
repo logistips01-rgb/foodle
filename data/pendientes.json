@@ -20111,27 +20111,6 @@
   }
  },
  {
-  "id": "DdZp5bXDmob",
-  "url": "https://www.instagram.com/p/DdZp5bXDmob/",
-  "creador": "sos_dondecomemos",
-  "fecha": "2026-09-17",
-  "sugerido": {
-   "nombre": null,
-   "ig_local": null,
-   "ciudad": "Madrid",
-   "zona": null,
-   "dir_pie": null,
-   "cocina": null,
-   "local": "Street food",
-   "precio": null,
-   "precio_aprox": null,
-   "nivel": "rec",
-   "publi": false,
-   "casa": false,
-   "tags": []
-  }
- },
- {
   "id": "DUxxnrxAvp7",
   "url": "https://www.instagram.com/reel/DUxxnrxAvp7/",
   "creador": "sos_dondecomemos",
@@ -160242,6 +160221,539 @@
    "ciudad": null,
    "zona": null,
    "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df-fq2nSsdo",
+  "url": "https://www.instagram.com/reel/Df-fq2nSsdo/",
+  "creador": "mariafraaile",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df7hrRisbXS",
+  "url": "https://www.instagram.com/reel/Df7hrRisbXS/",
+  "creador": "claracollazo",
+  "fecha": "2026-11-19",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Talavera de la Reina",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_3gNms8uh",
+  "url": "https://www.instagram.com/reel/Df_3gNms8uh/",
+  "creador": "canaryfoodies",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Tenerife",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Restaurante a la carta",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": true,
+   "casa": false,
+   "tags": [
+    "Publicidad"
+   ]
+  }
+ },
+ {
+  "id": "Df7t2cIMnkl",
+  "url": "https://www.instagram.com/reel/Df7t2cIMnkl/",
+  "creador": "canaryfoodies",
+  "fecha": "2026-11-19",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": "€€€",
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": true,
+   "casa": false,
+   "tags": [
+    "Publicidad"
+   ]
+  }
+ },
+ {
+  "id": "DgAJaL7lbxh",
+  "url": "https://www.instagram.com/p/DgAJaL7lbxh/",
+  "creador": "ibizagastro",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Ibiza",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Para llevar",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_963MBSTg",
+  "url": "https://www.instagram.com/reel/Df_963MBSTg/",
+  "creador": "enjoyzaragoza",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Zaragoza",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df-Nnh1DWJ3",
+  "url": "https://www.instagram.com/p/Df-Nnh1DWJ3/",
+  "creador": "enjoyzaragoza",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DgBJVpLkQm4",
+  "url": "https://www.instagram.com/p/DgBJVpLkQm4/",
+  "creador": "yatenemosplan",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_8Lq1N_In",
+  "url": "https://www.instagram.com/reel/Df_8Lq1N_In/",
+  "creador": "comidasinfin",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DgAFatdo6Ys",
+  "url": "https://www.instagram.com/reel/DgAFatdo6Ys/",
+  "creador": "cenandoconpablo",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Gijón",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Restaurante a la carta",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_2nhDOliP",
+  "url": "https://www.instagram.com/reel/Df_2nhDOliP/",
+  "creador": "victorprous",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df-FMLBis19",
+  "url": "https://www.instagram.com/p/Df-FMLBis19/",
+  "creador": "lilyprinceoficial",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_x2sqBBV9",
+  "url": "https://www.instagram.com/reel/Df_x2sqBBV9/",
+  "creador": "eyzulay",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_oH_ah26_",
+  "url": "https://www.instagram.com/reel/Df_oH_ah26_/",
+  "creador": "nelsoncreativity",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Madrid",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Restaurante a la carta",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df9334xi1Ky",
+  "url": "https://www.instagram.com/reel/Df9334xi1Ky/",
+  "creador": "plandviajero",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DgAS2M9gsCh",
+  "url": "https://www.instagram.com/reel/DgAS2M9gsCh/",
+  "creador": "madrid360grados",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Madrid",
+   "zona": "Gran Vía",
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df98txHgoLn",
+  "url": "https://www.instagram.com/reel/Df98txHgoLn/",
+  "creador": "madrid360grados",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Madrid",
+   "zona": "Sol",
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df-i4HuBex0",
+  "url": "https://www.instagram.com/reel/Df-i4HuBex0/",
+  "creador": "pendientedecharol",
+  "fecha": "2026-11-20",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": "shein_spain",
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "top",
+   "publi": true,
+   "casa": false,
+   "tags": [
+    "Publicidad"
+   ]
+  }
+ },
+ {
+  "id": "DgABRd7xZgZ",
+  "url": "https://www.instagram.com/reel/DgABRd7xZgZ/",
+  "creador": "fatfoodiesteam",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Madrid",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Cafetería",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DgAE03hxh2F",
+  "url": "https://www.instagram.com/reel/DgAE03hxh2F/",
+  "creador": "angygarridomakeup",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": "Sasabeauty",
+   "ig_local": "sasabeauty_oficial",
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_80jdRm9K",
+  "url": "https://www.instagram.com/reel/Df_80jdRm9K/",
+  "creador": "angygarridomakeup",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": "Sasabeauty",
+   "ig_local": "sasabeauty_oficial",
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_yLgJOwmG",
+  "url": "https://www.instagram.com/reel/Df_yLgJOwmG/",
+  "creador": "angygarridomakeup",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "Df_ftlVqZJb",
+  "url": "https://www.instagram.com/reel/Df_ftlVqZJb/",
+  "creador": "oscarstylist",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": null,
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": "Cafetería",
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": true,
+   "casa": false,
+   "tags": [
+    "Publicidad"
+   ]
+  }
+ },
+ {
+  "id": "DgAWA2XtyPT",
+  "url": "https://www.instagram.com/reel/DgAWA2XtyPT/",
+  "creador": "porbarcelona_",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Barcelona",
+   "zona": null,
+   "dir_pie": null,
+   "cocina": null,
+   "local": null,
+   "precio": null,
+   "precio_aprox": null,
+   "nivel": "rec",
+   "publi": false,
+   "casa": false,
+   "tags": []
+  }
+ },
+ {
+  "id": "DgAPc_ytypi",
+  "url": "https://www.instagram.com/reel/DgAPc_ytypi/",
+  "creador": "porbarcelona_",
+  "fecha": "2026-11-21",
+  "sugerido": {
+   "nombre": null,
+   "ig_local": null,
+   "ciudad": "Barcelona",
+   "zona": "Gràcia",
+   "dir_pie": "Passeig de Gràcia, entre Rosselló y Provença",
    "cocina": null,
    "local": null,
    "precio": null,

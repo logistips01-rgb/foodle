@@ -10893,5 +10893,67 @@
   "lat": 40.4286402,
   "lng": -3.6992458,
   "direccion": "Calle de Francisco de Rojas 2, Madrid"
+ },
+ "restaurante filandon|madrid": {
+  "lat": 40.5048181,
+  "lng": -3.7167553,
+  "direccion": "Carretera de Fuencarral a El Pardo, Madrid"
+ },
+ "castillo de vimianzo|a coruña": {
+  "lat": 43.1111549,
+  "lng": -9.031449,
+  "direccion": "Rúa da Torre, Vimianzo"
+ },
+ "kairos|talavera de la reina": null,
+ "mágicas navidades|torrejón": null,
+ "recinto ferial|torrejón": {
+  "lat": 40.449707,
+  "lng": -3.4748545,
+  "direccion": "Torrejón de Ardoz"
+ },
+ "parador de alarcón|cuenca": null,
+ "moss|zaragoza": {
+  "lat": 41.6538539,
+  "lng": -0.8804883,
+  "direccion": "Calle del Pino 2, Zaragoza"
+ },
+ "casa cornel|benasque": {
+  "lat": 42.5942542,
+  "lng": 0.5390934,
+  "direccion": "Calle Obispo 11, Benasque"
+ },
+ "baldoria|madrid": {
+  "lat": 40.4294985,
+  "lng": -3.6707425,
+  "direccion": "Calle de José Ortega y Gasset 100, Madrid"
+ },
+ "restaurante poble nou|valencia": null,
+ "planes|madrid": {
+  "lat": 40.3512196,
+  "lng": -3.5438229,
+  "direccion": "Calle del Electrodo, Rivas-Vaciamadrid"
+ },
+ "la santa de conde duque|madrid": null,
+ "donavaca|madrid": null,
+ "arteolimpia embajadores|madrid": null,
+ "válido en nuestros tres restaurantes|barcelona": null,
+ "espectáculo del encendido|madrid": null,
+ "la cosa nostra|barcelona": null,
+ "08007 bcn, 🚇 paseo de gracia (l2, l3, l4), 📞 931 64 05 89|barcelona": {
+  "lat": 41.3948313,
+  "lng": 2.1708066,
+  "direccion": "Carrer del Consell de Cent, Barcelona"
+ },
+ "carrer de sant antoni maria claret, 167, barcelona|barcelona": {
+  "lat": 41.4125237,
+  "lng": 2.1757342,
+  "direccion": "Carrer de Sant Antoni Maria Claret 167, Barcelona"
+ },
+ "lacheesecakeriabcn|badalona": null,
+ "elbestiari cocktailbar|barcelona": null,
+ "les dues sicílies|barcelona": {
+  "lat": 41.3866097,
+  "lng": 2.1802613,
+  "direccion": "Carrer dels Carders 22, Barcelona"
  }
 }
