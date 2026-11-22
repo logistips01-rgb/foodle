@@ -10955,5 +10955,79 @@
   "lat": 41.3866097,
   "lng": 2.1802613,
   "direccion": "Carrer dels Carders 22, Barcelona"
+ },
+ "casa matarrocin|málaga": null,
+ "barcelona ciudad y provincia|castelldefels": null,
+ "carrer del consell de cent, 421, barcelona|barcelona": {
+  "lat": 41.3962588,
+  "lng": 2.1723022,
+  "direccion": "Carrer del Consell de Cent 421, Barcelona"
+ },
+ "carretera a jujutla, concepción de ataco, el salvador|barcelona": null,
+ "ronda de la universidad, 33|barcelona": null,
+ "el mueble|barcelona": null,
+ "la vall de bianya|barcelona": null,
+ "perruqueria 9canvi|barcelona": null,
+ "c/ del baró de san petrillo, 3, benimaclet, 46020, valencia|valencia": {
+  "lat": 39.4846424,
+  "lng": -0.3608371,
+  "direccion": "Carrer del Baró de San Petrillo 3, Valencia"
+ },
+ "plaza periodista ros belda, 6(zona aragón)|valencia": null,
+ "maisonnakamoto|alicante": null,
+ "funtastik|valencia": null,
+ "soundpeats spain|madrid": null,
+ "varmu valencia|valencia": null,
+ "mya sushi sevilla|sevilla": null,
+ "sagrajas|badajoz": {
+  "lat": 38.9224145,
+  "lng": -6.9019441,
+  "direccion": "Badajoz"
+ },
+ "origen|córdoba": null,
+ "caserío zabalaga|bilbao": null,
+ "media attack|bilbao": null,
+ "obelink es|bilbao": null,
+ "www polvoronessolokoetxe com|bilbao": null,
+ "cantina de la casa|bilbao": null,
+ "pista de hielo|bilbao": null,
+ "sua gara|bilbao": null,
+ "beoir alicante|alicante": null,
+ "ur el continente perdido|torrevieja": null,
+ "g ardenthings|alicante": null,
+ "kaiyō|elche": null,
+ "elremovlc|valencia": null,
+ "locales físicos|vitoria": null,
+ "cafe de lacademia|barcelona": null,
+ "ubuntu gastronomika  espacios medialuna|pamplona": null,
+ "importante|vigo": null,
+ "palacio gran vía|granada": {
+  "lat": 37.1772362,
+  "lng": -3.5981454,
+  "direccion": "Calle Gran Vía de Colón 14B, Granada"
+ },
+ "chanchaylola|granada": null,
+ "palmar|córdoba": null,
+ "elreykebabarmilla|granada": null,
+ "tokio jarana|murcia": null,
+ "diego inp|murcia": null,
+ "calle león, xarblanca, marbella y tiene varias sucursales en la costa del sol|marbella": null,
+ "dorada especial|tenerife": null,
+ "sportsbarspain|terrassa": null,
+ "kampaoh|huesca": null,
+ "goya|zaragoza": {
+  "lat": 41.6452755,
+  "lng": -0.9914269,
+  "direccion": "Calle de Trapani, Zaragoza"
+ },
+ "08037 barcelona|barcelona": {
+  "lat": 41.399258,
+  "lng": 2.164868,
+  "direccion": "Barcelona"
+ },
+ "el corte inglés de castellana|madrid": {
+  "lat": 40.4300013,
+  "lng": -3.6867911,
+  "direccion": "Calle de Serrano 70, Madrid"
  }
 }
