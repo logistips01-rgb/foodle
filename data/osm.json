@@ -11029,5 +11029,32 @@
   "lat": 40.4300013,
   "lng": -3.6867911,
   "direccion": "Calle de Serrano 70, Madrid"
- }
+ },
+ "el palace barcelona  santas house|barcelona": null,
+ "tromsø|barcelona": null,
+ "es leradecalbaro|barcelona": null,
+ "mira cómo llegar|barcelona": null,
+ "la barceloneta|barcelona": {
+  "lat": 41.3806533,
+  "lng": 2.1899274,
+  "direccion": "Barcelona"
+ },
+ "bar doménech|valencia": null,
+ "c/ forces armades, 34, 46183, l’eliana, valencia|valencia": null,
+ "luzada resorts|lugo": null,
+ "46183 l’eliana, valencia|valencia": null,
+ "landaluz cluster|córdoba": null,
+ "madbeauty es|sevilla": null,
+ "esperanza|bilbao": {
+  "lat": 43.2610525,
+  "lng": -2.9223788,
+  "direccion": "Calle Esperanza, Bilbao"
+ },
+ "la reserva|bilbao": null,
+ "aldapa urretxu|san sebastián": null,
+ "la taverna den grive|granollers": null,
+ "kchopo|barcelona": null,
+ "trafalab|barcelona": null,
+ "la conrada|pamplona": null,
+ "restaurante jackys|nerja": null
 }

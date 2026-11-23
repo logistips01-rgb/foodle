@@ -2,12 +2,12 @@
  {
   "nombre": "Madrid",
   "slug": "madrid",
-  "n": 1672
+  "n": 1673
  },
  {
   "nombre": "Barcelona",
   "slug": "barcelona",
-  "n": 809
+  "n": 820
  },
  {
   "nombre": "Zaragoza",
@@ -17,27 +17,27 @@
  {
   "nombre": "Valencia",
   "slug": "valencia",
-  "n": 753
+  "n": 757
  },
  {
   "nombre": "Málaga",
   "slug": "malaga",
-  "n": 422
+  "n": 424
  },
  {
   "nombre": "Alicante",
   "slug": "alicante",
-  "n": 284
+  "n": 285
  },
  {
   "nombre": "Sevilla",
   "slug": "sevilla",
-  "n": 279
+  "n": 284
  },
  {
   "nombre": "Bilbao",
   "slug": "bilbao",
-  "n": 275
+  "n": 278
  },
  {
   "nombre": "Murcia",
@@ -47,7 +47,7 @@
  {
   "nombre": "Pamplona",
   "slug": "pamplona",
-  "n": 108
+  "n": 109
  },
  {
   "nombre": "Benidorm",
@@ -62,7 +62,7 @@
  {
   "nombre": "Córdoba",
   "slug": "cordoba",
-  "n": 95
+  "n": 96
  },
  {
   "nombre": "Gran Canaria",
@@ -70,24 +70,24 @@
   "n": 91
  },
  {
-  "nombre": "Castellón",
-  "slug": "castellon",
+  "nombre": "Santander",
+  "slug": "santander",
   "n": 90
  },
  {
   "nombre": "Vitoria",
   "slug": "vitoria",
-  "n": 89
+  "n": 90
  },
  {
-  "nombre": "Santander",
-  "slug": "santander",
-  "n": 88
+  "nombre": "Castellón",
+  "slug": "castellon",
+  "n": 90
  },
  {
   "nombre": "San Sebastián",
   "slug": "san-sebastian",
-  "n": 87
+  "n": 89
  },
  {
   "nombre": "Cádiz",
@@ -125,6 +125,11 @@
   "n": 51
  },
  {
+  "nombre": "Vigo",
+  "slug": "vigo",
+  "n": 49
+ },
+ {
   "nombre": "Logroño",
   "slug": "logrono",
   "n": 49
@@ -133,11 +138,6 @@
   "nombre": "Girona",
   "slug": "girona",
   "n": 49
- },
- {
-  "nombre": "Vigo",
-  "slug": "vigo",
-  "n": 48
  },
  {
   "nombre": "Oviedo",
@@ -157,7 +157,7 @@
  {
   "nombre": "Elche",
   "slug": "elche",
-  "n": 39
+  "n": 40
  },
  {
   "nombre": "Guadalajara",
@@ -408,6 +408,11 @@
   "nombre": "Gandía",
   "slug": "gandia",
   "n": 11
+ },
+ {
+  "nombre": "Lugo",
+  "slug": "lugo",
+  "n": 10
  },
  {
   "nombre": "Cuenca",
