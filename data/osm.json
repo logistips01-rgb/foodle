@@ -11056,5 +11056,102 @@
  "kchopo|barcelona": null,
  "trafalab|barcelona": null,
  "la conrada|pamplona": null,
- "restaurante jackys|nerja": null
+ "restaurante jackys|nerja": null,
+ "alluna sr|barcelona": null,
+ "nippon cheese|córdoba": null,
+ "cc oasiz madrid|torrejón": {
+  "lat": 40.4724332,
+  "lng": -3.4434002,
+  "direccion": "Avenida de los Premios Nobel 3, Torrejón de Ardoz"
+ },
+ "aldea mágica el arbedal|león": null,
+ "almanza|vigo": null,
+ "el rincón de ángel|guadalajara": null,
+ "ferrarini es|málaga": null,
+ "casazaca|la granja": null,
+ "roto|zaragoza": {
+  "lat": 41.6349452,
+  "lng": -0.8939391,
+  "direccion": "Avenida de los Bearneses, Zaragoza"
+ },
+ "camarajoven|teruel": null,
+ "oak|teruel": null,
+ "c. de pedro calixto ramírez, 2, casco antiguo, 50001 zaragoza|zaragoza": null,
+ "calle doctor casas, 9, en zaragoza y avísame o mándame foto si vas!! me hará mucha ilusión <33|zaragoza": null,
+ "ana oncina|zaragoza": null,
+ "haydee|tenerife": null,
+ "doctor foodiee|la gomera": null,
+ "santa engracia|madrid": {
+  "lat": 40.4465769,
+  "lng": -3.7036413,
+  "direccion": "Calle de Santa Engracia, Madrid"
+ },
+ "apartaco|madrid": null,
+ "sakura maru|madrid": {
+  "lat": 40.4322673,
+  "lng": -3.6971864,
+  "direccion": "Plaza de Chamberí 10, Madrid"
+ },
+ "calle asura 9|madrid": {
+  "lat": 40.4602584,
+  "lng": -3.657494,
+  "direccion": "Calle Asura, Madrid"
+ },
+ "alexandre ars|madrid": null,
+ "sakuramarunikkei|madrid": null,
+ "napoli|santiago de compostela": null,
+ "bulla madrid|madrid": {
+  "lat": 40.4454487,
+  "lng": -3.6973455,
+  "direccion": "Calle de Alonso Cano 101, Madrid"
+ },
+ "desbloqueado|madrid": null,
+ "fira de santa llúcia|barcelona": null,
+ "las palapas|madrid": null,
+ "la carega  chamartín|madrid": null,
+ "arturo soria plaza|madrid": {
+  "lat": 40.4499832,
+  "lng": -3.6507565,
+  "direccion": "Calle de Arturo Soria 126, Madrid"
+ },
+ "juan de olías|madrid": {
+  "lat": 40.4535021,
+  "lng": -3.702648,
+  "direccion": "Calle de Juan de Olías, Madrid"
+ },
+ "hundred burgers|madrid": null,
+ "descuentos|barcelona": null,
+ "lugar|girona": null,
+ "carrer de mataró, 10, 08930 sant adrià de besòs (barcelona)|barcelona": null,
+ "passeig torras i bages, 46 de #barcelona|barcelona": {
+  "lat": 41.4384243,
+  "lng": 2.1912574,
+  "direccion": "Passeig de Torras i Bages 46, Barcelona"
+ },
+ "recinto modernista de sant pau|barcelona": null,
+ "carrer ample, 11, barcelona|barcelona": {
+  "lat": 41.3793157,
+  "lng": 2.1790363,
+  "direccion": "Carrer Ample 11, Barcelona"
+ },
+ "punta paloma|cádiz": null,
+ "panoramic suites|toledo": null,
+ "c/ del literat azorín, 16, l’eixample, 46004, valencia (y en toda españa)|valencia": null,
+ "c/ n-1, 46229, picassent, valencia|valencia": null,
+ "gdańsk|sevilla": null,
+ "sahara kebab saharakebab c|valencia": null,
+ "plaça castelar, 1, 03570 villajoyosa (alicante)|villajoyosa": {
+  "lat": 38.5054349,
+  "lng": -0.2329901,
+  "direccion": "plaça de Castelar, Villajoyosa"
+ },
+ "voghion global|valencia": null,
+ "the black turtle|valencia": null,
+ "kakis bar|valencia": null,
+ "mcdonalds es|sevilla": null,
+ "petroprix es|sevilla": {
+  "lat": 37.3358169,
+  "lng": -5.9693821,
+  "direccion": "Avenida de Jerez 43, Sevilla"
+ }
 }
