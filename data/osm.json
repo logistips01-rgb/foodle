@@ -11153,5 +11153,52 @@
   "lat": 37.3358169,
   "lng": -5.9693821,
   "direccion": "Avenida de Jerez 43, Sevilla"
+ },
+ "alameda de recalde|bilbao": {
+  "lat": 43.2617964,
+  "lng": -2.93546,
+  "direccion": "Alameda de Recalde, Bilbao"
+ },
+ "urbanplanetjump eus|barakaldo": null,
+ "ronbrugal es|bilbao": null,
+ "diferentes|san sebastián": null,
+ "03581 l’albir, alicante|benidorm": {
+  "lat": 38.5557606,
+  "lng": -0.0977436,
+  "direccion": "Avenida del Albir, Benidorm"
+ },
+ "tanto alicante|alicante": null,
+ "zenissimo esp|alicante": null,
+ "c/ nàpols, onda (castellón)|castellón": null,
+ "avinguda de benicàssim, 6, castellón de la plana|castellón": {
+  "lat": 40.0035909,
+  "lng": -0.0426742,
+  "direccion": "Avenida Benicasim, Castellón de la Plana"
+ },
+ "onda|castellón": null,
+ "c. del peso, 5, 33009 oviedo, asturias|oviedo": null,
+ "tai lang ramen|alicante": null,
+ "monvinic|barcelona": null,
+ "costco spain|vitoria": null,
+ "calle victoria 6 distrito centro 29012 málaga|málaga": null,
+ "chocolatestrapa|málaga": null,
+ "hoy os llevamos hasta genalguacil|málaga": null,
+ "fechas|málaga": null,
+ "monjamonymas com|salamanca": null,
+ "fonxosburgers|córdoba": null,
+ "c/ puerta nueva, 1, murcia, dim sum y comida china para compartir… o no 🥢|murcia": {
+  "lat": 37.9881818,
+  "lng": -1.1272177,
+  "direccion": "Calle Puerta Nueva, Murcia"
+ },
+ "𝐂𝐚𝐥𝐥𝐞 𝐒𝐢𝐥𝐯𝐚|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "redes|a coruña": {
+  "lat": 43.4240974,
+  "lng": -8.2037064,
+  "direccion": "Ares"
  }
 }
