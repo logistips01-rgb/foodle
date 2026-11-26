@@ -11200,5 +11200,156 @@
   "lat": 43.4240974,
   "lng": -8.2037064,
   "direccion": "Ares"
+ },
+ "c/ de roteros, 16 (el carmen)|valencia": {
+  "lat": 39.4791192,
+  "lng": -0.3775266,
+  "direccion": "Calle de Roteros 16, Valencia"
+ },
+ "haizea|zaragoza": null,
+ "queso roncal|zaragoza": null,
+ "bar tonik|zaragoza": null,
+ "c/ azoque, 39. 50004 zaragoza|zaragoza": {
+  "lat": 41.651487,
+  "lng": -0.8843649,
+  "direccion": "Calle Azoque 39, Zaragoza"
+ },
+ "calle de la princesa, 3, moncloa, aravaca, 28008 madrid|madrid": {
+  "lat": 40.4250418,
+  "lng": -3.7124448,
+  "direccion": "Calle de la Princesa 3, Madrid"
+ },
+ "calle arapiles 5, chamberí y 📍c, orense 70, tetuán|ourense": null,
+ "dunia|zaragoza": null,
+ "charcuterías carias|alcorcón": null,
+ "sukaldea atotxa|madrid": null,
+ "michelinguide|menorca": null,
+ "aquiarajosemb|menorca": null,
+ "macarfi com|tenerife": null,
+ "madridingame|madrid": null,
+ "www fanaticocafe com|madrid": null,
+ "citynizer plaza|madrid": {
+  "lat": 40.4111181,
+  "lng": -3.7060041,
+  "direccion": "Calle de Juanelo 17, Madrid"
+ },
+ "memories|madrid": {
+  "lat": 40.4157685,
+  "lng": -3.7079997,
+  "direccion": "Plaza Mayor, Madrid"
+ },
+ "avenida complutense s/n, madrid|madrid": {
+  "lat": 40.4483229,
+  "lng": -3.7273813,
+  "direccion": "Avenida Complutense, Madrid"
+ },
+ "c.c, plaza de aluche, madrid|madrid": null,
+ "eraseunavez|madrid": null,
+ "sakura maru  plaza de chamberí|madrid": {
+  "lat": 40.4322673,
+  "lng": -3.6971864,
+  "direccion": "Plaza de Chamberí 10, Madrid"
+ },
+ "diurno madrid|madrid": {
+  "lat": 40.4212743,
+  "lng": -3.697263,
+  "direccion": "Calle de San Marcos 37, Madrid"
+ },
+ "coco lounge|barcelona": null,
+ "zenissimo es|madrid": null,
+ "c/ mesón de paños, 6|madrid": null,
+ "carrer de llull, 119, 08005 barcelona|barcelona": {
+  "lat": 41.3976532,
+  "lng": 2.1974993,
+  "direccion": "Carrer de Llull 119, Barcelona"
+ },
+ "cocina italiana|barcelona": null,
+ "passeig de gràcia, 43, barcelona|barcelona": {
+  "lat": 41.3915446,
+  "lng": 2.1646961,
+  "direccion": "Passeig de Gràcia (lateral Llobregat) 43, Barcelona"
+ },
+ "natalis pobleespanyol|barcelona": null,
+ "planellesdonat|barcelona": null,
+ "plaça dels somnis|barcelona": {
+  "lat": 41.4231527,
+  "lng": 2.1199438,
+  "direccion": "Camí de Tenzing Norgay, Barcelona"
+ },
+ "rayneo global|barcelona": null,
+ "c/ viladomat, 249, barcelona|barcelona": null,
+ "trafalgarpizzaclub|badalona": null,
+ "lainocentevlc|valencia": null,
+ "serrania campanar|valencia": {
+  "lat": 39.490847,
+  "lng": -0.4010851,
+  "direccion": "Calle de la Serranía, Valencia"
+ },
+ "crousty original|valencia": null,
+ "c/ de les monges de santa caterina, ciutat vella, 46002, valencia|valencia": {
+  "lat": 39.4708764,
+  "lng": -0.3718332,
+  "direccion": "Calle de las Monjas de Santa Catalina, Valencia"
+ },
+ "albal|getafe": null,
+ "pompadour espana|alicante": null,
+ "violenciamachista|madrid": null,
+ "cartasmagicasdenavidad|madrid": null,
+ "48001 bilbao, bizkaia|bilbao": {
+  "lat": 43.2627699,
+  "lng": -2.9278276,
+  "direccion": "Bilbao"
+ },
+ "jlowy up|barcelona": null,
+ "ratatouille cheesecake|sevilla": null,
+ "pasteleria artesanal lina|sevilla": null,
+ "lodeivanfoodburger|sevilla": null,
+ "avda. de la buhaira, 4, sevilla|sevilla": {
+  "lat": 37.3878502,
+  "lng": -5.9778556,
+  "direccion": "Avenida de la Buhaira, Sevilla"
+ },
+ "tabernasanfrancisco65|córdoba": null,
+ "museodelasilusiones sevilla|sevilla": null,
+ "la crème de la crème|sevilla": null,
+ "brand|sevilla": {
+  "lat": 37.3936508,
+  "lng": -5.9958372,
+  "direccion": "Calle Jesús del Gran Poder, Sevilla"
+ },
+ "hellmanns spain|bilbao": null,
+ "cabecitadeajo bilbao|bilbao": null,
+ "chocolate|san sebastián": {
+  "lat": 28.4630781,
+  "lng": -16.2521714,
+  "direccion": "Patio Central 11, Santa Cruz de Tenerife"
+ },
+ "carrer cantabria, 4, 03509 benidorm, alicante|benidorm": null,
+ "carrer cantàbria, 4, zona comercial de finestrat|benidorm": null,
+ "sin miedo|alicante": null,
+ "calle desierto de las palmas, 3, castellón de la plana, cerca del centro comercial la salera|castellón": null,
+ "pincel|castellón": null,
+ "sushihe jovellanos|girona": null,
+ "39360 vispieres, cantabria|santillana del mar": {
+  "lat": 43.37272,
+  "lng": -4.10001,
+  "direccion": "Santillana del Mar"
+ },
+ "experiencityvalencia|valencia": null,
+ "av. de sancho el fuerte, 36, pamplona|pamplona": {
+  "lat": 42.8122509,
+  "lng": -1.6624278,
+  "direccion": "Paseo de la Vaguada, Pamplona"
+ },
+ "nomada pamplona|pamplona": {
+  "lat": 42.8035937,
+  "lng": -1.6474908,
+  "direccion": "Calle Abejeras 51, Pamplona"
+ },
+ "ku9soho|málaga": null,
+ "las lagunillas|córdoba": {
+  "lat": 37.3552745,
+  "lng": -4.248592,
+  "direccion": "Priego de Córdoba"
  }
 }
