@@ -11351,5 +11351,91 @@
   "lat": 37.3552745,
   "lng": -4.248592,
   "direccion": "Priego de Córdoba"
- }
+ },
+ "lachefdelfuego cachito|elche": null,
+ "callejón diagón|murcia": null,
+ "𝐎𝐫𝐢𝐞𝐧𝐭 𝐏𝐥𝐞𝐧𝐢𝐥𝐮𝐧𝐢𝐨|madrid": {
+  "lat": 40.416782,
+  "lng": -3.703507,
+  "direccion": "Madrid"
+ },
+ "viajardreams|alcobendas": null,
+ "almanza|león": null,
+ "ssvp aragon|zaragoza": null,
+ "convivencia vial|zaragoza": null,
+ "la estrella|zaragoza": {
+  "lat": 41.6468138,
+  "lng": -0.8630384,
+  "direccion": "Calle de Leopoldo Romeo 14, Zaragoza"
+ },
+ "yopo esp|madrid": null,
+ "calle del mesón de paños, 6|madrid": {
+  "lat": 40.4166729,
+  "lng": -3.7092406,
+  "direccion": "Calle del Mesón de Paños 6, Madrid"
+ },
+ "plaza de canalejas|madrid": {
+  "lat": 40.4166197,
+  "lng": -3.7004625,
+  "direccion": "Madrid"
+ },
+ "santo dippeo|madrid": null,
+ "mariabonitaourense|ourense": null,
+ "la encina|fuenlabrada": {
+  "lat": 40.2983951,
+  "lng": -3.8165763,
+  "direccion": "Avenida de la Encina, Fuenlabrada"
+ },
+ "madrid doritosloadedlabatalla.es|madrid": null,
+ "avenida de valdemarín, 165-169, madrid|madrid": {
+  "lat": 40.465186,
+  "lng": -3.7971985,
+  "direccion": "Avenida de Valdemarín, Madrid"
+ },
+ "c/ de la reina, n-27, chueca (madrid)|fuenlabrada": null,
+ "camino de valladolid 28, torrelodones|valladolid": null,
+ "la flor de cempazúchitl|barcelona": null,
+ "café albania|barcelona": null,
+ "fira de nadal|barcelona": null,
+ "parc de can zam|barcelona": null,
+ "albi|barcelona": null,
+ "carrer ample 11 (barri gòtic)|barcelona": {
+  "lat": 41.3793157,
+  "lng": 2.1790363,
+  "direccion": "Carrer Ample 11, Barcelona"
+ },
+ "parking centro comercial bonaire|valencia": null,
+ "c/ del ministre luis mayans, 50, la saïdia, 46009, valencia|valencia": null,
+ "mister shawarma & tacos|valencia": null,
+ "paseo de albereda 10, valencia|valencia": {
+  "lat": 39.4752358,
+  "lng": -0.3649049,
+  "direccion": "Paseo de la Alameda 10, Valencia"
+ },
+ "calmabrava|alicante": null,
+ "zwtep|valencia": null,
+ "c/ linterna, 11|valencia": {
+  "lat": 39.4718957,
+  "lng": -0.3776887,
+  "direccion": "Calle de la Linterna, Valencia"
+ },
+ "c/ de carles cervera, 30, l’eixample, valencia|valencia": {
+  "lat": 39.4618217,
+  "lng": -0.3728441,
+  "direccion": "Calle Carlos Cervera 30, Valencia"
+ },
+ "vacsoraglobal eu|sevilla": null,
+ "andalucia turismo|cádiz": {
+  "lat": 36.5333352,
+  "lng": -6.2966508,
+  "direccion": "Calle Cánovas del Castillo, Cádiz"
+ },
+ "labarradeinchausti|sevilla": null,
+ "la folie santander|bilbao": null,
+ "palacio euskalduna|bilbao": {
+  "lat": 43.267035,
+  "lng": -2.9442831,
+  "direccion": "Avenida Abandoibarra 4, Bilbao"
+ },
+ "arrea kanpezu|bilbao": null
 }
